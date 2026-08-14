@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>IELTS Speaking AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app" class="app">
+
+    <!-- ============ HOME ============ -->
+    <section id="screen-home" class="screen">
+      <div class="home-wrap">
+        <header class="hero">
+          <div class="logo">🎙️</div>
+          <h1>IELTS Speaking AI</h1>
+          <p class="tagline">Practice speaking English with an AI conversation partner.</p>
+        </header>
+
+        <div id="demo-banner" class="banner hidden">
+          ⚠️ <b>Demo mode</b> — no AI key found. Responses are canned so you can test the flow.
+          Add <code>OPENAI_API_KEY</code> to <code>.env</code> for real AI.
+        </div>
+
+        <h2 class="section-label">Choose a practice mode</h2>
+        <div class="mode-grid" id="mode-grid">
+          <button class="mode-card" data-mode="free">
+            <span class="mode-emoji">🗣️</span>
+            <span class="mode-name">Free Conversation</span>
+            <span class="mode-desc">Casual chat with gentle corrections</span>
+          </button>
+          <button class="mode-card" data-mode="part1">
+            <span class="mode-emoji">🎓</span>
+            <span class="mode-name">IELTS Part 1</span>
+            <span class="mode-desc">Familiar topics, one question at a time</span>
+          </button>
+          <button class="mode-card" data-mode="part2">
+            <span class="mode-emoji">📝</span>
+            <span class="mode-name">IELTS Part 2</span>
+            <span class="mode-desc">Cue card + 1–2 minute long turn</span>
+          </button>
+          <button class="mode-card" data-mode="part3">
+            <span class="mode-emoji">💬</span>
+            <span class="mode-name">IELTS Part 3</span>
+            <span class="mode-desc">Analytical, opinion-based questions</span>
+          </button>
+          <button class="mode-card" data-mode="mock">
+            <span class="mode-emoji">🏆</span>
+            <span class="mode-name">Full Mock Test</span>
+            <span class="mode-desc">Part 1 → Part 2 → Part 3, no interruptions</span>
+          </button>
+        </div>
+
+        <button id="btn-start" class="btn btn-primary btn-big" disabled>
+          🎙️ Start Speaking
+        </button>
+        <p class="hint">Works best in Chrome / Edge on desktop or Android. A microphone is required.</p>
+      </div>
+    </section>
+
+    <!-- ============ PART 2 PREP ============ -->
+    <section id="screen-prep" class="screen hidden">
+      <div class="prep-wrap">
+        <div class="phase-tag" id="prep-phase-tag">Part 2</div>
+        <h1 id="prep-topic" class="prep-topic">Describe a place…</h1>
+        <ul id="prep-bullets" class="prep-bullets"></ul>
+        <div class="prep-timer">
+          <div class="timer-ring" id="timer-ring">
+            <span id="prep-timer-text">1:00</span>
+          </div>
+          <p class="hint">Prepare your answer. You may take notes.</p>
+        </div>
+        <button id="btn-prep-done" class="btn btn-primary btn-big">🎤 I'm ready — start speaking</button>
+        <button id="btn-prep-skip" class="btn btn-ghost">Skip preparation</button>
+      </div>
+    </section>
+
+    <!-- ============ SESSION ============ -->
+    <section id="screen-session" class="screen hidden">
+      <div class="session-head">
+        <div class="session-left">
+          <button id="btn-back" class="btn-icon" title="End and go back">✕</button>
+          <div>
+            <div class="session-title" id="session-title">Free Conversation</div>
+            <div class="phase-tag" id="session-phase-tag"></div>
+          </div>
+        </div>
+        <div class="status-pill" id="status-pill">⏸️ Paused</div>
+      </div>
+
+      <div class="transcript" id="transcript"></div>
+
+      <!-- Speech timer (Part 2 long turn) -->
+      <div class="speech-timer hidden" id="speech-timer-bar">
+        <div class="speech-timer-fill" id="speech-timer-fill"></div>
+        <span id="speech-timer-text">2:00</span>
+      </div>
+
+      <div class="controls">
+        <div class="input-row">
+          <input type="text" id="text-input" class="text-input"
+                 placeholder="Type your answer (optional)…" autocomplete="off" />
+          <button id="btn-send" class="btn btn-primary">Send</button>
+        </div>
+        <div class="mic-row">
+          <button id="btn-mic" class="mic-btn" title="Tap to speak">
+            <span class="mic-icon">🎙️</span>
+          </button>
+          <div class="mic-hint" id="mic-hint">Tap the mic, then speak</div>
+          <button id="btn-voice" class="btn-icon" title="Toggle AI voice">🔊</button>
+        </div>
+        <button id="btn-end" class="btn btn-danger btn-block">⏹️ End test &amp; get my result</button>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS ============ -->
+    <section id="screen-results" class="screen hidden">
+      <div class="results-wrap" id="results-wrap"></div>
+    </section>
+
+  </div>
+
+  <script src="vendor/jspdf.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

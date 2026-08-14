@@ -1,0 +1,227 @@
+# 🎙️ IELTS Speaking AI — Practice Portal
+
+A simple, clean web portal for practising **IELTS Speaking** through a natural
+**voice conversation** with an AI examiner/tutor, followed by a detailed
+IELTS-style **performance analysis** and a **PDF report**.
+
+The AI **speaks aloud** (text-to-speech), listens to your **microphone**
+(speech-to-text), responds naturally with context-aware follow-up questions,
+and after the session analyses your speech sentence-by-sentence.
+
+---
+
+## ✨ Features
+
+- 🗣️ **Free Conversation** — casual chat with gentle, in-line corrections.
+- 🎓 **IELTS Part 1** — familiar topics, one question at a time.
+- 📝 **IELTS Part 2** — cue card + 1-minute prep timer + 1–2 minute long turn.
+- 💬 **IELTS Part 3** — analytical, opinion-based questions of increasing difficulty.
+- 🏆 **Full Mock Test** — Part 1 → 2 → 3, **no corrections during the test**.
+- 🔍 **Language detection** — flags Bangla / Hindi / other non-English usage (e.g. *"I am studying because আমি subject টা পছন্দ করি"* → *Non-English usage: 8%*).
+- 📊 **Sentence-by-sentence corrections** with problem type, correction & explanation.
+- 🧮 **Transparent error percentages** + an **AI Estimated IELTS Band** (4 criteria).
+- 📄 **PDF report** generation with everything in one document.
+- 📱 Mobile-friendly (tested for Android/Chrome).
+
+> ⚠️ **Important:** the band score and percentages are **AI estimates**, not
+> official IELTS measurements. The app is clearly labelled as such.
+
+---
+
+## 🧱 Tech stack
+
+| Layer     | Choice                                              |
+|-----------|-----------------------------------------------------|
+| Backend   | **Python + FastAPI** (serves the frontend + AI API) |
+| Frontend  | **Vanilla HTML/CSS/JS** (no build step, easy deploy)|
+| AI        | Any **OpenAI-compatible** chat API (see below)      |
+| Speech→Text | Browser **Web Speech API** (free, no key needed)  |
+| Text→Speech | Browser **speechSynthesis** (free, no key needed)|
+| PDF       | **jsPDF** (client-side, bundled locally)            |
+
+The voice pipeline is the simple, cost-efficient version:
+**Record (mic) → Transcribe (browser) → AI response → Text-to-speech (browser)**.
+Only *one* AI request per turn, and *one* analysis request at the end — no
+streaming/real-time voice, so cost stays low. The architecture (stateless
+`/start`, `/turn`, `/analyze` endpoints) makes it easy to swap in a real-time
+voice API later.
+
+---
+
+## 📁 Project structure
+
+```
+ielts-speaking-portal/
+├── backend/
+│   ├── main.py          # FastAPI app + routes (serves frontend too)
+│   ├── llm.py           # OpenAI-compatible chat client
+│   ├── prompts.py       # System prompts per mode / stage
+│   ├── language.py      # Deterministic language + filler detection
+│   ├── analysis.py      # Merges LLM + deterministic metrics
+│   ├── demo.py          # Offline demo responses (no API key needed)
+│   ├── config.py        # Env loading
+│   └── requirements.txt
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── app.js           # Voice, session state machine, results, PDF
+│   └── vendor/jspdf.umd.min.js   # bundled PDF library
+├── .env.example         # copy to .env
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🚀 Run locally
+
+### 1. Install Python (3.9+) and get the code
+
+```bash
+git clone <your-repo> && cd ielts-speaking-portal
+# or just copy the folder
+```
+
+### 2. Create a virtual environment & install dependencies
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r backend/requirements.txt
+```
+
+### 3. Set your API key (environment variables)
+
+```bash
+cp .env.example .env
+# now edit .env and paste your key
+```
+
+Open `.env` and set:
+
+```env
+OPENAI_API_KEY=sk-your-api-key-here
+OPENAI_BASE_URL=https://api.openai.com/v1
+LLM_MODEL=gpt-4o-mini
+```
+
+### 4. Run the server
+
+```bash
+uvicorn main:app --app-dir backend --host 0.0.0.0 --port 8000
+```
+
+Then open **http://localhost:8000** in **Chrome or Edge** (Web Speech API
+requires Chromium — Firefox/Safari will show a message and let you **type**
+instead).
+
+> On Android: open Chrome, visit `http://<your-computer-ip>:8000` (same Wi-Fi),
+> allow microphone permission when prompted.
+
+---
+
+## 🔑 Where do I put my API key?
+
+**Only in the backend's `.env` file** (or real environment variables).
+The key is **never** sent to the browser and **never** hard-coded in frontend code.
+
+The backend uses any **OpenAI-compatible** endpoint, so you can use the cheapest
+option you prefer:
+
+| Provider     | `OPENAI_BASE_URL`                    | Example `LLM_MODEL`            |
+|--------------|--------------------------------------|--------------------------------|
+| OpenAI       | `https://api.openai.com/v1`          | `gpt-4o-mini`                  |
+| Groq (fast)  | `https://api.groq.com/openai/v1`     | `llama-3.3-70b-versatile`      |
+| OpenRouter   | `https://openrouter.ai/api/v1`       | `openai/gpt-4o-mini`           |
+| Together AI  | `https://api.together.xyz/v1`        | `meta-llama/Llama-3.3-70B-Instruct-Turbo` |
+| Ollama (local, free) | `http://localhost:11434/v1` | `llama3.2`               |
+
+`gpt-4o-mini` is a good cheap default. Groq is free-tier friendly and very fast.
+
+---
+
+## 🧪 Demo mode (no API key)
+
+If no `OPENAI_API_KEY` is set, the app **automatically runs in demo mode** so
+you can test the *entire* flow — voice, transcript, turn-taking, Part 2 timer,
+analysis, and PDF — using canned responses. A yellow banner tells you it's demo
+mode. The **language detection and filler-word analysis are still real** in demo
+mode (they run locally, not via AI).
+
+Force demo mode even with a key: `DEMO_MODE=true`.
+
+---
+
+## 🌐 Deploying
+
+The backend is a single FastAPI app that also serves the frontend, so deploying
+is just deploying one process.
+
+**Option A — Render / Railway / Fly.io (easiest):**
+1. Push the repo.
+2. Create a new **Web Service**, set:
+   - Build command: `pip install -r backend/requirements.txt`
+   - Start command: `uvicorn main:app --app-dir backend --host 0.0.0.0 --port $PORT`
+3. Add the environment variables (`OPENAI_API_KEY`, `OPENAI_BASE_URL`, `LLM_MODEL`).
+4. Deploy. Done.
+
+**Option B — any VPS:**
+```bash
+pip install -r backend/requirements.txt
+cp .env.example .env   # fill in your key
+uvicorn main:app --app-dir backend --host 0.0.0.0 --port 8000
+# optional: put behind nginx + HTTPS (needed for mic on non-localhost origins)
+```
+
+> ⚠️ Browsers require **HTTPS** (or `localhost`) to access the microphone.
+> `http://localhost` works for local dev. For a public deployment, use HTTPS
+> (Render/Railway provide it automatically).
+
+---
+
+## 🔌 API reference
+
+| Method | Path                | Body                                    | Returns                                  |
+|--------|---------------------|-----------------------------------------|------------------------------------------|
+| GET    | `/api/health`       | —                                       | `{status, demo}`                         |
+| POST   | `/api/session/start`| `{mode, stage, history}`                | `{reply, cue_card}`                      |
+| POST   | `/api/session/turn` | `{mode, stage, history, user_text}`     | `{reply, cue_card}`                      |
+| POST   | `/api/analyze`      | `{mode, history, questions, answers}`   | full analysis object                     |
+
+- `mode`: `free` | `part1` | `part2` | `part3` | `mock`
+- `stage`: `main` | `part1` | `part2_cue` | `part2_followup` | `part3`
+
+---
+
+## 📐 How the percentages & band are calculated (transparency)
+
+- **Grammar / vocabulary / naturalness %** = flagged issues **per 100 sentences**.
+- **Fillers %** = filler words (um, uh, like, you know, actually, …) **per 100 words**.
+- **Non-English %** = non-English characters (detected by Unicode script ranges
+  for Bangla, Devanagari, etc.) **per 100 characters**.
+- **Overall problematic speech %** = the **average** of the five rates above.
+- **Band score** = AI estimate across the four official criteria (Fluency &
+  Coherence, Lexical Resource, Grammatical Range & Accuracy, Pronunciation),
+  each 0–9 in 0.5 steps, with a one-line justification.
+
+All of these are **AI estimates for practice only**, never official IELTS scores.
+
+Pronunciation is **not** measured from audio — the system only comments
+cautiously and labels it an estimate (it does not invent precise pronunciation
+errors). A real-time audio pipeline could be added later.
+
+---
+
+## 🛠️ Known limitations (first version)
+
+- Voice features need **Chrome / Edge** (Web Speech API). Fallback = type answers.
+- STT is the browser's built-in recognizer — accuracy varies with accent.
+- Romanized Bangla (e.g. "kemon acho") may not be flagged by the script detector;
+  the AI's analysis layer catches obvious non-English phrases instead.
+- Only English (en-US) recognition is enabled for now.
+
+---
+
+## 📝 Licence
+
+Personal learning project. Use freely.
