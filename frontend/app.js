@@ -233,10 +233,13 @@ async function warmMic() {
 
 function startListening({ continuous = false, onFinal, onInterim, onEnd }) {
   if (!hasSR) {
+    // No browser speech recognition: automatically use Record mode instead.
+    voiceMode = "record";
+    renderModeToggle();
     if (isIOS && isSafari) {
-      toast("iPhone Safari doesn't support voice recognition. Please open this site in Chrome, or type your answer below.", true);
+      toast("iPhone Safari doesn't support live voice. Use ⏺️ Record mode (tap mic to record), or type your answer.", true);
     } else {
-      toast("Speech recognition isn't supported in this browser. Use Chrome/Edge, or type your answer.", true);
+      toast("Live voice isn't supported in this browser — switched to ⏺️ Record mode. Tap the mic to record, tap again to stop.", true);
     }
     return null;
   }
@@ -291,6 +294,15 @@ function startListening({ continuous = false, onFinal, onInterim, onEnd }) {
       "aborted": "",
     }[e.error] || "Speech recognition failed. Please try again.";
     if (msg) toast(msg, e.error !== "no-speech");
+
+    // Auto-fallback: if Live speech recognition is unavailable on this device
+    // (common on Android without Google services, or blocked), switch to Record.
+    const hardFail = ["network", "service-not-allowed", "not-allowed", "audio-capture"].includes(e.error);
+    if (hardFail && voiceMode === "sr") {
+      voiceMode = "record";
+      renderModeToggle();
+      toast("Live voice isn't available on this device — switched to ⏺️ Record mode. Tap the mic to record, tap again to stop.", true);
+    }
     setStatus("idle");
   };
 
@@ -307,7 +319,14 @@ function startListening({ continuous = false, onFinal, onInterim, onEnd }) {
   try {
     rec.start();
   } catch (_) {
-    toast("Could not start the microphone. Please try again.", true);
+    // Some browsers throw synchronously instead of firing onerror.
+    if (voiceMode === "sr") {
+      voiceMode = "record";
+      renderModeToggle();
+      toast("Live voice isn't available here — switched to ⏺️ Record mode. Tap the mic to record.", true);
+    } else {
+      toast("Could not start the microphone. Please try again.", true);
+    }
   }
   return rec;
 }
@@ -1024,7 +1043,7 @@ $("btn-start").addEventListener("click", () => {
   startSession(selectedMode);
 });
 
-async function defaultMicClick() {
+function defaultMicClick() {
   if (state.listening) {
     stopListening();
     return;
@@ -1036,7 +1055,7 @@ async function defaultMicClick() {
   if (state.speaking) stopSpeaking();
 
   if (voiceMode === "record") {
-    await startRecording(async (blob) => {
+    startRecording(async (blob) => {
       $("btn-mic").classList.remove("listening");
       $("mic-hint").textContent = "Transcribing…";
       try {
@@ -1055,8 +1074,9 @@ async function defaultMicClick() {
     return;
   }
 
-  // Warm the mic first (primes permission + hardware on mobile).
-  await warmMic();
+  // Live mode: start recognition SYNCHRONOUSLY within the click handler.
+  // (Android Chrome rejects SpeechRecognition.start() if there's an async gap
+  // after the tap — a common cause of "mic not working" on phones.)
   startListening({
     continuous: false,
     onFinal: (t) => handleUserTurn(t),
