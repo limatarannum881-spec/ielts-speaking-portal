@@ -67,6 +67,12 @@ const $ = (id) => document.getElementById(id);
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 const hasSR = !!SR;
 
+// Mobile / browser detection
+const UA = navigator.userAgent;
+const isIOS = /iphone|ipad|ipod/i.test(UA);
+const isSafari = /safari/i.test(UA) && !/chrome|crios|edg|android/i.test(UA);
+const isAndroid = /android/i.test(UA);
+
 // ----------------------------------------------------------------------
 // Helpers
 // ----------------------------------------------------------------------
@@ -204,9 +210,31 @@ function stopSpeaking() {
 // ----------------------------------------------------------------------
 // Speech Recognition (microphone)
 // ----------------------------------------------------------------------
-function startListening({ continuous = false, onFinal, onInterim }) {
+
+// Prime the microphone and surface the permission prompt early.
+// SpeechRecognition can be flaky on first use on mobile; warming up the
+// mic via getUserMedia first greatly improves reliability.
+let micWarmed = false;
+async function warmMic() {
+  if (micWarmed) return true;
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return false;
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    stream.getTracks().forEach((t) => t.stop());
+    micWarmed = true;
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function startListening({ continuous = false, onFinal, onInterim, onEnd }) {
   if (!hasSR) {
-    toast("Speech recognition is not supported in this browser. Use Chrome/Edge, or type your answer.", true);
+    if (isIOS && isSafari) {
+      toast("iPhone Safari doesn't support voice recognition. Please open this site in Chrome, or type your answer below.", true);
+    } else {
+      toast("Speech recognition isn't supported in this browser. Use Chrome/Edge, or type your answer.", true);
+    }
     return null;
   }
   if (state.listening) return null;
@@ -270,6 +298,7 @@ function startListening({ continuous = false, onFinal, onInterim }) {
     $("mic-hint").textContent = "Tap the mic, then speak";
     if (interimDiv) interimDiv.remove();
     if (!state.ended) setStatus("idle");
+    if (onEnd) onEnd();
   };
 
   try {
@@ -307,6 +336,9 @@ async function startSession(mode) {
   $("transcript").innerHTML = "";
   showScreen("session");
   setStatus("idle");
+
+  // Prime the mic early (surfaces the permission prompt now, not mid-turn).
+  warmMic();
 
   await runPhase(phase());
 }
@@ -459,6 +491,8 @@ function startSpeechPhase() {
   $("speech-timer-text").textContent = "2:00";
 
   let collected = "";
+  let speechActive = true;   // false once the long turn is finished
+  let restartTimer = null;
 
   clearInterval(speechTimer);
   speechTimer = setInterval(() => {
@@ -471,14 +505,15 @@ function startSpeechPhase() {
   }, 1000);
 
   function finishSpeech() {
-    if (state.ended) return;
+    if (!speechActive) return;
+    speechActive = false;
+    if (restartTimer) { clearTimeout(restartTimer); restartTimer = null; }
     clearInterval(speechTimer);
     stopListening();
     $("btn-mic").onclick = defaultMicClick;
     $("speech-timer-bar").classList.add("hidden");
     if (!collected.trim()) {
       toast("I didn't catch any speech. Let's try that again.", true);
-      // keep them in speech phase
       startSpeechPhase();
       return;
     }
@@ -486,12 +521,32 @@ function startSpeechPhase() {
     advancePhase(); // -> follow-up chat phase
   }
 
+  // On mobile, the speech recognizer often stops after a short silence.
+  // Keep restarting it (with a small delay) until the turn is over, so the
+  // user can keep speaking for the full 1–2 minutes.
+  function keepListening() {
+    if (!speechActive || state.ended) return;
+    if (restartTimer) clearTimeout(restartTimer);
+    restartTimer = setTimeout(() => {
+      if (!speechActive || state.ended) return;
+      startListening({
+        continuous: true,
+        onFinal: (t) => { if (speechActive) collected += (collected ? " " : "") + t; },
+        onEnd: () => keepListening(),
+      });
+    }, 500);
+  }
+
   // Tap mic to stop early
   $("btn-mic").onclick = () => finishSpeech();
 
-  startListening({
-    continuous: true,
-    onFinal: (t) => { collected += (collected ? " " : "") + t; },
+  warmMic().then(() => {
+    if (!speechActive) return;
+    startListening({
+      continuous: true,
+      onFinal: (t) => { if (speechActive) collected += (collected ? " " : "") + t; },
+      onEnd: () => keepListening(),
+    });
   });
 }
 
@@ -840,12 +895,19 @@ $("btn-start").addEventListener("click", () => {
   startSession(selectedMode);
 });
 
-function defaultMicClick() {
+async function defaultMicClick() {
   if (state.listening) {
     stopListening();
     return;
   }
   if (state.speaking) stopSpeaking();
+
+  // Warm the mic first (primes permission + hardware on mobile).
+  const ok = await warmMic();
+  if (!ok) {
+    // getUserMedia failed — but SpeechRecognition may still work; try anyway.
+    // If it also fails, its onerror handler will surface a friendly message.
+  }
   startListening({
     continuous: false,
     onFinal: (t) => handleUserTurn(t),
@@ -891,8 +953,12 @@ $("btn-prep-skip").addEventListener("click", prepDone);
 // ----------------------------------------------------------------------
 (async function boot() {
   const hasMic = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
-  if (!hasSR && !hasMic) {
-    $("mic-hint").textContent = "Mic not detected — you can still type your answers.";
+  if (!hasSR) {
+    if (isIOS && isSafari) {
+      $("mic-hint").textContent = "iPhone Safari: voice needs Chrome — or just type your answers.";
+    } else if (!hasMic) {
+      $("mic-hint").textContent = "Mic not detected — you can still type your answers.";
+    }
   }
   try {
     const h = await fetch("/api/health");
