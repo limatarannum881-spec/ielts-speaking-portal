@@ -10,12 +10,29 @@
   <div id="app" class="app">
 
     <!-- ============ HOME ============ -->
-    <section id="screen-home" class="screen">
+    <section id="screen-home" class="screen home-screen">
+      <div class="home-bg"></div>
+
+      <nav class="topbar">
+        <div class="brand">
+          <span class="brand-logo">🎙️</span>
+          <span class="brand-name">IELTS&nbsp;Speaking&nbsp;AI</span>
+        </div>
+        <span class="owner-chip">by Md Musfiqur Rahaman</span>
+      </nav>
+
       <div class="home-wrap">
         <header class="hero">
-          <div class="logo">🎙️</div>
-          <h1>IELTS Speaking AI</h1>
-          <p class="tagline">Practice speaking English with an AI conversation partner.</p>
+          <div class="hero-badge">✨ AI-powered · Real voice · Instant feedback</div>
+          <h1>Speak English.<br /><span class="grad">Score Higher.</span></h1>
+          <p class="tagline">Practice IELTS Speaking with a friendly AI examiner that talks back,
+            listens to you, and grades every word — then gives you a detailed report.</p>
+
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-num">5</span><span class="stat-label">Practice modes</span></div>
+            <div class="stat"><span class="stat-num">4</span><span class="stat-label">IELTS criteria</span></div>
+            <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Always ready</span></div>
+          </div>
         </header>
 
         <div id="demo-banner" class="banner hidden">
@@ -23,7 +40,14 @@
           Add <code>OPENAI_API_KEY</code> to <code>.env</code> for real AI.
         </div>
 
-        <h2 class="section-label">Choose a practice mode</h2>
+        <div class="features">
+          <div class="feature"><span>🎧</span><b>Voice conversation</b><i>Speak &amp; listen naturally</i></div>
+          <div class="feature"><span>🧠</span><b>Smart follow-ups</b><i>Real examiner behaviour</i></div>
+          <div class="feature"><span>📊</span><b>Band estimate</b><i>All 4 IELTS criteria</i></div>
+          <div class="feature"><span>📄</span><b>PDF report</b><i>Downloadable analysis</i></div>
+        </div>
+
+        <h2 class="section-label">Choose your practice mode</h2>
         <div class="mode-grid" id="mode-grid">
           <button class="mode-card" data-mode="free">
             <span class="mode-emoji">🗣️</span>
@@ -55,7 +79,12 @@
         <button id="btn-start" class="btn btn-primary btn-big" disabled>
           🎙️ Start Speaking
         </button>
-        <p class="hint">Works best in Chrome / Edge on desktop or Android. A microphone is required.</p>
+        <p class="hint">🎤 Use Chrome / Edge on desktop or Android for the best voice experience.</p>
+
+        <footer class="site-footer">
+          <p>Crafted with 💙 by <b>Md Musfiqur Rahaman</b></p>
+          <p class="foot-note">AI Estimated bands are for practice only — not official IELTS scores.</p>
+        </footer>
       </div>
     </section>
 
