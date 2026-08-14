@@ -364,3 +364,62 @@ ul.plain li { margin: 7px 0; font-size: 14.5px; }
   .controls { padding-bottom: max(14px, env(safe-area-inset-bottom)); }
   .session-head { padding-top: max(12px, env(safe-area-inset-top)); }
 }
+
+/* ---------- Desktop / large screen optimizations ---------- */
+@media (min-width: 820px) {
+  .app { max-width: 1120px; }
+
+  /* Home — fill the screen with a wide, centered layout */
+  .topbar { max-width: 1040px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; }
+  .home-wrap { max-width: 1040px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; }
+
+  .hero { margin: 40px 0 36px; }
+  .hero h1 { font-size: 60px; }
+  .tagline { max-width: 560px; font-size: 17px; }
+
+  .hero-stats { gap: 16px; }
+  .stat { min-width: 140px; padding: 16px 22px; }
+  .stat-num { font-size: 30px; }
+  .stat-label { font-size: 12.5px; }
+
+  .features { grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 10px 0 32px; }
+  .feature { padding: 18px; }
+  .feature span { font-size: 26px; }
+
+  .mode-grid { grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .mode-card { padding: 20px 18px; }
+
+  .section-label { margin-top: 8px; }
+
+  /* Session — centered chat column (reads better than full-width lines) */
+  #screen-session .session-head,
+  #screen-session .transcript,
+  #screen-session .speech-timer,
+  #screen-session .controls {
+    max-width: 800px; width: 100%; margin-left: auto; margin-right: auto;
+  }
+
+  /* Results — wide but readable */
+  .results-wrap { max-width: 900px; margin-left: auto; margin-right: auto; }
+  .result-header .band { font-size: 60px; }
+}
+
+/* Extra-large screens */
+@media (min-width: 1300px) {
+  .app { max-width: 1280px; }
+  .topbar, .home-wrap { max-width: 1200px; }
+  .mode-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Desktop: make the Full Mock Test a full-width "featured" card (3+2 -> clean rows) */
+@media (min-width: 820px) {
+  .mode-card[data-mode="mock"] {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .mode-card[data-mode="mock"] .mode-emoji { margin-bottom: 0; }
+  .mode-card[data-mode="mock"] .mode-name { font-size: 17px; }
+  .mode-card[data-mode="mock"] .mode-desc { margin-left: auto; font-size: 13.5px; }
+}
