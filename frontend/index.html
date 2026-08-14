@@ -43,6 +43,12 @@
           Add <code>OPENAI_API_KEY</code> to <code>.env</code> for real AI.
         </div>
 
+        <div id="inapp-banner" class="banner banner-warn hidden">
+          📱 You're viewing this inside another app (WhatsApp / Facebook / Messenger).
+          The microphone won't work here — tap the ⋮ menu and choose
+          <b>"Open in browser"</b> (or open the link in <b>Chrome</b>).
+        </div>
+
         <div class="features">
           <div class="feature"><span>🎧</span><b>Voice conversation</b><i>Speak &amp; listen naturally</i></div>
           <div class="feature"><span>🧠</span><b>Smart follow-ups</b><i>Real examiner behaviour</i></div>
@@ -140,6 +146,7 @@
             <span class="mic-icon">🎙️</span>
           </button>
           <div class="mic-hint" id="mic-hint">Tap the mic, then speak</div>
+          <button id="btn-mode" class="mode-toggle" title="Switch voice input method">🎙️ Live</button>
           <button id="btn-voice" class="btn-icon" title="Toggle AI voice">🔊</button>
         </div>
         <button id="btn-end" class="btn btn-danger btn-block">⏹️ End test &amp; get my result</button>

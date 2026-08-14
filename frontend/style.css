@@ -152,6 +152,8 @@ html, body {
   padding: 12px 14px; font-size: 14px; margin: 0 0 18px;
 }
 .banner code { background: #fff; padding: 1px 5px; border-radius: 5px; font-size: 12px; }
+.banner-warn { background: #fde8e8; color: #9b1c1c; border-color: #f5c6c6; }
+.banner-warn b { color: #7f1d1d; }
 
 .section-label { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 6px 0 12px; text-align: center; font-weight: 700; }
 
@@ -255,6 +257,11 @@ html, body {
 .mic-btn:active { transform: scale(.94); }
 .mic-btn.listening { background: var(--red); animation: pulse 1.2s infinite; }
 .mic-hint { flex: 1; color: var(--muted); font-size: 13px; }
+.mode-toggle {
+  background: var(--primary-soft); color: var(--primary); border: 1px solid #dbe0ff;
+  border-radius: 999px; padding: 8px 12px; font-size: 13px; font-weight: 700;
+  cursor: pointer; flex-shrink: 0; touch-action: manipulation; -webkit-user-select: none; user-select: none;
+}
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, .35); }
   70% { box-shadow: 0 0 0 16px rgba(220, 38, 38, 0); }

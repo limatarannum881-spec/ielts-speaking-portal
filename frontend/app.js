@@ -72,6 +72,9 @@ const UA = navigator.userAgent;
 const isIOS = /iphone|ipad|ipod/i.test(UA);
 const isSafari = /safari/i.test(UA) && !/chrome|crios|edg|android/i.test(UA);
 const isAndroid = /android/i.test(UA);
+// In-app browsers (WhatsApp / Facebook / Messenger / Instagram / TikTok etc.)
+const isInAppBrowser = /FBAN|FBAV|FB_IAB|FB4A|Instagram|WhatsApp|Messenger|Line\/|Twitter|TikTok|MicroMessenger/i.test(UA);
+const isMobile = isIOS || isAndroid;
 
 // ----------------------------------------------------------------------
 // Helpers
@@ -316,6 +319,97 @@ function stopListening() {
 }
 
 // ----------------------------------------------------------------------
+// Voice input mode (live speech recognition vs. record + server STT)
+// ----------------------------------------------------------------------
+function pickDefaultVoiceMode() {
+  if (!hasSR) return "record";         // no browser speech recognition at all
+  if (isInAppBrowser) return "record"; // in-app browsers block speech recognition
+  if (isIOS) return "record";          // iOS has no reliable speech recognition
+  return "sr";                         // desktop Chrome/Edge, Android Chrome
+}
+let voiceMode = pickDefaultVoiceMode();
+
+// ----------------------------------------------------------------------
+// Recording (MediaRecorder -> backend /api/transcribe)
+// Works on iPhone Safari, Android, and in-app browsers that expose the mic.
+// ----------------------------------------------------------------------
+let mediaRecorder = null;
+let audioChunks = [];
+let recording = false;
+let recordingOnDone = null; // set by the caller before stopping
+
+function pickMimeType() {
+  const candidates = ["audio/webm;codecs=opus", "audio/webm", "audio/mp4", "audio/ogg;codecs=opus"];
+  if (!window.MediaRecorder) return "";
+  for (const c of candidates) {
+    if (window.MediaRecorder.isTypeSupported(c)) return c;
+  }
+  return "";
+}
+
+async function startRecording(onDone) {
+  if (!window.MediaRecorder || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+    toast("Recording isn't supported in this browser. Open the site in Chrome, or type your answer.", true);
+    return;
+  }
+  if (recording) return;
+  stopListening();
+  stopSpeaking();
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    const mime = pickMimeType();
+    mediaRecorder = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined);
+    audioChunks = [];
+    recordingOnDone = onDone;
+    mediaRecorder.ondataavailable = (e) => { if (e.data && e.data.size) audioChunks.push(e.data); };
+    mediaRecorder.onstop = () => {
+      stream.getTracks().forEach((t) => t.stop());
+      const blob = new Blob(audioChunks, { type: mediaRecorder.mimeType || "audio/webm" });
+      recording = false;
+      const cb = recordingOnDone;
+      recordingOnDone = null;
+      if (cb) cb(blob);
+    };
+    mediaRecorder.start(250); // gather chunks every 250ms
+    recording = true;
+    setStatus("listening");
+    $("btn-mic").classList.add("listening");
+    $("mic-hint").textContent = "● Recording… tap again to stop";
+  } catch (e) {
+    toast("Microphone permission was denied. Allow mic access in your browser settings, then try again.", true);
+  }
+}
+
+function stopRecording() {
+  if (mediaRecorder && recording) {
+    try { mediaRecorder.stop(); } catch (_) {}
+  }
+}
+
+async function transcribeBlob(blob) {
+  setStatus("thinking");
+  const fd = new FormData();
+  const ext = blob.type.includes("mp4") ? "m4a" : blob.type.includes("ogg") ? "ogg" : "webm";
+  fd.append("file", blob, "recording." + ext);
+  let resp;
+  try {
+    resp = await fetch("/api/transcribe", { method: "POST", body: fd });
+  } catch (e) {
+    toast("Network error — please check your connection.", true);
+    setStatus("idle");
+    throw e;
+  }
+  let j = null;
+  try { j = await resp.json(); } catch (_) {}
+  setStatus("idle");
+  if (!resp.ok) {
+    toast((j && j.detail) || "Couldn't transcribe the recording. Please try again.", true);
+    throw new Error("transcribe failed");
+  }
+  return ((j && j.text) || "").trim();
+}
+
+// ----------------------------------------------------------------------
 // Session controller
 // ----------------------------------------------------------------------
 function phase() {
@@ -509,9 +603,21 @@ function startSpeechPhase() {
     speechActive = false;
     if (restartTimer) { clearTimeout(restartTimer); restartTimer = null; }
     clearInterval(speechTimer);
-    stopListening();
     $("btn-mic").onclick = defaultMicClick;
     $("speech-timer-bar").classList.add("hidden");
+
+    if (voiceMode === "record") {
+      // Stop recording; the onDone callback handles transcription + advance.
+      if (recording) {
+        stopRecording();
+      } else {
+        toast("I didn't catch any speech. Let's try that again.", true);
+        startSpeechPhase();
+      }
+      return;
+    }
+
+    stopListening();
     if (!collected.trim()) {
       toast("I didn't catch any speech. Let's try that again.", true);
       startSpeechPhase();
@@ -539,6 +645,29 @@ function startSpeechPhase() {
 
   // Tap mic to stop early
   $("btn-mic").onclick = () => finishSpeech();
+
+  if (voiceMode === "record") {
+    // Record the whole long turn as one continuous clip.
+    startRecording(async (blob) => {
+      $("btn-mic").classList.remove("listening");
+      $("mic-hint").textContent = "Transcribing…";
+      try {
+        const text = await transcribeBlob(blob);
+        if (text) {
+          userSaid(text);
+          advancePhase(); // -> follow-up chat phase
+        } else {
+          toast("I didn't catch any speech. Let's try that again.", true);
+          startSpeechPhase();
+        }
+      } catch (_) {
+        startSpeechPhase();
+      } finally {
+        $("mic-hint").textContent = "Tap the mic, then speak";
+      }
+    });
+    return;
+  }
 
   warmMic().then(() => {
     if (!speechActive) return;
@@ -900,14 +1029,34 @@ async function defaultMicClick() {
     stopListening();
     return;
   }
+  if (recording) {
+    stopRecording();
+    return;
+  }
   if (state.speaking) stopSpeaking();
 
-  // Warm the mic first (primes permission + hardware on mobile).
-  const ok = await warmMic();
-  if (!ok) {
-    // getUserMedia failed — but SpeechRecognition may still work; try anyway.
-    // If it also fails, its onerror handler will surface a friendly message.
+  if (voiceMode === "record") {
+    await startRecording(async (blob) => {
+      $("btn-mic").classList.remove("listening");
+      $("mic-hint").textContent = "Transcribing…";
+      try {
+        const text = await transcribeBlob(blob);
+        if (text) {
+          handleUserTurn(text);
+        } else {
+          toast("I couldn't hear any speech. Please try again.", true);
+        }
+      } catch (_) {
+        /* error already surfaced in transcribeBlob */
+      } finally {
+        $("mic-hint").textContent = "Tap the mic, then speak";
+      }
+    });
+    return;
   }
+
+  // Warm the mic first (primes permission + hardware on mobile).
+  await warmMic();
   startListening({
     continuous: false,
     onFinal: (t) => handleUserTurn(t),
@@ -933,6 +1082,28 @@ $("btn-voice").addEventListener("click", () => {
   $("btn-voice").textContent = state.voiceEnabled ? "🔊" : "🔇";
 });
 
+function renderModeToggle() {
+  const btn = $("btn-mode");
+  if (!btn) return;
+  if (voiceMode === "record") {
+    btn.textContent = "⏺️ Record";
+    btn.title = "Voice input: Record mode (tap to record, tap again to stop). Tap to switch to Live.";
+  } else {
+    btn.textContent = "🎙️ Live";
+    btn.title = "Voice input: Live speech recognition. Tap to switch to Record.";
+  }
+}
+
+$("btn-mode").addEventListener("click", () => {
+  voiceMode = voiceMode === "record" ? "sr" : "record";
+  renderModeToggle();
+  toast(
+    voiceMode === "record"
+      ? "Voice input switched to ⏺️ Record (tap mic to record, tap again to stop)."
+      : "Voice input switched to 🎙️ Live speech recognition."
+  );
+});
+
 $("btn-end").addEventListener("click", endSession);
 $("btn-back").addEventListener("click", () => {
   if (confirm("End this session and go back? Your progress will be lost.")) {
@@ -952,6 +1123,7 @@ $("btn-prep-skip").addEventListener("click", prepDone);
 // Boot
 // ----------------------------------------------------------------------
 (async function boot() {
+  renderModeToggle();
   const hasMic = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
   if (!hasSR) {
     if (isIOS && isSafari) {
@@ -959,6 +1131,11 @@ $("btn-prep-skip").addEventListener("click", prepDone);
     } else if (!hasMic) {
       $("mic-hint").textContent = "Mic not detected — you can still type your answers.";
     }
+  }
+  // Warn users inside in-app browsers (WhatsApp/Facebook/etc.) that the mic
+  // won't work there and they should open the link in a real browser.
+  if (isInAppBrowser) {
+    $("inapp-banner").classList.remove("hidden");
   }
   try {
     const h = await fetch("/api/health");

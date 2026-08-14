@@ -17,6 +17,7 @@ for candidate in (
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1").strip().rstrip("/")
 LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o-mini").strip()
+LLM_STT_MODEL = os.getenv("LLM_STT_MODEL", "openai/whisper-large-v3").strip()
 DEMO_MODE = os.getenv("DEMO_MODE", "").strip().lower() in ("1", "true", "yes")
 PORT = int(os.getenv("PORT", "8000"))
 

@@ -53,6 +53,36 @@ async def chat(messages, json_mode=False, temperature=0.7, max_tokens=700):
         raise LLMError("api", "Unexpected response shape from the AI service")
 
 
+async def transcribe_audio(audio_bytes: bytes, filename: str, mime_type: str) -> str:
+    """Transcribe an audio file via the OpenAI-compatible audio/transcriptions endpoint."""
+    if config.is_demo():
+        raise LLMError("no_key")
+
+    url = f"{config.OPENAI_BASE_URL}/audio/transcriptions"
+    files = {"file": (filename, audio_bytes, mime_type or "audio/webm")}
+    data = {"model": config.LLM_STT_MODEL}
+    headers = {"Authorization": f"Bearer {config.OPENAI_API_KEY}"}
+
+    try:
+        async with httpx.AsyncClient(timeout=120) as client:
+            resp = await client.post(url, headers=headers, data=data, files=files)
+    except httpx.TimeoutException:
+        raise LLMError("timeout")
+    except httpx.HTTPError as e:
+        raise LLMError("network", str(e))
+
+    if resp.status_code == 402:
+        raise LLMError("audio_balance", resp.text[:300])
+    if resp.status_code != 200:
+        raise LLMError("api", f"status {resp.status_code}: {resp.text[:300]}")
+
+    try:
+        data = resp.json()
+        return (data.get("text") or "").strip()
+    except (json.JSONDecodeError, AttributeError):
+        raise LLMError("api", "Unexpected transcription response")
+
+
 def parse_json(text: str):
     """Best-effort JSON parse (handles markdown fences / stray text)."""
     text = text.strip()

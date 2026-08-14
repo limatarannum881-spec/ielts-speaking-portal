@@ -9,7 +9,7 @@ Serves the frontend and exposes three endpoints:
 import os
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, File, UploadFile
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -58,6 +58,7 @@ FRIENDLY = {
     "api": "The AI service returned an error. Check your API key and model name in .env.",
     "parse": "The AI returned an unexpected response. Please try again.",
     "empty": "It looks like that recording was empty. Please try speaking again.",
+    "audio_balance": "Voice transcription needs a small credit top-up (about $0.50) on OpenRouter. Until then, open the site in Chrome and use live voice, or type your answers.",
 }
 
 
@@ -126,6 +127,22 @@ async def session_turn(req: TurnReq):
         msgs = history_to_messages(req.history, system)
         reply = await llm.chat(msgs, temperature=0.8, max_tokens=300)
         return {"reply": reply, "cue_card": None}
+    except llm.LLMError as e:
+        raise friendly_error(e)
+
+
+@app.post("/api/transcribe")
+async def transcribe(file: UploadFile = File(...)):
+    if config.is_demo():
+        return {"text": "This is a demo transcription. Add your OpenAI/OpenRouter key to enable real voice transcription."}
+    try:
+        audio = await file.read()
+        if not audio:
+            raise HTTPException(status_code=400, detail="That recording was empty. Please try speaking again.")
+        text = await llm.transcribe_audio(audio, file.filename or "recording.webm", file.content_type or "audio/webm")
+        if not text:
+            raise HTTPException(status_code=422, detail="I couldn't make out any speech. Please try speaking again, a little louder.")
+        return {"text": text}
     except llm.LLMError as e:
         raise friendly_error(e)
 

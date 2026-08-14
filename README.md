@@ -17,6 +17,9 @@ and after the session analyses your speech sentence-by-sentence.
 - 📝 **IELTS Part 2** — cue card + 1-minute prep timer + 1–2 minute long turn.
 - 💬 **IELTS Part 3** — analytical, opinion-based questions of increasing difficulty.
 - 🏆 **Full Mock Test** — Part 1 → 2 → 3, **no corrections during the test**.
+- 🎤 **Two voice-input modes** — **Live** (browser speech recognition) and **Record**
+  (records your voice → transcribes server-side via Whisper). Record mode works on
+  **iPhone Safari** and inside apps where live recognition is blocked.
 - 🔍 **Language detection** — flags Bangla / Hindi / other non-English usage (e.g. *"I am studying because আমি subject টা পছন্দ করি"* → *Non-English usage: 8%*).
 - 📊 **Sentence-by-sentence corrections** with problem type, correction & explanation.
 - 🧮 **Transparent error percentages** + an **AI Estimated IELTS Band** (4 criteria).
@@ -47,16 +50,23 @@ and after the session analyses your speech sentence-by-sentence.
 | Backend   | **Python + FastAPI** (serves the frontend + AI API) |
 | Frontend  | **Vanilla HTML/CSS/JS** (no build step, easy deploy)|
 | AI        | Any **OpenAI-compatible** chat API (see below)      |
-| Speech→Text | Browser **Web Speech API** (free, no key needed)  |
+| Speech→Text | **Live**: browser Web Speech API · **Record**: MediaRecorder → server Whisper |
 | Text→Speech | Browser **speechSynthesis** (free, no key needed)|
 | PDF       | **jsPDF** (client-side, bundled locally)            |
 
 The voice pipeline is the simple, cost-efficient version:
-**Record (mic) → Transcribe (browser) → AI response → Text-to-speech (browser)**.
+**Record (mic) → Transcribe (browser or server) → AI response → Text-to-speech (browser)**.
 Only *one* AI request per turn, and *one* analysis request at the end — no
 streaming/real-time voice, so cost stays low. The architecture (stateless
-`/start`, `/turn`, `/analyze` endpoints) makes it easy to swap in a real-time
-voice API later.
+`/start`, `/turn`, `/transcribe`, `/analyze` endpoints) makes it easy to swap in
+a real-time voice API later.
+
+**Voice input modes** (toggle in the session screen):
+- **🎙️ Live** — browser speech recognition. Free & instant, but needs Chrome/Edge
+  on desktop or Android (no iPhone, no in-app browsers).
+- **⏺️ Record** — records your voice and transcribes it server-side via
+  OpenRouter's Whisper (`/api/transcribe`). Works on iPhone Safari and Android.
+  ⚠️ OpenRouter requires a **$0.50 minimum account balance** for audio requests.
 
 ---
 
@@ -203,6 +213,7 @@ uvicorn main:app --app-dir backend --host 0.0.0.0 --port 8000
 | GET    | `/api/health`       | —                                       | `{status, demo}`                         |
 | POST   | `/api/session/start`| `{mode, stage, history}`                | `{reply, cue_card}`                      |
 | POST   | `/api/session/turn` | `{mode, stage, history, user_text}`     | `{reply, cue_card}`                      |
+| POST   | `/api/transcribe`   | `multipart/form-data` (`file`)          | `{text}`                                 |
 | POST   | `/api/analyze`      | `{mode, history, questions, answers}`   | full analysis object                     |
 
 - `mode`: `free` | `part1` | `part2` | `part3` | `mock`
@@ -231,8 +242,9 @@ errors). A real-time audio pipeline could be added later.
 
 ## 🛠️ Known limitations (first version)
 
-- Voice features need **Chrome / Edge** (Web Speech API). Fallback = type answers.
-- STT is the browser's built-in recognizer — accuracy varies with accent.
+- **Live** voice needs **Chrome / Edge** (Web Speech API). **Record** mode works
+  more widely but needs the OpenRouter audio balance. Fallback = type answers.
+- STT accuracy varies with accent (both the browser recognizer and Whisper).
 - Romanized Bangla (e.g. "kemon acho") may not be flagged by the script detector;
   the AI's analysis layer catches obvious non-English phrases instead.
 - Only English (en-US) recognition is enabled for now.
