@@ -83,28 +83,43 @@ function toast(msg, isError = false) {
   setTimeout(() => t.remove(), 4200);
 }
 
-async function api(path, body) {
-  let resp;
-  try {
-    resp = await fetch(path, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
-  } catch (e) {
-    toast("Network error — please check your internet connection.", true);
-    throw e;
-  }
-  if (!resp.ok) {
-    let detail = "Something went wrong. Please try again.";
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function api(path, body, retries = 1) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    let resp;
     try {
-      const j = await resp.json();
-      if (j.detail) detail = j.detail;
-    } catch (_) {}
-    toast(detail, true);
-    throw new Error(detail);
+      resp = await fetch(path, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+    } catch (e) {
+      if (attempt < retries) { await sleep(1500); continue; }
+      toast("Network error — the server may be waking up (free tier). Please wait a few seconds and try again.", true);
+      throw e;
+    }
+
+    if (!resp.ok) {
+      let detail = null;
+      try {
+        const j = await resp.json();
+        if (j.detail) detail = j.detail;
+      } catch (_) {
+        // Non-JSON response (e.g. an HTML error page while the free-tier
+        // service is still waking up after being idle).
+        detail = "The server is still waking up after being idle. Please wait a few seconds and try again.";
+      }
+      if (resp.status >= 500 && attempt < retries) { await sleep(2000); continue; }
+      toast(detail || "Something went wrong. Please try again.", true);
+      throw new Error(detail);
+    }
+    return resp.json();
   }
-  return resp.json();
+  toast("Something went wrong. Please try again.", true);
+  throw new Error("request failed after retries");
 }
 
 function setStatus(kind) {
