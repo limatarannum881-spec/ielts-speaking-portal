@@ -1,0 +1,21 @@
+# Render Blueprint — deploys the IELTS Speaking AI as a single web service.
+# Docs: https://render.com/docs/blueprint-spec
+#
+# One-click: https://render.com/deploy?repo=https://github.com/limatarannum881-spec/ielts-speaking-portal
+
+services:
+  - type: web
+    name: ielts-speaking-ai
+    runtime: python
+    plan: free                     # free tier — sleeps after ~15 min inactivity
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn main:app --app-dir backend --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      # Secrets are set in the Render dashboard — NEVER committed here.
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_BASE_URL
+        value: https://openrouter.ai/api/v1
+      - key: LLM_MODEL
+        value: openai/gpt-4o-mini

@@ -28,6 +28,18 @@ and after the session analyses your speech sentence-by-sentence.
 
 ---
 
+## ☁️ One-click deploy (Render)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/limatarannum881-spec/ielts-speaking-portal)
+
+1. Click the button, sign in with GitHub, and Render will read `render.yaml`.
+2. During setup, add your key as an env var: `OPENAI_API_KEY` (your OpenRouter key).
+3. Deploy. Render gives you an **HTTPS URL** (required for the microphone).
+
+> No key yet? It still deploys in **demo mode** so you can test the flow.
+
+---
+
 ## 🧱 Tech stack
 
 | Layer     | Choice                                              |
@@ -157,15 +169,20 @@ Force demo mode even with a key: `DEMO_MODE=true`.
 The backend is a single FastAPI app that also serves the frontend, so deploying
 is just deploying one process.
 
-**Option A — Render / Railway / Fly.io (easiest):**
-1. Push the repo.
-2. Create a new **Web Service**, set:
-   - Build command: `pip install -r backend/requirements.txt`
-   - Start command: `uvicorn main:app --app-dir backend --host 0.0.0.0 --port $PORT`
-3. Add the environment variables (`OPENAI_API_KEY`, `OPENAI_BASE_URL`, `LLM_MODEL`).
-4. Deploy. Done.
+**Option A — Render (one click, recommended):**
+Use the **Deploy to Render** button above, or:
+1. Push the repo to GitHub (done).
+2. On [render.com](https://render.com) → **New → Blueprint** → select this repo.
+3. It reads `render.yaml` automatically. Add `OPENAI_API_KEY` when prompted.
+4. Deploy — you get an HTTPS URL immediately.
 
-**Option B — any VPS:**
+**Option B — Railway / Fly.io:**
+1. Create a new **Web Service** pointing at this repo.
+2. Build command: `pip install -r backend/requirements.txt`
+3. Start command: `uvicorn main:app --app-dir backend --host 0.0.0.0 --port $PORT`
+4. Add the environment variables (`OPENAI_API_KEY`, `OPENAI_BASE_URL`, `LLM_MODEL`).
+
+**Option C — any VPS:**
 ```bash
 pip install -r backend/requirements.txt
 cp .env.example .env   # fill in your key
