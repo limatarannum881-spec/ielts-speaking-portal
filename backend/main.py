@@ -19,8 +19,10 @@ import config
 import demo
 import llm
 import prompts
+import tests_api
 
 app = FastAPI(title="IELTS Speaking AI", version="1.0.0")
+app.include_router(tests_api.router)
 
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 

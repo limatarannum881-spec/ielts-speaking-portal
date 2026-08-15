@@ -1,0 +1,82 @@
+{
+  "id": "listening-001",
+  "type": "listening",
+  "title": "Practice Listening Test",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Welcome to the Riverside Language School. This is part one of the listening test. Listen to a conversation between a student and a receptionist.\n\nReceptionist: Good morning, Riverside Language School. How can I help you?\nStudent: Good morning. I'd like some information about your evening English classes, please.\nReceptionist: Of course. Are you a complete beginner, or have you studied English before?\nStudent: I studied English at school, but that was a long time ago. I'd say I'm at an intermediate level.\nReceptionist: Right. Our intermediate class meets every Tuesday and Thursday, from six thirty to eight thirty in the evening.\nStudent: That works well for me, because I finish work at five. How much does the course cost?\nReceptionist: It's one hundred and twenty pounds for the ten-week course, and that includes all the course materials.\nStudent: And do I need to buy a course book separately?\nReceptionist: No, the book is included in that price. But there is a small registration fee of fifteen pounds when you first enrol.\nStudent: I see. And could you tell me when the next course begins?\nReceptionist: The next course starts on the fourteenth of September, and you can enrol any time before that date.\nStudent: Great. Thank you very much for your help.\nReceptionist: You're welcome. Have a nice day.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS for each answer.",
+          "fields": ["Course level", "Class days"],
+          "answer": ["intermediate", "Tuesday and Thursday"],
+          "explanation": "The student says 'I'd say I'm at an intermediate level', and the receptionist says classes meet 'every Tuesday and Thursday'."
+        },
+        {
+          "id": "lq2",
+          "type": "multiple-choice",
+          "question": "How much does the ten-week course cost?",
+          "options": ["£15", "£100", "£120", "£150"],
+          "answer": "C",
+          "explanation": "The receptionist says 'It's one hundred and twenty pounds for the ten-week course'."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "No more than one word: When does the next course begin? (month)",
+          "answer": "September",
+          "explanation": "The receptionist says the course 'starts on the fourteenth of September'."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "audioUrl": "",
+      "script": "Now listen to a short talk given to new students about the college library.\n\nGood afternoon everyone, and welcome to the college library. Before you begin your studies, I'd like to give you a few practical details. The library is open from eight in the morning until ten at night on weekdays, and from nine until five at weekends. Your student card is also your library card, so please carry it with you at all times.\n\nYou can borrow up to six books at a time, and the loan period is three weeks. If you need a book for longer, you can renew it twice, as long as nobody else has requested it. DVDs and language CDs are kept behind the main desk, so please ask a member of staff if you'd like one of those.\n\nThe quiet study area is on the second floor, and the group study rooms are on the ground floor. You need to book the group rooms in advance, and you can do this either at the desk or online. Finally, a reminder that food and drink are not allowed anywhere in the library except in the café on the ground floor.",
+      "questions": [
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "When does the library close on weekdays?",
+          "options": ["8:00 am", "9:00 pm", "10:00 pm", "11:00 pm"],
+          "answer": "C",
+          "explanation": "The speaker says the library is open 'from eight in the morning until ten at night on weekdays'."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "No more than two words: How many books can a student borrow at once?",
+          "answer": "six books",
+          "explanation": "The speaker says 'You can borrow up to six books at a time'."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "Where are the group study rooms located?",
+          "options": ["On the second floor", "On the ground floor", "Behind the main desk", "In the café"],
+          "answer": "B",
+          "explanation": "The speaker says 'the group study rooms are on the ground floor'."
+        },
+        {
+          "id": "lq7",
+          "type": "form-completion",
+          "question": "Complete the notes. Write no more than TWO WORDS for each answer.",
+          "fields": ["Borrowing limit", "Loan period"],
+          "answer": ["six books", "three weeks"],
+          "explanation": "The speaker states the borrowing limit is 'six books' and the loan period is 'three weeks'."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "Original content written for this application",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -122,3 +122,44 @@ def opening_instruction(mode: str, stage: str) -> str:
     if stage == "part3":
         return "Begin Part 3. Ask your first analytical question related to the earlier topic."
     return "Begin the conversation."
+
+
+WRITING_EVAL_SYSTEM = """You are an experienced IELTS Writing examiner. Evaluate the candidate's
+essay below against the four official IELTS Writing criteria and return ONLY a JSON object
+with exactly this structure:
+
+{
+  "overallBand": 7.0,
+  "taskAchievement": 7.0,
+  "coherence": 7.0,
+  "lexicalResource": 6.5,
+  "grammar": 7.0,
+  "wordCount": 260,
+  "strengths": ["short bullet"],
+  "weaknesses": ["short bullet"],
+  "corrections": [
+    {"original": "exact sentence the candidate wrote", "correction": "corrected sentence", "explanation": "one sentence"}
+  ],
+  "vocabulary": [
+    {"word": "overused basic word", "better": ["better alternatives"]}
+  ],
+  "organization": "1-2 sentences on paragraph structure and cohesion",
+  "improvementPlan": ["concrete steps to reach the next band"]
+}
+
+Rules:
+- Bands are 0-9 in 0.5 steps, calibrated honestly to the essay.
+- Quote the candidate's exact words in "original"; keep corrections faithful to the original meaning.
+- "taskAchievement" maps to Task Achievement (Task 1) or Task Response (Task 2).
+- Do NOT claim this is an official IELTS score — it is an AI estimate.
+- If the essay is far below the minimum word count, note it in "weaknesses".
+- Return ONLY the JSON object, no other text."""
+
+
+def writing_eval_prompt(task_type: str, prompt_text: str, essay: str) -> str:
+    return (
+        f"Task: {task_type}\n\n"
+        f"Prompt:\n{prompt_text}\n\n"
+        f"Candidate's essay:\n{essay}\n\n"
+        "Evaluate the essay and return the JSON."
+    )

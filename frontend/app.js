@@ -710,6 +710,11 @@ async function endSession() {
   stopSpeaking();
 
   if (state.answers.length === 0) {
+    if (window.MockFlow && MockFlow.active) {
+      // Full mock test: proceed even if nothing was spoken (score 0).
+      MockFlow.onSpeakingDone({ overall_band: 0, criteria: {} });
+      return;
+    }
     toast("You didn't speak yet. Start a new session to try again.", true);
     showScreen("home");
     return;
@@ -725,7 +730,13 @@ async function endSession() {
       mode: state.mode, history: state.history,
       questions: state.questions, answers: state.answers,
     });
-    renderResults(result);
+    // Full Mock Test: hand the Speaking result to the orchestrator instead of
+    // showing the standalone Speaking results screen.
+    if (window.MockFlow && MockFlow.active) {
+      MockFlow.onSpeakingDone(result);
+    } else {
+      renderResults(result);
+    }
   } catch (_) {
     wrap.innerHTML = `<div style="text-align:center;padding:40px 0">
       <div style="font-size:32px;margin-bottom:12px">😕</div>
@@ -1126,6 +1137,13 @@ $("btn-mode").addEventListener("click", () => {
 
 $("btn-end").addEventListener("click", endSession);
 $("btn-back").addEventListener("click", () => {
+  if (window.MockFlow && MockFlow.active) {
+    // During a full mock test, exiting ends the speaking section (and the test).
+    if (confirm("End the speaking section now and finish the mock test?")) {
+      endSession();
+    }
+    return;
+  }
   if (confirm("End this session and go back? Your progress will be lost.")) {
     state.ended = true;
     stopListening();

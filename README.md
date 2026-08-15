@@ -1,12 +1,12 @@
-# 🎙️ IELTS Speaking AI — Practice Portal
+# 🎙️ IELTS AI — Complete IELTS Practice & Mock-Test Platform
 
-A simple, clean web portal for practising **IELTS Speaking** through a natural
-**voice conversation** with an AI examiner/tutor, followed by a detailed
-IELTS-style **performance analysis** and a **PDF report**.
+A complete **IELTS preparation platform**: practise **Listening, Reading,
+Writing and Speaking** — including a **Full Realtime Mock Test** — with an AI
+examiner and tutor that speaks aloud, listens to your voice, scores your
+answers and produces detailed **estimated band** reports and **PDF downloads**.
 
-The AI **speaks aloud** (text-to-speech), listens to your **microphone**
-(speech-to-text), responds naturally with context-aware follow-up questions,
-and after the session analyses your speech sentence-by-sentence.
+The Speaking module uses a natural **voice conversation** with an AI examiner,
+with context-aware follow-up questions and sentence-by-sentence analysis.
 
 ---
 
@@ -20,6 +20,11 @@ and after the session analyses your speech sentence-by-sentence.
 - 🎤 **Two voice-input modes** — **Live** (browser speech recognition) and **Record**
   (records your voice → transcribes server-side via Whisper). Record mode works on
   **iPhone Safari** and inside apps where live recognition is blocked.
+- 🎧 **Listening** — 4 parts, 40 questions, audio player, single-play in mock mode.
+- 📖 **Reading** — Academic & General Training, split-screen passage/questions, 12+ question types.
+- ✍️ **Writing** — Task 1 & Task 2 with word count, timer, drafts, and AI evaluation on the 4 criteria.
+- 🏆 **Full Mock Test** — Listening → Reading → Writing → Speaking in one session, with an overall band.
+- 📊 **Dashboard & History** — skill cards, progression charts, best/average score, recommended focus.
 - 🔍 **Language detection** — flags Bangla / Hindi / other non-English usage (e.g. *"I am studying because আমি subject টা পছন্দ করি"* → *Non-English usage: 8%*).
 - 📊 **Sentence-by-sentence corrections** with problem type, correction & explanation.
 - 🧮 **Transparent error percentages** + an **AI Estimated IELTS Band** (4 criteria).
@@ -76,20 +81,34 @@ a real-time voice API later.
 ielts-speaking-portal/
 ├── backend/
 │   ├── main.py          # FastAPI app + routes (serves frontend too)
-│   ├── llm.py           # OpenAI-compatible chat client
-│   ├── prompts.py       # System prompts per mode / stage
+│   ├── tests_api.py     # Reading/Listening/Writing/Overall-band endpoints
+│   ├── scoring.py       # IELTS raw→band conversion + overall rounding
+│   ├── llm.py           # OpenAI-compatible chat + transcription client
+│   ├── prompts.py       # System prompts (Speaking + Writing evaluation)
 │   ├── language.py      # Deterministic language + filler detection
 │   ├── analysis.py      # Merges LLM + deterministic metrics
 │   ├── demo.py          # Offline demo responses (no API key needed)
 │   ├── config.py        # Env loading
+│   ├── data/            # Original question banks (reading/listening/writing)
 │   └── requirements.txt
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
-│   ├── app.js           # Voice, session state machine, results, PDF
+│   ├── app.js           # Speaking: voice, session state machine, results, PDF
+│   ├── store.js         # localStorage persistence (history, profile, session)
+│   ├── nav.js           # top/bottom navigation
+│   ├── testengine.js    # reusable timer, navigator, question renderer, dialog
+│   ├── dashboard.js     # dashboard
+│   ├── reading.js       # Reading module
+│   ├── listening.js     # Listening module
+│   ├── writing.js       # Writing module + AI evaluation
+│   ├── mocktest.js      # Full Mock Test orchestration
+│   ├── history.js       # results / history
+│   ├── resources.js     # curated external resource links
 │   └── vendor/jspdf.umd.min.js   # bundled PDF library
 ├── .env.example         # copy to .env
 ├── .gitignore
+├── render.yaml          # Render one-click deploy
 └── README.md
 ```
 
@@ -214,10 +233,22 @@ uvicorn main:app --app-dir backend --host 0.0.0.0 --port 8000
 | POST   | `/api/session/start`| `{mode, stage, history}`                | `{reply, cue_card}`                      |
 | POST   | `/api/session/turn` | `{mode, stage, history, user_text}`     | `{reply, cue_card}`                      |
 | POST   | `/api/transcribe`   | `multipart/form-data` (`file`)          | `{text}`                                 |
-| POST   | `/api/analyze`      | `{mode, history, questions, answers}`   | full analysis object                     |
+| POST   | `/api/analyze`      | `{mode, history, questions, answers}`   | full Speaking analysis                   |
+| GET    | `/api/tests/reading`| —                                       | list of reading tests                    |
+| GET    | `/api/tests/reading/{id}` | —                                 | test **without** answer keys             |
+| POST   | `/api/tests/reading/{id}/submit` | `{answers}`               | scored result + review                   |
+| GET    | `/api/tests/listening` | —                                     | list of listening tests                  |
+| GET    | `/api/tests/listening/{id}` | —                                | test **without** answer keys             |
+| POST   | `/api/tests/listening/{id}/submit` | `{answers}`              | scored result + review                   |
+| GET    | `/api/tests/writing`| —                                       | Task 1 & Task 2 prompts                  |
+| POST   | `/api/tests/writing/evaluate` | `{task, prompt, essay}`      | 4-criteria AI evaluation                 |
+| POST   | `/api/tests/score/overall` | `{listening, reading, writing, speaking}` | overall band (IELTS rounding) |
 
 - `mode`: `free` | `part1` | `part2` | `part3` | `mock`
 - `stage`: `main` | `part1` | `part2_cue` | `part2_followup` | `part3`
+
+Answer keys for Reading/Listening are kept **server-side** and only revealed
+in the post-submission review (no cheating before submission).
 
 ---
 

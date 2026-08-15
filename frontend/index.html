@@ -6,24 +6,50 @@
   <meta name="theme-color" content="#4f46e5" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <title>IELTS Speaking AI</title>
+  <title>IELTS AI — Complete IELTS Practice Platform</title>
+  <meta name="description" content="Practice IELTS Listening, Reading, Writing and Speaking with an AI examiner. Get estimated band scores, detailed feedback and PDF reports." />
+  <meta property="og:title" content="IELTS AI — Practice & Mock Test Platform" />
+  <meta property="og:description" content="AI-powered IELTS practice: Speaking, Listening, Reading, Writing and Full Mock Tests with estimated band scores." />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- ============ GLOBAL NAVIGATION ============ -->
+  <header id="topnav" class="topnav">
+    <div class="topnav-inner">
+      <a class="topnav-brand" data-nav="dashboard" href="#dashboard">
+        <span class="brand-logo">🎙️</span>
+        <span class="brand-name">IELTS&nbsp;AI</span>
+      </a>
+      <nav class="topnav-links">
+        <a data-nav="dashboard" href="#dashboard">Dashboard</a>
+        <a data-nav="speaking" href="#speaking">Speaking</a>
+        <a data-nav="listening" href="#listening">Listening</a>
+        <a data-nav="reading" href="#reading">Reading</a>
+        <a data-nav="writing" href="#writing">Writing</a>
+        <a data-nav="mock" href="#mock">Mock Test</a>
+        <a data-nav="results" href="#results">Results</a>
+        <a data-nav="resources" href="#resources">Resources</a>
+      </nav>
+      <span class="owner-chip">by Md Musfiqur Rahaman</span>
+    </div>
+  </header>
+
+  <nav id="bottomnav" class="bottomnav">
+    <a data-nav="dashboard" href="#dashboard"><span>🏠</span>Home</a>
+    <a data-nav="speaking" href="#speaking"><span>🎙️</span>Speaking</a>
+    <a data-nav="listening" href="#listening"><span>🎧</span>Listening</a>
+    <a data-nav="reading" href="#reading"><span>📖</span>Reading</a>
+    <a data-nav="writing" href="#writing"><span>✍️</span>Writing</a>
+    <a data-nav="mock" href="#mock"><span>🏆</span>Mock</a>
+    <a data-nav="results" href="#results"><span>📊</span>Results</a>
+  </nav>
+
   <div id="app" class="app">
 
-    <!-- ============ HOME ============ -->
+    <!-- ============ HOME (Speaking landing) ============ -->
     <section id="screen-home" class="screen home-screen">
       <div class="home-bg"></div>
-
-      <nav class="topbar">
-        <div class="brand">
-          <span class="brand-logo">🎙️</span>
-          <span class="brand-name">IELTS&nbsp;Speaking&nbsp;AI</span>
-        </div>
-        <span class="owner-chip">by Md Musfiqur Rahaman</span>
-      </nav>
-
       <div class="home-wrap">
         <header class="hero">
           <div class="hero-badge">✨ AI-powered · Real voice · Instant feedback</div>
@@ -97,6 +123,41 @@
       </div>
     </section>
 
+    <!-- ============ DASHBOARD ============ -->
+    <section id="screen-dashboard" class="screen hidden">
+      <div class="module-wrap" id="dashboard-wrap"></div>
+    </section>
+
+    <!-- ============ READING ============ -->
+    <section id="screen-reading" class="screen hidden">
+      <div class="module-wrap" id="reading-wrap"></div>
+    </section>
+
+    <!-- ============ LISTENING ============ -->
+    <section id="screen-listening" class="screen hidden">
+      <div class="module-wrap" id="listening-wrap"></div>
+    </section>
+
+    <!-- ============ WRITING ============ -->
+    <section id="screen-writing" class="screen hidden">
+      <div class="module-wrap" id="writing-wrap"></div>
+    </section>
+
+    <!-- ============ MOCK TEST ============ -->
+    <section id="screen-mock" class="screen hidden">
+      <div class="module-wrap" id="mock-wrap"></div>
+    </section>
+
+    <!-- ============ RESULTS / HISTORY ============ -->
+    <section id="screen-results-history" class="screen hidden">
+      <div class="module-wrap" id="history-wrap"></div>
+    </section>
+
+    <!-- ============ RESOURCES ============ -->
+    <section id="screen-resources" class="screen hidden">
+      <div class="module-wrap" id="resources-wrap"></div>
+    </section>
+
     <!-- ============ PART 2 PREP ============ -->
     <section id="screen-prep" class="screen hidden">
       <div class="prep-wrap">
@@ -114,7 +175,7 @@
       </div>
     </section>
 
-    <!-- ============ SESSION ============ -->
+    <!-- ============ SPEAKING SESSION ============ -->
     <section id="screen-session" class="screen hidden">
       <div class="session-head">
         <div class="session-left">
@@ -129,7 +190,6 @@
 
       <div class="transcript" id="transcript"></div>
 
-      <!-- Speech timer (Part 2 long turn) -->
       <div class="speech-timer hidden" id="speech-timer-bar">
         <div class="speech-timer-fill" id="speech-timer-fill"></div>
         <span id="speech-timer-text">2:00</span>
@@ -153,7 +213,7 @@
       </div>
     </section>
 
-    <!-- ============ RESULTS ============ -->
+    <!-- ============ SPEAKING RESULTS ============ -->
     <section id="screen-results" class="screen hidden">
       <div class="results-wrap" id="results-wrap"></div>
     </section>
@@ -162,5 +222,15 @@
 
   <script src="vendor/jspdf.umd.min.js"></script>
   <script src="app.js"></script>
+  <script src="store.js"></script>
+  <script src="nav.js"></script>
+  <script src="testengine.js"></script>
+  <script src="dashboard.js"></script>
+  <script src="reading.js"></script>
+  <script src="listening.js"></script>
+  <script src="writing.js"></script>
+  <script src="mocktest.js"></script>
+  <script src="history.js"></script>
+  <script src="resources.js"></script>
 </body>
 </html>

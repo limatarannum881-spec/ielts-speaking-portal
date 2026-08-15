@@ -1,0 +1,83 @@
+{
+  "academic": {
+    "task1": [
+      {
+        "id": "w-academic-task1-001",
+        "type": "bar-chart",
+        "title": "Annual rainfall in four cities",
+        "prompt": "The bar chart below shows the average annual rainfall (in millimetres) in four cities.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "chart": {
+          "kind": "bar",
+          "unit": "mm",
+          "data": [
+            {"label": "London", "value": 620},
+            {"label": "Tokyo", "value": 1530},
+            {"label": "Cairo", "value": 25},
+            {"label": "Sydney", "value": 1210}
+          ]
+        }
+      },
+      {
+        "id": "w-academic-task1-002",
+        "type": "line-graph",
+        "title": "Internet users in a country, 2000-2020",
+        "prompt": "The line graph below shows the number of internet users (in millions) in a country between 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "chart": {
+          "kind": "line",
+          "unit": "million",
+          "data": [
+            {"label": "2000", "value": 5},
+            {"label": "2005", "value": 18},
+            {"label": "2010", "value": 42},
+            {"label": "2015", "value": 68},
+            {"label": "2020", "value": 89}
+          ]
+        }
+      }
+    ],
+    "task2": [
+      {
+        "id": "w-task2-opinion-001",
+        "type": "opinion",
+        "title": "Working from home",
+        "prompt": "Some people believe that working from home is more productive and better for employees, while others think it harms teamwork and career development.\n\nDiscuss both these views and give your own opinion.\n\nWrite at least 250 words."
+      },
+      {
+        "id": "w-task2-problem-solution-001",
+        "type": "problem-solution",
+        "title": "Plastic waste",
+        "prompt": "Plastic waste is one of the most serious environmental problems facing the world today.\n\nWhat problems does plastic waste cause, and what measures could governments and individuals take to reduce it?\n\nWrite at least 250 words."
+      },
+      {
+        "id": "w-task2-advantages-001",
+        "type": "advantages-disadvantages",
+        "title": "Living abroad",
+        "prompt": "An increasing number of people choose to live and work in a foreign country for a period of time.\n\nDo the advantages of living abroad outweigh the disadvantages?\n\nWrite at least 250 words."
+      }
+    ]
+  },
+  "general": {
+    "task1": [
+      {
+        "id": "w-general-task1-001",
+        "type": "letter",
+        "title": "Letter of complaint",
+        "prompt": "You recently stayed at a hotel and were unhappy with your experience.\n\nWrite a letter to the hotel manager. In your letter:\n- describe the problems you experienced\n- explain how these problems affected your stay\n- say what you would like the manager to do\n\nWrite at least 150 words."
+      }
+    ],
+    "task2": [
+      {
+        "id": "w-task2-opinion-001",
+        "type": "opinion",
+        "title": "Working from home",
+        "prompt": "Some people believe that working from home is more productive and better for employees, while others think it harms teamwork and career development.\n\nDiscuss both these views and give your own opinion.\n\nWrite at least 250 words."
+      }
+    ]
+  },
+  "source": {
+    "name": "Original writing prompts created for this application",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

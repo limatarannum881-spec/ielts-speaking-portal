@@ -1,0 +1,74 @@
+{
+  "id": "general-reading-001",
+  "type": "reading",
+  "version": "general",
+  "title": "Welcome to Riverside Community Centre",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Section 1",
+      "passage": "Riverside Community Centre offers a wide range of classes and activities for residents of all ages. New members are always welcome.\n\nMembership is free and open to everyone living in the Riverside district. To join, bring a recent utility bill or bank statement showing your address to the front desk, along with one form of photo identification. Your membership card will be issued immediately and is valid for one year, after which it must be renewed in person.\n\nMost classes run in eight-week blocks and must be booked in advance, as places are limited. The centre opens at 8:00 am on weekdays and 9:00 am on Saturdays, and closes at 9:00 pm every day except Sunday, when it closes at 5:00 pm. The swimming pool and gym operate on a separate timetable, which is displayed on the noticeboard and available on the centre's website.\n\nChildren under fourteen must be accompanied by an adult at all times. For reasons of safety, the car park is locked thirty minutes after closing, so please ensure your vehicle is removed by then. The centre is fully accessible to wheelchair users, and assistance dogs are welcome throughout the building.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "There is a charge for joining the community centre.",
+          "answer": "false",
+          "explanation": "The passage says 'Membership is free'."
+        },
+        {
+          "id": "q2",
+          "type": "true-false-not-given",
+          "question": "Membership can be renewed online.",
+          "answer": "false",
+          "explanation": "The passage says the card 'must be renewed in person'."
+        },
+        {
+          "id": "q3",
+          "type": "true-false-not-given",
+          "question": "The centre closes earlier on Sundays than on other days.",
+          "answer": "true",
+          "explanation": "It closes at 9:00 pm most days but at 5:00 pm on Sunday."
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "What must new members provide to join?",
+          "options": ["A reference from an employer", "Proof of address and photo ID", "A medical certificate", "A signed parent's consent form"],
+          "answer": "B",
+          "explanation": "The passage requires 'a recent utility bill or bank statement' (proof of address) and 'one form of photo identification'."
+        },
+        {
+          "id": "q5",
+          "type": "short-answer",
+          "question": "No more than three words: How long is a membership card valid for?",
+          "answer": "one year",
+          "explanation": "The card 'is valid for one year'."
+        },
+        {
+          "id": "q6",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. No more than two words.",
+          "prompt": "Children under fourteen must be with an ______ at all times.",
+          "answer": "adult",
+          "explanation": "The passage says children under fourteen 'must be accompanied by an adult at all times'."
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "What happens to the car park after closing?",
+          "options": ["It stays open all night", "It is locked thirty minutes after closing", "It is closed on Sundays only", "It is free for members"],
+          "answer": "B",
+          "explanation": "The passage says 'the car park is locked thirty minutes after closing'."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "Original content written for this application",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

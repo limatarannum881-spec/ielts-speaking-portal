@@ -1,0 +1,93 @@
+{
+  "id": "academic-reading-001",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Rise of Urban Beekeeping",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "For decades, the sight of a beehive was associated almost exclusively with the countryside. That image is now changing. Across cities from London to Tokyo, beehives are appearing on rooftops, in parks, and even on the balconies of apartment blocks. Urban beekeeping, once a niche hobby, has grown into a global movement, driven by a mixture of environmental concern, a renewed interest in local food, and a simple fascination with one of nature's most industrious creatures.\n\nHoney bees are remarkably adaptable, and cities can, surprisingly, offer them a good living. Urban areas often provide a longer flowering season than surrounding farmland, because parks and gardens are planted with a wide variety of species that bloom at different times. Whereas modern agriculture tends to favour vast fields of a single crop, which provide bees with only one food source for a few short weeks, a city street lined with lime trees, lavender and buddleia can supply nectar almost all year round. Some studies have even found that city bees are healthier and produce more honey than their rural counterparts.\n\nYet urban beekeeping is not without its critics. A growing number of scientists have warned that too many hives in a small area can put pressure on wild pollinators. Wild bees, hoverflies and butterflies compete with honey bees for the same flowers, and when honey-bee numbers are artificially boosted by well-meaning enthusiasts, native species can suffer. Some city authorities have responded by limiting the number of hives permitted per square kilometre, or by encouraging residents to plant bee-friendly flowers instead of keeping bees at all.\n\nSupporters argue that the real value of urban beekeeping lies not in honey production but in education. A hive on a school roof or in a community garden gives city dwellers, many of whom have lost touch with where their food comes from, a direct connection to the natural world. For this reason, many projects place as much emphasis on workshops and public events as on the bees themselves. Whether the movement can continue to grow without harming the very wildlife it aims to celebrate remains an open question, and one that scientists, planners and beekeepers are still working to answer.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban beekeeping was always a common practice in large cities.",
+          "answer": "false",
+          "explanation": "The passage says the image of beehives was 'associated almost exclusively with the countryside' and that urban beekeeping was 'once a niche hobby'."
+        },
+        {
+          "id": "q2",
+          "type": "true-false-not-given",
+          "question": "City bees can find food for a longer part of the year than bees in farmland.",
+          "answer": "true",
+          "explanation": "The passage states that urban areas 'provide a longer flowering season than surrounding farmland' because of the variety of planted species."
+        },
+        {
+          "id": "q3",
+          "type": "true-false-not-given",
+          "question": "Honey produced by city bees is sold at a higher price than rural honey.",
+          "answer": "not-given",
+          "explanation": "The passage mentions city bees producing more honey, but says nothing about the price of urban versus rural honey."
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Why do some scientists criticise urban beekeeping?",
+          "options": ["It produces honey of poor quality.", "It can harm wild pollinating insects.", "It is too expensive for most residents.", "It increases noise pollution in cities."],
+          "answer": "B",
+          "explanation": "The passage says too many hives 'can put pressure on wild pollinators' that 'compete with honey bees for the same flowers'."
+        },
+        {
+          "id": "q5",
+          "type": "matching-headings",
+          "question": "Match each paragraph with the most suitable heading.",
+          "subquestions": [
+            {"text": "Paragraph 1"},
+            {"text": "Paragraph 2"},
+            {"text": "Paragraph 3"},
+            {"text": "Paragraph 4"}
+          ],
+          "options": [
+            "A city food can be surprisingly good for bees",
+            "B concerns about the effect on other insects",
+            "C the educational value of keeping bees",
+            "D a countryside image changes"
+          ],
+          "answer": ["A", "B", "C", "D"],
+          "explanation": "Para 1 describes the changing image (D); Para 2 explains why cities suit bees (A); Para 3 gives critics' warnings (B); Para 4 discusses education (C)."
+        },
+        {
+          "id": "q6",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words from the passage.",
+          "prompt": "Modern agriculture often grows huge fields of a single crop, giving bees only one ______ for a brief period.",
+          "answer": "food source",
+          "explanation": "The passage says vast fields of a single crop 'provide bees with only one food source for a few short weeks'."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words from the passage.",
+          "prompt": "To protect native insects, some city authorities have restricted the number of ______ allowed in each area.",
+          "answer": "hives",
+          "explanation": "The passage states authorities 'limiting the number of hives permitted per square kilometre'."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "Answer in no more than three words: Which insects are said to suffer when honey-bee numbers are boosted?",
+          "answer": "wild pollinators",
+          "explanation": "The passage names 'wild pollinators' (wild bees, hoverflies and butterflies) as those that suffer."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "Original content written for this application",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}
