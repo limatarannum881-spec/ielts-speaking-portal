@@ -68,5 +68,14 @@
       "title": "The Impact of Technology on Interpersonal Communication",
       "prompt": "In recent years, technology has significantly transformed the way we communicate with one another. While some people argue that digital communication enhances social interactions, others believe that it undermines personal connections. Discuss both views and give your own opinion. On one hand, proponents of technology argue that it offers unprecedented convenience and accessibility. With tools like instant messaging and video calls, people can connect with loved ones across the globe instantly. This has been particularly beneficial for long-distance relationships and families separated by geography. On the other hand, critics contend that reliance on technology has diminished face-to-face communication skills and led to feelings of isolation, even when people are virtually connected. The nuances of in-person conversations, such as body language and emotional expression, are often lost in digital formats. In conclusion, while technology has facilitated communication in many ways, it is vital to strike a balance and maintain direct interpersonal interactions to nurture genuine relationships. Reflect on the implications of this technological shift and suggest potential strategies for ensuring meaningful communication remains a priority."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.2,
+      "avg_word_len": 5.76,
+      "advanced_ratio": 0.194
+    }
+  }
 }

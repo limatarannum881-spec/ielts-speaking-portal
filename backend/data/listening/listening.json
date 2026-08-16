@@ -13,15 +13,26 @@
           "id": "lq1",
           "type": "form-completion",
           "question": "Complete the form. Write no more than TWO WORDS for each answer.",
-          "fields": ["Course level", "Class days"],
-          "answer": ["intermediate", "Tuesday and Thursday"],
+          "fields": [
+            "Course level",
+            "Class days"
+          ],
+          "answer": [
+            "intermediate",
+            "Tuesday and Thursday"
+          ],
           "explanation": "The student says 'I'd say I'm at an intermediate level', and the receptionist says classes meet 'every Tuesday and Thursday'."
         },
         {
           "id": "lq2",
           "type": "multiple-choice",
           "question": "How much does the ten-week course cost?",
-          "options": ["£15", "£100", "£120", "£150"],
+          "options": [
+            "£15",
+            "£100",
+            "£120",
+            "£150"
+          ],
           "answer": "C",
           "explanation": "The receptionist says 'It's one hundred and twenty pounds for the ten-week course'."
         },
@@ -43,7 +54,12 @@
           "id": "lq4",
           "type": "multiple-choice",
           "question": "When does the library close on weekdays?",
-          "options": ["8:00 am", "9:00 pm", "10:00 pm", "11:00 pm"],
+          "options": [
+            "8:00 am",
+            "9:00 pm",
+            "10:00 pm",
+            "11:00 pm"
+          ],
           "answer": "C",
           "explanation": "The speaker says the library is open 'from eight in the morning until ten at night on weekdays'."
         },
@@ -58,7 +74,12 @@
           "id": "lq6",
           "type": "multiple-choice",
           "question": "Where are the group study rooms located?",
-          "options": ["On the second floor", "On the ground floor", "Behind the main desk", "In the café"],
+          "options": [
+            "On the second floor",
+            "On the ground floor",
+            "Behind the main desk",
+            "In the café"
+          ],
           "answer": "B",
           "explanation": "The speaker says 'the group study rooms are on the ground floor'."
         },
@@ -66,8 +87,14 @@
           "id": "lq7",
           "type": "form-completion",
           "question": "Complete the notes. Write no more than TWO WORDS for each answer.",
-          "fields": ["Borrowing limit", "Loan period"],
-          "answer": ["six books", "three weeks"],
+          "fields": [
+            "Borrowing limit",
+            "Loan period"
+          ],
+          "answer": [
+            "six books",
+            "three weeks"
+          ],
           "explanation": "The speaker states the borrowing limit is 'six books' and the loan period is 'three weeks'."
         }
       ]
@@ -78,5 +105,14 @@
     "url": "",
     "license": "original",
     "attributionRequired": false
+  },
+  "difficulty": {
+    "band": 4.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 11.3,
+      "avg_word_len": 4.42,
+      "advanced_ratio": 0.055
+    }
   }
 }

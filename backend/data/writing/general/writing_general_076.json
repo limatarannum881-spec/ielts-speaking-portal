@@ -15,5 +15,14 @@
       "title": "The Impact of Social Media",
       "prompt": "Some people believe that social media has a negative impact on society, while others argue that it brings people closer together. Discuss both views and give your own opinion on the matter. In your essay, consider the benefits and drawbacks of social media and how it influences interpersonal relationships and communication. Provide examples to support your argument and conclude with a summary of your perspective on the role of social media in today's world."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.1,
+      "avg_word_len": 5.26,
+      "advanced_ratio": 0.13
+    }
+  }
 }

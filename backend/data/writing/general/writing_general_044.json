@@ -15,5 +15,14 @@
       "title": "Impact of Technology on Communication",
       "prompt": "In today's digital age, the way we communicate has significantly changed. Some people argue that technology has improved communication, while others believe it has led to more misunderstandings. Discuss both views and give your opinion on this matter. Provide reasons and examples to support your argument."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 12.9,
+      "avg_word_len": 5.05,
+      "advanced_ratio": 0.109
+    }
+  }
 }

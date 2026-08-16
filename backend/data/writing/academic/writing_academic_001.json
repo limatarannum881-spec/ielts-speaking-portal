@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In today's world, technology has brought about significant changes in many aspects of life, including education. Some people believe that technology has positively transformed education by facilitating learning, while others argue that it has created distractions and diminished the quality of education. Discuss both views and give your opinion. On one hand, supporters of technology in education argue that it provides numerous benefits. For instance, access to vast resources online allows students to research and learn at their own pace. Moreover, educational tools such as interactive software and online courses make learning more engaging and accessible to a wider audience. On the other hand, critics contend that technology can lead to a lack of focus among students. The temptation to engage with social media and other online distractions can disrupt the learning process and hinder academic performance. Additionally, there are concerns about the over-reliance on technology, which may undermine traditional teaching methods. In my opinion, while technology has the potential to enhance education, it is crucial to find a balance. Schools should integrate technology thoughtfully and provide guidance on its appropriate use to maximize learning without falling prey to distractions."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.3,
+      "avg_word_len": 5.74,
+      "advanced_ratio": 0.199
+    }
+  }
 }

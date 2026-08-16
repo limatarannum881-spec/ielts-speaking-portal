@@ -44,5 +44,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has played an increasingly important role in education. While some argue that the integration of technology in the classroom has significantly enhanced learning experiences, others believe it may have negative effects. Discuss both sides of this argument and give your own opinion on whether technology positively or negatively impacts education. Provide relevant examples to support your argument."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.0,
+      "avg_word_len": 5.56,
+      "advanced_ratio": 0.24
+    }
+  }
 }

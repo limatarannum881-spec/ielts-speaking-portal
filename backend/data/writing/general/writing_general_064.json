@@ -14,5 +14,14 @@
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, remote work has become increasingly common due to advancements in technology and changes in workplace culture. Discuss the advantages and disadvantages of remote work for both employees and employers. In your essay, consider factors such as work-life balance, productivity, and team dynamics. Provide specific examples and make sure to include your opinion on whether the benefits of remote work outweigh its drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.3,
+      "avg_word_len": 5.31,
+      "advanced_ratio": 0.14
+    }
+  }
 }

@@ -80,5 +80,14 @@
       "title": "The Impact of Online Learning",
       "prompt": "In recent years, online learning has become increasingly popular, especially with the advancements in technology and the global shift towards digital education. This essay will explore both the advantages and disadvantages of online learning. On one hand, online learning offers flexibility and convenience, allowing students to access course materials from anywhere at any time. This is particularly beneficial for those balancing work and study or for individuals in remote areas. Furthermore, it often provides a wider range of courses and resources, enabling students to tailor their education to their specific interests and needs. On the other hand, online learning can lead to feelings of isolation among students, as the lack of face-to-face interaction may hinder the development of social skills and collaborative learning experiences. Additionally, it requires a certain level of self-discipline and motivation, which not all students possess. In conclusion, while online learning presents significant opportunities for enhanced accessibility and personalization in education, it also brings challenges that must be addressed to ensure effective learning outcomes."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.0,
+      "avg_word_len": 5.53,
+      "advanced_ratio": 0.178
+    }
+  }
 }

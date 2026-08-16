@@ -14,5 +14,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Some people believe that the use of technology in education has improved the learning experience, while others argue that it has created more distractions for students. Discuss both views and give your opinion. What impact do you think technology has had on education, and how can it be used effectively to enhance student learning?"
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.3,
+      "avg_word_len": 4.79,
+      "advanced_ratio": 0.099
+    }
+  }
 }

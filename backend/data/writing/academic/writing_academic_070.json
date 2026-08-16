@@ -40,5 +40,14 @@
       "title": "Impact of Technology on Education",
       "prompt": "The integration of technology in the educational system has sparked a significant debate among educators and policymakers. On one hand, proponents argue that technology enhances learning experiences and provides students with a wealth of resources that were previously unavailable. For instance, online platforms and educational apps can facilitate personalized learning, allowing students to progress at their own pace. On the other hand, critics contend that over-reliance on technology can lead to a decline in traditional educational values such as critical thinking and interpersonal skills. Moreover, there are concerns about the digital divide, where students from lower socioeconomic backgrounds may lack access to necessary technology, exacerbating inequalities. This essay will explore both sides of the argument and present a balanced view on the impact of technology on education, ultimately suggesting that while technology offers significant advantages, it is crucial to incorporate it in a way that complements traditional educational methods without compromising fundamental learning principles."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.8,
+      "avg_word_len": 5.87,
+      "advanced_ratio": 0.209
+    }
+  }
 }

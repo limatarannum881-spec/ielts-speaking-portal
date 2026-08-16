@@ -44,5 +44,14 @@
       "title": "The Impact of Social Media on Interpersonal Relationships",
       "prompt": "In recent years, social media has become an integral part of daily life for many people around the world. While it offers various benefits, such as instant communication and access to information, there is ongoing debate about its effects on interpersonal relationships. On the one hand, proponents argue that social media enhances connectivity and allows users to maintain relationships across long distances. Friends and family can stay in touch more easily than ever, sharing updates and fostering connections that may otherwise diminish over time. On the other hand, critics point out that social media can lead to shallow interactions and reduced face-to-face contact. Individuals may become more inclined to communicate online rather than engage in meaningful conversations in person, leading to a decline in the quality of relationships. Furthermore, the pressure to maintain an online persona can cause stress and dissatisfaction in real-life interactions. This essay will explore both sides of the argument, ultimately assessing the impact of social media on our personal relationships."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.9,
+      "avg_word_len": 5.42,
+      "advanced_ratio": 0.135
+    }
+  }
 }

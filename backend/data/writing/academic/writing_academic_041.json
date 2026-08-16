@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Technology has rapidly transformed various aspects of our everyday life, and education is no exception. While some believe that the integration of technology in education enhances learning outcomes, others argue that it leads to problems such as decreased attention spans and reliance on digital resources. Discuss both views and give your own opinion on the effectiveness of technology in education. In your response, consider the benefits, such as access to a wealth of information and personalized learning experiences, against the potential drawbacks, including the impact on student engagement and the importance of traditional teaching methods. Support your argument with relevant examples and evidence."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.2,
+      "avg_word_len": 5.31,
+      "advanced_ratio": 0.188
+    }
+  }
 }

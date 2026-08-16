@@ -15,5 +15,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has significantly improved education, while others argue that it has negative impacts on learning. Discuss both views and give your own opinion. Include relevant examples to support your argument."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 13.3,
+      "avg_word_len": 5.17,
+      "advanced_ratio": 0.118
+    }
+  }
 }

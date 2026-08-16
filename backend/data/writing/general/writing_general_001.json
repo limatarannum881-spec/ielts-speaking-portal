@@ -40,5 +40,14 @@
       "title": "Work-Life Balance",
       "prompt": "In today's fast-paced society, many individuals find it increasingly challenging to maintain a healthy work-life balance. Discuss the main factors that contribute to this problem and how both employers and employees can work together to improve this situation. In your response, consider the responsibilities of each party and provide examples of strategies that can be implemented to create a more balanced work environment."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.9,
+      "avg_word_len": 5.35,
+      "advanced_ratio": 0.178
+    }
+  }
 }

@@ -15,5 +15,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "Some people believe that technology has made communication between people less personal. Others think that technology has improved communication in many ways. Discuss both views and give your own opinion. Include relevant examples to support your response."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.0,
+      "avg_word_len": 5.2,
+      "advanced_ratio": 0.116
+    }
+  }
 }

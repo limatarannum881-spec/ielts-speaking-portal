@@ -40,5 +40,14 @@
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has become an integral part of people's lives, influencing various aspects of society. While some argue that social media platforms foster meaningful connections and promote the exchange of ideas, others contend that they contribute to negative consequences such as misinformation and decreased face-to-face interactions. Discuss both views and provide your own opinion. In your response, consider the ways in which social media impacts relationships and communication, and whether the benefits outweigh the drawbacks. Reflect on the role of social media in shaping public opinion, its effects on mental health, and its influence on political discourse. Ultimately, it is crucial to evaluate whether social media serves as a force for good or as a detrimental factor in our daily lives."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 20.5,
+      "avg_word_len": 5.27,
+      "advanced_ratio": 0.154
+    }
+  }
 }

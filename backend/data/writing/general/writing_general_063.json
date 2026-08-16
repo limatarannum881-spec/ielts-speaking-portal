@@ -40,5 +40,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has completely transformed education for the better, while others argue that it has created more challenges than benefits. Discuss both sides of this argument and give your own opinion. Provide reasons and examples to support your views. Your essay should be at least 250 words long."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.4,
+      "avg_word_len": 4.84,
+      "advanced_ratio": 0.085
+    }
+  }
 }

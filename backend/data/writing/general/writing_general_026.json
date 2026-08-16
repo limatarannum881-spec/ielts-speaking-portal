@@ -15,5 +15,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "Technology has significantly transformed the way we communicate with one another. While some believe that these changes have improved our lives, others argue that they have had a negative impact on personal relationships. Discuss both views and give your opinion.\n\nIn your essay, consider how technology has changed communication methods, the effects on social interactions, and whether these advancements have brought people closer together or created distance. Support your points with relevant examples and reasoning."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 13.5,
+      "avg_word_len": 5.32,
+      "advanced_ratio": 0.144
+    }
+  }
 }

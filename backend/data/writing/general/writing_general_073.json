@@ -14,5 +14,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Some people believe that technology has had a positive impact on education, while others argue that it has created more problems than solutions. Discuss both sides of this view and give your own opinion. In your essay, consider the advantages of technology in the classroom, such as access to information and online learning, as well as the disadvantages, including distractions and the potential decline in face-to-face interactions. Provide relevant examples to support your arguments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.2,
+      "avg_word_len": 5.02,
+      "advanced_ratio": 0.152
+    }
+  }
 }

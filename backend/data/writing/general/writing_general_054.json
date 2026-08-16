@@ -44,5 +44,14 @@
       "title": "Working from Home vs. Office",
       "prompt": "In recent years, working from home has become increasingly popular, especially due to the COVID-19 pandemic. While some people argue that this arrangement has many benefits, others believe it has significant drawbacks. Discuss the advantages and disadvantages of working from home compared to traditional office work. In your essay, consider factors such as productivity, work-life balance, and social interactions. Provide examples to support your arguments and conclude by stating your opinion on whether working from home is a better option than working in an office."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.5,
+      "avg_word_len": 5.43,
+      "advanced_ratio": 0.155
+    }
+  }
 }

@@ -19,6 +19,45 @@ function recommendedFocus(history) {
   return known.map((b) => b.skill);
 }
 
+// Detect specific weak *task types* (e.g. "Problem/Solution essays" or
+// "Task 1 reports") so recommendations are targeted, not generic.
+function weakTaskTypes(history) {
+  const writingRecords = history.filter((r) => r.testType === "writing" && typeof r.writing === "number");
+  const groups = {};
+  writingRecords.forEach((r) => {
+    const key = `${r.task || "Writing"} · ${(r.taskType || "essay").replace(/-/g, " ")}`;
+    const g = groups[key] || (groups[key] = { key, bands: [], count: 0 });
+    g.bands.push(r.writing);
+    g.count++;
+  });
+  const result = Object.values(groups)
+    .filter((g) => g.count >= 2) // only flag patterns we've seen repeatedly
+    .map((g) => ({ key: g.key, avg: g.bands.reduce((a, b) => a + b, 0) / g.bands.length, count: g.count }))
+    .filter((g) => g.avg < 6.5)  // below a passable band
+    .sort((a, b) => a.avg - b.avg);
+  return result;
+}
+
+const TASK_TYPE_LABEL = {
+  "opinion": "Opinion essays",
+  "discussion": "Discussion essays",
+  "advantages-disadvantages": "Advantages/Disadvantages essays",
+  "problem-solution": "Problem/Solution essays",
+  "two-part": "Two-part questions",
+  "bar-chart": "Bar-chart reports",
+  "line-graph": "Line-graph reports",
+  "pie-chart": "Pie-chart reports",
+  "table": "Table reports",
+  "process": "Process descriptions",
+  "map": "Map descriptions",
+  "mixed": "Mixed-chart reports",
+  "letter": "Letters",
+};
+
+function humanTaskType(t) {
+  return TASK_TYPE_LABEL[t] || (t || "essays").replace(/-/g, " ");
+}
+
 function renderDashboard() {
   const wrap = document.getElementById("dashboard-wrap");
   if (!wrap) return;
@@ -62,6 +101,14 @@ function renderDashboard() {
   const focusList = focus.length
     ? `<ol class="plain">${focus.map((s) => `<li>${s.charAt(0).toUpperCase() + s.slice(1)}</li>`).join("")}</ol>`
     : '<p class="hint">Complete a test to see your focus areas.</p>';
+
+  // Targeted, data-driven recommendations (specific weak task types).
+  const weakTypes = weakTaskTypes(history);
+  const targetedList = weakTypes.length
+    ? `<ul class="plain">${weakTypes.map((w) =>
+        `<li>You average <b>${fmtBand(w.avg)}</b> on <b>${esc(humanTaskType(w.key.split("· ")[1] || w.key))}</b> (${w.count} attempts) — practice this next.</li>`
+      ).join("")}</ul>`
+    : '<p class="hint">Practice more of the same task type to get targeted suggestions here.</p>';
 
   wrap.innerHTML = `
     <div class="dash-hero">
@@ -111,6 +158,12 @@ function renderDashboard() {
         <p class="criterion-comment">Focus on your weakest skills first:</p>
         ${focusList}
       </div>
+    </div>
+
+    <div class="card">
+      <h2>🎯 Targeted Suggestions</h2>
+      <p class="criterion-comment">Based on your specific performance patterns:</p>
+      ${targetedList}
     </div>
   `;
 

@@ -36,5 +36,14 @@
       "title": "The Impact of Social Media on Communication",
       "prompt": "Social media has transformed the way individuals interact and communicate. While it has brought about numerous advantages, such as enhanced connectivity and access to information, it has also introduced several disadvantages, including the decline of face-to-face interaction and the spread of misinformation. In your opinion, do the benefits of social media outweigh the drawbacks, or vice versa? Discuss both sides and give your view. Provide relevant examples to support your arguments, and make sure to consider the impact of social media on different age groups and communities. Your essay should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.9,
+      "avg_word_len": 5.53,
+      "advanced_ratio": 0.16
+    }
+  }
 }

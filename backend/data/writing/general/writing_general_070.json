@@ -36,5 +36,14 @@
       "title": "The Rise of Remote Work",
       "prompt": "In recent years, remote work has become increasingly popular among companies and employees. Some people argue that remote work is beneficial for both parties, while others believe it has drawbacks. Discuss the advantages and disadvantages of remote work, and provide your opinion on whether you think it should be embraced as a long-term solution in the workforce. Your essay should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 11.4,
+      "avg_word_len": 5.06,
+      "advanced_ratio": 0.109
+    }
+  }
 }

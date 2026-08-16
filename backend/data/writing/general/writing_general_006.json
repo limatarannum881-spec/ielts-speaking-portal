@@ -40,5 +40,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has become an integral part of education, reshaping the traditional classroom. Some people argue that the incorporation of technology in education enhances learning outcomes, while others believe it may hinder the development of critical thinking and social skills. Discuss both views and give your own opinion. In your response, consider the various ways technology can be beneficial, such as providing access to information, enabling personalized learning experiences, and fostering collaboration among students. Conversely, address concerns regarding over-reliance on technology, the potential for distraction, and the importance of face-to-face interactions in developing communication skills. Ultimately, conclude with your perspective on how technology should be integrated into educational systems to maximize its benefits while minimizing its drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.1,
+      "avg_word_len": 5.38,
+      "advanced_ratio": 0.18
+    }
+  }
 }

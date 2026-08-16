@@ -52,5 +52,14 @@
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has become an integral part of daily life for millions of people around the world. While some argue that social media has brought about significant benefits to society, others contend that it has detrimental effects. Discuss both views and give your opinion. On the one hand, proponents of social media assert that it facilitates communication and connection among individuals, allowing people to maintain relationships regardless of geographical barriers. Furthermore, social media serves as a platform for social movements and activism, raising awareness on important issues and mobilizing support for various causes. On the other hand, critics highlight the negative impacts of social media, such as the spread of misinformation, cyberbullying, and the potential erosion of face-to-face communication skills. Additionally, excessive use of social media can lead to negative mental health outcomes, including anxiety and depression. In my opinion, while social media can indeed foster community and awareness, it is crucial to address the challenges it presents in order to maximize its positive contributions to society."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.2,
+      "avg_word_len": 5.48,
+      "advanced_ratio": 0.156
+    }
+  }
 }

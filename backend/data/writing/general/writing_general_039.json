@@ -15,5 +15,14 @@
       "title": "Impact of Technology on Communication",
       "prompt": "In recent years, the way we communicate has changed significantly due to advancements in technology. Some people believe that this has had a positive impact on society, while others argue that it has led to negative consequences. Discuss both viewpoints and provide your own opinion on the matter. Include examples to support your arguments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.0,
+      "avg_word_len": 5.38,
+      "advanced_ratio": 0.18
+    }
+  }
 }

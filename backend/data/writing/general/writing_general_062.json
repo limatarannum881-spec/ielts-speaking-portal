@@ -19,5 +19,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In today's digital age, technology has profoundly changed how we communicate. Some people believe that these changes have improved communication, while others argue that they have made it less personal. Discuss both views and give your opinion on the matter. Support your argument with relevant examples and reasoning. Please write at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 11.5,
+      "avg_word_len": 5.1,
+      "advanced_ratio": 0.087
+    }
+  }
 }

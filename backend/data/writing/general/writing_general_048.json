@@ -40,5 +40,14 @@
       "title": "Online Education",
       "prompt": "With the rise of technology, online education has become increasingly popular among students. Some people believe that online learning offers greater flexibility and accessibility, while others argue that it lacks the quality of traditional classroom education. Discuss the advantages and disadvantages of online education, and give your opinion on whether it is a viable alternative to traditional learning methods."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.8,
+      "avg_word_len": 5.48,
+      "advanced_ratio": 0.19
+    }
+  }
 }

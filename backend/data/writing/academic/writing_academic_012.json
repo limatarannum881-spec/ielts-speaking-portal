@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "As technology continues to evolve at a rapid pace, its influence on education has become increasingly significant. While some argue that the integration of technology in the classroom has enhanced learning experiences and accessibility, others contend that it can lead to distractions and a decline in traditional learning methods. Discuss both views and give your opinion. In your response, consider how technology has been utilized in educational settings, its potential benefits such as personalized learning and greater resource availability, as well as the drawbacks, including decreased face-to-face interactions and reliance on digital devices. Furthermore, evaluate the implications of these changes for both students and educators. Ultimately, express your stance on whether the advantages of technology in education outweigh the disadvantages, and reflect on any necessary steps that can be taken to mitigate the negative aspects while maximizing the positive impacts."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 22.2,
+      "avg_word_len": 5.59,
+      "advanced_ratio": 0.188
+    }
+  }
 }

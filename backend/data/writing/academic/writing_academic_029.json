@@ -36,5 +36,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, the integration of technology into education has sparked considerable debate. On one hand, proponents argue that technology enhances learning experiences and facilitates access to information. They believe that tools such as online courses, educational apps, and interactive learning platforms can make education more engaging and personalized. For example, students can learn at their own pace and revisit difficult concepts through multimedia resources. On the other hand, critics emphasize the potential drawbacks of technology in the classroom. They contend that reliance on digital devices may lead to decreased face-to-face interactions, which are crucial for developing social skills. Additionally, there are concerns about distractions caused by non-educational content that students might encounter online. In conclusion, while technology offers significant benefits in terms of accessibility and engagement, it is important to balance its use with traditional teaching methods to ensure that students receive a well-rounded education."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.8,
+      "avg_word_len": 5.6,
+      "advanced_ratio": 0.207
+    }
+  }
 }

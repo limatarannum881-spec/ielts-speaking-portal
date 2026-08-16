@@ -40,5 +40,14 @@
       "title": "Urban Traffic Congestion",
       "prompt": "Traffic congestion in urban areas has become a serious problem for many cities around the world. In your opinion, what are the main causes of this issue? What solutions can be implemented to alleviate the problem? Discuss the advantages and disadvantages of these solutions, and provide examples to support your arguments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 13.7,
+      "avg_word_len": 4.93,
+      "advanced_ratio": 0.106
+    }
+  }
 }

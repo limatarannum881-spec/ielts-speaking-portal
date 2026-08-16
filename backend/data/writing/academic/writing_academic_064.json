@@ -48,5 +48,14 @@
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has transformed communication and interaction among individuals and societies. While some argue that social media has a positive impact on society by fostering connections and providing platforms for self-expression, others contend that it has negative consequences, such as promoting misinformation and undermining traditional interpersonal skills. Discuss both views and give your opinion on the extent to which you believe social media has positively or negatively influenced society. In your essay, you should consider the role of social media in shaping public opinion, the effects on relationships, and the potential for social media to influence political movements or public discourse. Provide specific examples to support your arguments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.2,
+      "avg_word_len": 5.78,
+      "advanced_ratio": 0.224
+    }
+  }
 }

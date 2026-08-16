@@ -44,5 +44,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In today's world, technology has greatly changed the way we communicate with one another. Some people believe that these changes have had a positive impact, while others think they have created more problems than solutions. Discuss both the advantages and disadvantages of technology in communication. Provide relevant examples to support your views, and conclude with your own opinion on whether the benefits outweigh the drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.1,
+      "avg_word_len": 5.18,
+      "advanced_ratio": 0.117
+    }
+  }
 }

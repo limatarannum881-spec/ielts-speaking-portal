@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, technology has significantly transformed the education landscape, leading to a spectrum of opinions regarding its impact. On one hand, advocates argue that technology has made education more accessible and engaging for students. Online courses and educational apps allow learners from diverse backgrounds to access quality resources regardless of their geographical location. Furthermore, interactive tools can enhance the learning experience, catering to various learning styles and enabling personalized education pathways. On the other hand, critics raise concerns about the over-reliance on technology. They argue that it can detract from traditional learning methods and the essential face-to-face interactions between teachers and students, which are crucial for developing social skills and collaborative learning. Moreover, there are worries about the digital divide, where students from lower socio-economic backgrounds may lack access to necessary technology, thereby widening the educational gap rather than closing it. Discuss both sides and provide your opinion on how technology should be integrated into education."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.0,
+      "avg_word_len": 5.83,
+      "advanced_ratio": 0.196
+    }
+  }
 }

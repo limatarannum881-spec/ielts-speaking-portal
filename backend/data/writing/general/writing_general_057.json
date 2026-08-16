@@ -15,5 +15,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has a positive impact on education, while others think it has a negative effect. Discuss both views and give your own opinion on the role of technology in education. Consider aspects such as engagement, accessibility, and potential distractions when developing your argument. Provide specific examples to support your points."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.3,
+      "avg_word_len": 4.77,
+      "advanced_ratio": 0.11
+    }
+  }
 }

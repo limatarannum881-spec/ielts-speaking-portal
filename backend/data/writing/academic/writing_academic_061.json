@@ -44,5 +44,14 @@
       "title": "The Impact of Online Education",
       "prompt": "In recent years, online education has gained significant popularity, especially following the global pandemic that forced many educational institutions to shift to virtual learning. While some argue that online education has numerous advantages, others believe it presents considerable challenges. Discuss both views and give your opinion. Proponents of online education argue that it offers flexibility and accessibility, allowing students to learn at their own pace and from anywhere in the world. This can be particularly beneficial for those with work or family commitments. Additionally, online platforms often provide a wealth of resources and materials that can enhance the learning experience. On the other hand, critics point out the lack of face-to-face interaction, which can hinder the development of communication skills and limit opportunities for collaboration. Moreover, the effectiveness of online education can vary greatly depending on a student’s self-discipline and motivation. In my opinion, while online education presents unique opportunities, its effectiveness largely depends on the ability of individuals to adapt to this learning style and the support provided by educational institutions."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.4,
+      "avg_word_len": 5.65,
+      "advanced_ratio": 0.188
+    }
+  }
 }

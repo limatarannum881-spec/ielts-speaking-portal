@@ -44,5 +44,14 @@
       "title": "The Impact of Remote Work on Employee Productivity",
       "prompt": "With the rise of technology and the recent global shift towards remote working, there is an ongoing debate about the impact of this work model on employee productivity. Some argue that remote work enhances productivity due to the flexibility it offers, allowing employees to work in an environment that suits them best. They believe that without the distractions common in traditional office settings, such as long commutes and unnecessary meetings, workers can focus better and produce higher quality work. On the other hand, there are concerns that remote work can lead to feelings of isolation and disconnection from colleagues, which may negatively affect collaboration and team dynamics. Additionally, some employees may struggle with self-discipline and time management when working from home. In this essay, I will discuss both the advantages and disadvantages of remote work on productivity. Ultimately, I will argue that while remote work can boost productivity for some, it may not be the best option for everyone due to the varying impacts on different individuals and work environments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 20.5,
+      "avg_word_len": 5.23,
+      "advanced_ratio": 0.152
+    }
+  }
 }

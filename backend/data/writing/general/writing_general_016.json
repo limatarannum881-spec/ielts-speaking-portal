@@ -44,5 +44,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Technology has fundamentally transformed many aspects of our lives, and education is no exception. Discuss the advantages and disadvantages of integrating technology into the classroom. In your essay, provide specific examples to illustrate your points and argue whether you believe the benefits of technology in education outweigh the drawbacks. Consider how technology can enhance learning experiences, but also address potential challenges such as increased distraction and equity issues in access to technology."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.4,
+      "avg_word_len": 5.68,
+      "advanced_ratio": 0.229
+    }
+  }
 }

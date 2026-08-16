@@ -36,5 +36,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "The advent of technology has significantly transformed education over the past few decades. While some argue that this shift has enhanced the learning experience, others contend that it may lead to negative consequences. Discuss both views and give your opinion. On one hand, proponents of technology in education argue that it provides students with access to a vast array of resources and learning tools. Online platforms and educational software facilitate personalized learning experiences, allowing students to learn at their own pace. Additionally, technology can enhance engagement through interactive learning methods, making education more appealing. On the other hand, critics worry that reliance on technology can diminish traditional learning methods and critical thinking skills. They argue that excessive screen time may lead to distraction and hinder face-to-face interactions among students. In my opinion, while technology can greatly improve educational outcomes, it is crucial to strike a balance between technological tools and traditional teaching methods to ensure holistic development. Ultimately, a blended approach could harness the benefits of both, creating a more effective learning environment."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.0,
+      "avg_word_len": 5.6,
+      "advanced_ratio": 0.186
+    }
+  }
 }

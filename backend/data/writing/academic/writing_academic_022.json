@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has significantly transformed the way people communicate. While some argue that this shift has mostly positive effects, others believe it has detrimental impacts on interpersonal relationships. Discuss both views and give your own opinion. Support your arguments with relevant examples. As technology advances, the ease and speed of communication have improved dramatically, allowing individuals to connect instantaneously, regardless of geographical barriers. Proponents of this transformation argue that the ability to foster global relationships and access diverse perspectives is invaluable in today's interconnected society. Conversely, critics contend that this reliance on digital communication has led to a decline in face-to-face interactions, weakening personal bonds and fostering feelings of isolation. In your essay, analyze these perspectives and present your own viewpoint on whether the benefits outweigh the drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.2,
+      "avg_word_len": 5.88,
+      "advanced_ratio": 0.199
+    }
+  }
 }

@@ -80,5 +80,14 @@
       "title": "Living abroad",
       "prompt": "An increasing number of people choose to live and work in a foreign country for a period of time.\n\nDo the advantages of living abroad outweigh the disadvantages?\n\nWrite at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 11.8,
+      "avg_word_len": 5.11,
+      "advanced_ratio": 0.106
+    }
+  }
 }

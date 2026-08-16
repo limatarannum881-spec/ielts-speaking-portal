@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the use of technology in education has increased significantly. Some people believe that technology has improved the quality of education, while others feel it has created new challenges for students. Discuss both views and give your own opinion. In your essay, consider the advantages technology brings to learning environments as well as the potential drawbacks it may introduce, such as distractions and the reliance on devices for information."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.8,
+      "avg_word_len": 5.35,
+      "advanced_ratio": 0.19
+    }
+  }
 }

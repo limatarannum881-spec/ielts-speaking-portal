@@ -40,5 +40,14 @@
       "title": "The Impact of Social Media on Communication",
       "prompt": "In recent years, the rise of social media has transformed the way people communicate. Some argue that social media has positively impacted communication by making it easier for individuals to connect and share information. Others, however, contend that social media has led to a decline in face-to-face interactions and has negatively affected personal relationships. Discuss both views and give your opinion. In your essay, explore how social media has changed communication dynamics and the potential consequences of these changes on interpersonal relationships. Consider the benefits of instant communication versus the drawbacks of reduced personal interaction, and conclude with your thoughts on whether the overall impact of social media is positive or negative."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 20.9,
+      "avg_word_len": 5.48,
+      "advanced_ratio": 0.158
+    }
+  }
 }

@@ -36,5 +36,14 @@
       "title": "The Impact of Globalization on Local Cultures",
       "prompt": "Globalization has been a significant force reshaping economies, societies, and cultures around the world. While some argue that globalization leads to the erosion of local cultures and traditions, others believe it fosters cultural exchange and innovation. Discuss both sides and give your own opinion. On one hand, globalization can lead to cultural homogenization, resulting in the loss of unique traditions, languages, and practices as global brands and lifestyles dominate. For instance, the proliferation of fast-food chains and entertainment from Western countries can overshadow local cuisine and entertainment options. On the other hand, globalization can facilitate the sharing of cultural practices, encouraging diversity and creativity. It allows local artisans to reach a wider audience and can lead to a revival of interest in local traditions. In your view, does globalization represent a threat to local cultures, or does it enhance them? Provide examples to support your argument."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.2,
+      "avg_word_len": 5.62,
+      "advanced_ratio": 0.161
+    }
+  }
 }

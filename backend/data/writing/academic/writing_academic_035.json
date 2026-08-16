@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, technology has significantly changed the landscape of education. While some people argue that technology has enhanced the learning experience, others believe it has led to a decline in traditional educational values. Discuss both views and give your opinion on the impact of technology on education. In today's world, digital tools such as online courses, educational apps, and interactive platforms are reshaping how knowledge is imparted and acquired. Proponents argue that these advancements make education more accessible and engaging for students. Conversely, critics often contend that an over-reliance on technology can diminish critical thinking skills and reduce face-to-face interactions, which are fundamental to personal development. It is crucial to consider both perspectives to understand how technology has transformed education and to evaluate whether these changes are predominantly positive or negative."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.8,
+      "avg_word_len": 5.77,
+      "advanced_ratio": 0.232
+    }
+  }
 }

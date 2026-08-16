@@ -16,5 +16,14 @@
       "prompt": "In recent years, technology has greatly influenced the way people communicate and interact. While some believe that technology improves our social interactions, others argue that it diminishes genuine human connections. Discuss both views and give your opinion. Support your arguments with relevant examples.",
       "chart": {}
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 13.3,
+      "avg_word_len": 5.5,
+      "advanced_ratio": 0.183
+    }
+  }
 }

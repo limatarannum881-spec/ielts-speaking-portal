@@ -48,5 +48,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, technology has transformed the way we learn and teach. While there are significant advantages to using technology in education, there are also notable disadvantages. Discuss both the advantages and disadvantages of technology in education, providing relevant examples. In your opinion, do the benefits of technology in learning environments outweigh the drawbacks? Support your answer with evidence and reasoning."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.4,
+      "avg_word_len": 5.5,
+      "advanced_ratio": 0.196
+    }
+  }
 }

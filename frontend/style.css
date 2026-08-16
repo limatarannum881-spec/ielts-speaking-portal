@@ -880,3 +880,10 @@ body.nav-hidden .app { padding-top: 0; }
 
 /* Nav active indicator */
 .topnav-links a, .bottomnav a { transition: color .15s ease, background .15s ease; }
+
+/* ---------- Difficulty badge (reading cards) ---------- */
+.diff-badge {
+  font-size: 11.5px; font-weight: 700; color: var(--primary);
+  background: var(--primary-soft); border-radius: 999px; padding: 4px 10px;
+  white-space: nowrap; flex-shrink: 0;
+}

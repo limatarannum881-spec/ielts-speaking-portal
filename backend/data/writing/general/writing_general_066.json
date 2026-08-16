@@ -48,5 +48,14 @@
       "title": "The Impact of Technology on Society",
       "prompt": "In recent years, the advancement of technology has significantly changed the way we live, work, and communicate. While some argue that technology has brought many benefits to society, others believe that it has led to a number of disadvantages. Discuss both the advantages and disadvantages of technology in modern society. Provide specific examples to support your arguments. In your opinion, do the benefits of technology outweigh its drawbacks, or vice versa? Discuss your reasoning and provide a balanced view on this topic."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.3,
+      "avg_word_len": 5.12,
+      "advanced_ratio": 0.135
+    }
+  }
 }

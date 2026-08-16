@@ -14,5 +14,14 @@
       "title": "The Impact of Technology on Employment",
       "prompt": "Some people argue that advancements in technology have led to job losses in various sectors, while others believe that technology creates new job opportunities. Discuss both views and provide your opinion on the impact of technological advancements on employment in today's society. Support your answer with relevant examples and reasoning."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.6,
+      "avg_word_len": 5.18,
+      "advanced_ratio": 0.098
+    }
+  }
 }

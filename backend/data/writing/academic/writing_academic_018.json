@@ -40,5 +40,14 @@
       "title": "The Impact of Social Media on Personal Relationships",
       "prompt": "In recent years, social media has become an integral part of daily life for many individuals. While some argue that social media enhances personal relationships by allowing better communication and connection, others feel that it can lead to misunderstandings and a decline in face-to-face interactions. Discuss both views and offer your opinion. To what extent do you think social media is beneficial or detrimental to personal relationships? Consider factors such as communication quality, emotional connection, and the potential for misinterpretation in your response. Use specific examples to support your argument."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.3,
+      "avg_word_len": 5.48,
+      "advanced_ratio": 0.148
+    }
+  }
 }

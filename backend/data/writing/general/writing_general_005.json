@@ -36,5 +36,14 @@
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, remote work has become increasingly common, especially due to technological advancements and recent global events. While some argue that remote work has numerous advantages for both employers and employees, others believe it poses significant challenges. Discuss both sides of this issue. On one hand, proponents of remote work argue that it offers flexibility, reduces commuting time, and can lead to increased productivity. On the other hand, critics point out potential downsides such as isolation, difficulties in team collaboration, and the blurring of work-life boundaries. In your opinion, what are the most critical factors to consider when evaluating the effects of remote work on individuals and organizations? Provide examples to support your discussion."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.4,
+      "avg_word_len": 5.56,
+      "advanced_ratio": 0.184
+    }
+  }
 }

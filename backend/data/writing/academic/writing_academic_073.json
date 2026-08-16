@@ -44,5 +44,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology into education has sparked much debate. While some people argue that technology enhances the learning experience, others claim it can be detrimental to students' educational progress. Discuss the advantages and disadvantages of using technology in education. Support your response with reasons and examples. Consider aspects such as accessibility, engagement, and the potential loss of critical thinking skills. To what extent do you agree or disagree with the view that technology should play a major role in educational systems?"
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.1,
+      "avg_word_len": 5.33,
+      "advanced_ratio": 0.156
+    }
+  }
 }

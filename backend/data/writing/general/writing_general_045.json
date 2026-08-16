@@ -14,5 +14,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has made education more accessible and effective. Others argue that it has made students overly reliant on electronic devices and distracted from traditional learning methods. Discuss both views and give your opinion. Support your argument with relevant examples and details. Write at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 9.5,
+      "avg_word_len": 4.96,
+      "advanced_ratio": 0.097
+    }
+  }
 }

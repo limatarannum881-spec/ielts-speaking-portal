@@ -48,5 +48,14 @@
       "title": "The Impact of Remote Work on Urban Development",
       "prompt": "With the surge in remote work opportunities due to advancements in technology and the recent global pandemic, numerous cities are experiencing changes in their urban development strategies. Discuss the implications of this shift. On one hand, the reduction in daily commuters can lead to decreased traffic congestion and pollution levels, which may contribute to more livable urban environments. On the other hand, there is concern about the potential decline in local businesses that rely heavily on foot traffic from employees working in nearby offices. How should urban planners respond to this evolving landscape? In your essay, consider both the benefits and drawbacks of remote work on urban development and propose solutions that can balance economic vitality with sustainable living conditions."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.9,
+      "avg_word_len": 5.6,
+      "advanced_ratio": 0.18
+    }
+  }
 }

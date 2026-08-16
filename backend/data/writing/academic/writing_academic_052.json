@@ -32,5 +32,14 @@
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, remote work has become an increasingly popular trend among companies and employees alike. While there are various advantages to this shift in work dynamics, there are also several disadvantages that should be carefully considered. On one hand, remote work offers employees greater flexibility and autonomy, allowing them to create a work-life balance that suits their personal needs. This flexibility can lead to increased job satisfaction and productivity as individuals can work in environments that are most comfortable for them. Additionally, companies can benefit from cost savings associated with maintaining physical office spaces. On the other hand, remote work can lead to feelings of isolation among employees, as they may miss out on crucial face-to-face interactions with colleagues. Furthermore, communication and collaboration can be challenging, potentially hindering teamwork and innovation. Therefore, it is essential to evaluate both the positive and negative impacts of remote work to determine its effectiveness in the modern workplace. Ultimately, finding a suitable balance between remote and in-office work may provide the best solution for both employees and employers."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.8,
+      "avg_word_len": 5.75,
+      "advanced_ratio": 0.217
+    }
+  }
 }

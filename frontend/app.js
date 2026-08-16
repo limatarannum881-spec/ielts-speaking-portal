@@ -61,6 +61,7 @@ const state = {
   busy: false,
   ended: false,
   recognition: null,
+  prosody: {},        // measured speech-prosody metrics (from Record mode)
 };
 
 const $ = (id) => document.getElementById(id);
@@ -405,6 +406,56 @@ function stopRecording() {
   }
 }
 
+// ----------------------------------------------------------------------
+// Prosody analysis — measure real speech timing (WPM, silence ratio,
+// pauses) from the recorded audio so the AI scores fluency/pronunciation
+// from actual data instead of guessing from the transcript.
+// ----------------------------------------------------------------------
+async function analyzeProsody(blob, text) {
+  const words = (text || "").trim().split(/\s+/).filter(Boolean).length;
+  try {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC || !blob) return null;
+    const ctx = new AC();
+    const arrayBuffer = await blob.arrayBuffer();
+    const audioBuffer = await ctx.decodeAudioData(arrayBuffer);
+    const data = audioBuffer.getChannelData(0);
+    const sampleRate = audioBuffer.sampleRate;
+    const duration = audioBuffer.duration;
+    const frameSize = Math.floor(sampleRate * 0.02); // 20ms frames
+    const threshold = 0.02;                          // RMS silence threshold
+    let silentFrames = 0, totalFrames = 0, pauses = 0;
+    let inPause = false;
+    for (let i = 0; i < data.length; i += frameSize) {
+      let sum = 0, n = 0;
+      for (let j = i; j < i + frameSize && j < data.length; j++) { sum += data[j] * data[j]; n++; }
+      const rms = Math.sqrt(sum / Math.max(1, n));
+      totalFrames++;
+      if (rms < threshold) {
+        silentFrames++;
+        if (!inPause) { pauses++; inPause = true; }
+      } else {
+        inPause = false;
+      }
+    }
+    ctx.close();
+    const silenceRatio = Math.round((silentFrames / Math.max(1, totalFrames)) * 100);
+    const speechDur = Math.max(0.5, duration * (1 - silenceRatio / 100));
+    const speechWpm = Math.round(words / (speechDur / 60));
+    const wpm = duration > 0 ? Math.round(words / (duration / 60)) : 0;
+    return {
+      durationSec: Math.round(duration),
+      words,
+      wpm,
+      speechWpm,
+      silenceRatio,
+      pauses,
+    };
+  } catch (_) {
+    return null;
+  }
+}
+
 async function transcribeBlob(blob) {
   setStatus("thinking");
   const fd = new FormData();
@@ -673,6 +724,8 @@ function startSpeechPhase() {
       try {
         const text = await transcribeBlob(blob);
         if (text) {
+          const prosody = await analyzeProsody(blob, text);
+          if (prosody) state.prosody = prosody;
           userSaid(text);
           advancePhase(); // -> follow-up chat phase
         } else {
@@ -729,6 +782,7 @@ async function endSession() {
     const result = await api("/api/analyze", {
       mode: state.mode, history: state.history,
       questions: state.questions, answers: state.answers,
+      prosody: state.prosody || {},
     });
     // Full Mock Test: hand the Speaking result to the orchestrator instead of
     // showing the standalone Speaking results screen.
@@ -1081,6 +1135,8 @@ function defaultMicClick() {
       try {
         const text = await transcribeBlob(blob);
         if (text) {
+          const prosody = await analyzeProsody(blob, text);
+          if (prosody) state.prosody = prosody;
           handleUserTurn(text);
         } else {
           toast("I couldn't hear any speech. Please try again.", true);

@@ -20,5 +20,14 @@
       "prompt": "Many people argue that technology has improved communication, while others believe it has made it worse. Discuss both views and give your own opinion. In your essay, consider the effects of technology on face-to-face interactions, the way we communicate with our friends and family, and the implications for social relationships.",
       "wordCount": 250
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.4,
+      "avg_word_len": 5.3,
+      "advanced_ratio": 0.148
+    }
+  }
 }

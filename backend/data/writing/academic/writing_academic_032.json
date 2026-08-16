@@ -40,5 +40,14 @@
       "title": "The Impact of Remote Work on Productivity",
       "prompt": "In recent years, particularly due to the COVID-19 pandemic, remote work has become increasingly common. While some argue that remote work enhances productivity, others believe it can hinder it. Discuss both views and give your opinion. On one hand, proponents of remote work argue that it allows employees to have flexible schedules, which can lead to increased job satisfaction and motivation. Additionally, it eliminates time lost in commuting and provides a more comfortable working environment. On the other hand, detractors contend that remote work can lead to distractions at home, decreased collaboration among team members, and difficulties in maintaining work-life balance. They argue that in-person interactions are crucial for team cohesion and idea generation. In my opinion, while remote work has its advantages, it is essential to strike a balance between remote and in-office work to maximize productivity. Both companies and employees should consider the unique nature of their tasks and adjust their working arrangements accordingly."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 13.5,
+      "avg_word_len": 5.37,
+      "advanced_ratio": 0.161
+    }
+  }
 }

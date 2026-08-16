@@ -40,5 +40,14 @@
       "title": "The Impact of Social Media on Communication Skills",
       "prompt": "In recent years, social media has become an integral part of our daily lives, affecting how we communicate with one another. While some argue that social media is detrimental to our communication skills, others believe it enhances our ability to connect with people. Discuss both views and give your own opinion. In your response, consider the various ways social media influences verbal and non-verbal communication, as well as the implications of these changes on personal relationships and social interactions. Ultimately, will the benefits of social media outweigh its disadvantages in terms of fostering effective communication? Support your argument with relevant examples."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.8,
+      "avg_word_len": 5.62,
+      "advanced_ratio": 0.159
+    }
+  }
 }

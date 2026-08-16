@@ -14,5 +14,14 @@
       "title": "Technology and Communication",
       "prompt": "Some people believe that technology has made communication easier and more efficient. However, others argue that it has led to a decline in face-to-face interaction and personal relationships. Discuss both views and give your own opinion. Support your arguments with relevant examples and reasons."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 12.5,
+      "avg_word_len": 5.21,
+      "advanced_ratio": 0.12
+    }
+  }
 }

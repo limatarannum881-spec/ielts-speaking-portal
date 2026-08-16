@@ -44,5 +44,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has greatly enhanced education, while others think it has detracted from traditional teaching methods. Discuss both views and give your own opinion. In today's digital age, technology plays a significant role in various sectors, including education. On one hand, proponents of technology in education argue that digital tools can facilitate better learning experiences through interactive content, online resources, and personalized learning. They emphasize that technology can make education more accessible, allowing students to learn at their own pace and connect with peers worldwide. Conversely, critics warn that excessive reliance on technology may undermine traditional teaching methods. They argue that it can lead to distractions, a lack of face-to-face interaction, and reduced critical thinking skills. In my opinion, while technology is an effective tool for enhancing education, it should complement rather than replace traditional methods. A balanced approach, integrating both technology and conventional teaching styles, may provide the most effective learning experiences for students."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.3,
+      "avg_word_len": 5.77,
+      "advanced_ratio": 0.213
+    }
+  }
 }

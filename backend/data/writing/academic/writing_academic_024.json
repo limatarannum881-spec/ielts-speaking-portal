@@ -36,5 +36,14 @@
       "title": "The Role of Advertising in Society",
       "prompt": "Advertising is an integral part of our daily lives, influencing how we perceive products, services, and even lifestyles. Some people argue that advertising plays a beneficial role in society by providing essential information about new products and services. On the other hand, critics contend that advertising promotes consumerism and can lead to misguided values, particularly among younger audiences. This essay will discuss both perspectives, weighing the advantages and disadvantages of advertising in modern society. Proponents of advertising maintain that it serves as a useful tool for communication, helping consumers make informed choices based on their needs. Advertisements often highlight features, pricing, and availability, which can be especially valuable in a competitive market. However, the downside is that advertising can create unrealistic expectations and desires, often leading individuals to prioritize material possessions over more meaningful experiences. Ultimately, the impact of advertising is complex, and while it does have the potential to inform and enhance consumer decision-making, it also raises ethical concerns regarding its influence on societal values."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.9,
+      "avg_word_len": 5.8,
+      "advanced_ratio": 0.198
+    }
+  }
 }

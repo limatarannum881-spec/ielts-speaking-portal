@@ -15,5 +15,14 @@
       "title": "The Impact of Technology on Society",
       "prompt": "In recent years, technology has profoundly changed the way we live and work. Some people argue that technology has brought significant benefits to society, while others believe it has had negative consequences. Discuss both views and provide your own opinion.\n\nIn your essay, examine the positive aspects of technology, such as improved communication, access to information, and advancements in various fields like healthcare and education. On the other hand, consider the drawbacks, including issues related to privacy, job displacement, and the impact on personal relationships. Finally, conclude with your perspective on whether the advantages of technology outweigh its disadvantages or vice versa."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.9,
+      "avg_word_len": 5.46,
+      "advanced_ratio": 0.182
+    }
+  }
 }

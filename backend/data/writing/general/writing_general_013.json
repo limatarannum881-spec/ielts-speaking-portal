@@ -19,5 +19,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Technology has become an integral part of education in recent years. While it has introduced various advantages such as improved access to resources and interactive learning experiences, it also poses certain disadvantages, including potential distractions and the decreasing importance of traditional teaching methods. Discuss both the advantages and disadvantages of technology in education, and provide your opinion on whether its benefits outweigh the drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.7,
+      "avg_word_len": 5.44,
+      "advanced_ratio": 0.206
+    }
+  }
 }

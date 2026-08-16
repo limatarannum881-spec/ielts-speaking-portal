@@ -15,5 +15,14 @@
       "title": "Addressing Urban Air Pollution",
       "prompt": "Air pollution in urban areas has become a major problem affecting the health and quality of life of residents. Discuss the causes of urban air pollution and propose possible solutions to mitigate this issue. In your essay, you should detail the effects of air pollution on both people and the environment and suggest practical measures that governments and individuals can take to improve air quality."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.9,
+      "avg_word_len": 4.87,
+      "advanced_ratio": 0.126
+    }
+  }
 }

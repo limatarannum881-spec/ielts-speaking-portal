@@ -36,6 +36,7 @@ const Reading = (() => {
           <div><div class="test-title">${esc(t.title)}</div>
           <div class="test-meta">${t.version === "general" ? "General Training" : "Academic"} · ${t.questionCount} questions · ${Math.round(t.duration / 60)} min</div></div>
         </div>
+        ${t.difficulty ? `<span class="diff-badge" title="Approximate difficulty (readability heuristic)">Band ${fmtBand(t.difficulty)}</span>` : ""}
         <button class="btn btn-primary" data-start="${t.id}">Start test</button>
       </div>`).join("");
 

@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has reshaped the way we communicate with one another. Some argue that this transformation has positive effects, while others believe it has led to negative consequences. Discuss both the advantages and disadvantages of technology on communication. On one hand, advancements in technology have made communication more convenient and efficient. For example, people can connect instantly through various messaging apps and social media platforms, transcending geographical barriers. However, there are concerns that such technology may lead to a decline in face-to-face interactions and social skills. Furthermore, issues related to privacy and misinformation have arisen as a result of increased digital communication. In your opinion, do the benefits of technology in communication outweigh the drawbacks? Provide reasons to support your view."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.9,
+      "avg_word_len": 5.67,
+      "advanced_ratio": 0.169
+    }
+  }
 }

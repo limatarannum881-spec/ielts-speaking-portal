@@ -44,5 +44,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, there has been a significant shift in the way education is delivered, largely due to the advancements in technology. While some argue that technology enhances the educational experience by making learning more accessible and engaging, others believe it could detract from the traditional learning methods. Discuss both views and give your opinion. In your response, consider the impact of online learning platforms, the use of digital tools in classrooms, and the potential drawbacks such as decreased face-to-face interaction. Ultimately, you should express your own perspective on whether you believe technology has a more positive or negative effect on education and provide justifications to support your viewpoint."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.0,
+      "avg_word_len": 5.42,
+      "advanced_ratio": 0.158
+    }
+  }
 }

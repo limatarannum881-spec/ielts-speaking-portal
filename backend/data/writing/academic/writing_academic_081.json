@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology in education has become increasingly prevalent. While some argue that technology enhances the learning experience, others assert that it may lead to various problems. Discuss both viewpoints and provide your opinion. On one hand, proponents of technology in education claim that digital tools, such as online resources, interactive software, and virtual classrooms, can make learning more engaging and accessible. For instance, students can access a wealth of information online and collaborate with peers from around the world. On the other hand, critics highlight potential drawbacks, including reduced face-to-face interactions and the risk of distractions from devices. They believe that reliance on technology can undermine critical thinking and problem-solving skills. In conclusion, while technology has the potential to revolutionize education, it is essential to balance its use with traditional teaching methods to ensure a comprehensive learning experience."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.4,
+      "avg_word_len": 5.82,
+      "advanced_ratio": 0.234
+    }
+  }
 }

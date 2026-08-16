@@ -44,5 +44,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, the integration of technology in education has generated substantial debate. Some argue that technology enhances learning experiences and provides greater access to educational resources, while others believe it can hinder critical thinking and face-to-face interactions among students. Discuss both views and give your own opinion. On one hand, proponents of technology in education emphasize its ability to offer innovative learning tools such as interactive software, online courses, and educational apps that cater to different learning styles. This flexibility allows students to learn at their own pace and access information instantly. On the other hand, critics point out that an over-reliance on technology may diminish essential skills such as critical thinking and interpersonal communication, as students may become too reliant on digital devices for answers and interactions. In my opinion, while technology undeniably offers significant advantages in educational settings, it is crucial to balance its use with traditional teaching methods to develop well-rounded learners prepared for real-world challenges."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.9,
+      "avg_word_len": 5.7,
+      "advanced_ratio": 0.169
+    }
+  }
 }

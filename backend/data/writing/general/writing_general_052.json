@@ -15,5 +15,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Your response should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 4.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 12.8,
+      "avg_word_len": 4.48,
+      "advanced_ratio": 0.047
+    }
+  }
 }

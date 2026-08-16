@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In today's world, technology plays a crucial role in our communication. Some people believe that technology has improved the quality of communication, while others think it has had a negative impact. Discuss both views and give your opinion on whether technology positively or negatively affects communication. You should write at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 12.6,
+      "avg_word_len": 4.93,
+      "advanced_ratio": 0.119
+    }
+  }
 }

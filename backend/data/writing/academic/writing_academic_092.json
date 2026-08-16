@@ -44,5 +44,14 @@
       "title": "Impact of Remote Work",
       "prompt": "In recent years, remote work has become increasingly prevalent, especially following the global pandemic. While some argue that remote work has significant benefits, others believe it presents challenges. Discuss both sides and give your opinion on the impact of remote work on individuals and businesses. Support your response with relevant examples. Consider the effects on productivity, work-life balance, and communication within teams, assessing how these factors contribute to the overall effectiveness of remote work arrangements."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.6,
+      "avg_word_len": 5.51,
+      "advanced_ratio": 0.176
+    }
+  }
 }

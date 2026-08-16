@@ -14,5 +14,14 @@
       "title": "The Impact of Remote Work on Work-Life Balance",
       "prompt": "In recent years, remote work has become increasingly popular due to advancements in technology and changes in workplace culture. This trend has sparked a debate regarding its impact on work-life balance. On one hand, many argue that remote work enhances work-life balance by providing employees with more flexibility in managing their schedules and reducing commute times. This flexibility allows individuals to spend more time with family, pursue personal interests, and maintain their mental health. On the other hand, some contend that remote work can blur the boundaries between professional and personal life, leading to longer working hours and increased stress. The lack of a clear separation from the office environment may cause individuals to feel 'always on,' which can negatively affect their overall well-being. In this essay, both perspectives will be examined, and a conclusion will be drawn based on the evidence presented. By evaluating the potential benefits and drawbacks of remote work, one can better understand its role in shaping the modern work environment."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.6,
+      "avg_word_len": 5.59,
+      "advanced_ratio": 0.189
+    }
+  }
 }

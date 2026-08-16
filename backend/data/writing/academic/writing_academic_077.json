@@ -44,5 +44,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, the integration of technology into education has become increasingly prevalent. Some argue that technology enhances learning experiences and promotes greater access to information, while others believe that it can lead to distractions and a decline in traditional learning methods. Discuss both views and provide your opinion on the impact of technology in educational settings. Consider how technology can either support or hinder the learning process and what measures could be taken to ensure its effective use in classrooms. Your response should include specific examples to illustrate your points and should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.7,
+      "avg_word_len": 5.48,
+      "advanced_ratio": 0.174
+    }
+  }
 }

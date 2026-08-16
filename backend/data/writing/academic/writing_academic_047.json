@@ -41,5 +41,14 @@
       "prompt": "Social media has become an integral part of modern life, influencing various aspects of society. Some people argue that the advantages of social media outweigh its disadvantages, while others believe that it has negative effects on interpersonal relationships and mental health. Discuss both views and give your opinion. On one hand, social media platforms enable users to connect with friends and family worldwide, thereby strengthening bonds and facilitating the sharing of information. They also offer a platform for social activism, allowing marginalized voices to be heard. On the other hand, critics point out that excessive use of social media can lead to feelings of isolation, anxiety, and depression, particularly among younger users. Additionally, the prevalence of misinformation and cyberbullying poses significant risks to mental well-being. Given these contrasting perspectives, it is essential to evaluate the role of social media in contemporary society critically.",
       "response": "In conclusion, while social media provides numerous benefits in terms of connectivity and access to information, it is crucial to acknowledge its potential drawbacks. A balanced approach to social media use may be necessary to mitigate its adverse effects while harnessing its positive aspects."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.2,
+      "avg_word_len": 5.85,
+      "advanced_ratio": 0.221
+    }
+  }
 }

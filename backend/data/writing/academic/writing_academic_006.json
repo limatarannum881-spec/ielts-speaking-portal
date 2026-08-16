@@ -36,5 +36,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has become an integral part of education, transforming the way students learn and teachers instruct. This trend has sparked a debate concerning the advantages and disadvantages of integrating technology into educational systems. On one hand, the use of technology can enhance learning experiences, making education more interactive and accessible. For instance, online resources, educational platforms, and digital tools can provide students with a wealth of information and learning opportunities beyond the traditional classroom. Moreover, technology can cater to different learning styles, allowing for personalized education paths. On the other hand, reliance on technology can pose certain challenges. For instance, the digital divide means that not all students have equal access to technological resources, potentially exacerbating educational inequalities. Furthermore, excessive screen time and distractions associated with technology can hinder students' focus and retention of information. In conclusion, while technology offers significant benefits to education, it also presents challenges that must be addressed to ensure equitable and effective learning outcomes for all students."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.3,
+      "avg_word_len": 5.89,
+      "advanced_ratio": 0.232
+    }
+  }
 }

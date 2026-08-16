@@ -15,5 +15,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has a positive impact on education, while others think it has a negative effect. Discuss both views and give your own opinion. In your essay, consider how technology affects teaching methods, student engagement, and access to information. Provide examples to support your arguments. Your essay should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 10.5,
+      "avg_word_len": 5.16,
+      "advanced_ratio": 0.15
+    }
+  }
 }

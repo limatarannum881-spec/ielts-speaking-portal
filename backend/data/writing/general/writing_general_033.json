@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Some people believe that technology has positively transformed education by enhancing learning experiences, while others argue that it has created distractions for students. Discuss both views and give your opinion on the impact of technology on education. Consider how technology can be both beneficial and detrimental to the learning process, providing examples to support your arguments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.6,
+      "avg_word_len": 5.67,
+      "advanced_ratio": 0.218
+    }
+  }
 }

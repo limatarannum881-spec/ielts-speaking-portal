@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, the advancement of technology has revolutionized the way we communicate. While some argue that technology has adversely affected personal interactions, others believe it has improved communication significantly. Discuss both views and give your opinion. In today's fast-paced world, many individuals find it easier to connect through digital means, such as social media and messaging apps, rather than face-to-face conversations. Proponents of this view argue that technology facilitates communication across distances, allowing people to maintain relationships regardless of geographical barriers. However, critics contend that reliance on digital communication can lead to superficial interactions, where genuine emotional connections are often lacking. Additionally, the prevalence of smartphones and social media may contribute to a decrease in in-person social skills. In your opinion, does technology enhance or hinder effective communication? Provide reasons and examples to support your stance."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.6,
+      "avg_word_len": 5.61,
+      "advanced_ratio": 0.167
+    }
+  }
 }

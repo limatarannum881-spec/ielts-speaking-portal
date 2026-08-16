@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology in education has prompted widespread debate. Some believe that technology enhances the learning experience, while others argue that it can hinder the development of crucial skills. Discuss both views and give your own opinion. On one hand, proponents of technology in education argue that it provides students with access to an abundance of resources and information that can enrich their learning experience. Digital tools can make lessons more engaging and interactive, catering to a variety of learning styles. Moreover, technology can facilitate remote learning, which has become increasingly relevant in today's global context. On the other hand, critics contend that reliance on technology can adversely affect students' critical thinking and problem-solving abilities. They argue that over-dependence on electronic devices may lead to reduced attention spans and a lack of interpersonal skills. In my opinion, while technology can significantly enhance education, it is essential to strike a balance to ensure that students develop essential life skills alongside their academic growth."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.5,
+      "avg_word_len": 5.84,
+      "advanced_ratio": 0.241
+    }
+  }
 }

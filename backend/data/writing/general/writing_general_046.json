@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Employment",
       "prompt": "Technology has become an integral part of our lives and has impacted various sectors, including employment. Some people argue that technology has created more job opportunities, while others believe it has led to job losses. Discuss both views and give your own opinion on how technology affects employment. In your essay, consider the positive and negative aspects of technology in the workplace, such as automation, remote work, and job creation in new sectors. Your essay should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.1,
+      "avg_word_len": 5.28,
+      "advanced_ratio": 0.153
+    }
+  }
 }

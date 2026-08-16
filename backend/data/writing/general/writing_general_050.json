@@ -44,5 +44,14 @@
       "title": "Remote Work",
       "prompt": "In recent years, remote work has become increasingly popular among employees and employers. Some people argue that this trend has significant benefits for both parties, while others believe that it has drawbacks. Discuss both views and give your own opinion on the matter. In your discussion, consider the impact of remote work on productivity, work-life balance, and collaboration among team members."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.0,
+      "avg_word_len": 5.35,
+      "advanced_ratio": 0.135
+    }
+  }
 }

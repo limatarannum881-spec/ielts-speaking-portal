@@ -88,5 +88,14 @@
       "title": "Effects of Technology on Communication",
       "prompt": "In today's digital age, technology has revolutionized the way people communicate. While some argue that this shift has improved interpersonal relationships and global connectivity, others believe that it has led to a decline in face-to-face interactions. Discuss both views and give your opinion. In recent years, advancements such as social media, instant messaging, and video calls have made it easier for individuals to connect regardless of geographical distances. Proponents assert that technology facilitates stronger bonds and fosters relationships that would not have formed otherwise. On the contrary, critics argue that reliance on technology reduces the quality of communication, causing misunderstandings and weakening emotional ties. They claim that individuals may become overly dependent on devices, resulting in less meaningful conversations and increased social isolation. In my opinion, while technology offers numerous benefits for communication, it is essential for individuals to strike a balance between virtual interactions and traditional, in-person exchanges to maintain strong, healthy relationships."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 21.1,
+      "avg_word_len": 5.73,
+      "advanced_ratio": 0.206
+    }
+  }
 }

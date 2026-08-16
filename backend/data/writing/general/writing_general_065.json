@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, technology has significantly transformed the education sector. Discuss both the positive and negative impacts of technology on education. Consider aspects such as accessibility to learning resources, student engagement, and the effectiveness of traditional teaching methods versus online learning. Provide specific examples to support your points and explain your opinion on whether the benefits of technology in education outweigh the drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.4,
+      "avg_word_len": 5.64,
+      "advanced_ratio": 0.182
+    }
+  }
 }

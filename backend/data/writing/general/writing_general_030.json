@@ -32,5 +32,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, technology has transformed the way students learn and teachers teach. While some argue that technology enhances educational experiences, others believe it can be a distraction. Discuss both views and give your opinion on whether technology is beneficial or detrimental to education. Support your arguments with relevant examples. Your response should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.1,
+      "avg_word_len": 5.04,
+      "advanced_ratio": 0.156
+    }
+  }
 }

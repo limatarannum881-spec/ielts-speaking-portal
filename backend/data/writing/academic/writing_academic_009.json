@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the rapid advancement of technology has significantly influenced education. While some argue that technology enhances the learning experience, others believe it can create distractions and hinder academic progress. Discuss both views and provide your opinion. On one hand, technology can provide access to a vast array of resources and learning tools, allowing students to learn at their own pace and enhancing their understanding of complex subjects. On the other hand, the presence of devices like smartphones and tablets in the classroom can lead to distractions, making it challenging for students to focus on their studies. In your essay, explore these perspectives and present your viewpoint on whether the benefits of technology outweigh its drawbacks in education."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.8,
+      "avg_word_len": 5.59,
+      "advanced_ratio": 0.203
+    }
+  }
 }

@@ -40,5 +40,14 @@
       "title": "Impacts of Remote Work",
       "prompt": "The rise of remote work has become a significant trend in recent years, accelerated by the global pandemic. This essay will explore both the advantages and disadvantages of this work arrangement. On one hand, remote work offers employees increased flexibility and the ability to create a better work-life balance. Many individuals find that working from home reduces commute times, allowing them to dedicate more time to personal interests or family. Additionally, companies may benefit from reduced overhead costs associated with maintaining physical office spaces. However, there are notable drawbacks to consider. Employees may experience feelings of isolation and disconnection from their teams, potentially leading to decreased morale and collaboration. Furthermore, remote work can blur the lines between personal and professional life, making it challenging for individuals to 'switch off' after working hours. In conclusion, while remote work provides significant benefits for flexibility and cost savings, it also introduces challenges that employers and employees must address to ensure sustainable productivity and well-being in the workforce."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.0,
+      "avg_word_len": 5.7,
+      "advanced_ratio": 0.189
+    }
+  }
 }

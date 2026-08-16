@@ -15,5 +15,14 @@
       "title": "Technology in Education",
       "prompt": "In recent years, technology has become an integral part of education. While some argue that it enhances learning, others believe that it can be detrimental. Discuss both views and provide your opinion. In your essay, you should cover the following points: \n- The advantages of using technology in education, such as accessibility and engagement \n- The potential disadvantages, including distractions and reduced face-to-face interaction \n- Your own viewpoint on the matter and why you hold that perspective."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.7,
+      "avg_word_len": 5.26,
+      "advanced_ratio": 0.164
+    }
+  }
 }

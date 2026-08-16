@@ -84,5 +84,14 @@
       "title": "The Impact of Social Media",
       "prompt": "In recent years, social media has become an integral part of our daily lives. While some people believe that social media has a negative impact on society, others argue that it has benefits. Discuss both views and give your own opinion on the matter. What do you think is the primary effect of social media on individuals and communities?"
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.3,
+      "avg_word_len": 5.06,
+      "advanced_ratio": 0.123
+    }
+  }
 }

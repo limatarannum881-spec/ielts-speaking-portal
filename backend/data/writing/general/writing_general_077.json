@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the advancement of technology has significantly impacted the field of education. Some believe that it has greatly enhanced learning opportunities, while others argue that it has created new challenges. Discuss both views and give your opinion on the role of technology in education. In your essay, consider how technology has changed the way information is delivered and accessed, the implications for teachers and students, and any potential drawbacks that may arise from an increased reliance on technology in education."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.9,
+      "avg_word_len": 5.38,
+      "advanced_ratio": 0.19
+    }
+  }
 }

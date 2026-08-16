@@ -36,5 +36,14 @@
       "title": "Addressing Plastic Waste",
       "prompt": "In recent years, the amount of plastic waste generated globally has increased dramatically. Many people believe that this is a significant problem that needs to be addressed urgently. Discuss the causes of the growing plastic waste issue and suggest possible solutions that governments and individuals can implement to tackle this problem. Provide examples to support your points."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.4,
+      "avg_word_len": 5.19,
+      "advanced_ratio": 0.108
+    }
+  }
 }

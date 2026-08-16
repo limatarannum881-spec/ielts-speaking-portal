@@ -44,5 +44,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology in education has sparked a heated debate among educators, parents, and students. Some argue that technology enhances the learning experience, while others believe it detracts from traditional methods of teaching. Discuss both views and give your opinion on whether technology has a positive or negative impact on education. In your answer, consider the various ways technology can be utilized in classrooms, such as through interactive learning platforms, online resources, and the accessibility of information. Additionally, examine the potential drawbacks, including reduced interpersonal interactions and the possibility of students becoming overly reliant on digital tools. Ultimately, it is essential to evaluate these arguments to determine the overall effect of technology on the educational landscape."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.8,
+      "avg_word_len": 5.78,
+      "advanced_ratio": 0.19
+    }
+  }
 }

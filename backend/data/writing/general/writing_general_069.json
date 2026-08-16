@@ -15,5 +15,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has transformed education for the better, while others think it has had a negative impact. Discuss both views and give your opinion. In your essay, provide examples and evidence to support your arguments, and ensure you present a clear conclusion summarizing your thoughts."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.8,
+      "avg_word_len": 4.95,
+      "advanced_ratio": 0.102
+    }
+  }
 }

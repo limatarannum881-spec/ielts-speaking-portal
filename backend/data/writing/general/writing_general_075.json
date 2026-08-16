@@ -44,5 +44,14 @@
       "title": "Addressing Urban Air Pollution",
       "prompt": "Urban areas around the world are facing increasing levels of air pollution, which is harmful to the health of residents and the environment. Discuss the main causes of air pollution in cities and propose potential solutions that could be implemented to reduce it. Make sure to provide clear examples to support your arguments. Your essay should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.2,
+      "avg_word_len": 5.2,
+      "advanced_ratio": 0.156
+    }
+  }
 }

@@ -40,5 +40,14 @@
       "title": "Impact of Technology on Education",
       "prompt": "In recent years, technology has significantly transformed the education system. While some people believe that advancements in technology have made learning more accessible and efficient, others argue that it creates distractions and reduces the quality of education. Discuss both sides of this argument and give your own opinion on whether you think technology has a positive or negative impact on education. Support your views with relevant examples."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.0,
+      "avg_word_len": 5.15,
+      "advanced_ratio": 0.139
+    }
+  }
 }

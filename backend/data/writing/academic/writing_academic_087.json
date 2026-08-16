@@ -80,5 +80,14 @@
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, the trend of remote work has gained significant momentum, especially during the global pandemic. While this shift offers various advantages for both employees and employers, it also poses some challenges that need to be addressed. On one hand, remote work allows employees greater flexibility in their schedules and eliminates the commute, potentially leading to a better work-life balance. It can also reduce overhead costs for businesses, as they may require less office space. However, there are drawbacks to consider. For instance, remote work can lead to feelings of isolation among employees, reducing team cohesion and collaboration. Furthermore, not all workers have access to a conducive working environment at home, which may affect their productivity. This essay will discuss both the positive and negative aspects of remote work, aiming to present a balanced view of this emerging workplace trend."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.1,
+      "avg_word_len": 5.32,
+      "advanced_ratio": 0.151
+    }
+  }
 }

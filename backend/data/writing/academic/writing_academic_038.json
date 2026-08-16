@@ -40,5 +40,14 @@
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, remote work has gained immense popularity, particularly due to advancements in technology and the global pandemic. While this shift has been beneficial for many, it has also brought about significant challenges. Discuss both the advantages and disadvantages of remote work. On one hand, remote work offers flexibility and improved work-life balance, allowing employees to manage their own schedules and reduce commuting time. This can lead to increased productivity and job satisfaction. On the other hand, remote work can result in feelings of isolation and the blurring of boundaries between personal and professional life. Additionally, not all employees have access to a suitable work environment at home, which may hinder their performance. Given these points, it is crucial to weigh the pros and cons of remote work to understand its impact on the workforce and the future of employment."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.6,
+      "avg_word_len": 5.26,
+      "advanced_ratio": 0.158
+    }
+  }
 }

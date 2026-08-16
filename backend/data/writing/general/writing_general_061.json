@@ -14,5 +14,14 @@
       "title": "The Impact of Technology on Society",
       "prompt": "Technology has transformed how we live, work, and communicate. While many argue that technology brings significant benefits to society, others believe it has negative effects. Discuss both sides and give your own opinion. In your essay, examine the advantages that technology offers, such as improved communication and efficiency, as well as the drawbacks, including social isolation and privacy concerns. Conclude with your personal viewpoint on whether the benefits of technology outweigh its disadvantages. Your response should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 13.1,
+      "avg_word_len": 5.34,
+      "advanced_ratio": 0.159
+    }
+  }
 }

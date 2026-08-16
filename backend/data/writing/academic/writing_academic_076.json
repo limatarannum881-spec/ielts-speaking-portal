@@ -40,5 +40,14 @@
       "title": "The Impact of Remote Work on Employee Productivity",
       "prompt": "In recent years, the rise of remote work has transformed how businesses operate and how employees perform their tasks. On one hand, proponents argue that remote work increases productivity as it offers flexibility and eliminates commuting time. Employees can work in comfortable environments, leading to enhanced focus and efficiency. On the other hand, critics contend that remote work can hinder productivity due to distractions at home and a lack of supervision. It may also create barriers to communication and collaboration among team members. This essay will discuss both perspectives, examining how remote work can be a double-edged sword, impacting productivity in various ways. Ultimately, it is essential to explore solutions to maximize the benefits of remote work while addressing its challenges."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.2,
+      "avg_word_len": 5.57,
+      "advanced_ratio": 0.217
+    }
+  }
 }

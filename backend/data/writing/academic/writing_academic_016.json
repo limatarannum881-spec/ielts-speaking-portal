@@ -36,5 +36,14 @@
       "title": "The Impact of Online Learning",
       "prompt": "In recent years, online learning has gained significant popularity, especially due to the global pandemic. While some argue that this mode of education presents numerous advantages, others express concerns about its effectiveness. Discuss both views and provide your opinion. On the one hand, proponents of online learning assert that it offers flexibility and accessibility. Students can access resources at any time and from any location, which can accommodate diverse learning styles and schedules. This is particularly beneficial for those balancing work and study or for individuals in remote areas. On the other hand, critics argue that online learning lacks the personal interaction found in traditional classrooms, which may hinder communication skills and social development. They also raise concerns about self-discipline, stating that students may struggle to stay motivated without the structured environment of a classroom. In my opinion, while online learning has its drawbacks, the benefits of flexibility and accessibility make it a valuable educational tool when combined with traditional methods."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.8,
+      "avg_word_len": 5.75,
+      "advanced_ratio": 0.172
+    }
+  }
 }

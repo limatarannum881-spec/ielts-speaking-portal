@@ -40,5 +40,14 @@
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, particularly due to the COVID-19 pandemic, remote work has become increasingly common. While some argue that this shift has numerous benefits, others assert that it comes with significant challenges. Discuss both sides of this issue. On the one hand, proponents of remote work highlight its flexibility and the potential for improved work-life balance. Employees can tailor their work schedules to accommodate personal obligations, which can lead to increased job satisfaction and productivity. Moreover, employers may save on overhead costs, such as office space and utilities. On the other hand, critics express concerns regarding isolation and the difficulties in maintaining team cohesion. Remote work can lead to feelings of loneliness among employees, which in turn may decrease collaboration and innovation. Additionally, there may be challenges related to communication and the management of remote teams. In conclusion, while remote work offers several advantages, it is crucial to consider the potential drawbacks that may hinder its effectiveness."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.2,
+      "avg_word_len": 5.42,
+      "advanced_ratio": 0.188
+    }
+  }
 }

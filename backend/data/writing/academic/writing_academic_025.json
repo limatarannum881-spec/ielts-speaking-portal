@@ -44,5 +44,14 @@
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has become a dominant force in shaping public opinion and interaction. While some argue that social media platforms have brought significant benefits, others contend that they have detrimental effects on society. Discuss both views and provide your own opinion. Supporters of social media contend that it fosters connectivity and enables individuals to communicate effortlessly across the globe. It also provides a platform for marginalized voices and promotes awareness of social issues. Conversely, critics argue that social media can lead to misinformation, cyberbullying, and the erosion of genuine face-to-face interactions. Additionally, the addictive nature of these platforms may detract from important real-life relationships and responsibilities. In my opinion, while social media has its drawbacks, the benefits it offers in terms of communication and information sharing outweigh the negatives. Therefore, it is essential for users to navigate these platforms wisely to maximize their positive impacts while mitigating the risks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.6,
+      "avg_word_len": 5.59,
+      "advanced_ratio": 0.144
+    }
+  }
 }

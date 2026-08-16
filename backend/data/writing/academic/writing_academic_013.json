@@ -40,5 +40,14 @@
       "title": "The Impact of Telecommuting on Work-Life Balance",
       "prompt": "A complete Task 2 prompt (min 250 words)."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.6,
+      "avg_word_len": 5.48,
+      "advanced_ratio": 0.155
+    }
+  }
 }

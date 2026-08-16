@@ -32,5 +32,14 @@
       "title": "The Impact of Remote Work on Employees",
       "prompt": "With the rise of technology, many companies have started to allow employees to work from home. Discuss the advantages and disadvantages of this trend. What impact does remote work have on employees' productivity, work-life balance, and overall job satisfaction? Provide examples to support your arguments, and conclude with your own opinion on whether the benefits outweigh the drawbacks. Your response should be at least 250 words long."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.5,
+      "avg_word_len": 5.43,
+      "advanced_ratio": 0.2
+    }
+  }
 }

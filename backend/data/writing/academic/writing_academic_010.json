@@ -40,5 +40,14 @@
       "title": "Remote Work: Advantages and Disadvantages",
       "prompt": "In recent years, remote work has become increasingly popular, particularly accelerated by the COVID-19 pandemic. While many view remote work as a beneficial arrangement, others argue that it poses significant drawbacks. Discuss both the advantages and disadvantages of remote work. On one hand, remote work offers employees greater flexibility, allowing them to balance their professional and personal lives more effectively. Additionally, it often eliminates commuting time, leading to increased productivity and job satisfaction. On the other hand, remote work can lead to feelings of isolation, hinder effective communication among team members, and blur the lines between work and home life. This essay will explore these contrasting viewpoints, ultimately arguing that while remote work has notable benefits, the challenges associated with it cannot be overlooked."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.9,
+      "avg_word_len": 5.53,
+      "advanced_ratio": 0.185
+    }
+  }
 }

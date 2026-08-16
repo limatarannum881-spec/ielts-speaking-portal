@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, technology has transformed the educational landscape, with many arguing that it brings both significant benefits and certain drawbacks. On one hand, technology enhances learning experiences through interactive tools, access to information, and personalized education plans. Digital platforms enable students to collaborate across the globe, fostering a sense of community and diverse perspectives. Additionally, online resources allow for flexible learning opportunities, accommodating various learning styles and paces. On the other hand, some critics of technology in education argue that it can lead to distractions, reduce face-to-face interactions, and even hinder critical thinking skills. There are also concerns regarding inequities in access to technology, potentially widening the gap between different socio-economic groups. In conclusion, while technology undeniably offers valuable tools for enhancing education, it is crucial to address its challenges to ensure that it serves as a positive force in learning."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.5,
+      "avg_word_len": 5.94,
+      "advanced_ratio": 0.232
+    }
+  }
 }

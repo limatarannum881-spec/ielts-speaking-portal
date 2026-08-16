@@ -44,5 +44,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Some people believe that technology has a positive impact on education, while others think it has a negative effect. Discuss both views and give your opinion. In your essay, consider how technology can enhance learning experiences, as well as the potential drawbacks such as distractions and reliance on devices. Provide examples to support your arguments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.7,
+      "avg_word_len": 5.17,
+      "advanced_ratio": 0.144
+    }
+  }
 }

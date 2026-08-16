@@ -15,5 +15,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "Some people believe that technology has improved communication among people, while others think it has destroyed the quality of communication. Discuss both views and give your opinion. In your essay, explore the ways technology has transformed communication, consider the potential drawbacks it may have introduced, and support your arguments with relevant examples."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.4,
+      "avg_word_len": 5.51,
+      "advanced_ratio": 0.176
+    }
+  }
 }

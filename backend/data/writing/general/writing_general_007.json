@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has transformed the way we communicate. While some believe that technology has improved communication, others argue that it has led to a decline in face-to-face interactions. Discuss both views and give your own opinion. Include relevant examples to support your arguments. Your essay should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 11.4,
+      "avg_word_len": 5.25,
+      "advanced_ratio": 0.14
+    }
+  }
 }

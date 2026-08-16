@@ -60,6 +60,7 @@ class AnalyzeReq(BaseModel):
     history: list = Field(default_factory=list)
     questions: list = Field(default_factory=list)
     answers: list = Field(default_factory=list)
+    prosody: dict = Field(default_factory=dict)
 
 
 # --------------------------------------------------------------------------
@@ -177,14 +178,13 @@ async def analyze(req: AnalyzeReq):
         {"role": "system", "content": prompts.ANALYSIS_SYSTEM},
         {
             "role": "user",
-            "content": (
-                "Practice mode: " + req.mode + "\n\n"
-                "--- Conversation ---\n"
-                + "\n".join(
+            "content": prompts.analysis_prompt(
+                req.mode,
+                "\n".join(
                     f"{'Examiner' if m.get('role') in ('examiner', 'assistant') else 'Candidate'}: {m.get('text', '')}"
                     for m in req.history
-                )
-                + "\n\nAnalyse the candidate's speech and return the JSON."
+                ),
+                req.prosody or None,
             ),
         },
     ]

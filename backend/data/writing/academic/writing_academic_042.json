@@ -40,5 +40,14 @@
       "title": "The Impact of Remote Work",
       "prompt": "The rise of remote work has significantly changed the landscape of the modern workplace, offering both benefits and drawbacks. On one hand, proponents argue that remote work enhances productivity, improves work-life balance, and reduces commuting time, leading to happier employees. Additionally, companies can save costs on office space and utilities. On the other hand, critics point out that remote work can lead to feelings of isolation, difficulties in team collaboration, and challenges in managing employee performance. Furthermore, the blurring of boundaries between home and work life can cause stress and burnout. In light of these contrasting viewpoints, it is essential to consider whether the advantages of remote work outweigh its disadvantages. This essay will explore both sides of the debate, ultimately positing that while remote work presents challenges, its benefits can lead to a more flexible and efficient work environment when managed effectively."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.7,
+      "avg_word_len": 5.37,
+      "advanced_ratio": 0.174
+    }
+  }
 }

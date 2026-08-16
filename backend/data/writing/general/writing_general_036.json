@@ -36,5 +36,14 @@
       "title": "Urban Noise Pollution",
       "prompt": "Noise pollution in urban areas has become a significant problem in recent years. Discuss the causes of this issue and suggest practical solutions to mitigate its impact on city dwellers. Include specific examples to support your points and ensure your essay is no less than 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.2,
+      "avg_word_len": 4.89,
+      "advanced_ratio": 0.096
+    }
+  }
 }

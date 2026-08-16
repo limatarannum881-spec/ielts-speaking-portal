@@ -44,5 +44,14 @@
       "title": "Teleworking: Pros and Cons",
       "prompt": "In recent years, teleworking has become increasingly common, especially in light of the global pandemic. While some argue that working from home has significant advantages, others highlight the potential drawbacks. Discuss both the benefits and disadvantages of teleworking. On one hand, proponents of teleworking argue that it offers greater flexibility, allowing employees to manage their work-life balance more effectively. This can lead to increased job satisfaction and productivity, as employees can work in environments they find most comfortable. Additionally, companies can save on overhead costs associated with physical office spaces. On the other hand, critics contend that teleworking can lead to feelings of isolation and disconnection from coworkers, which may impact team dynamics and collaboration. Furthermore, remote work can blur the boundaries between personal and professional life, leading to burnout. In your opinion, what is the most significant factor to consider regarding the future of teleworking: the benefits it offers or the challenges it poses?"
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.5,
+      "avg_word_len": 5.69,
+      "advanced_ratio": 0.174
+    }
+  }
 }

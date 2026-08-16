@@ -84,5 +84,14 @@
       "title": "Impact of Technology on Education",
       "prompt": "In recent years, technology has profoundly transformed the field of education. Some argue that this transformation has led to significant improvements in the learning experience, while others claim that it has adverse effects on students' learning outcomes. Discuss both views and give your opinion. In your essay, consider the advantages of integrating technology in educational settings, such as enhanced access to information, personalized learning experiences, and the development of digital skills essential for the modern workforce. Conversely, examine the disadvantages, including potential distractions, the risk of information overload, and the diminishing role of traditional teaching methods. Ultimately, reflect on how these conflicting perspectives shape our understanding of the role technology plays in education today and propose a balanced approach that could mitigate the challenges while maximizing the benefits."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 20.6,
+      "avg_word_len": 5.76,
+      "advanced_ratio": 0.228
+    }
+  }
 }

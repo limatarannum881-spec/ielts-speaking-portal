@@ -81,5 +81,14 @@
     "url": "",
     "license": "original",
     "attributionRequired": false
+  },
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.6,
+      "avg_word_len": 5.88,
+      "advanced_ratio": 0.208
+    }
   }
 }

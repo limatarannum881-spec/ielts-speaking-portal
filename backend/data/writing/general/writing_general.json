@@ -14,5 +14,14 @@
       "title": "Working from home",
       "prompt": "Some people believe that working from home is more productive and better for employees, while others think it harms teamwork and career development.\n\nDiscuss both these views and give your own opinion.\n\nWrite at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 12.7,
+      "avg_word_len": 4.89,
+      "advanced_ratio": 0.067
+    }
+  }
 }

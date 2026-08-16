@@ -49,8 +49,15 @@ Guidelines:
 
 ANALYSIS_SYSTEM = """You are an expert IELTS Speaking examiner and English coach.
 Analyse the candidate's spoken English from the conversation below. Be accurate, honest and
-constructive. Do NOT invent errors that are not there. Do NOT claim to measure pronunciation
-precisely (you have no audio) — for pronunciation, comment only cautiously and label it an estimate.
+constructive. Do NOT invent errors that are not there.
+
+If measured speech-prosody metrics are provided (words-per-minute, silence ratio, pause count,
+total duration), USE THEM for the "fluency_coherence" and "pronunciation" criteria. Interpret them:
+- Very low speaking rate (<90 wpm) or very high (>200 wpm) often signals fluency problems.
+- High silence ratio (>40%) or many long pauses signals hesitation / weak fluency.
+- A natural rate (~120-160 wpm) with modest pauses suggests good fluency.
+If NO prosody metrics are provided, you have no audio — then comment cautiously on
+pronunciation and label it an estimate; do not fabricate precise pronunciation errors.
 
 Return ONLY a JSON object with exactly this structure:
 
@@ -94,6 +101,26 @@ Rules:
   and mention which words and roughly where.
 - Empty lists are fine when there is nothing to correct.
 - Return ONLY the JSON object, no other text."""
+
+
+def analysis_prompt(mode: str, history_text: str, prosody: dict = None) -> str:
+    """Build the user message for the speaking analysis, including any measured
+    prosody metrics so the model scores fluency/pronunciation from real data."""
+    parts = [
+        "Practice mode: " + mode + "\n\n",
+        "--- Conversation ---\n" + history_text + "\n\n",
+    ]
+    if prosody:
+        parts.append(
+            "--- Measured speech prosody (from the audio, where available) ---\n"
+            f"words-per-minute (speaking time): {prosody.get('speechWpm', '?')}\n"
+            f"silence ratio: {prosody.get('silenceRatio', '?')}%\n"
+            f"pause count: {prosody.get('pauses', '?')}\n"
+            f"total audio duration: {prosody.get('durationSec', '?')}s\n\n"
+            "Use these numbers to score fluency_coherence and pronunciation.\n\n"
+        )
+    parts.append("Analyse the candidate's speech and return the JSON.")
+    return "".join(parts)
 
 
 def system_prompt(mode: str, stage: str) -> str:

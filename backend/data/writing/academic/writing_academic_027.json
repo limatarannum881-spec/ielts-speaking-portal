@@ -44,5 +44,14 @@
       "title": "Remote Work Impact on Employees",
       "prompt": "The phenomenon of remote work has become increasingly common, especially in the wake of the COVID-19 pandemic. While there are numerous advantages to remote work, such as increased flexibility and reduced commute time, there are also significant disadvantages that must be addressed. On the one hand, remote work allows employees to manage their own schedules and work in conducive environments, leading to enhanced productivity and a better work-life balance. On the other hand, isolation and lack of face-to-face interaction can lead to feelings of loneliness and disconnection among employees. Furthermore, challenges such as distractions at home can hinder efficiency. In your opinion, do the advantages of remote work outweigh the disadvantages? Discuss both sides and provide your perspective on this issue, citing relevant examples and experiences."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.8,
+      "avg_word_len": 5.32,
+      "advanced_ratio": 0.181
+    }
+  }
 }

@@ -19,5 +19,14 @@
       "title": "Social Media and Communication",
       "prompt": "With the rise of social media, the way we communicate has changed significantly. Some people believe that social media enhances communication while others argue that it has a negative impact. Discuss both views and give your own opinion. Your essay should be at least 250 words long, providing clear explanations and examples to support your arguments."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.3,
+      "avg_word_len": 5.01,
+      "advanced_ratio": 0.094
+    }
+  }
 }

@@ -44,5 +44,14 @@
       "title": "The Impact of Remote Work on Employee Productivity",
       "prompt": "In recent years, remote work has become increasingly popular, especially following the global pandemic. Some argue that this shift has led to improvements in employee productivity, while others contend that it has had the opposite effect. Discuss both views and give your opinion on the impact of remote work on productivity. Remote work advocates suggest that the flexibility it offers allows employees to work in environments that suit them best, potentially leading to higher job satisfaction and efficiency. Furthermore, the elimination of commuting time can provide employees with more hours to concentrate on work tasks. Conversely, detractors argue that remote work can blur the lines between personal life and work, leading to increased stress and burnout. Additionally, the lack of face-to-face interaction may affect teamwork and communication, ultimately hindering productivity. In your opinion, what are the overall implications of remote work for employee productivity, and how can companies ensure that their remote workforce remains engaged and productive?"
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 10.8,
+      "avg_word_len": 5.69,
+      "advanced_ratio": 0.189
+    }
+  }
 }

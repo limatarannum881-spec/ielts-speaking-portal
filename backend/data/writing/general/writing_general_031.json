@@ -19,5 +19,14 @@
       "title": "The Impact of Technology on Social Interaction",
       "prompt": "In recent years, technology has become an integral part of our daily lives, affecting how we communicate and interact with others. Some people argue that technology has a negative impact on social interaction, while others believe it has enhanced our ability to connect with one another. Discuss both views and give your opinion. You should support your answer with relevant examples and reasons. Your essay should be at least 250 words long."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 12.5,
+      "avg_word_len": 5.11,
+      "advanced_ratio": 0.12
+    }
+  }
 }

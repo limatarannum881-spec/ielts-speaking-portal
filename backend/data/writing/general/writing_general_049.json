@@ -14,5 +14,14 @@
       "title": "Impact of Technology on Education",
       "prompt": "Some people believe that technology has completely transformed education, while others argue that traditional methods remain the most effective. Discuss both views and give your opinion. In your essay, consider how technology has changed teaching and learning processes, and whether these changes are beneficial or detrimental to students' education. Your essay should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.9,
+      "avg_word_len": 5.07,
+      "advanced_ratio": 0.154
+    }
+  }
 }

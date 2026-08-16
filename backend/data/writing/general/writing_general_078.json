@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Discuss the ways in which technology has changed the educational landscape in recent years. On one hand, you may consider the advantages that technology brings, such as easier access to information, increased engagement through multimedia, and the ability to learn at one's own pace. On the other hand, there are potential disadvantages, including the digital divide among students from different socio-economic backgrounds, reliance on technology that may lead to decreased critical thinking skills, and distractions that can hinder learning. Provide examples to support your points and conclude with your own opinion on whether the benefits of technology in education outweigh the drawbacks. Your response should be at least 250 words."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 19.5,
+      "avg_word_len": 5.31,
+      "advanced_ratio": 0.154
+    }
+  }
 }

@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In today's world, technology has significantly transformed the way we communicate. While some argue that this shift has brought about several advantages, others believe it has detrimental effects. Discuss both views and give your opinion. On one hand, supporters of technological advancements in communication argue that it has made connecting with others much easier and faster. With the advent of instant messaging and social media platforms, people can communicate across vast distances in real-time. This not only fosters relationships but also facilitates collaboration in professional settings. On the other hand, detractors point out that reliance on technology can erode face-to-face interactions. They argue that online communication lacks the emotional depth and non-verbal cues present in personal conversations, which can lead to misunderstandings and a sense of isolation. In my opinion, while technology has undeniably enhanced communication convenience, it is crucial to maintain a balance. Engaging in direct interactions remains essential for building strong, meaningful relationships. Therefore, I believe that leveraging technology should complement, rather than replace, traditional forms of communication."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.5,
+      "avg_word_len": 5.95,
+      "advanced_ratio": 0.245
+    }
+  }
 }

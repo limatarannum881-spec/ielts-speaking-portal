@@ -52,5 +52,14 @@
       "title": "The Influence of Technology on Education",
       "prompt": "In recent years, technology has fundamentally transformed the educational landscape. While some argue that this shift has enhanced learning experiences, others believe that it has introduced challenges that undermine traditional educational values. Discuss both views and give your own opinion. Proponents of technology in education point to the accessibility of information as a major benefit. With digital resources, students can easily find materials that support their studies, facilitating a personalized learning experience. Additionally, technology fosters engagement through interactive tools such as educational apps and online forums. On the contrary, critics argue that reliance on technology can lead to distractions, diminishing students' attention spans and critical thinking skills. They suggest that face-to-face interactions and traditional teaching methods are essential for developing interpersonal skills. In my opinion, while technology offers significant advantages in enhancing educational practices, it is imperative to balance its use with traditional methods to ensure holistic development in learners."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.8,
+      "avg_word_len": 5.6,
+      "advanced_ratio": 0.224
+    }
+  }
 }

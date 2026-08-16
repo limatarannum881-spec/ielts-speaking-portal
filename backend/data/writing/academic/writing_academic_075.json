@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "Technological advancements have profoundly influenced various aspects of our lives, especially in the realm of education. While some argue that technology has significantly improved educational outcomes, others maintain that it has introduced several challenges. Discuss both views and provide your own opinion. In your response, consider the advantages that technology brings to learning, such as increased access to resources and interactive learning experiences. However, also explore the disadvantages, including distractions stemming from excessive screen time and the potential for reduced face-to-face interactions. Ultimately, reflect on how these factors shape the educational landscape in contemporary society."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.8,
+      "avg_word_len": 5.67,
+      "advanced_ratio": 0.2
+    }
+  }
 }

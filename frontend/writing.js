@@ -207,6 +207,8 @@ const Writing = (() => {
       Store.set("ielts_writing_draft", null);
       Store.history.add({
         testType: "writing", version: state.version, title: state.prompt.title,
+        task: state.task,
+        taskType: state.prompt.type || null,
         writing: result.overallBand, overall: result.overallBand, status: "completed",
       });
       const cb = state.onComplete;

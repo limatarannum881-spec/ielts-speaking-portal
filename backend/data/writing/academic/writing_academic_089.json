@@ -52,5 +52,14 @@
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology into education has sparked considerable debate. On the one hand, advocates argue that technology enhances learning experiences and provides students with access to a wealth of information and resources. For instance, online platforms and educational software have made it possible for students to learn at their own pace and access diverse materials that cater to different learning styles. Moreover, technology can facilitate collaboration among students, allowing for interactive learning experiences. On the other hand, critics raise concerns about the potential drawbacks of such dependence on technology. They argue that over-reliance on digital tools can hinder critical thinking and problem-solving skills, as students may become accustomed to finding answers online instead of engaging deeply with the content. Additionally, there is the issue of the digital divide, as not all students have equal access to technology, potentially exacerbating existing inequalities in education. In conclusion, while technology undoubtedly presents opportunities for enhancing education, it is crucial to strike a balance and mitigate its negative impacts to ensure a holistic learning experience."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 20.8,
+      "avg_word_len": 5.63,
+      "advanced_ratio": 0.189
+    }
+  }
 }

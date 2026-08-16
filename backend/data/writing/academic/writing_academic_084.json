@@ -44,5 +44,14 @@
       "title": "The Impact of Social Media on Personal Relationships",
       "prompt": "In recent years, social media has transformed the way individuals interact and maintain their personal relationships. While some argue that it enhances connections, others contend that it undermines meaningful communication. Discuss both views and give your own opinion. On one hand, proponents of social media highlight its ability to connect people across vast geographical distances. Families and friends separated by miles can easily share updates and maintain their relationships through platforms like Facebook, Instagram, and WhatsApp. This instant communication fosters a sense of closeness despite physical separation. On the other hand, critics argue that social media can lead to superficial interactions. They claim that the quality of communication is often compromised, as people may prefer online interactions over face-to-face conversations, resulting in weakened emotional bonds. In my opinion, while social media does offer valuable tools for maintaining relationships, it is essential to balance online interactions with real-life connections to ensure that relationships remain meaningful. This balance is crucial for emotional well-being and the sustainability of personal relationships."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.1,
+      "avg_word_len": 5.71,
+      "advanced_ratio": 0.161
+    }
+  }
 }

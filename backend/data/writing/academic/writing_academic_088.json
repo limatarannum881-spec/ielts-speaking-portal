@@ -60,5 +60,14 @@
       "title": "The Impact of Technology on Employment",
       "prompt": "Technology has become an integral part of our lives, influencing various sectors, including employment. While some argue that technological advancements can lead to job displacement, others believe that it creates new opportunities. Discuss both views and provide your opinion. On one hand, it is undeniable that automation and artificial intelligence have replaced numerous jobs, particularly in manufacturing and administrative sectors. As machines become more capable of performing tasks traditionally done by humans, workers may find themselves unemployed or forced to seek different careers. On the other hand, technology also paves the way for new job creation in emerging fields such as digital marketing, software development, and renewable energy. Moreover, the integration of technology in workplaces can enhance productivity and facilitate the emergence of innovative roles that did not previously exist. In my opinion, while the threat of job displacement is a valid concern, the potential for new job creation and innovation outweighs these risks. Therefore, societies should invest in education and retraining programs to prepare the workforce for an evolving job market."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.9,
+      "avg_word_len": 5.59,
+      "advanced_ratio": 0.212
+    }
+  }
 }

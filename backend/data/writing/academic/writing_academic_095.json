@@ -36,5 +36,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "Technology has revolutionized educational practices and the way students learn. Discuss both the advantages and disadvantages of integrating technology into education. In your opinion, what is the overall impact of technology on learning outcomes? In recent years, educational institutions have increasingly adopted technological tools, such as online learning platforms, interactive software, and digital resources, enhancing access to information and personalized learning experiences. Moreover, technology can foster engagement and facilitate collaboration among students. However, some argue that too much reliance on technology can lead to issues such as diminished critical thinking skills, reduced face-to-face interactions, and an overemphasis on multitasking. While technology undeniably offers several benefits to modern education, it is crucial to maintain a balanced approach to ensure that it enhances rather than detracts from the learning experience."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.3,
+      "avg_word_len": 5.96,
+      "advanced_ratio": 0.228
+    }
+  }
 }

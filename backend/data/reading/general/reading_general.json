@@ -35,7 +35,12 @@
           "id": "q4",
           "type": "multiple-choice",
           "question": "What must new members provide to join?",
-          "options": ["A reference from an employer", "Proof of address and photo ID", "A medical certificate", "A signed parent's consent form"],
+          "options": [
+            "A reference from an employer",
+            "Proof of address and photo ID",
+            "A medical certificate",
+            "A signed parent's consent form"
+          ],
           "answer": "B",
           "explanation": "The passage requires 'a recent utility bill or bank statement' (proof of address) and 'one form of photo identification'."
         },
@@ -58,7 +63,12 @@
           "id": "q7",
           "type": "multiple-choice",
           "question": "What happens to the car park after closing?",
-          "options": ["It stays open all night", "It is locked thirty minutes after closing", "It is closed on Sundays only", "It is free for members"],
+          "options": [
+            "It stays open all night",
+            "It is locked thirty minutes after closing",
+            "It is closed on Sundays only",
+            "It is free for members"
+          ],
           "answer": "B",
           "explanation": "The passage says 'the car park is locked thirty minutes after closing'."
         }
@@ -70,5 +80,14 @@
     "url": "",
     "license": "original",
     "attributionRequired": false
+  },
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.4,
+      "avg_word_len": 4.73,
+      "advanced_ratio": 0.105
+    }
   }
 }

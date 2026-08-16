@@ -36,5 +36,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has significantly changed the way we communicate. While some people believe that these advancements have improved communication between individuals, others argue that they have negatively affected interpersonal relationships. Discuss both views and give your own opinion. What do you think about the effects of technology on communication? Support your arguments with relevant examples and explanations."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.0,
+      "avg_word_len": 5.54,
+      "advanced_ratio": 0.161
+    }
+  }
 }

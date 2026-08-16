@@ -40,5 +40,14 @@
       "title": "The Impact of Technology on Social Interactions",
       "prompt": "In recent years, technology has dramatically transformed the way people interact with each other. While some argue that technology enhances communication and fosters relationships, others believe it leads to a decline in genuine social interactions. Discuss both views and give your opinion. Consider the implications of technology on interpersonal relationships, including both positive aspects, such as the ability to connect with others across distances, and negative aspects, such as the potential for isolation and reduced face-to-face communication. Conclude with your own perspective on whether the benefits of technology in social interactions outweigh the drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.4,
+      "avg_word_len": 5.96,
+      "advanced_ratio": 0.226
+    }
+  }
 }

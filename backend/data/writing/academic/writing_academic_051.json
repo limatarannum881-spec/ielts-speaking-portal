@@ -40,5 +40,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has increasingly been integrated into educational settings, leading to a debate about its effectiveness and implications. On one hand, proponents argue that technology enhances the learning experience by providing access to vast resources, facilitating interactive learning, and accommodating diverse learning styles. They emphasize that tools such as online educational platforms, interactive simulations, and digital resources can significantly improve student engagement and understanding. On the other hand, critics express concerns about the over-reliance on technology, which could lead to diminished critical thinking skills and reduced face-to-face interactions among students. They also point out issues related to unequal access to technology, which can exacerbate existing educational inequalities. This essay will explore both sides of the argument before concluding that while technology can benefit education, it is crucial to balance its usage with traditional teaching methods to ensure a holistic learning experience."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 7.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 20.0,
+      "avg_word_len": 5.96,
+      "advanced_ratio": 0.239
+    }
+  }
 }

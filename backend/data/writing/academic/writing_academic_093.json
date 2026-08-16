@@ -68,5 +68,14 @@
       "title": "The Impact of Social Media on Society",
       "prompt": "Social media has become an integral part of modern life, influencing various aspects of society. While some people argue that social media has a mostly positive impact, others believe it poses significant risks and drawbacks. This essay will discuss both sides of the argument. On one hand, proponents of social media highlight its ability to connect people globally, facilitate communication, and foster relationships. It can also serve as a platform for raising awareness about social issues and mobilizing support for different causes. On the other hand, critics point out that social media can lead to negative consequences such as cyberbullying, misinformation, and a decline in face-to-face interactions. Additionally, excessive use of social media has been linked to mental health issues, particularly among younger generations. In conclusion, while social media offers numerous benefits, it is essential to recognize its potential hazards and strive for a balanced approach to its usage."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.8,
+      "avg_word_len": 5.35,
+      "advanced_ratio": 0.133
+    }
+  }
 }

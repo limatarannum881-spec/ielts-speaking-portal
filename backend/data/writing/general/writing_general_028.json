@@ -15,5 +15,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In the modern world, the use of technology has transformed the way we communicate. Some people believe that technology has improved communication, while others argue that it has created barriers. Discuss both views and give your opinion on the impact of technology on communication. Support your arguments with relevant examples."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 13.1,
+      "avg_word_len": 5.1,
+      "advanced_ratio": 0.144
+    }
+  }
 }

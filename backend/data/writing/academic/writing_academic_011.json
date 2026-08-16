@@ -36,5 +36,14 @@
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has profoundly impacted the field of education, leading to significant changes in the way students learn and teachers instruct. Some people argue that the integration of technology in classrooms enhances the learning experience, while others believe it can lead to distractions and a decrease in genuine learning. Discuss both views and give your opinion. On one hand, technology serves as a powerful tool that can facilitate personalized learning, provide access to a vast array of resources, and enable collaborative projects that were previously unimaginable. Furthermore, online learning platforms allow students to learn at their own pace, which can cater to individual learning styles. On the other hand, the overuse of technology may promote a reliance on devices rather than critical thinking and problem-solving skills. Students might become easily distracted by social media and online games, detracting from their focus on academic tasks. In conclusion, while technology offers substantial benefits to education, it is essential to find a balance to ensure that it enriches learning rather than detracting from it."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 20.2,
+      "avg_word_len": 5.71,
+      "advanced_ratio": 0.188
+    }
+  }
 }

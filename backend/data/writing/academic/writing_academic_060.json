@@ -32,5 +32,14 @@
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has become an integral part of modern society, significantly influencing how individuals communicate and interact. While some argue that social media has fundamentally improved communication and connected individuals across the globe, others contend that it has detrimental effects on personal relationships and societal dynamics. Discuss both views and give your opinion. Consider the positive aspects of social media, such as the ease of maintaining long-distance relationships, the rapid sharing of information, and the opportunities for social movements. Conversely, address the negative implications, including the potential for cyberbullying, the spread of misinformation, and the decline of face-to-face interactions. Ultimately, assess whether social media's impact is more beneficial or harmful to society as a whole."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 18.1,
+      "avg_word_len": 5.89,
+      "advanced_ratio": 0.198
+    }
+  }
 }

@@ -142,6 +142,7 @@ def list_reading():
             "id": t["id"], "title": t["title"], "version": t["version"],
             "duration": t["duration"],
             "questionCount": len(_flatten_questions(t)),
+            "difficulty": t.get("difficulty", {}).get("band"),
             "source": t.get("source"),
         })
     return {"tests": tests}
@@ -218,6 +219,7 @@ def list_listening():
             "duration": t["duration"],
             "parts": len(t["parts"]),
             "questionCount": len(_flatten_questions(t)),
+            "difficulty": t.get("difficulty", {}).get("band"),
             "source": t.get("source"),
         })
     return {"tests": tests}

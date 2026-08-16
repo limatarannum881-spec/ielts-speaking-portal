@@ -44,5 +44,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has changed the way we communicate. While some people argue that this is a positive development, others believe that it has led to negative consequences. Discuss both views and give your opinion on the role of technology in modern communication. Consider aspects such as social media, instant messaging, and email, and how they have affected interpersonal relationships and communication skills. Provide examples to support your arguments, and conclude with your own thoughts on whether technology enhances or undermines effective communication."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 16.6,
+      "avg_word_len": 5.34,
+      "advanced_ratio": 0.175
+    }
+  }
 }

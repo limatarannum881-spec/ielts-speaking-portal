@@ -19,5 +19,14 @@
       "title": "The Impact of Technology on Communication",
       "prompt": "In today's world, technology has significantly changed the way we communicate. Some people believe that this development has had a positive impact on our ability to connect with others, while others argue it has led to a decline in face-to-face interactions. Discuss both views and give your opinion on the matter. Include examples to support your argument."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 5.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 14.1,
+      "avg_word_len": 4.74,
+      "advanced_ratio": 0.087
+    }
+  }
 }

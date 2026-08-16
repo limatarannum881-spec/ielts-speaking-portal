@@ -44,5 +44,14 @@
       "title": "Technology and Communication",
       "prompt": "In recent years, advancements in technology have significantly altered the way we communicate. While some people argue that these changes have a positive impact, others believe that they may lead to negative consequences. Discuss both views and give your own opinion. On one hand, supporters of technological communication argue that it provides convenience and accessibility. For instance, people can connect with others across the globe instantly through social media and video calls, enhancing personal and professional relationships. On the other hand, critics raise concerns about the decline of face-to-face interactions and the potential for misunderstandings when communicating digitally. They argue that technology can lead to isolation and a lack of genuine connection between individuals. In my opinion, while technology has indeed revolutionized communication, it is crucial to find a balance between digital interactions and personal engagements to foster meaningful relationships in society."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.5,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 17.9,
+      "avg_word_len": 5.72,
+      "advanced_ratio": 0.209
+    }
+  }
 }

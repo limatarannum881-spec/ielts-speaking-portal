@@ -44,5 +44,14 @@
       "title": "The Impact of Social Media on Communication",
       "prompt": "In today's digital age, social media platforms have become ubiquitous, fundamentally changing the way we communicate. While some argue that this development has significantly improved communication, others express concern about its negative effects. Discuss both views and provide your own perspective. On one hand, advocates of social media emphasize its ability to connect people across vast distances, allowing for instant communication and the sharing of ideas globally. This has fostered relationships that may not have been possible otherwise. Moreover, social media facilitates the dissemination of information, enabling users to stay informed about current events worldwide. On the other hand, critics argue that social media can lead to superficial communication and a decline in face-to-face interactions. They point to the risk of misunderstandings that arise from the lack of non-verbal cues and the potential for cyberbullying and misinformation. In conclusion, while social media has undeniably revolutionized communication, it is essential to consider the balance between its benefits and drawbacks."
     }
-  ]
+  ],
+  "difficulty": {
+    "band": 6.0,
+    "method": "readability heuristic",
+    "metrics": {
+      "avg_sentence_len": 15.9,
+      "avg_word_len": 5.72,
+      "advanced_ratio": 0.167
+    }
+  }
 }
