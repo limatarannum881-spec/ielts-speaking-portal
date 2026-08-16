@@ -23,11 +23,14 @@ PORT = int(os.getenv("PORT", "8000"))
 
 # Free models to fall back to when the configured (paid) model runs out of
 # credits (OpenRouter returns 402). Lets the app keep working at $0.
+# NOTE: ordered so JSON-mode-friendly models come FIRST — the nemotron
+# reasoning model outputs chain-of-thought instead of JSON, which breaks
+# json_object calls (cue cards, analysis, quizzes), so it goes last.
 FREE_FALLBACK_MODELS = [
-    "nvidia/nemotron-3-super-120b-a12b:free",
     "openai/gpt-oss-20b:free",
     "google/gemma-4-26b-a4b-it:free",
     "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
 ]
 
 

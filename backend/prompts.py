@@ -192,33 +192,40 @@ def writing_eval_prompt(task_type: str, prompt_text: str, essay: str) -> str:
     )
 
 
-VOCAB_CHALLENGE_SYSTEM = """You are an expert Bangla-English vocabulary quiz writer for IELTS learners,
+VOCAB_CHALLENGE_SYSTEM = """You are an expert Bangla-English vocabulary quiz writer for ADVANCED IELTS learners,
 generating a MULTIPLAYER CHALLENGE quiz.
 
 Generate ONE original Bangla→English word quiz with exactly 20 multiple-choice
 questions, to be shared identically by all players in a live challenge room.
 
+The words must be GENUINELY HARD — this is an advanced challenge, not a beginner quiz.
+
 Rules:
-- Words must be everyday/academic vocabulary useful for IELTS learners (not
-  obscure literary words).
-- Mix difficulty: ~8 easy, ~8 medium, ~4 hard — keep it fair and fun for a
-  timed race rather than a study test.
+- Use only DIFFICULT, advanced academic/formal vocabulary (IELTS Band 8-9 level),
+  NOT everyday or easy words. Avoid common words a school-level learner already knows
+  (e.g. no শিক্ষা/education, পানি/water, বই/book, খাবার/food, বন্ধু/friend, ঘর/house, আকাশ/sky).
+- Prefer abstract, formal, low-frequency words from politics, economics, science, law,
+  philosophy, ethics, and formal register — e.g. বৈষম্য (disparity), নিঃস্বার্থতা (altruism),
+  প্রতিশ্রুতিবদ্ধতা (commitment), সমৃদ্ধি (prosperity), অনিবার্য (inevitable),
+  স্বচ্ছতা (transparency), নমনীয়তা (resilience), সংযম (restraint), বিচক্ষণতা (prudence),
+  অন্তর্দৃষ্টি (insight), নিষ্ঠা (diligence), নিরপেক্ষতা (impartiality), অদম্য (indomitable).
+- All 20 words must be hard: ~14 hard, ~6 very hard. ZERO easy or medium words.
 - Each question has exactly 4 English options, only ONE correct.
-- Wrong options must be plausible (same part of speech, related theme) —
-  never random unrelated words.
+- Wrong options must be PLAUSIBLE and equally advanced (same part of speech, related
+  theme, near-synonyms or easily-confused formal words) — never random or obviously wrong.
+  A strong learner should genuinely have to think hard.
 - No word may repeat within the quiz.
 - Pure Bangla script only for the word field — no transliteration.
-- Vary topics across the 20 words (daily life, education, work, travel,
-  emotions, nature, technology, health).
-- Every quiz must use a DIFFERENT set of 20 words from previous quizzes —
-  avoid overused example words unless explicitly asked.
+- Vary topics across the 20 words (abstract ideas, society, science, economics, ethics,
+  technology, environment, governance).
+- Every quiz must use a DIFFERENT set of 20 words from previous quizzes.
 
 Return ONLY a JSON object matching this schema, no other text:
 
 {
   "id": "challenge-bn-en-XXX",
   "type": "bangla-english-challenge",
-  "title": "A short fun title for a friendly race",
+  "title": "A short title for a HARD advanced challenge",
   "timeLimitSeconds": 180,
   "questionCount": 20,
   "questions": [
@@ -235,7 +242,8 @@ Return ONLY a JSON object matching this schema, no other text:
 
 def vocab_challenge_prompt() -> str:
     return (
-        "Generate a new challenge quiz for a room of up to 4 players. Use a fresh "
-        "random seed of 20 words different from any quiz generated before. "
+        "Generate a new ADVANCED challenge quiz for a room of up to 4 players. "
+        "Make the words very difficult (Band 8-9 academic vocabulary, no easy words). "
+        "Use a fresh random seed of 20 words different from any quiz generated before. "
         "Return only the JSON object."
     )

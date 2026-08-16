@@ -115,21 +115,30 @@ def health():
 async def vocab_start():
     """Generate a fresh Bangla->English challenge quiz (one per room, generated
     live so every room gets a different set of 20 words)."""
-    try:
-        if config.is_demo():
-            raise llm.LLMError("no_key")
-        raw = await llm.chat(
-            [
-                {"role": "system", "content": prompts.VOCAB_CHALLENGE_SYSTEM},
-                {"role": "user", "content": prompts.vocab_challenge_prompt()},
-            ],
-            json_mode=True,
-            temperature=0.9,
-            max_tokens=3000,
-        )
-        return llm.parse_json(raw)
-    except llm.LLMError as e:
-        raise friendly_error(e)
+    if config.is_demo():
+        raise friendly_error(llm.LLMError("no_key"))
+
+    messages = [
+        {"role": "system", "content": prompts.VOCAB_CHALLENGE_SYSTEM},
+        {"role": "user", "content": prompts.vocab_challenge_prompt()},
+    ]
+    result = None
+    last_err = None
+    for _ in range(3):
+        try:
+            raw = await llm.chat(messages, json_mode=True, temperature=0.9, max_tokens=3000)
+            result = llm.parse_json(raw)
+            break
+        except llm.LLMError as e:
+            last_err = e
+            if e.kind in ("credits", "no_key"):
+                break
+            import asyncio
+            await asyncio.sleep(1.5)
+
+    if result is None:
+        raise friendly_error(last_err or llm.LLMError("parse", "empty response"))
+    return result
 
 
 @app.post("/api/session/start")
