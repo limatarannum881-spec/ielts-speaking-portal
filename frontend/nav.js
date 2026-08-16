@@ -13,6 +13,7 @@ const NAV_TARGETS = {
   mock: "screen-mock",
   results: "screen-results-history",
   resources: "screen-resources",
+  login: "screen-login",
 };
 
 // Renderers called when a screen is opened (defined in their modules).
@@ -69,11 +70,11 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     authBtn.addEventListener("click", () => {
       if (window.Supa && Supa.currentUser()) {
-        if (confirm("Sign out? Your results stay saved on this device and in the cloud.")) {
-          Supa.signOut();
-        }
+        // Signed in → go to the account view on the login screen.
+        goNav("login");
       } else {
-        Supa.openAuth();
+        // Not signed in → full login page.
+        goNav("login");
       }
     });
     if (window.Supa) Supa.onChange(update);
