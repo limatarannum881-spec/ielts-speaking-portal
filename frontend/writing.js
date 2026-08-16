@@ -68,7 +68,8 @@ const Writing = (() => {
       version = b.dataset.ver; renderLanding();
     }));
     wrap.querySelectorAll("[data-start]").forEach((b) => b.addEventListener("click", () => {
-      const { id, task } = b.dataset;
+      const id = b.dataset.start;
+      const task = b.dataset.task;
       openEditor(id, task);
     }));
     const resume = wrap.querySelector("#resume-draft");
@@ -160,8 +161,9 @@ const Writing = (() => {
 
   function renderChart(chart) {
     const w = 340, h = 180, pad = 30;
-    const data = chart.data;
-    const max = Math.max(...data.map((d) => d.value));
+    const data = (chart && chart.data) || [];
+    if (!data.length) return ""; // no data → no chart (don't crash)
+    const max = Math.max(...data.map((d) => d.value)) || 1;
     let svg = "";
     if (chart.kind === "bar") {
       const bw = (w - pad * 2) / data.length;
