@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-employment-rates-by-industry-i-1",
       "type": "bar-chart",
       "title": "Employment Rates by Industry in 2023",
       "prompt": "The bar chart illustrates the employment rates across five different industries in a specific country for the year 2023. The industries represented are Technology, Healthcare, Education, Retail, and Construction. Overall, it is clear that the Technology and Healthcare sectors dominate the employment landscape while Retail and Construction show significantly lower figures. In 2023, the Technology sector employed approximately 35% of the workforce, making it the largest employer among the five industries. Following closely, the Healthcare sector accounted for 30% of employment. Education, with 15%, and Retail, with 10%, provided fewer job opportunities. Construction, the least represented industry, employed only 10% of the workforce. The chart clearly indicates a strong trend towards employment in both Technology and Healthcare, reflecting changes in societal needs and advancements in these fields.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--9",
       "type": "discussion",
       "title": "The Impact of Social Media on Society",
       "prompt": "Social media has become an integral part of modern life, influencing various aspects of society. Some people argue that the advantages of social media outweigh its disadvantages, while others believe that it has negative effects on interpersonal relationships and mental health. Discuss both views and give your opinion. On one hand, social media platforms enable users to connect with friends and family worldwide, thereby strengthening bonds and facilitating the sharing of information. They also offer a platform for social activism, allowing marginalized voices to be heard. On the other hand, critics point out that excessive use of social media can lead to feelings of isolation, anxiety, and depression, particularly among younger users. Additionally, the prevalence of misinformation and cyberbullying poses significant risks to mental well-being. Given these contrasting perspectives, it is essential to evaluate the role of social media in contemporary society critically.",

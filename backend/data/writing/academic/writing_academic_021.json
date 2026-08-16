@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-renewable-energy-produc-1",
       "type": "bar-chart",
       "title": "Annual Renewable Energy Production by Source",
       "prompt": "The bar chart illustrates the annual production of renewable energy in terawatt-hours (TWh) from five different sources: solar, wind, hydro, geothermal, and biomass, over the course of 2020. Solar energy production rose sharply throughout the year, starting at around 20 TWh in January and reaching a peak of 80 TWh by December. In contrast, wind energy showcased a steadier increase, growing from approximately 30 TWh in January to about 60 TWh by the end of the year. Hydro energy remained the most significant contributor initially, producing around 100 TWh, but showed a slight decline towards the end of the year, ending at 90 TWh. Geothermal energy production fluctuated slightly but averaged around 10 TWh throughout the year, while biomass energy remained relatively stable with a consistent output of around 15 TWh. Overall, the data indicates a growing trend in solar and wind energy production, reflecting a shift towards more sustainable energy sources in 2020.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--4",
       "type": "discussion",
       "title": "The Impact of Social Media on Communication",
       "prompt": "In recent years, the rise of social media has transformed the way people communicate. Some argue that social media has positively impacted communication by making it easier for individuals to connect and share information. Others, however, contend that social media has led to a decline in face-to-face interactions and has negatively affected personal relationships. Discuss both views and give your opinion. In your essay, explore how social media has changed communication dynamics and the potential consequences of these changes on interpersonal relationships. Consider the benefits of instant communication versus the drawbacks of reduced personal interaction, and conclude with your thoughts on whether the overall impact of social media is positive or negative."

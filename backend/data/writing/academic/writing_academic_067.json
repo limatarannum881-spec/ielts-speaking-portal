@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-users-by-regio-8",
       "type": "bar-chart",
       "title": "Global Internet Users by Region in 2023",
       "prompt": "The bar chart illustrates the number of internet users in millions across different regions of the world in 2023. The data represents five regions: Asia, Europe, North America, Africa, and South America. As depicted, Asia leads significantly with 2,800 million users, followed by Europe with 725 million. North America has 330 million users, while Africa and South America show lower figures, at 500 million and 328 million respectively. Overall, the chart indicates that Asia has the highest number of internet users by a substantial margin, accounting for more than half of the world's total internet users. In contrast, South America has the lowest representation among the specified regions. This disparity highlights the varying levels of internet accessibility and usage across different global regions.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-co-5",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has reshaped the way we communicate with one another. Some argue that this transformation has positive effects, while others believe it has led to negative consequences. Discuss both the advantages and disadvantages of technology on communication. On one hand, advancements in technology have made communication more convenient and efficient. For example, people can connect instantly through various messaging apps and social media platforms, transcending geographical barriers. However, there are concerns that such technology may lead to a decline in face-to-face interactions and social skills. Furthermore, issues related to privacy and misinformation have arisen as a result of increased digital communication. In your opinion, do the benefits of technology in communication outweigh the drawbacks? Provide reasons to support your view."

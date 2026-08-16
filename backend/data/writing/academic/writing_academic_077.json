@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-17",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2022",
       "prompt": "The bar chart illustrates the market share of various smartphone manufacturers worldwide in the year 2022. From the data presented, it is evident that Samsung led the market with a share of 28%, followed closely by Apple at 25%. Other notable manufacturers include Xiaomi with a 14% share, Oppo at 10%, and Huawei at 8%. The remaining 15% of the market was distributed among various smaller brands. The chart highlights a significant concentration of market share among the top two manufacturers, Samsung and Apple, while the other companies have considerably smaller shares. Additionally, it is interesting to note the decline in Huawei's market presence compared to previous years. Overall, the smartphone market in 2022 appears to be dominated by a few key players, indicating a highly competitive and consolidated industry.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-19",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, the integration of technology into education has become increasingly prevalent. Some argue that technology enhances learning experiences and promotes greater access to information, while others believe that it can lead to distractions and a decline in traditional learning methods. Discuss both views and provide your opinion on the impact of technology in educational settings. Consider how technology can either support or hinder the learning process and what measures could be taken to ensure its effective use in classrooms. Your response should include specific examples to illustrate your points and should be at least 250 words."

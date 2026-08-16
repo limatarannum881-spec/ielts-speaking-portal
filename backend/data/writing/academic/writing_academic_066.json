@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-users-by-regio-7",
       "type": "bar-chart",
       "title": "Global Internet Users by Region in 2022",
       "prompt": "The bar chart illustrates the number of internet users across different regions of the world in 2022. As shown, Asia had the highest number of internet users, with approximately 2.5 billion individuals accessing the internet. Europe followed as the second-largest region with around 700 million users. North America recorded about 350 million users, while Africa and Latin America had 500 million and 420 million users, respectively. Oceania had the least number of internet users, with just 70 million. This data reveals the significant disparity in internet usage among various regions, emphasizing the dominance of Asia in the global digital landscape. In addition, the relatively lower figures in Africa and Oceania suggest ongoing challenges related to internet accessibility and digital infrastructure. Overall, the chart highlights both the widespread nature of internet use and the existing gaps in connectivity that need to be addressed.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-ed-7",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology in education has sparked a heated debate among educators, parents, and students. Some argue that technology enhances the learning experience, while others believe it detracts from traditional methods of teaching. Discuss both views and give your opinion on whether technology has a positive or negative impact on education. In your answer, consider the various ways technology can be utilized in classrooms, such as through interactive learning platforms, online resources, and the accessibility of information. Additionally, examine the potential drawbacks, including reduced interpersonal interactions and the possibility of students becoming overly reliant on digital tools. Ultimately, it is essential to evaluate these arguments to determine the overall effect of technology on the educational landscape."

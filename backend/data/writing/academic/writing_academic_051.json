@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-13",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2022",
       "prompt": "The bar chart illustrates the market share of various smartphone manufacturers worldwide in 2022. It is evident that Company A held the largest share at 30%, followed by Company B with 25%. Company C and Company D had a comparable market presence, with shares of 20% and 15%, respectively. The other manufacturers collectively accounted for the remaining 10%. This data highlights the competitive landscape of the smartphone industry, showcasing how a few key players dominate the market while others struggle to gain traction. Overall, the market share distribution indicates a substantial concentration among the leading companies, suggesting potential challenges for smaller brands in reaching consumers. It will be interesting to see how these dynamics evolve in the coming years, especially with the rapid technological advancements and changing consumer preferences.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-10",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has increasingly been integrated into educational settings, leading to a debate about its effectiveness and implications. On one hand, proponents argue that technology enhances the learning experience by providing access to vast resources, facilitating interactive learning, and accommodating diverse learning styles. They emphasize that tools such as online educational platforms, interactive simulations, and digital resources can significantly improve student engagement and understanding. On the other hand, critics express concerns about the over-reliance on technology, which could lead to diminished critical thinking skills and reduced face-to-face interactions among students. They also point out issues related to unequal access to technology, which can exacerbate existing educational inequalities. This essay will explore both sides of the argument before concluding that while technology can benefit education, it is crucial to balance its usage with traditional teaching methods to ensure a holistic learning experience."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-a-meeting-2",
       "type": "letter",
       "title": "Request for a Meeting",
       "prompt": "You recently moved to a new city and would like to ask a local organization for information about community events that are happening this month. Write a letter to the organization. In your letter, explain who you are, why you are interested in community events, and ask for details about upcoming events. Make sure to express your enthusiasm for participating in local activities and include your contact information.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-balancing-technology-and-human-1",
       "type": "discussion",
       "title": "Balancing Technology and Human Interaction",
       "prompt": "In recent years, technology has greatly influenced the way people communicate and interact. While some believe that technology improves our social interactions, others argue that it diminishes genuine human connections. Discuss both views and give your opinion. Support your arguments with relevant examples.",

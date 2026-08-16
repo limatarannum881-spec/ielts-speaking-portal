@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-fruit-consumption-in-fo-1",
       "type": "bar-chart",
       "title": "Annual Fruit Consumption in Four Countries (2010-2020)",
       "prompt": "The bar chart illustrates the annual consumption of four types of fruits—apples, bananas, oranges, and grapes—in four different countries (A, B, C, and D) over a decade from 2010 to 2020. Overall, it is evident that banana consumption was the highest among all countries throughout the period, while grapes had the lowest consumption levels. In Country A, apple consumption increased significantly from 50 to 80 units, making it the most popular fruit by 2020. Meanwhile, bananas steadily rose from 90 to 110 units in Country B, with oranges also experiencing a slight increase. Country C showed a consistent preference for grapes, which remained stable at around 40 units, while bananas peaked at 100 units. Conversely, in Country D, apple consumption fluctuated between 20 and 30 units, illustrating lesser popularity compared to the other fruits. It can be concluded that while banana consumption generally led across the board, apple consumption varied widely, showcasing distinct dietary preferences among the countries noted.",
@@ -79,7 +79,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-impact-of-technology-on-educat-3",
       "type": "discussion",
       "title": "Impact of Technology on Education",
       "prompt": "In recent years, technology has profoundly transformed the field of education. Some argue that this transformation has led to significant improvements in the learning experience, while others claim that it has adverse effects on students' learning outcomes. Discuss both views and give your opinion. In your essay, consider the advantages of integrating technology in educational settings, such as enhanced access to information, personalized learning experiences, and the development of digital skills essential for the modern workforce. Conversely, examine the disadvantages, including potential distractions, the risk of information overload, and the diminishing role of traditional teaching methods. Ultimately, reflect on how these conflicting perspectives shape our understanding of the role technology plays in education today and propose a balanced approach that could mitigate the challenges while maximizing the benefits."

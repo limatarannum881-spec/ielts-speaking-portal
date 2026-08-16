@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-21",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2023",
       "prompt": "The bar chart illustrates the market share of six major smartphone manufacturers worldwide in 2023. Overall, it is evident that Company A holds the largest share, while Company F has the smallest. Specifically, Company A commands 32% of the market, followed by Company B with 25%. Company C is in third place with a market share of 20%, while Company D has 15%. Company E and Company F hold 6% and 2% respectively. This data highlights the dominance of Company A in the global smartphone market and indicates a competitive landscape among the other companies. Notably, Company F has struggled to gain traction in this sector, suggesting potential challenges ahead. The distribution of market share among these companies reflects consumer preferences and trends within the technology industry.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-impact-of-remote-work-1",
       "type": "discussion",
       "title": "Impact of Remote Work",
       "prompt": "In recent years, remote work has become increasingly prevalent, especially following the global pandemic. While some argue that remote work has significant benefits, others believe it presents challenges. Discuss both sides and give your opinion on the impact of remote work on individuals and businesses. Support your response with relevant examples. Consider the effects on productivity, work-life balance, and communication within teams, assessing how these factors contribute to the overall effectiveness of remote work arrangements."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-process-of-recycling-paper-7",
       "type": "process",
       "title": "The Process of Recycling Paper",
       "prompt": "You are to explain the process of recycling paper. The diagram illustrates the various stages involved in turning used paper into new paper products. The first step involves collecting the used paper from recycling bins placed in various locations. After collection, the paper is transported to a recycling plant where it is sorted into different types of paper materials. The sorted paper is then shredded into small pieces to facilitate the pulping process. Following this, the shredded paper is mixed with water and chemicals to break it down into pulp. The pulp is then cleaned and de-inked, removing any contaminants and ink. Once the pulp is prepared, it is pressed and dried to form sheets of recycled paper. Finally, these sheets are rolled and packaged for delivery to manufacturing companies to create new paper products.",
@@ -43,7 +43,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-so-4",
       "type": "advantages-disadvantages",
       "title": "The Impact of Technology on Society",
       "prompt": "In recent years, the advancement of technology has significantly changed the way we live, work, and communicate. While some argue that technology has brought many benefits to society, others believe that it has led to a number of disadvantages. Discuss both the advantages and disadvantages of technology in modern society. Provide specific examples to support your arguments. In your opinion, do the benefits of technology outweigh its drawbacks, or vice versa? Discuss your reasoning and provide a balanced view on this topic."

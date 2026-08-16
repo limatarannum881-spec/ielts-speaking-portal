@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-requesting-a-recommendation-le-1",
       "type": "letter",
       "title": "Requesting a Recommendation Letter",
       "prompt": "You are applying for a job and need a recommendation letter from your former employer. Write a letter to your former employer requesting the recommendation letter. In your letter, you should: 1. Mention the job you are applying for and why you are interested in it. 2. Remind your former employer about your work experience and contributions. 3. Politely ask for the recommendation letter and mention any specific points you would like them to highlight.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-co-11",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has significantly changed the way we communicate with one another. Some people believe that this technological advancement has improved communication, while others argue that it has made it worse. Discuss both views and give your opinion. Include relevant examples to support your arguments."

@@ -43,6 +43,8 @@ async def chat(messages, json_mode=False, temperature=0.7, max_tokens=700):
     except httpx.HTTPError as e:
         raise LLMError("network", str(e))
 
+    if resp.status_code == 402:
+        raise LLMError("credits", resp.text[:300])
     if resp.status_code != 200:
         raise LLMError("api", f"status {resp.status_code}: {resp.text[:300]}")
 

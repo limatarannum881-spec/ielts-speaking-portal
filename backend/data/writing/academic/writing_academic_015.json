@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-6",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2023",
       "prompt": "The bar chart below illustrates the market share of different smartphone manufacturers worldwide in 2023. Overall, it is evident that Company A holds the largest share, followed by Companies B and C, while the remaining companies account for a smaller portion of the market. Specifically, Company A dominates the market with a share of 45%, significantly higher than Company B, which holds 25%. Company C takes up 15% of the share, indicating a strong presence but still trailing behind the top two companies. Furthermore, Companies D and E, while having a presence in the market, only account for 10% and 5%, respectively. This chart underlines the competitive landscape of the smartphone industry, showcasing how a few companies can significantly influence the market dynamics.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--2",
       "type": "discussion",
       "title": "The Impact of Social Media on Society",
       "prompt": "The advent of social media has transformed communication and interaction in contemporary society. While some argue that social media brings people together, fostering connections and the exchange of ideas, others contend that it contributes to social isolation and misunderstanding. Discuss both views and give your own opinion. On one hand, advocates of social media emphasize its role in bridging geographical distances, allowing friends and families to stay in touch effortlessly. Social media platforms provide a space for individuals to share thoughts, promote social causes, and even conduct business. On the other hand, critics argue that excessive use of social media can lead to a decline in face-to-face interactions, resulting in feelings of loneliness and depression. Furthermore, misinformation and online harassment are significant issues that have emerged from the prevalence of social media. In your opinion, do the advantages of social media outweigh its disadvantages, or vice versa? Support your argument with relevant examples."

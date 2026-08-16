@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-monthly-expenditure-on-differe-1",
       "type": "bar-chart",
       "title": "Monthly Expenditure on Different Categories by Households",
       "prompt": "The bar chart illustrates the average monthly expenditure on various categories by households in a particular country during the year 2022. The categories include food, housing, transportation, education, and healthcare. Overall, it is evident that housing constitutes the largest portion of monthly spending for households, followed by transportation and food. Notably, education and healthcare expenditures are significantly lower compared to the other categories. Households allocated approximately $1,200 for housing, $800 for transportation, $600 for food, $300 for education, and $400 for healthcare. The least amount was spent on education, indicating that it may not be a priority for many families. In contrast, the substantial spending on housing reflects the rising cost of living in urban areas. This data reveals important insights into consumer priorities and economic pressures faced by households.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--18",
       "type": "discussion",
       "title": "The Impact of Social Media on Communication",
       "prompt": "In recent years, social media has transformed the way people communicate with each other. Some argue that this change has had a positive effect on interpersonal relationships, while others believe it has led to a decline in face-to-face communication and meaningful connections. Discuss both views and give your opinion. Consider the benefits of social media, such as increased connectivity and ease of communication, particularly for those separated by distance. Conversely, reflect on the potential drawbacks, including superficial interactions and a decrease in social skills. In conclusion, provide your perspective on whether the advantages of social media outweigh its disadvantages, or the other way around, and how it might influence future communication trends."

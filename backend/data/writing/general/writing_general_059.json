@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-information-4",
       "type": "letter",
       "title": "Request for Information",
       "prompt": "You recently visited a city where you were interested in attending a concert. Write a letter to the concert organizer. In your letter, explain how you heard about the concert, describe your interest in the event, and request more information about ticket availability and the venue. Include any specific questions you have regarding the concert.",
@@ -14,7 +14,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-impact-of-technology-on-commun-5",
       "type": "discussion",
       "title": "Impact of Technology on Communication",
       "prompt": "Many people argue that technology has improved communication, while others believe it has made it worse. Discuss both views and give your own opinion. In your essay, consider the effects of technology on face-to-face interactions, the way we communicate with our friends and family, and the implications for social relationships.",

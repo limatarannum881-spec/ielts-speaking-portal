@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-information-about--1",
       "type": "letter",
       "title": "Request for Information about a Seminar",
       "prompt": "Dear Sir or Madam,\n\nI hope this letter finds you well. I am writing to inquire about an upcoming seminar that I recently learned about. As a professional in the field of sustainable development, I am very interested in attending this event. However, I would like some more information before making my final decision.\n\nCould you please provide details regarding the date and location of the seminar? Additionally, I would appreciate information about the topics that will be covered and the speakers who will be presenting.\n\nFurthermore, I am curious about the registration process and any associated fees. If possible, could you also send me any brochures or materials related to the seminar?\n\nThank you for your assistance. I look forward to your prompt response.\n\nYours sincerely,\n\n[Your Name]",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-co-8",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "Technology has significantly transformed the way we communicate with one another. While some believe that these changes have improved our lives, others argue that they have had a negative impact on personal relationships. Discuss both views and give your opinion.\n\nIn your essay, consider how technology has changed communication methods, the effects on social interactions, and whether these advancements have brought people closer together or created distance. Support your points with relevant examples and reasoning."

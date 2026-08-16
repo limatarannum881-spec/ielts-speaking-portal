@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-5",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2023",
       "prompt": "The bar chart below illustrates the market share of five major smartphone manufacturers worldwide in 2023. The companies represented are Apple, Samsung, Xiaomi, Huawei, and OnePlus. According to the chart, Apple holds the largest market share at 30%, followed closely by Samsung at 25%. Xiaomi ranks third with a share of 20%, while Huawei and OnePlus account for 15% and 10% respectively. It is evident that Apple and Samsung dominate the market, collectively holding over half of the global share. On the other hand, Xiaomi, while having a significant presence, lags behind the top two manufacturers. Huawei and OnePlus, though less prevalent, still contribute notably to the overall smartphone ecosystem. This trend suggests a competitive landscape where established brands continue to lead, but emerging companies like Xiaomi are making strides. Overall, the chart highlights the distribution of market dominance among these key players in the global smartphone industry.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-telecommuting-on-1",
       "type": "discussion",
       "title": "The Impact of Telecommuting on Work-Life Balance",
       "prompt": "A complete Task 2 prompt (min 250 words)."

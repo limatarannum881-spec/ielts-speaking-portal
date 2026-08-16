@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-energy-consumption-by-source-i-1",
       "type": "bar-chart",
       "title": "Energy Consumption by Source in a Country (2020)",
       "prompt": "The bar chart illustrates the energy consumption in a specific country for the year 2020, divided into four main sources: coal, natural gas, nuclear, and renewable energy. Overall, it can be seen that natural gas was the most consumed source of energy, while nuclear energy had the least consumption. In detail, natural gas accounted for approximately 40% of the total energy consumption, followed by coal at around 30%. Renewable energy sources, including wind, solar, and hydroelectric power, contributed nearly 20% to the total consumption. In contrast, nuclear energy made up just about 10% of the total energy usage in the country. The data suggests a reliance on fossil fuels, primarily natural gas and coal, while indicating a smaller but growing share of renewable energy sources.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-co-6",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has significantly changed the way we communicate. While some people believe that these advancements have improved communication between individuals, others argue that they have negatively affected interpersonal relationships. Discuss both views and give your own opinion. What do you think about the effects of technology on communication? Support your arguments with relevant examples and explanations."

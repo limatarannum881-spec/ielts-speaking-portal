@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-a-meeting-3",
       "type": "letter",
       "title": "Request for a Meeting",
       "prompt": "You are a resident of a community that is facing issues with traffic congestion and safety. Write a letter to your local council explaining the situation and requesting a meeting to discuss potential solutions. In your letter, describe the specific problems caused by the traffic, suggest possible solutions, and mention the importance of community involvement in addressing this issue. Make sure your letter is clear and includes appropriate greetings and closing.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-social-media-1",
       "type": "discussion",
       "title": "The Impact of Social Media",
       "prompt": "Some people believe that social media has a negative impact on society, while others argue that it brings people closer together. Discuss both views and give your own opinion on the matter. In your essay, consider the benefits and drawbacks of social media and how it influences interpersonal relationships and communication. Provide examples to support your argument and conclude with a summary of your perspective on the role of social media in today's world."

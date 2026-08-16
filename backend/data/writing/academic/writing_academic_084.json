@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-usage-by-regio-3",
       "type": "bar-chart",
       "title": "Global Internet Usage by Region in 2023",
       "prompt": "The bar chart illustrates the proportion of global internet users in various regions in the year 2023. Overall, it is evident that Asia had the highest number of internet users, followed by Europe and North America, while regions such as Africa and Oceania had significantly lower figures. According to the data, Asia accounted for approximately 50% of the world’s total internet users, with around 2.5 billion users. In contrast, Europe contributed about 15%, representing around 750 million users. North America followed closely behind with about 10%, or 500 million users. Other regions, such as South America and Africa, had less than 10%, with South America at 7% (350 million users) and Africa at only 6% (300 million users). Oceania recorded the lowest percentage, contributing a mere 3% of global internet users. This data highlights a significant digital divide, particularly between established regions like Asia and developing regions like Africa.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--15",
       "type": "discussion",
       "title": "The Impact of Social Media on Personal Relationships",
       "prompt": "In recent years, social media has transformed the way individuals interact and maintain their personal relationships. While some argue that it enhances connections, others contend that it undermines meaningful communication. Discuss both views and give your own opinion. On one hand, proponents of social media highlight its ability to connect people across vast geographical distances. Families and friends separated by miles can easily share updates and maintain their relationships through platforms like Facebook, Instagram, and WhatsApp. This instant communication fosters a sense of closeness despite physical separation. On the other hand, critics argue that social media can lead to superficial interactions. They claim that the quality of communication is often compromised, as people may prefer online interactions over face-to-face conversations, resulting in weakened emotional bonds. In my opinion, while social media does offer valuable tools for maintaining relationships, it is essential to balance online interactions with real-life connections to ensure that relationships remain meaningful. This balance is crucial for emotional well-being and the sustainability of personal relationships."

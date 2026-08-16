@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-users-by-regio-3",
       "type": "bar-chart",
       "title": "Global Internet Users by Region in 2023",
       "prompt": "The bar chart illustrates the number of internet users across different regions of the world in the year 2023. The data is classified into six distinct regions: North America, South America, Europe, Asia, Africa, and Oceania. As represented in the chart, Asia has the highest number of internet users, with approximately 2.5 billion users, followed by Europe with 750 million and North America with 300 million users. South America has around 200 million users, while Africa and Oceania report significantly lower numbers of 150 million and 50 million users, respectively. Overall, the chart clearly shows that the majority of internet users are concentrated in Asia, indicating a significant digital divide between regions. This trend highlights not only the growing internet penetration in Asia but also the challenges faced by other regions in terms of digital access and infrastructure.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--6",
       "type": "discussion",
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has become a dominant force in shaping public opinion and interaction. While some argue that social media platforms have brought significant benefits, others contend that they have detrimental effects on society. Discuss both views and provide your own opinion. Supporters of social media contend that it fosters connectivity and enables individuals to communicate effortlessly across the globe. It also provides a platform for marginalized voices and promotes awareness of social issues. Conversely, critics argue that social media can lead to misinformation, cyberbullying, and the erosion of genuine face-to-face interactions. Additionally, the addictive nature of these platforms may detract from important real-life relationships and responsibilities. In my opinion, while social media has its drawbacks, the benefits it offers in terms of communication and information sharing outweigh the negatives. Therefore, it is essential for users to navigate these platforms wisely to maximize their positive impacts while mitigating the risks."

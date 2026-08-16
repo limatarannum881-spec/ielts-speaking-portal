@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-preferred-modes-of-transport-i-1",
       "type": "bar-chart",
       "title": "Preferred Modes of Transport in a City",
       "prompt": "The bar chart illustrates the percentage of people using different modes of transport in a major city during the year 2022. Overall, it is apparent that cars were the most popular mode of transport, followed by public transport and cycling. Cars were used by approximately 45% of the population, indicating a strong preference for personal vehicles over other options. Public transportation, which includes buses and trains, accounted for around 30% of commuters. In contrast, cycling had a comparatively low usage rate, with only 10% of the population opting for this environmentally friendly alternative. Walking made up the remaining 15%. It is interesting to note that while cars remain the dominant choice, there is a significant portion of the population that relies on public transport, suggesting a mixture of convenience and environmental considerations in transport choices. Additionally, the low percentage of cyclists implies potential for growth in this area if infrastructure improvements, such as bike lanes, are implemented.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-17",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "As technology continues to advance, its integration into the education system has become more prevalent. Some people argue that technology enhances the learning experience and makes education more accessible, while others contend that it can detract from essential classroom interactions and lead to a lack of critical thinking skills among students. Discuss both views and give your opinion. In your response, consider how technology can provide various learning tools, such as online courses and educational apps, which cater to diverse learning styles and potentially reach students who may struggle in traditional settings. Conversely, discuss the importance of face-to-face interactions between teachers and students, as well as how over-reliance on technology may inhibit the development of independent thinking and interpersonal skills. Ultimately, reflect on whether the benefits of technology outweigh its drawbacks in educational environments and how a balanced approach could be achieved."

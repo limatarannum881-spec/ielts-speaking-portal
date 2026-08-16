@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-sales-by-bra-3",
       "type": "bar-chart",
       "title": "Global Smartphone Sales by Brand in 2022",
       "prompt": "The bar chart illustrates the global smartphone sales by major brands in the year 2022. The data presented includes the top five smartphone manufacturers: Apple, Samsung, Huawei, Xiaomi, and Oppo. As demonstrated, Apple and Samsung were the leading brands, with Apple selling approximately 250 million units, while Samsung closely followed with around 230 million units. Huawei had a significant drop in sales compared to previous years, with only 100 million units sold. Xiaomi and Oppo had sales of 80 million and 50 million units, respectively. Overall, the chart highlights the competitive nature of the smartphone industry, with Apple's and Samsung's significant market shares clearly evident. Notably, the gap between the top two brands and the others suggests a strong brand loyalty among consumers for Apple and Samsung products, while Huawei's decline raises questions about its future in the market. This analysis provides insights into consumer preferences and trends in smartphone usage worldwide.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-remote-work-on-e-4",
       "type": "discussion",
       "title": "The Impact of Remote Work on Employee Productivity",
       "prompt": "In recent years, the rise of remote work has transformed the traditional workplace, raising questions about its impact on employee productivity. Some argue that remote work enhances productivity, allowing employees to perform their tasks in a comfortable environment, free from the distractions often found in an office setting. This flexibility can lead to increased job satisfaction, which, in turn, can motivate employees to work more efficiently. On the other hand, critics argue that remote work may lead to feelings of isolation and lack of collaboration, ultimately hindering productivity. Without the physical presence of colleagues, employees might struggle with communication and teamwork, which are crucial for many jobs. This essay will discuss both viewpoints before drawing a conclusion on the overall effects of remote work on productivity. It is essential to consider various factors such as job type, individual work habits, and the availability of technology that facilitates remote collaboration. Ultimately, understanding the balance between the advantages and disadvantages of remote work will help organizations make informed decisions about their workforce arrangements."

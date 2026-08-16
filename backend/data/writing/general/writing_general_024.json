@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-process-of-recycling-paper-5",
       "type": "process",
       "title": "The Process of Recycling Paper",
       "prompt": "You recently attended a workshop about recycling paper and learned about the process involved. Write a letter to a friend explaining how paper is recycled. In your letter, describe the various stages of the recycling process, including how paper is collected, processed, and converted back into new paper products. Additionally, mention the environmental benefits of recycling paper and why it's important for reducing waste. Aim for at least 150 words.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-co-7",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has dramatically changed the way we communicate with each other. Some people believe that this technological advancement has improved communication, while others argue that it has had a negative effect. Discuss both views and give your own opinion. Consider aspects such as social interactions, relationships, and language use. Your essay should be at least 250 words."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-coffee-is-brewed-1",
       "type": "process",
       "title": "How Coffee is Brewed",
       "prompt": "Write a letter to your friend describing the process of brewing coffee. Explain the steps involved, from selecting the coffee beans to serving the final product. Include details such as the equipment needed, the time required for each step, and any tips for making the best cup of coffee. Your friend is interested in learning this process because they want to start making coffee at home.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-addressing-plastic-waste-1",
       "type": "problem-solution",
       "title": "Addressing Plastic Waste",
       "prompt": "In recent years, the amount of plastic waste generated globally has increased dramatically. Many people believe that this is a significant problem that needs to be addressed urgently. Discuss the causes of the growing plastic waste issue and suggest possible solutions that governments and individuals can implement to tackle this problem. Provide examples to support your points."

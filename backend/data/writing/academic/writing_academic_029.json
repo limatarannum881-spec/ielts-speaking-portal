@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-9",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2022",
       "prompt": "The bar chart illustrates the global market share of different smartphone brands in 2022. Overall, it is evident that Brand A held the largest share of the market, followed by Brand B and Brand C, while other brands accounted for a smaller portion. Specifically, Brand A captured approximately 35% of the market, significantly surpassing its competitors. Brand B came second, with a market share of around 25%, while Brand C held about 15%. The remaining 25% was divided among several other brands, including Brand D, Brand E, and several smaller companies, each contributing roughly between 3% and 8% to the market. This data highlights not only the dominance of the top three brands but also the fragmentation of the market among lesser-known companies. Overall, the smartphone market in 2022 showed a clear trend towards consolidation among a few leading brands, indicating competitive challenges for new entrants.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-7",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, the integration of technology into education has sparked considerable debate. On one hand, proponents argue that technology enhances learning experiences and facilitates access to information. They believe that tools such as online courses, educational apps, and interactive learning platforms can make education more engaging and personalized. For example, students can learn at their own pace and revisit difficult concepts through multimedia resources. On the other hand, critics emphasize the potential drawbacks of technology in the classroom. They contend that reliance on digital devices may lead to decreased face-to-face interactions, which are crucial for developing social skills. Additionally, there are concerns about distractions caused by non-educational content that students might encounter online. In conclusion, while technology offers significant benefits in terms of accessibility and engagement, it is important to balance its use with traditional teaching methods to ensure that students receive a well-rounded education."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-a-new-service-at-a-1",
       "type": "letter",
       "title": "Request for a New Service at a Local Gym",
       "prompt": "You recently joined a new gym and have noticed that it lacks a particular service that you believe would benefit many members. Write a letter to the gym manager. In your letter, explain what the service is, why you think it would be useful, and how it might improve the gym experience for members.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-impact-of-technology-on-commun-2",
       "type": "discussion",
       "title": "Impact of Technology on Communication",
       "prompt": "In recent years, technology has drastically changed the way we communicate. Some people believe this has had a positive impact, while others argue that it has led to a decline in face-to-face interaction. Discuss both views and give your own opinion on the matter."

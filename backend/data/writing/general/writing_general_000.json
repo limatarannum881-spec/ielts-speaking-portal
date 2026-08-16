@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-water-purification-process-1",
       "type": "process",
       "title": "The Water Purification Process",
       "prompt": "You recently visited a water treatment plant that uses modern techniques to purify water. Write a letter to your friend describing the process. In your letter, explain how water is sourced, the steps involved in purification, and the importance of clean water for a community's health. Include your thoughts on the technology used and any potential improvements that could be made.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-ed-1",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the use of technology in education has increased significantly. Some people believe that technology has improved the quality of education, while others feel it has created new challenges for students. Discuss both views and give your own opinion. In your essay, consider the advantages technology brings to learning environments as well as the potential drawbacks it may introduce, such as distractions and the reliance on devices for information."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-sales-by-bra-4",
       "type": "bar-chart",
       "title": "Global Smartphone Sales by Brand in 2022",
       "prompt": "The bar chart illustrates the global smartphone sales figures for various brands in the year 2022. As shown, Samsung led the market with sales of approximately 290 million units, followed closely by Apple with around 220 million units sold. Other prominent brands include Xiaomi and Oppo, which sold about 160 million and 110 million units, respectively. Huawei, despite its challenges, managed to sell approximately 70 million units. The remaining brands, including Vivo and OnePlus, accounted for approximately 50 million and 30 million units, respectively. Overall, the data indicates a competitive market dominated by a few key players, with significant differences in sales volumes among the top brands. It is evident that consumer preferences and brand loyalty play crucial roles in the smartphone market landscape.",
@@ -43,7 +43,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-remote-work-on-u-1",
       "type": "discussion",
       "title": "The Impact of Remote Work on Urban Development",
       "prompt": "With the surge in remote work opportunities due to advancements in technology and the recent global pandemic, numerous cities are experiencing changes in their urban development strategies. Discuss the implications of this shift. On one hand, the reduction in daily commuters can lead to decreased traffic congestion and pollution levels, which may contribute to more livable urban environments. On the other hand, there is concern about the potential decline in local businesses that rely heavily on foot traffic from employees working in nearby offices. How should urban planners respond to this evolving landscape? In your essay, consider both the benefits and drawbacks of remote work on urban development and propose solutions that can balance economic vitality with sustainable living conditions."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-tea-is-processed-1",
       "type": "process",
       "title": "How Tea is Processed",
       "prompt": "The diagram illustrates the various stages involved in the processing of tea from fresh leaves to the final packaged product. Initially, fresh tea leaves are harvested from tea plants, which are typically grown in well-drained soil and require a warm climate. After harvesting, the leaves undergo withering, where they are spread out to lose moisture, making them more pliable for the next steps. Following this, the leaves are rolled to break down their cellular structure, which allows for the release of enzymes essential for fermentation. The next stage is oxidation, where the leaves are exposed to air, resulting in the development of color and flavor. After a specific period, the leaves are heated to stop the oxidation process, a method known as firing. Lastly, the processed tea is sorted, packaged, and prepared for distribution. This entire process is crucial in ensuring that the tea retains its quality and flavor, which is enjoyed by consumers worldwide.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-telecommuting-1",
       "type": "advantages-disadvantages",
       "title": "The Impact of Telecommuting",
       "prompt": "In recent years, telecommuting has become increasingly popular as technology enables more people to work from home. While this trend offers numerous advantages, it also has some drawbacks. Discuss both the advantages and disadvantages of telecommuting. Include examples to support your arguments. In your opinion, do the advantages outweigh the disadvantages? Provide reasons for your answer. The rise of remote work has transformed traditional work environments, making it essential to consider its overall impact on employees and organizations. For instance, on one hand, telecommuting allows for greater flexibility, enabling employees to manage their time more effectively and reduce commuting stress. On the other hand, it can lead to feelings of isolation and disconnection from colleagues. Therefore, it is vital to weigh these factors when evaluating the future of telecommuting."

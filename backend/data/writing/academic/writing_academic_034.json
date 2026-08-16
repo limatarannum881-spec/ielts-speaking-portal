@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-users-by-regio-4",
       "type": "bar-chart",
       "title": "Global Internet Users by Region in 2023",
       "prompt": "The bar chart illustrates the number of internet users across different regions of the world in the year 2023. Overall, it is apparent that Asia leads significantly in the total number of internet users, while other regions show considerably lower figures. Specifically, Asia accounted for approximately 2.7 billion users, which is more than half of the global total. In contrast, Europe had about 700 million users, making it the second-largest region in terms of internet usage. North America followed closely with around 350 million users. Africa, despite being the second-largest continent, only had about 500 million internet users. South America and Oceania recorded approximately 300 million and 50 million users, respectively. The data indicates a digital divide, with certain regions, particularly Asia, experiencing rapid growth in internet access, while others, such as Oceania, lag behind. This information could suggest trends in global digital engagement for businesses and policymakers alike.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-teleworking-pros-and-cons-1",
       "type": "discussion",
       "title": "Teleworking: Pros and Cons",
       "prompt": "In recent years, teleworking has become increasingly common, especially in light of the global pandemic. While some argue that working from home has significant advantages, others highlight the potential drawbacks. Discuss both the benefits and disadvantages of teleworking. On one hand, proponents of teleworking argue that it offers greater flexibility, allowing employees to manage their work-life balance more effectively. This can lead to increased job satisfaction and productivity, as employees can work in environments they find most comfortable. Additionally, companies can save on overhead costs associated with physical office spaces. On the other hand, critics contend that teleworking can lead to feelings of isolation and disconnection from coworkers, which may impact team dynamics and collaboration. Furthermore, remote work can blur the boundaries between personal and professional life, leading to burnout. In your opinion, what is the most significant factor to consider regarding the future of teleworking: the benefits it offers or the challenges it poses?"

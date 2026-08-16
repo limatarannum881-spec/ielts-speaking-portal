@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-to-apply-for-a-local-libra-1",
       "type": "process",
       "title": "How to Apply for a Local Library Card",
       "prompt": "You are a new resident in town and want to apply for a library card at your local library. Write a letter to the library director explaining your interest in obtaining a card. In your letter, you should include your name, your address, and a brief explanation of why you want a library card. You may also want to ask if there are any specific documents or information you need to bring with you when you apply. Make sure to thank the director for their assistance and express your eagerness to become a library member.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-role-of-technology-in-educ-9",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has a positive impact on education, while others think it has a negative effect. Discuss both views and give your own opinion on the role of technology in education. Consider aspects such as engagement, accessibility, and potential distractions when developing your argument. Provide specific examples to support your points."

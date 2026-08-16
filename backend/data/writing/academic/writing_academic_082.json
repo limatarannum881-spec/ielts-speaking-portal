@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-spending-on-energy-sour-1",
       "type": "bar-chart",
       "title": "Annual Spending on Energy Sources by Country in 2022",
       "prompt": "The bar chart illustrates the annual spending on various energy sources by three different countries (Country A, Country B, and Country C) in the year 2022. The data is categorized into four energy sources: Renewable Energy, Fossil Fuels, Nuclear Energy, and Other Sources. Overall, it is evident that Country A allocated the highest budget towards Renewable Energy, with an expenditure of 40 billion units. In contrast, Country C devoted a significant amount of its budget to Fossil Fuels, amounting to 50 billion units, while Country B's spending was evenly distributed across all categories. Specifically, Country B spent 30 billion units on Renewable Energy, 20 billion on Fossil Fuels, 15 billion on Nuclear Energy, and 5 billion on Other Sources. Conversely, Country C's expenditures were heavily skewed towards Fossil Fuels at 50 billion units, with only 10 billion on Renewable Energy and 5 billion on Nuclear Energy. This data highlights the varying priorities and commitments of each country towards energy sustainability and resource allocation.",
@@ -63,7 +63,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-in-1",
       "type": "discussion",
       "title": "The Impact of Technology on Interpersonal Communication",
       "prompt": "In recent years, technology has significantly transformed the way we communicate with one another. While some people argue that digital communication enhances social interactions, others believe that it undermines personal connections. Discuss both views and give your own opinion. On one hand, proponents of technology argue that it offers unprecedented convenience and accessibility. With tools like instant messaging and video calls, people can connect with loved ones across the globe instantly. This has been particularly beneficial for long-distance relationships and families separated by geography. On the other hand, critics contend that reliance on technology has diminished face-to-face communication skills and led to feelings of isolation, even when people are virtually connected. The nuances of in-person conversations, such as body language and emotional expression, are often lost in digital formats. In conclusion, while technology has facilitated communication in many ways, it is vital to strike a balance and maintain direct interpersonal interactions to nurture genuine relationships. Reflect on the implications of this technological shift and suggest potential strategies for ensuring meaningful communication remains a priority."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-energy-consumption-by-source-i-2",
       "type": "bar-chart",
       "title": "Energy Consumption by Source in a Country (2010-2020)",
       "prompt": "The bar chart illustrates the energy consumption by different sources in a country from 2010 to 2020. The categories of energy sources included in the chart are coal, natural gas, nuclear, and renewable energy. In 2010, coal was the dominant source of energy, accounting for 40% of total energy consumption, followed by natural gas at 30%. Nuclear energy contributed 20%, while renewable sources, including solar and wind, accounted for only 10%. Over the decade, there were significant changes in these proportions. By 2020, the share of coal had decreased to 25%, while natural gas saw a slight increase to 35%. Nuclear energy remained stable at 20%, but the most notable change was in renewable energy, which surged to 20% by 2020. This shift reflects the growing emphasis on sustainable energy sources in response to environmental concerns. Overall, the chart demonstrates a gradual transition towards more diversified and environmentally friendly energy consumption in the country.",
@@ -47,7 +47,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--17",
       "type": "discussion",
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has become an integral part of daily life for millions of people around the world. While some argue that social media has brought about significant benefits to society, others contend that it has detrimental effects. Discuss both views and give your opinion. On the one hand, proponents of social media assert that it facilitates communication and connection among individuals, allowing people to maintain relationships regardless of geographical barriers. Furthermore, social media serves as a platform for social movements and activism, raising awareness on important issues and mobilizing support for various causes. On the other hand, critics highlight the negative impacts of social media, such as the spread of misinformation, cyberbullying, and the potential erosion of face-to-face communication skills. Additionally, excessive use of social media can lead to negative mental health outcomes, including anxiety and depression. In my opinion, while social media can indeed foster community and awareness, it is crucial to address the challenges it presents in order to maximize its positive contributions to society."

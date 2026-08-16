@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-comparison-of-monthly-expendit-1",
       "type": "bar-chart",
       "title": "Comparison of Monthly Expenditure on Transport in Five Cities",
       "prompt": "The bar chart illustrates the average monthly expenditure on transport in five different cities: New York, London, Tokyo, Sydney, and Berlin for the year 2023. The values represent the amount spent in dollars. Overall, it is evident that there are significant disparities in transport expenses among these cities. New York leads with an expenditure of $250, followed closely by Tokyo at $220. London and Sydney showcase moderate spending levels at $180 and $160 respectively. Meanwhile, Berlin records the lowest transport expenses, totaling just $120. The data indicates that urban transport costs vary widely depending on the city, which may reflect different public transport systems, fuel prices, and urban density. In conclusion, while New York and Tokyo exhibit higher transport costs, Berlin appears to be a more economical choice for residents in terms of monthly transport expenses.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-14",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has become increasingly integrated into the educational sector. While some argue that the benefits of this trend outweigh the drawbacks, others hold a contrasting viewpoint. Discuss both sides and give your opinion. On one hand, proponents of technology in education claim that it enhances learning by providing students with access to a wealth of information and educational resources. Moreover, technology can facilitate personalized learning experiences and improve student engagement through interactive tools. On the other hand, critics argue that an over-reliance on technology can lead to diminished critical thinking skills, decreased face-to-face social interactions, and increased distractions in the classroom. An additional concern is the digital divide that may exacerbate educational inequalities, as not all students have equal access to technological resources. In your essay, present arguments for both perspectives and clearly state your own opinion on the role of technology in education."

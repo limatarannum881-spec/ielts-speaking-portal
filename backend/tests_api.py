@@ -50,13 +50,29 @@ WRITING_ACADEMIC = _load_all("writing/academic")
 WRITING_GENERAL = _load_all("writing/general")
 
 # Writing prompts — combined from any files present (each file is {task1:[...], task2:[...]}).
+# A unique id is enforced on every prompt (guards against duplicate ids in
+# generated content, which would break the frontend's lookup).
 WRITING = {"academic": {"task1": [], "task2": []}, "general": {"task1": [], "task2": []}}
+_seen_ids = set()
+
+
+def _ensure_unique_id(prompt, bucket, idx):
+    if not prompt.get("id") or prompt["id"] in _seen_ids:
+        prompt["id"] = f"w-{bucket}-{idx:03d}-{len(_seen_ids)}"
+    _seen_ids.add(prompt["id"])
+    return prompt
+
+
 for t in WRITING_ACADEMIC:
-    WRITING["academic"]["task1"].extend(t.get("task1", []))
-    WRITING["academic"]["task2"].extend(t.get("task2", []))
+    for i, p in enumerate(t.get("task1", [])):
+        WRITING["academic"]["task1"].append(_ensure_unique_id(p, "task1", i))
+    for i, p in enumerate(t.get("task2", [])):
+        WRITING["academic"]["task2"].append(_ensure_unique_id(p, "task2", i))
 for t in WRITING_GENERAL:
-    WRITING["general"]["task1"].extend(t.get("task1", []))
-    WRITING["general"]["task2"].extend(t.get("task2", []))
+    for i, p in enumerate(t.get("task1", [])):
+        WRITING["general"]["task1"].append(_ensure_unique_id(p, "task1", i))
+    for i, p in enumerate(t.get("task2", [])):
+        WRITING["general"]["task2"].append(_ensure_unique_id(p, "task2", i))
 
 
 def _all_reading():
@@ -338,6 +354,7 @@ def _friendly(e: llm.LLMError):
         "timeout": "The AI took too long to evaluate. Please try again.",
         "network": "Could not reach the AI service. Check your connection and try again.",
         "api": "The AI service returned an error. Check your API key and model name.",
+        "credits": "The AI account is out of credits. Add a small top-up at openrouter.ai/settings/credits to enable AI evaluation.",
         "parse": "The AI returned an unexpected response. Please try again.",
     }
     return HTTPException(status_code=502, detail=mapping.get(e.kind, "Something went wrong. Please try again."))

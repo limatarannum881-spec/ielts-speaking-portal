@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-expenditure-on-renewabl-5",
       "type": "bar-chart",
       "title": "Annual Expenditure on Renewable Energy Sources (2015-2020)",
       "prompt": "The bar chart illustrates the annual expenditure on various renewable energy sources including solar, wind, hydro, and biomass from 2015 to 2020. Overall, it is evident that there has been a significant increase in spending on renewable energy during this period, with solar energy emerging as the most invested source. In 2015, solar energy investments were roughly 10 billion dollars, but this figure surged to around 40 billion dollars by 2020. Wind energy also saw an upward trend, starting at approximately 15 billion dollars in 2015 and reaching 30 billion dollars in 2020. In contrast, hydro energy investments remained relatively stable, with minor fluctuations between 20 to 25 billion dollars throughout the years. Biomass, while the least funded source, showed a gradual increase from 5 billion to 10 billion dollars. Overall, the chart indicates a clear shift towards greater investment in solar and wind energy technologies.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-globalization-on-1",
       "type": "discussion",
       "title": "The Impact of Globalization on Local Cultures",
       "prompt": "Globalization has been a significant force reshaping economies, societies, and cultures around the world. While some argue that globalization leads to the erosion of local cultures and traditions, others believe it fosters cultural exchange and innovation. Discuss both sides and give your own opinion. On one hand, globalization can lead to cultural homogenization, resulting in the loss of unique traditions, languages, and practices as global brands and lifestyles dominate. For instance, the proliferation of fast-food chains and entertainment from Western countries can overshadow local cuisine and entertainment options. On the other hand, globalization can facilitate the sharing of cultural practices, encouraging diversity and creativity. It allows local artisans to reach a wider audience and can lead to a revival of interest in local traditions. In your view, does globalization represent a threat to local cultures, or does it enhance them? Provide examples to support your argument."

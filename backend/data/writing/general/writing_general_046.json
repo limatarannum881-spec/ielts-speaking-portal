@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-water-filtration-process-2",
       "type": "process",
       "title": "The Water Filtration Process",
       "prompt": "You recently visited a water treatment plant and learned about the steps involved in the water filtration process. Write a letter to a friend explaining how water is filtered for public use. In your letter, describe the different stages of filtration, the importance of each stage, and how the process ensures safe drinking water. You should include information about the initial screening, sedimentation, filtration, and disinfection stages, and discuss the significance of maintaining a clean water supply for the community. Your letter should be at least 150 words.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-em-2",
       "type": "discussion",
       "title": "The Impact of Technology on Employment",
       "prompt": "Technology has become an integral part of our lives and has impacted various sectors, including employment. Some people argue that technology has created more job opportunities, while others believe it has led to job losses. Discuss both views and give your own opinion on how technology affects employment. In your essay, consider the positive and negative aspects of technology in the workplace, such as automation, remote work, and job creation in new sectors. Your essay should be at least 250 words."

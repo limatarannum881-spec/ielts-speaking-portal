@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-expenditure-on-renewabl-6",
       "type": "bar-chart",
       "title": "Annual Expenditure on Renewable Energy Sources in Various Countries (2020)",
       "prompt": "The bar chart illustrates the annual expenditure on renewable energy sources in five different countries for the year 2020. The countries included are the United States, Germany, China, India, and Brazil. As can be seen from the chart, China led the expenditure significantly with approximately 80 billion dollars, followed by the United States at around 50 billion dollars. Germany invested about 30 billion dollars, whereas India and Brazil spent significantly less, at around 10 billion and 8 billion dollars respectively. Overall, the data indicates a clear trend where developed nations like the United States and Germany are investing heavily in renewable energy, while developing countries are still in the early stages of investment.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--8",
       "type": "discussion",
       "title": "The Impact of Social Media on Communication Skills",
       "prompt": "In recent years, social media has become an integral part of our daily lives, affecting how we communicate with one another. While some argue that social media is detrimental to our communication skills, others believe it enhances our ability to connect with people. Discuss both views and give your own opinion. In your response, consider the various ways social media influences verbal and non-verbal communication, as well as the implications of these changes on personal relationships and social interactions. Ultimately, will the benefits of social media outweigh its disadvantages in terms of fostering effective communication? Support your argument with relevant examples."

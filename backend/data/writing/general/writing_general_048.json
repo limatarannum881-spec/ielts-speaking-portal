@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-to-apply-for-a-student-vis-1",
       "type": "process",
       "title": "How to Apply for a Student Visa",
       "prompt": "You are planning to study abroad and need to apply for a student visa. Write a letter to your friend explaining the steps involved in the application process. In your letter, describe the documents required, the application procedure, and any important deadlines that must be met. Additionally, mention any tips you have for ensuring the application is successful.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-online-education-1",
       "type": "advantages-disadvantages",
       "title": "Online Education",
       "prompt": "With the rise of technology, online education has become increasingly popular among students. Some people believe that online learning offers greater flexibility and accessibility, while others argue that it lacks the quality of traditional classroom education. Discuss the advantages and disadvantages of online education, and give your opinion on whether it is a viable alternative to traditional learning methods."

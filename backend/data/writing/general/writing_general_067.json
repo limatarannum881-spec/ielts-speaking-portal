@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-to-apply-for-a-job-1",
       "type": "process",
       "title": "How to Apply for a Job",
       "prompt": "You are tasked with creating a flowchart detailing the process of applying for a job. Your flowchart should illustrate the steps involved, from searching for job openings to the final interview. Include key stages such as preparing a resume, writing a cover letter, researching the company, submitting applications, and attending interviews. Make sure to use clear language and logical sequencing to help the reader understand how each step leads to the next. You may also include tips on how to improve each stage of the application process.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-co-18",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, technology has changed the way we communicate. While some people argue that this is a positive development, others believe that it has led to negative consequences. Discuss both views and give your opinion on the role of technology in modern communication. Consider aspects such as social media, instant messaging, and email, and how they have affected interpersonal relationships and communication skills. Provide examples to support your arguments, and conclude with your own thoughts on whether technology enhances or undermines effective communication."

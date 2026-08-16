@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-general-task1-001",
+      "id": "w-task1-general-request-for-change-in-work-sch-1",
       "type": "letter",
       "title": "Request for Change in Work Schedule",
       "prompt": "You work for a company that has recently changed the work schedule for your department. However, the new schedule does not suit your personal commitments. Write a letter to your manager explaining your situation and requesting a change in your work hours. In your letter, you should include the following: \n- The reasons why the new schedule is inconvenient for you \n- Your proposed alternative schedule \n- How this change could benefit both you and the company.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-001",
+      "id": "w-task2-general-technology-in-education-1",
       "type": "discussion",
       "title": "Technology in Education",
       "prompt": "In recent years, technology has become an integral part of education. While some argue that it enhances learning, others believe that it can be detrimental. Discuss both views and provide your opinion. In your essay, you should cover the following points: \n- The advantages of using technology in education, such as accessibility and engagement \n- The potential disadvantages, including distractions and reduced face-to-face interaction \n- Your own viewpoint on the matter and why you hold that perspective."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-usage-by-regio-2",
       "type": "bar-chart",
       "title": "Global Internet Usage by Region in 2023",
       "prompt": "The bar chart illustrates the proportion of internet users in different regions of the world in 2023. Overall, it can be seen that Asia has the highest share of internet users, followed by Europe and North America. The data reveals a significant digital divide, with regions such as Africa and the Middle East having much smaller percentages of internet users. Specifically, Asia accounted for 50% of the global internet users, while Europe and North America represented 20% and 15% respectively. In contrast, Africa and the Middle East recorded just 10% and 5% of the total internet users worldwide. Additionally, South America constituted about 7% of internet users. This data highlights the varying levels of internet accessibility and usage around the globe, with some regions experiencing rapid growth while others lag behind.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-16",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, there has been a significant shift in the way education is delivered, largely due to the advancements in technology. While some argue that technology enhances the educational experience by making learning more accessible and engaging, others believe it could detract from the traditional learning methods. Discuss both views and give your opinion. In your response, consider the impact of online learning platforms, the use of digital tools in classrooms, and the potential drawbacks such as decreased face-to-face interaction. Ultimately, you should express your own perspective on whether you believe technology has a more positive or negative effect on education and provide justifications to support your viewpoint."

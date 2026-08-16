@@ -174,6 +174,18 @@ def validate_writing(test):
     return test
 
 
+def _unique_writing_ids(data, index):
+    """Force unique ids on generated writing prompts (the model tends to reuse
+    the example id across runs, which breaks the frontend's id lookup)."""
+    import re
+    for key in ("task1", "task2"):
+        prefix = "task1" if key == "task1" else "task2"
+        for i, q in enumerate(data.get(key, [])):
+            base = re.sub(r"[^a-z0-9]+", "-", str(q.get("title", "")).lower()).strip("-")[:20] or "prompt"
+            q["id"] = f"w-{prefix}-{base}-{index:03d}-{i}"
+    return data
+
+
 def generate_one(section, version, index):
     key = (section, version)
     if key not in PROMPTS:
@@ -189,6 +201,7 @@ def generate_one(section, version, index):
             data = validate_listening(data)
         else:
             data = validate_writing(data)
+            data = _unique_writing_ids(data, index)
         return data
     except Exception as e:
         print(f"  ! failed (#{index}): {e}")

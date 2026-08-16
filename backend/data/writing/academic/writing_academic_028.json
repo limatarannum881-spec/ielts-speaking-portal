@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-sales-by-reg-1",
       "type": "bar-chart",
       "title": "Global Smartphone Sales by Region in 2022",
       "prompt": "The bar chart illustrates the global sales of smartphones across different regions in 2022. The data is categorized into four regions: North America, Europe, Asia-Pacific, and Latin America. Specifically, the bar chart shows that the Asia-Pacific region had the highest smartphone sales, reaching approximately 700 million units. This was followed by Europe, with sales of around 250 million units. North America came in third, selling about 150 million smartphones, while Latin America had the lowest sales figures at approximately 80 million units. Overall, the chart highlights the dominance of the Asia-Pacific market in the smartphone industry, indicating a significant preference for mobile technology in that region, while the other regions displayed comparatively lower sales figures. It is evident that market trends in the smartphone sector vary considerably across geographical areas.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--7",
       "type": "discussion",
       "title": "The Impact of Social Media on Communication",
       "prompt": "Social media has transformed the way individuals interact and communicate. While it has brought about numerous advantages, such as enhanced connectivity and access to information, it has also introduced several disadvantages, including the decline of face-to-face interaction and the spread of misinformation. In your opinion, do the benefits of social media outweigh the drawbacks, or vice versa? Discuss both sides and give your view. Provide relevant examples to support your arguments, and make sure to consider the impact of social media on different age groups and communities. Your essay should be at least 250 words."

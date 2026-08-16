@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-15",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2023",
       "prompt": "The bar chart illustrates the share of the global smartphone market held by different manufacturers in 2023. The data represents six leading companies: Apple, Samsung, Huawei, Xiaomi, Oppo, and OnePlus. Apple leads the market with a share of 27%, followed closely by Samsung at 25%. Huawei holds 15% of the market, while Xiaomi has captured 12%. Oppo and OnePlus hold shares of 10% and 4%, respectively. Overall, the chart indicates a competitive landscape, with the top two companies, Apple and Samsung, together accounting for more than half of the total market. Additionally, the presence of emerging brands like Xiaomi and Oppo suggests a growing diversity in consumer preferences. It is notable that new entrants like OnePlus, while having a smaller share, represent a significant shift in market dynamics as they innovate and target specific consumer segments. This overview provides insights into the current trends and competitive positioning within the smartphone industry.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-online-education-1",
       "type": "discussion",
       "title": "The Impact of Online Education",
       "prompt": "In recent years, online education has gained significant popularity, especially following the global pandemic that forced many educational institutions to shift to virtual learning. While some argue that online education has numerous advantages, others believe it presents considerable challenges. Discuss both views and give your opinion. Proponents of online education argue that it offers flexibility and accessibility, allowing students to learn at their own pace and from anywhere in the world. This can be particularly beneficial for those with work or family commitments. Additionally, online platforms often provide a wealth of resources and materials that can enhance the learning experience. On the other hand, critics point out the lack of face-to-face interaction, which can hinder the development of communication skills and limit opportunities for collaboration. Moreover, the effectiveness of online education can vary greatly depending on a student’s self-discipline and motivation. In my opinion, while online education presents unique opportunities, its effectiveness largely depends on the ability of individuals to adapt to this learning style and the support provided by educational institutions."

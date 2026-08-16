@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-budget-allocation-for-d-1",
       "type": "bar-chart",
       "title": "Annual Budget Allocation for Different Departments (2022)",
       "prompt": "The bar chart illustrates the annual budget allocation for five different departments in a company for the year 2022. The departments include Marketing, Research and Development (R&D), Human Resources (HR), Production, and Information Technology (IT). Overall, it is clear that the Marketing department received the highest funding, followed closely by R&D, while HR and Production had relatively lower allocations. The budget for IT was the least among all. Specifically, Marketing was allocated $500,000, R&D received $400,000, HR $200,000, Production $150,000, and IT just $100,000. This data reflects the company's strategic priorities and areas of focus for that year. A detailed examination of the allocations may indicate the company's intention to expand its market presence and innovate through R&D while maintaining essential functions in HR and Production.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-co-3",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, advancements in technology have significantly transformed the way people communicate. While some argue that this shift has brought numerous benefits, others believe that it has led to negative consequences. Discuss both views and give your own opinion. On one hand, proponents of technological communication assert that tools such as instant messaging, emails, and video calls have made it easier for individuals to connect with others across the globe. This instant access to communication has enhanced relationships and improved collaboration in both personal and professional contexts. On the other hand, critics argue that reliance on technology has diminished face-to-face interaction, leading to a decline in social skills and deeper, more meaningful relationships. Additionally, the prevalence of online interactions may contribute to feelings of isolation and misunderstandings. In your opinion, how should society balance the use of technology with the importance of personal interaction? Provide examples to support your argument."

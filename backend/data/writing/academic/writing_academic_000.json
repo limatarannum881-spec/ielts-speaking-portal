@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-sales-by-bra-1",
       "type": "bar-chart",
       "title": "Global Smartphone Sales by Brand (2020-2021)",
       "prompt": "The bar chart illustrates the global sales of smartphones by different brands in the years 2020 and 2021. Overall, it is evident that Brand A held the largest market share in both years, although there were noticeable changes in the sales figures of other brands. In 2020, Brand A sold approximately 800 million units, which increased to around 900 million units in 2021. Conversely, Brand B demonstrated a decline in sales, dropping from 600 million units in 2020 to 500 million units in 2021. Brand C’s sales remained relatively stable, with just over 300 million units sold in both years. On the other hand, Brand D showed a significant increase, rising from 200 million units in 2020 to 350 million units in 2021. This indicates a growing preference for Brand D among consumers. Finally, Brands E and F experienced minimal sales, with Brand E selling about 100 million units and Brand F slightly above 50 million units in 2021. Overall, Brand A continues to dominate the smartphone market, while Brand D shows promising growth.",
@@ -55,7 +55,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-co-1",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In recent years, the advent of technology has transformed the way people communicate with one another. While some argue that this shift is beneficial, others believe it has led to negative consequences. Discuss both views and provide your opinion on the matter. On one hand, proponents of technology argue that it has made communication more convenient and accessible. With the rise of smartphones and social media platforms, individuals can easily connect with friends and family, irrespective of geographical barriers. This instantaneous communication fosters stronger relationships and keeps individuals informed about each other's lives. On the other hand, critics highlight that technology has diminished the quality of communication. They argue that face-to-face interactions are being replaced by digital exchanges, which lack emotional depth. Moreover, the prevalence of multitasking during virtual conversations can lead to misunderstandings and a sense of detachment. In my opinion, while technology has its drawbacks, it ultimately enhances communication by providing various platforms for connection. However, it is crucial to strike a balance and preserve the value of direct human interaction."

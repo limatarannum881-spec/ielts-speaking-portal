@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-process-of-recycling-plast-1",
       "type": "process",
       "title": "The Process of Recycling Plastic Bottles",
       "prompt": "The diagram illustrates the process of recycling plastic bottles, detailing each step from collection to the final product. First, plastic bottles are collected from various sources, including households and recycling bins. Once collected, they are transported to a recycling facility where they undergo sorting. In this stage, workers separate the bottles from other materials and categorize them by color and type of plastic. After sorting, the bottles are washed to remove any contaminants, such as labels and residues. Once clean, the bottles are shredded into smaller pieces, known as plastic flakes. These flakes are then melted down and formed into pellets. Finally, these pellets can be used to manufacture new products, like clothing, containers, and furniture. This recycling process not only reduces waste in landfills but also conserves valuable resources and energy, contributing to a more sustainable environment.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-role-of-technology-in-educ-5",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has greatly enhanced education, while others think it has detracted from traditional teaching methods. Discuss both views and give your own opinion. In today's digital age, technology plays a significant role in various sectors, including education. On one hand, proponents of technology in education argue that digital tools can facilitate better learning experiences through interactive content, online resources, and personalized learning. They emphasize that technology can make education more accessible, allowing students to learn at their own pace and connect with peers worldwide. Conversely, critics warn that excessive reliance on technology may undermine traditional teaching methods. They argue that it can lead to distractions, a lack of face-to-face interaction, and reduced critical thinking skills. In my opinion, while technology is an effective tool for enhancing education, it should complement rather than replace traditional methods. A balanced approach, integrating both technology and conventional teaching styles, may provide the most effective learning experiences for students."

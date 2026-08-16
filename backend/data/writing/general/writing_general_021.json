@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-a-change-of-appoin-1",
       "type": "letter",
       "title": "Request for a Change of Appointment",
       "prompt": "You recently made an appointment to see a doctor, but you need to change the date and time. Write a letter to the doctor's office. In your letter, explain the reason for the change, suggest a new date and time, and ask if that would be suitable. Be polite and concise while providing the necessary details.",
@@ -14,7 +14,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-co-5",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In today's world, technology has significantly changed the way we communicate. Some people believe that this development has had a positive impact on our ability to connect with others, while others argue it has led to a decline in face-to-face interactions. Discuss both views and give your opinion on the matter. Include examples to support your argument."

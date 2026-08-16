@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-applying-for-a-job-1",
       "type": "process",
       "title": "Applying for a Job",
       "prompt": "You are applying for a job at a local company and have to follow a specific process. In your letter, describe the steps you need to take to complete your job application. Include details about preparing your resume, writing a cover letter, and the interview process. You should also mention any challenges you might face during these steps and how you plan to overcome them.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-urban-traffic-congestion-1",
       "type": "problem-solution",
       "title": "Urban Traffic Congestion",
       "prompt": "Traffic congestion in urban areas has become a serious problem for many cities around the world. In your opinion, what are the main causes of this issue? What solutions can be implemented to alleviate the problem? Discuss the advantages and disadvantages of these solutions, and provide examples to support your arguments."

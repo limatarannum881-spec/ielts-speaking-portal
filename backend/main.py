@@ -70,6 +70,7 @@ FRIENDLY = {
     "timeout": "The AI took too long to respond. Please try again.",
     "network": "Could not reach the AI service. Please check your internet connection and try again.",
     "api": "The AI service returned an error. Check your API key and model name in .env.",
+    "credits": "The AI account is out of credits. Add a small top-up at openrouter.ai/settings/credits.",
     "parse": "The AI returned an unexpected response. Please try again.",
     "empty": "It looks like that recording was empty. Please try speaking again.",
     "audio_balance": "Voice transcription needs a small credit top-up (about $0.50) on OpenRouter. Until then, open the site in Chrome and use live voice, or type your answers.",

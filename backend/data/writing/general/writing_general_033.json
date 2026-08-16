@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-process-of-recycling-plast-2",
       "type": "process",
       "title": "The Process of Recycling Plastic",
       "prompt": "You recently attended a presentation about recycling plastic waste and its benefits. Write a letter to your friend describing the process of recycling plastic, including the steps involved and the positive impact it has on the environment. Explain why understanding this process is important and encourage them to participate in local recycling programs. Make sure to include specific details about each step of the recycling process.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-ed-8",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "Some people believe that technology has positively transformed education by enhancing learning experiences, while others argue that it has created distractions for students. Discuss both views and give your opinion on the impact of technology on education. Consider how technology can be both beneficial and detrimental to the learning process, providing examples to support your arguments."

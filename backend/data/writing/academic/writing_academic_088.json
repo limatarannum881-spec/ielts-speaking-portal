@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-monthly-energy-consumption-in--1",
       "type": "bar-chart",
       "title": "Monthly Energy Consumption in Different Categories",
       "prompt": "The bar chart illustrates the monthly energy consumption in four different categories: Heating, Lighting, Appliances, and Cooling, measured in kilowatt-hours (kWh) over a period of six months. Overall, it is evident that Heating consistently had the highest energy consumption, while Lighting showed the least utilization of energy across all months. In January, Heating consumed approximately 350 kWh, which gradually decreased to around 250 kWh by June. In contrast, Lighting remained steady at about 100 kWh throughout the six months. Appliance usage increased from 150 kWh in January to a peak of 200 kWh in April before falling back to 180 kWh. Cooling, on the other hand, started at a minimal 50 kWh in January and surged to 300 kWh by June, indicating a rising trend due to warmer temperatures. This data highlights the variations in energy consumption patterns across different categories over the months.",
@@ -55,7 +55,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-em-2",
       "type": "discussion",
       "title": "The Impact of Technology on Employment",
       "prompt": "Technology has become an integral part of our lives, influencing various sectors, including employment. While some argue that technological advancements can lead to job displacement, others believe that it creates new opportunities. Discuss both views and provide your opinion. On one hand, it is undeniable that automation and artificial intelligence have replaced numerous jobs, particularly in manufacturing and administrative sectors. As machines become more capable of performing tasks traditionally done by humans, workers may find themselves unemployed or forced to seek different careers. On the other hand, technology also paves the way for new job creation in emerging fields such as digital marketing, software development, and renewable energy. Moreover, the integration of technology in workplaces can enhance productivity and facilitate the emergence of innovative roles that did not previously exist. In my opinion, while the threat of job displacement is a valid concern, the potential for new job creation and innovation outweighs these risks. Therefore, societies should invest in education and retraining programs to prepare the workforce for an evolving job market."

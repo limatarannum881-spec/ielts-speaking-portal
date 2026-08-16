@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-recycling-process-1",
       "type": "process",
       "title": "Recycling Process",
       "prompt": "You are required to describe the recycling process of plastic bottles. Write a letter to a friend explaining how plastic bottles are recycled. Include details of the steps involved, from collection to processing, and finally the creation of new products. Your explanation should be clear and detailed, making it easy for your friend to understand how recycling helps the environment.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-remote-work-1",
       "type": "discussion",
       "title": "Remote Work",
       "prompt": "In recent years, remote work has become increasingly popular among employees and employers. Some people argue that this trend has significant benefits for both parties, while others believe that it has drawbacks. Discuss both views and give your own opinion on the matter. In your discussion, consider the impact of remote work on productivity, work-life balance, and collaboration among team members."

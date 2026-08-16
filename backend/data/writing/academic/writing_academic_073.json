@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-sales-by-bra-7",
       "type": "bar-chart",
       "title": "Global Smartphone Sales by Brand in 2022",
       "prompt": "The bar chart illustrates the number of smartphones sold worldwide by various brands in the year 2022. It is evident from the chart that Brand A led the market with a sales figure of approximately 500 million units. Following closely was Brand B, which sold around 400 million units. Other notable brands include Brand C with 300 million units and Brand D with 250 million units sold. Smaller players in the market, such as Brand E and Brand F, sold 150 million and 100 million units respectively. Overall, the data clearly indicates that Brand A and Brand B dominate the global smartphone market, together accounting for over half of total sales. The significant gap between the leading brands and others suggests strong brand loyalty and consumer preference, impacting the competitive landscape in the smartphone industry.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-ed-9",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology into education has sparked much debate. While some people argue that technology enhances the learning experience, others claim it can be detrimental to students' educational progress. Discuss the advantages and disadvantages of using technology in education. Support your response with reasons and examples. Consider aspects such as accessibility, engagement, and the potential loss of critical thinking skills. To what extent do you agree or disagree with the view that technology should play a major role in educational systems?"

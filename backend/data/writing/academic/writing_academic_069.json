@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-sales-of-different-frui-1",
       "type": "bar-chart",
       "title": "Annual Sales of Different Fruits in a Supermarket (2022)",
       "prompt": "The bar chart illustrates the annual sales figures of various fruits at a local supermarket for the year 2022. Overall, it is evident that bananas were the best-selling fruit, while lemons had the lowest sales. The data reveals that bananas generated sales of 1200 units, significantly outpacing the other fruits. Apples followed as the second highest, with sales of 950 units, demonstrating a strong preference among consumers. In contrast, grapes sold 600 units, indicating a moderate level of popularity. Strawberries and oranges had similar sales figures, with strawberries at 500 units and oranges at 480 units. Finally, lemons lagged behind with only 300 units sold. This data suggests a clear trend toward bananas as the preferred fruit, while other fruits have varying levels of acceptance among shoppers.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--14",
       "type": "discussion",
       "title": "The Impact of Social Media on Interpersonal Relationships",
       "prompt": "In recent years, social media has become an integral part of daily life for many people around the world. While it offers various benefits, such as instant communication and access to information, there is ongoing debate about its effects on interpersonal relationships. On the one hand, proponents argue that social media enhances connectivity and allows users to maintain relationships across long distances. Friends and family can stay in touch more easily than ever, sharing updates and fostering connections that may otherwise diminish over time. On the other hand, critics point out that social media can lead to shallow interactions and reduced face-to-face contact. Individuals may become more inclined to communicate online rather than engage in meaningful conversations in person, leading to a decline in the quality of relationships. Furthermore, the pressure to maintain an online persona can cause stress and dissatisfaction in real-life interactions. This essay will explore both sides of the argument, ultimately assessing the impact of social media on our personal relationships."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-7",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share (2021)",
       "prompt": "The bar chart illustrates the global smartphone market share of five major companies in 2021. Overall, it is evident that Company A held the largest market share, while Company E had the least. Company A dominated the market with a share of 30%, followed closely by Company B with 25%. Company C and Company D had shares of 20% and 15% respectively. Lastly, Company E captured a modest 10% of the market. This data highlights the competitive landscape of the smartphone industry, showcasing how Company A and Company B are leading the charge, while the other companies struggle to keep pace. As the market for smartphones continues to evolve, it would be interesting to see how these figures change in subsequent years.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-6",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has played a pivotal role in transforming education systems worldwide. While some argue that the integration of technology provides numerous benefits, others believe it poses certain challenges. Discuss both views and provide your own opinion. On one hand, proponents of technology in education highlight its ability to enhance learning experiences through interactive tools and resources. For instance, online platforms offer students access to a wealth of information and learning materials that were previously unavailable. Additionally, technology encourages collaboration among students, regardless of geographical barriers. On the other hand, critics contend that an over-reliance on technology may hinder critical thinking and problem-solving skills. The distraction of devices and the potential for reduced face-to-face interactions can also affect students' social development. In my opinion, while technology is an essential tool for modern education, it should be integrated thoughtfully to ensure a balanced educational experience. Therefore, it is crucial to strike a balance between traditional methods and technological advancements to foster well-rounded learners."

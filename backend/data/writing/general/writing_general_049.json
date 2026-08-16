@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-a-new-book-in-the--1",
       "type": "letter",
       "title": "Request for a New Book in the Library",
       "prompt": "You recently discovered that your local library does not have a specific book that you believe would be beneficial for the community. Write a letter to the librarian explaining what the book is, why it would be a valuable addition to the library, and suggesting how it could help the community. Include details about how you became aware of the book and your own experience with it. Your letter should be at least 150 words."
@@ -9,7 +9,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-impact-of-technology-on-educat-1",
       "type": "discussion",
       "title": "Impact of Technology on Education",
       "prompt": "Some people believe that technology has completely transformed education, while others argue that traditional methods remain the most effective. Discuss both views and give your opinion. In your essay, consider how technology has changed teaching and learning processes, and whether these changes are beneficial or detrimental to students' education. Your essay should be at least 250 words."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-sales-by-bra-2",
       "type": "bar-chart",
       "title": "Global Smartphone Sales by Brand in 2022",
       "prompt": "The bar chart illustrates the global smartphone sales figures for various brands in 2022. Overall, it is evident that Brand A was the market leader, significantly surpassing its competitors in terms of sales. Brand A achieved sales of 250 million units, while Brand B followed with 120 million units. Meanwhile, Brand C managed to sell 85 million units, making it the third-largest seller. Other brands, including Brand D and Brand E, sold 50 million and 30 million units respectively. Notably, the sales figures indicate a clear dominance by the top three brands, which together account for approximately 84% of the total market. The data also suggests that smaller companies face challenges in capturing significant market share. This trend may be indicative of consumer preferences, brand loyalty, or marketing effectiveness.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--3",
       "type": "discussion",
       "title": "The Impact of Social Media on Personal Relationships",
       "prompt": "In recent years, social media has become an integral part of daily life for many individuals. While some argue that social media enhances personal relationships by allowing better communication and connection, others feel that it can lead to misunderstandings and a decline in face-to-face interactions. Discuss both views and offer your opinion. To what extent do you think social media is beneficial or detrimental to personal relationships? Consider factors such as communication quality, emotional connection, and the potential for misinterpretation in your response. Use specific examples to support your argument."

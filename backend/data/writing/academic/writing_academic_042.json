@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-11",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2023",
       "prompt": "The bar chart illustrates the market share of various smartphone brands across the globe in 2023. The data highlights the percentage of total sales attributed to each brand during the year. Notably, Brand A leads the market with a share of 35%, followed by Brand B at 25%. Brand C and Brand D hold 15% and 10% respectively, while other brands collectively account for the remaining 15%. This visualization allows for a clear comparison of the dominance of leading brands in the smartphone industry and hints at trends in consumer preferences. It can be observed that the two top brands have maintained a significant lead over their competitors, indicating strong brand loyalty among consumers. Overall, the market remains competitive, but with a clear distinction between leading brands and the rest of the market.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-remote-work-2",
       "type": "discussion",
       "title": "The Impact of Remote Work",
       "prompt": "The rise of remote work has significantly changed the landscape of the modern workplace, offering both benefits and drawbacks. On one hand, proponents argue that remote work enhances productivity, improves work-life balance, and reduces commuting time, leading to happier employees. Additionally, companies can save costs on office space and utilities. On the other hand, critics point out that remote work can lead to feelings of isolation, difficulties in team collaboration, and challenges in managing employee performance. Furthermore, the blurring of boundaries between home and work life can cause stress and burnout. In light of these contrasting viewpoints, it is essential to consider whether the advantages of remote work outweigh its disadvantages. This essay will explore both sides of the debate, ultimately positing that while remote work presents challenges, its benefits can lead to a more flexible and efficient work environment when managed effectively."

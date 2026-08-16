@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-the-comparison-of-energy-sourc-1",
       "type": "bar-chart",
       "title": "The Comparison of Energy Sources in Different Countries",
       "prompt": "The bar chart displays the proportion of energy sourced from renewable and non-renewable resources across five different countries in 2023. Overall, it is evident that while non-renewable energy sources dominate in all countries, there is a notable variation in the adoption of renewable energy. In Country A, renewable energy accounts for 30% of the total energy consumption, which is the highest among the five nations. Country B follows with 25%, while Country C shows a lesser engagement with 15%. In contrast, Countries D and E rely heavily on non-renewable sources, with 90% and 85% respectively. These figures suggest a global trend towards sustainability, albeit at different rates, indicating that some nations are making significant strides towards reducing their carbon footprint, while others remain heavily dependent on fossil fuels. The data illustrates the urgent need for increased investment in renewable resources to meet future energy demands and combat climate change.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-5",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, the role of technology in education has become increasingly significant. While some argue that technology enhances learning experiences, others believe that it can hinder the educational process. Discuss both views and give your opinion. In your discussion, consider how technology impacts student engagement and the effectiveness of teaching methods, alongside potential drawbacks such as distractions and reliance on digital tools. In your conclusion, provide a balanced perspective on the importance of integrating technology in education while highlighting the need for maintaining traditional learning methodologies."

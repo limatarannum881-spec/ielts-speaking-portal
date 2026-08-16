@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-energy-consumption-sour-1",
       "type": "bar-chart",
       "title": "Global Energy Consumption Sources in 2022",
       "prompt": "The bar chart illustrates the percentage of different energy sources used globally in 2022. The data reveals the reliance on various sources of energy, namely fossil fuels, renewable energy, and nuclear power. Fossil fuels dominate the chart, accounting for 73% of total energy consumption, with oil being the most significant contributor at 42%. Natural gas and coal follow, contributing 23% and 8% respectively. In contrast, renewable energy sources, including solar, wind, and hydroelectric, make up 24% of global energy consumption, with solar power showing the most substantial growth, representing 11%. Nuclear energy contributes a modest 3% to the overall energy mix. This distribution highlights a continuing dependence on fossil fuels, while also indicating a gradual shift towards renewable energy, which could shape future energy policies and sustainability practices.",
@@ -27,7 +27,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--11",
       "type": "discussion",
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has become an integral part of modern society, significantly influencing how individuals communicate and interact. While some argue that social media has fundamentally improved communication and connected individuals across the globe, others contend that it has detrimental effects on personal relationships and societal dynamics. Discuss both views and give your opinion. Consider the positive aspects of social media, such as the ease of maintaining long-distance relationships, the rapid sharing of information, and the opportunities for social movements. Conversely, address the negative implications, including the potential for cyberbullying, the spread of misinformation, and the decline of face-to-face interactions. Ultimately, assess whether social media's impact is more beneficial or harmful to society as a whole."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-smartphone-market-share-20",
       "type": "bar-chart",
       "title": "Global Smartphone Market Share in 2022",
       "prompt": "The bar chart illustrates the market share of various smartphone manufacturers worldwide in the year 2022. Overall, it is evident that Company A dominated the market, while Company D and Company E had significantly smaller shares. Company A held a substantial 40% of the market, followed by Company B with 25%. Company C captured 15% of the market. In contrast, Company D and Company E shared the remaining 20% of the market, with Company D accounting for 12% and Company E for 8%. The data suggests a clear disparity in market control, with three companies (A, B, and C) forming the majority of smartphone sales. It is notable that the top three companies together possessed 80% of the market, indicating highly concentrated competition in the smartphone industry. This trend reflects the ongoing developments and consumer preferences within the tech sector, as more users gravitate towards well-established brands.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-remote-work-7",
       "type": "discussion",
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, particularly due to the COVID-19 pandemic, remote work has become increasingly common. While some argue that this shift has numerous benefits, others assert that it comes with significant challenges. Discuss both sides of this issue. On the one hand, proponents of remote work highlight its flexibility and the potential for improved work-life balance. Employees can tailor their work schedules to accommodate personal obligations, which can lead to increased job satisfaction and productivity. Moreover, employers may save on overhead costs, such as office space and utilities. On the other hand, critics express concerns regarding isolation and the difficulties in maintaining team cohesion. Remote work can lead to feelings of loneliness among employees, which in turn may decrease collaboration and innovation. Additionally, there may be challenges related to communication and the management of remote teams. In conclusion, while remote work offers several advantages, it is crucial to consider the potential drawbacks that may hinder its effectiveness."

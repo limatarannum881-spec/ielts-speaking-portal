@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-average-monthly-temperatures-i-1",
       "type": "bar-chart",
       "title": "Average Monthly Temperatures in Four Cities",
       "prompt": "The bar chart below illustrates the average monthly temperatures (in degrees Celsius) for four cities: London, Sydney, New York, and Tokyo across the months of January to December. Overall, it is evident that Sydney experiences the warmest temperatures throughout the year, with January being the hottest month at 30°C, while London remains the coldest city with temperatures rarely exceeding 15°C in any month. New York shows significant temperature variation, reaching a peak of 29°C in July and a low of -1°C in January. Conversely, Tokyo experiences mild weather, with temperatures fluctuating between 10°C and 28°C but generally being more moderate compared to Sydney and New York. It is important to observe these differences, as they reflect the diverse climatic conditions experienced by these cities across the different seasons.",
@@ -83,7 +83,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-effects-of-technology-on-commu-1",
       "type": "discussion",
       "title": "Effects of Technology on Communication",
       "prompt": "In today's digital age, technology has revolutionized the way people communicate. While some argue that this shift has improved interpersonal relationships and global connectivity, others believe that it has led to a decline in face-to-face interactions. Discuss both views and give your opinion. In recent years, advancements such as social media, instant messaging, and video calls have made it easier for individuals to connect regardless of geographical distances. Proponents assert that technology facilitates stronger bonds and fosters relationships that would not have formed otherwise. On the contrary, critics argue that reliance on technology reduces the quality of communication, causing misunderstandings and weakening emotional ties. They claim that individuals may become overly dependent on devices, resulting in less meaningful conversations and increased social isolation. In my opinion, while technology offers numerous benefits for communication, it is essential for individuals to strike a balance between virtual interactions and traditional, in-person exchanges to maintain strong, healthy relationships."

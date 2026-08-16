@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-requesting-a-leave-of-absence-1",
       "type": "letter",
       "title": "Requesting a Leave of Absence",
       "prompt": "You are planning to take a short leave from work due to some personal matters. Write a letter to your manager requesting a leave of absence. In your letter, explain the reason for your leave, how long you will be away, and suggest how your responsibilities will be managed during your absence. Be polite and professional in your approach.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-role-of-technology-in-educ-11",
       "type": "opinion",
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has transformed education for the better, while others think it has had a negative impact. Discuss both views and give your opinion. In your essay, provide examples and evidence to support your arguments, and ensure you present a clear conclusion summarizing your thoughts."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-sales-of-electronic-dev-2",
       "type": "bar-chart",
       "title": "Annual Sales of Electronic Devices",
       "prompt": "The bar chart illustrates the annual sales figures for four different electronic devices (smartphones, tablets, laptops, and smartwatches) over a five-year period from 2018 to 2022. Overall, it is evident that smartphones remained the most popular device, with sales figures consistently higher than the other categories. In 2018, smartphone sales stood at 200 million units, climbing to 300 million by 2022. Tablets showed a steady increase as well, from 50 million units in 2018 to 80 million units in 2022. Laptops initially sold 150 million units in 2018, but this number fluctuated slightly, ending at 140 million units in 2022. Smartwatches, although the least sold device, saw impressive growth from 10 million to 50 million units during the same period. This data suggests a significant trend in consumer preferences towards smartphones and wearables while indicating some stagnation in laptop sales.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-advertising-in-soc-1",
       "type": "discussion",
       "title": "The Role of Advertising in Society",
       "prompt": "Advertising is an integral part of our daily lives, influencing how we perceive products, services, and even lifestyles. Some people argue that advertising plays a beneficial role in society by providing essential information about new products and services. On the other hand, critics contend that advertising promotes consumerism and can lead to misguided values, particularly among younger audiences. This essay will discuss both perspectives, weighing the advantages and disadvantages of advertising in modern society. Proponents of advertising maintain that it serves as a useful tool for communication, helping consumers make informed choices based on their needs. Advertisements often highlight features, pricing, and availability, which can be especially valuable in a competitive market. However, the downside is that advertising can create unrealistic expectations and desires, often leading individuals to prioritize material possessions over more meaningful experiences. Ultimately, the impact of advertising is complex, and while it does have the potential to inform and enhance consumer decision-making, it also raises ethical concerns regarding its influence on societal values."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-coffee-brewing-process-1",
       "type": "process",
       "title": "The Coffee Brewing Process",
       "prompt": "Write a letter to a friend describing the process of brewing coffee at home. In your letter, explain the steps involved, the equipment needed, and any tips for making the best cup of coffee. Be sure to include personal anecdotes or experiences you have had with coffee brewing to make the letter more engaging. Use appropriate language and structure for a friendly letter, keeping in mind that the letter should be at least 150 words long.",
@@ -14,7 +14,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-social-media-and-communication-1",
       "type": "discussion",
       "title": "Social Media and Communication",
       "prompt": "With the rise of social media, the way we communicate has changed significantly. Some people believe that social media enhances communication while others argue that it has a negative impact. Discuss both views and give your own opinion. Your essay should be at least 250 words long, providing clear explanations and examples to support your arguments."

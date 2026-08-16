@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-coffee-is-made-2",
       "type": "process",
       "title": "How Coffee is Made",
       "prompt": "Write a letter to a friend explaining the process of making coffee from beans to the final beverage. Describe each step in detail, including how coffee beans are harvested, roasted, ground, and brewed. Make sure to highlight any important aspects of the process that contribute to the flavor and aroma of the coffee. Your letter should not be less than 150 words.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-urban-noise-pollution-1",
       "type": "problem-solution",
       "title": "Urban Noise Pollution",
       "prompt": "Noise pollution in urban areas has become a significant problem in recent years. Discuss the causes of this issue and suggest practical solutions to mitigate its impact on city dwellers. Include specific examples to support your points and ensure your essay is no less than 250 words."

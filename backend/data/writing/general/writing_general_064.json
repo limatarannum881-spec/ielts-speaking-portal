@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-information-on-loc-1",
       "type": "letter",
       "title": "Request for Information on Local Community Center",
       "prompt": "You are planning to move to a new neighborhood and would like to know more about the local community center. Write a letter to the community center director. In your letter, you should:  \n- Introduce yourself and explain your reasons for moving to the area.  \n- Ask about the programs and services offered at the community center.  \n- Inquire about membership fees and any upcoming events.  \n\nMake sure to include your contact information and express your enthusiasm about potentially joining the community."
@@ -9,7 +9,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-remote-work-2",
       "type": "discussion",
       "title": "The Impact of Remote Work",
       "prompt": "In recent years, remote work has become increasingly common due to advancements in technology and changes in workplace culture. Discuss the advantages and disadvantages of remote work for both employees and employers. In your essay, consider factors such as work-life balance, productivity, and team dynamics. Provide specific examples and make sure to include your opinion on whether the benefits of remote work outweigh its drawbacks."

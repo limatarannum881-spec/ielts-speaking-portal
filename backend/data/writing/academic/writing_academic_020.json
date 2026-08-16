@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-usage-by-regio-1",
       "type": "bar-chart",
       "title": "Global Internet Usage by Region in 2023",
       "prompt": "The bar chart below illustrates the percentage of internet users across different regions of the world in 2023. Overall, it is evident that Asia leads in internet usage, while Oceania has the lowest percentage among the regions surveyed. In detail, Asia accounts for 50% of the global internet users, comprising a staggering 2.5 billion users, primarily due to its large population. Following Asia, Europe comes in second with 20% of the total, representing approximately 1 billion users, which can be attributed to high levels of technology adoption and infrastructure. North America follows closely behind with 15% of users, amounting to about 750 million individuals. In contrast, Africa, with 10% of users, reflects ongoing challenges in accessibility and digital literacy. Lastly, Oceania stands at a mere 5%, illustrating significant room for growth and investment in internet services. The data indicates a clear disparity in internet access, suggesting the need for targeted initiatives to bridge this digital divide.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-impacts-of-remote-work-1",
       "type": "discussion",
       "title": "Impacts of Remote Work",
       "prompt": "The rise of remote work has become a significant trend in recent years, accelerated by the global pandemic. This essay will explore both the advantages and disadvantages of this work arrangement. On one hand, remote work offers employees increased flexibility and the ability to create a better work-life balance. Many individuals find that working from home reduces commute times, allowing them to dedicate more time to personal interests or family. Additionally, companies may benefit from reduced overhead costs associated with maintaining physical office spaces. However, there are notable drawbacks to consider. Employees may experience feelings of isolation and disconnection from their teams, potentially leading to decreased morale and collaboration. Furthermore, remote work can blur the lines between personal and professional life, making it challenging for individuals to 'switch off' after working hours. In conclusion, while remote work provides significant benefits for flexibility and cost savings, it also introduces challenges that employers and employees must address to ensure sustainable productivity and well-being in the workforce."

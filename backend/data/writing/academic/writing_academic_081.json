@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-expenditure-on-renewabl-9",
       "type": "bar-chart",
       "title": "Annual Expenditure on Renewable Energy Sources (2015-2020)",
       "prompt": "The bar chart illustrates the annual expenditure on renewable energy sources in four different countries (USA, Germany, China, and India) from 2015 to 2020. Overall, it is evident that China consistently allocated the highest funds to renewable energy during this period, while India showed the least expenditure. In 2015, China invested approximately $40 billion, reaching nearly $80 billion by 2020. The USA began with $30 billion in 2015 and increased its investment to approximately $60 billion by 2020. Germany started at $25 billion and slightly rose to around $50 billion. Conversely, India's expenditure remained relatively static, starting at $10 billion in 2015 and only increasing to about $15 billion by 2020. This data indicates a significant trend toward increased investment in renewable energy, particularly by China and the USA, reflecting their commitment to sustainable energy solutions.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-ed-12",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the integration of technology in education has become increasingly prevalent. While some argue that technology enhances the learning experience, others assert that it may lead to various problems. Discuss both viewpoints and provide your opinion. On one hand, proponents of technology in education claim that digital tools, such as online resources, interactive software, and virtual classrooms, can make learning more engaging and accessible. For instance, students can access a wealth of information online and collaborate with peers from around the world. On the other hand, critics highlight potential drawbacks, including reduced face-to-face interactions and the risk of distractions from devices. They believe that reliance on technology can undermine critical thinking and problem-solving skills. In conclusion, while technology has the potential to revolutionize education, it is essential to balance its use with traditional teaching methods to ensure a comprehensive learning experience."

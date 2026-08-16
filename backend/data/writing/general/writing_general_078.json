@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-coffee-is-produced-1",
       "type": "process",
       "title": "How Coffee is Produced",
       "prompt": "You are to describe the process of coffee production from bean to cup. The process includes several stages: the growing of coffee plants, the harvesting of coffee cherries, the drying and processing of the cherries, the roasting of coffee beans, and the brewing of coffee. In your description, ensure that you explain each stage clearly, highlighting the methods used at each step and the importance of quality control in achieving a good final product. Use diagrams or illustrations if necessary to help convey the information effectively. You should aim for a minimum of 150 words.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-ed-15",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "Discuss the ways in which technology has changed the educational landscape in recent years. On one hand, you may consider the advantages that technology brings, such as easier access to information, increased engagement through multimedia, and the ability to learn at one's own pace. On the other hand, there are potential disadvantages, including the digital divide among students from different socio-economic backgrounds, reliance on technology that may lead to decreased critical thinking skills, and distractions that can hinder learning. Provide examples to support your points and conclude with your own opinion on whether the benefits of technology in education outweigh the drawbacks. Your response should be at least 250 words."

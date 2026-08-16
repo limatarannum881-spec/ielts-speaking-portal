@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-annual-expenditure-on-renewabl-4",
       "type": "bar-chart",
       "title": "Annual Expenditure on Renewable Energy Sources in Different Countries (2015-2020)",
       "prompt": "The bar chart illustrates the annual expenditure on renewable energy sources in four different countries: Germany, the USA, China, and India from 2015 to 2020. Overall, it is evident that China exhibited the highest investment in renewable energy throughout the period, while India ranked the lowest. In 2015, Germany invested approximately $30 billion, which saw a gradual increase to around $50 billion by 2020. The USA started off with a similar investment level, around $32 billion in 2015, eventually rising to about $45 billion. China's spending was significantly larger, starting at $70 billion in 2015 and reaching a peak of $150 billion by 2020. On the other hand, India’s expenditure was the least, beginning at $10 billion and increasing to about $20 billion over the five years. This trend indicates a growing recognition of renewable energy's importance, particularly in China, which consistently outspent other countries.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-em-1",
       "type": "discussion",
       "title": "The Impact of Technology on Employment",
       "prompt": "In recent years, the rapid evolution of technology has led to significant changes in the job market. While some argue that technological advancements disrupt employment by rendering certain jobs obsolete, others contend that technology creates new opportunities and enhances productivity. Discuss both views and provide your own opinion. On one hand, it is undeniable that automation and artificial intelligence can replace manual and repetitive jobs, leading to job losses in sectors such as manufacturing and customer service. For instance, self-checkout machines in grocery stores have minimized the need for cashiers. On the other hand, technology has also enabled the emergence of new fields and job opportunities, particularly in information technology and renewable energy sectors. Moreover, technology often improves efficiency and allows employees to focus on more complex tasks. In my opinion, while the displacement caused by technology cannot be ignored, the overall impact tends to favor job creation in the long term. Therefore, it is essential for workers to adapt and upskill in response to these changes."

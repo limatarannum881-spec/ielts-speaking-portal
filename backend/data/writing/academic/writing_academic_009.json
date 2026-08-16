@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-environmental-initiatives-in-d-1",
       "type": "bar-chart",
       "title": "Environmental Initiatives in Different Countries",
       "prompt": "The bar chart illustrates the percentage of total energy consumption that comes from renewable sources in five different countries for the year 2022. The countries compared are the United States, Germany, China, Brazil, and India. From the chart, we can observe significant variations in the adoption of renewable energy sources across these nations. Germany leads the way with 50% of its energy consumption derived from renewables, followed by Brazil at 45%. The United States shows a more moderate figure at 20%, while China and India lag behind with only 18% and 12% respectively. This data highlights the differing priorities and advancements in renewable energy initiatives among these countries.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-ed-2",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the rapid advancement of technology has significantly influenced education. While some argue that technology enhances the learning experience, others believe it can create distractions and hinder academic progress. Discuss both views and provide your opinion. On one hand, technology can provide access to a vast array of resources and learning tools, allowing students to learn at their own pace and enhancing their understanding of complex subjects. On the other hand, the presence of devices like smartphones and tablets in the classroom can lead to distractions, making it challenging for students to focus on their studies. In your essay, explore these perspectives and present your viewpoint on whether the benefits of technology outweigh its drawbacks in education."

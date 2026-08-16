@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-comparison-of-renewable-energy-2",
       "type": "bar-chart",
       "title": "Comparison of Renewable Energy Sources in 2022",
       "prompt": "The bar chart below illustrates the amount of energy produced from various renewable sources in a certain country in 2022. Overall, it is clear that solar energy was the leading source of renewable energy production, followed closely by wind and hydroelectric energy. Specifically, solar energy accounted for 45% of total renewable energy production, while wind energy contributed 30%. Hydroelectric energy, on the other hand, made up 20%, and biomass energy was the least significant, at only 5%. This shows a notable trend towards solar energy as a preferred choice for renewable production. Furthermore, comparing the contributions of these sources reveals the potential for growth in solar and wind energy sectors, given their already substantial roles in the overall energy landscape.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-role-of-technology-in-educ-13",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "In recent years, technology has significantly influenced the educational landscape. While some people argue that the presence of technology in classrooms has greatly enhanced learning opportunities for students, others contend that it may lead to distractions and diminish the quality of education. Discuss both views and give your own opinion. Support your arguments with relevant examples and reasoning. In your discussion, consider the impact of digital tools such as online resources, e-learning platforms, and educational apps on students' engagement and learning outcomes. Additionally, reflect on the challenges that teachers and educational institutions face in integrating technology effectively into their curricula."

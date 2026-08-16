@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-applying-for-a-job-2",
       "type": "process",
       "title": "Applying for a Job",
       "prompt": "You are currently looking for a new job and, as part of the application process, you need to write a letter to the HR manager of a company you are interested in. In your letter, you should explain why you are interested in the position, highlight your relevant skills and experiences, and ask for more information about the application process. Be polite and professional in your tone. Your letter should be at least 150 words.",
@@ -27,7 +27,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-ed-7",
       "type": "two-part",
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, technology has transformed the way students learn and teachers teach. While some argue that technology enhances educational experiences, others believe it can be a distraction. Discuss both views and give your opinion on whether technology is beneficial or detrimental to education. Support your arguments with relevant examples. Your response should be at least 250 words."

@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-employment-by-sector-in-city-a-1",
       "type": "bar-chart",
       "title": "Employment by Sector in City A (2015-2020)",
       "prompt": "The bar chart illustrates the distribution of employment across various sectors in City A from 2015 to 2020. The sectors represented include Agriculture, Manufacturing, Services, and Technology. In 2015, the Services sector employed the highest number of individuals, with approximately 45,000 employees, while Agriculture had the lowest with just 10,000. Over the following five years, the Services sector continued to grow steadily, peaking at 60,000 employees in 2020. Manufacturing also saw a moderate increase, rising from 25,000 to 35,000. However, the Agriculture sector stagnated, remaining at around 10,000 employees throughout the period. Notably, the Technology sector experienced significant growth, starting with 15,000 employees in 2015 and reaching 40,000 by 2020. This data indicates a clear shift towards service-oriented and technology-based employment in City A during the given period.",
@@ -43,7 +43,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--13",
       "type": "discussion",
       "title": "The Impact of Social Media on Society",
       "prompt": "In recent years, social media has transformed communication and interaction among individuals and societies. While some argue that social media has a positive impact on society by fostering connections and providing platforms for self-expression, others contend that it has negative consequences, such as promoting misinformation and undermining traditional interpersonal skills. Discuss both views and give your opinion on the extent to which you believe social media has positively or negatively influenced society. In your essay, you should consider the role of social media in shaping public opinion, the effects on relationships, and the potential for social media to influence political movements or public discourse. Provide specific examples to support your arguments."

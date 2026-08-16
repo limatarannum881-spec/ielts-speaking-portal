@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-a-reference-letter-1",
       "type": "letter",
       "title": "Request for a Reference Letter",
       "prompt": "You recently applied for a new job and need a reference letter from your previous employer. Write a letter to your former manager requesting the letter. In your letter, explain why you are asking for the reference, remind them of your contributions to the company, and provide details about the new job and any specific qualities or skills you would like them to highlight.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-co-10",
       "type": "opinion",
       "title": "The Impact of Technology on Communication",
       "prompt": "Some people believe that technology has made communication between people less personal. Others think that technology has improved communication in many ways. Discuss both views and give your own opinion. Include relevant examples to support your response."

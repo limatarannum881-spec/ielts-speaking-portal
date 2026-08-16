@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-request-for-a-change-in-appoin-1",
       "type": "letter",
       "title": "Request for a Change in Appointment",
       "prompt": "You recently made an appointment to see a service provider, but due to unforeseen circumstances, you need to change it. Write a letter to the service provider explaining your situation. In your letter, include the following points: \n1. The original date and time of the appointment.\n2. The reason for rescheduling.\n3. Your preferred dates and times for the new appointment.\n4. An apology for any inconvenience caused and a request for confirmation of the new appointment.\nYour letter should be at least 150 words.",
@@ -10,7 +10,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-role-of-technology-in-educ-4",
       "type": "discussion",
       "title": "The Role of Technology in Education",
       "prompt": "Some people believe that technology has a positive impact on education, while others think it has a negative effect. Discuss both views and give your own opinion. In your essay, consider how technology affects teaching methods, student engagement, and access to information. Provide examples to support your arguments. Your essay should be at least 250 words."

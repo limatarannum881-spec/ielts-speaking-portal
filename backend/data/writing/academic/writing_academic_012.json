@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-renewable-energy-consum-1",
       "type": "bar-chart",
       "title": "Global Renewable Energy Consumption (2010-2020)",
       "prompt": "The bar chart illustrates the global consumption of renewable energy sources — including solar, wind, hydro, and biomass — over a ten-year period from 2010 to 2020. Overall, it is evident that there has been a significant increase in the adoption of renewable energy during this time frame, with solar energy showing the most remarkable growth. In 2010, solar energy consumption was at 50 gigawatt-hours, whereas by 2020, it increased to 200 gigawatt-hours. Wind energy also demonstrated a steady rise, starting at 100 gigawatt-hours in 2010 and reaching 150 gigawatt-hours in 2020. Hydro energy maintained a relatively stable consumption level around 300 gigawatt-hours throughout the decade, while biomass energy showed a modest decline from 250 gigawatt-hours in 2010 to 220 gigawatt-hours in 2020. This data emphasizes the growing preference and shift towards solar and wind energy as primary renewable sources in the global energy landscape.",
@@ -31,7 +31,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-technology-on-ed-3",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "As technology continues to evolve at a rapid pace, its influence on education has become increasingly significant. While some argue that the integration of technology in the classroom has enhanced learning experiences and accessibility, others contend that it can lead to distractions and a decline in traditional learning methods. Discuss both views and give your opinion. In your response, consider how technology has been utilized in educational settings, its potential benefits such as personalized learning and greater resource availability, as well as the drawbacks, including decreased face-to-face interactions and reliance on digital devices. Furthermore, evaluate the implications of these changes for both students and educators. Ultimately, express your stance on whether the advantages of technology in education outweigh the disadvantages, and reflect on any necessary steps that can be taken to mitigate the negative aspects while maximizing the positive impacts."

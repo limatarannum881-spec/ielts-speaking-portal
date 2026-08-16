@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-academic-global-internet-users-by-regio-6",
       "type": "bar-chart",
       "title": "Global Internet Users by Region in 2023",
       "prompt": "The bar chart displays the number of internet users in millions across different regions of the world in 2023. Overall, it is evident that Asia has the highest number of internet users, significantly outpacing other regions, while Oceania has the lowest figure. In detail, Asia boasts approximately 2.8 billion users, representing nearly 50% of the total global internet population. Europe follows with around 700 million users, while North America has about 400 million. Africa's user base stands at roughly 300 million, indicating substantial growth potential in the region. South America has approximately 250 million users, closely trailing Africa, while Oceania lags behind with just 30 million users. This data highlights not only the vast disparity in internet access across regions but also points to the potential for future growth in underrepresented areas, particularly in Africa and Oceania.",
@@ -39,7 +39,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-academic-the-impact-of-social-media-on--12",
       "type": "discussion",
       "title": "The Impact of Social Media on Society",
       "prompt": "Social media has become an integral part of daily life for millions of people. Some argue that it has a positive impact on society, while others believe it can have detrimental effects. Discuss both views and give your opinion. In recent years, social media platforms have facilitated communication, allowing individuals to connect and share information across vast distances. Proponents argue that this fosters community, enhances relationships, and provides a platform for marginalized voices. Conversely, critics point out that social media can lead to addiction, mental health issues, and the spread of misinformation. Additionally, the anonymity provided by these platforms can promote cyberbullying and toxic behavior. In my opinion, while social media has significant benefits, its potential harms should not be overlooked. It is crucial for users to engage mindfully and for regulatory measures to be considered to mitigate negative outcomes. Ultimately, a balanced perspective is necessary to harness the positive aspects while addressing the challenges posed by social media."

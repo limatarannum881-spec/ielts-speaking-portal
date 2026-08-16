@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-writing-a-letter-to-your-neigh-1",
       "type": "process",
       "title": "Writing a Letter to Your Neighbor",
       "prompt": "You recently moved into a new neighborhood and would like to introduce yourself to your neighbor. Write a letter to your neighbor. In your letter, introduce yourself and your family, explain why you moved to the neighborhood, and invite them for a coffee. Make sure to include some personal touches to make your letter friendly and engaging. Aim for at least 150 words.",
@@ -14,7 +14,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-co-17",
       "type": "discussion",
       "title": "The Impact of Technology on Communication",
       "prompt": "In today's digital age, technology has profoundly changed how we communicate. Some people believe that these changes have improved communication, while others argue that they have made it less personal. Discuss both views and give your opinion on the matter. Support your argument with relevant examples and reasoning. Please write at least 250 words."

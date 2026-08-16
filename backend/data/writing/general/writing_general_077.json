@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-the-process-of-recycling-paper-10",
       "type": "process",
       "title": "The Process of Recycling Paper",
       "prompt": "You recently visited a paper recycling facility and learned about the process of recycling used paper. Write a letter to your friend describing how the facility works. In your letter, explain the different stages of the recycling process, from collecting used paper to producing new paper products. You should include details about the machinery used, the types of paper that can be recycled, and any environmental benefits associated with recycling paper. Make sure to express your thoughts on why you think recycling is important and encourage your friend to consider participating in recycling efforts as well.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-impact-of-technology-on-ed-14",
       "type": "discussion",
       "title": "The Impact of Technology on Education",
       "prompt": "In recent years, the advancement of technology has significantly impacted the field of education. Some believe that it has greatly enhanced learning opportunities, while others argue that it has created new challenges. Discuss both views and give your opinion on the role of technology in education. In your essay, consider how technology has changed the way information is delivered and accessed, the implications for teachers and students, and any potential drawbacks that may arise from an increased reliance on technology in education."

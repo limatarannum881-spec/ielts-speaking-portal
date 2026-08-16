@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-paper-is-recycled-1",
       "type": "process",
       "title": "How Paper is Recycled",
       "prompt": "You should spend about 20 minutes on this task. The diagram below illustrates the process of recycling paper. Summarize the information by selecting and reporting the main features, and make comparisons where relevant. You should write at least 150 words. The process begins with the gathering of used paper from various sources such as households and businesses. This paper is then transported to a recycling plant where it is sorted and cleaned to remove contaminants. After sorting, the paper is shredded into small pieces and mixed with water to create a slurry. The slurry is then screened to remove impurities. Next, the pulp is bleached to achieve the desired brightness and is finally dried and rolled into large sheets of recycled paper. These sheets are then packaged and shipped to manufacturers for reuse in producing new paper products.",
@@ -43,7 +43,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-the-role-of-technology-in-mode-1",
       "type": "discussion",
       "title": "The Role of Technology in Modern Education",
       "prompt": "Some people believe that technology has a positive impact on education, while others argue that it creates distractions and hinders learning. Discuss both views and give your own opinion. In recent years, the integration of technology into educational systems has sparked a heated debate. Proponents of technology in the classroom argue that it provides students with access to vast resources, facilitates personalized learning experiences, and prepares them for a technology-driven job market. Tools such as online courses, educational apps, and digital collaboration platforms enhance engagement and understanding. On the other hand, critics contend that technology can lead to distractions, reduce face-to-face interactions, and foster a reliance on devices rather than critical thinking skills. They argue that excessive screen time can affect students' attention spans and overall well-being. In my opinion, while technology undoubtedly offers numerous benefits to modern education, it is essential to strike a balance. Educators should embrace technology while also implementing strategies to minimize its potential downsides, ensuring a holistic learning environment."

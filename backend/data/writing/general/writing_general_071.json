@@ -1,7 +1,7 @@
 {
   "task1": [
     {
-      "id": "w-academic-task1-003",
+      "id": "w-task1-general-how-to-make-a-cup-of-coffee-1",
       "type": "process",
       "title": "How to Make a Cup of Coffee",
       "prompt": "Write a letter to a friend describing how to make a cup of your favorite coffee. Explain the steps involved from choosing your coffee beans to the final preparations. Include any special equipment you might use, the importance of measuring, and any tips for making the perfect cup. Your friend is new to coffee making, so provide clear and concise instructions to help them succeed.",
@@ -35,7 +35,7 @@
   ],
   "task2": [
     {
-      "id": "w-task2-003",
+      "id": "w-task2-general-impact-of-technology-on-educat-2",
       "type": "discussion",
       "title": "Impact of Technology on Education",
       "prompt": "In recent years, technology has significantly transformed the education system. While some people believe that advancements in technology have made learning more accessible and efficient, others argue that it creates distractions and reduces the quality of education. Discuss both sides of this argument and give your own opinion on whether you think technology has a positive or negative impact on education. Support your views with relevant examples."
