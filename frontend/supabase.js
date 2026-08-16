@@ -144,111 +144,92 @@ const Supa = (() => {
   }
 
   // ------------------------------------------------------------------
-  // Auth dialog
+  // Profile settings (name + target band) — the only user-facing settings.
+  // The Supabase connection is developer configuration, kept OUT of this
+  // dialog (it lives in config.js and the one-time "connect" prompt below).
   // ------------------------------------------------------------------
-  function openAuth() {
-    if (!isConfigured()) {
-      toast("Supabase isn't configured yet. Open Settings (⚙️) and add your project URL and anon key.", true);
-      openSettings();
-      return;
-    }
-    init();
+  function openProfile() {
     const overlay = document.createElement("div");
     overlay.className = "dialog-overlay";
     overlay.setAttribute("role", "dialog");
     overlay.setAttribute("aria-modal", "true");
-    overlay.innerHTML = `
-      <div class="dialog auth-dialog">
-        <h3>Sign in to sync your results</h3>
-        <p class="criterion-comment">Your profile and test history are stored securely in your own Supabase database.</p>
-        <label class="field-label" for="auth-email">Email</label>
-        <input id="auth-email" class="text-input" type="email" placeholder="you@example.com" autocomplete="email" style="margin-bottom:10px" />
-        <label class="field-label" for="auth-pw">Password</label>
-        <input id="auth-pw" class="text-input" type="password" placeholder="••••••••" autocomplete="current-password" style="margin-bottom:16px" />
-        <div class="dialog-actions" style="flex-wrap:wrap">
-          <button class="btn btn-primary" id="auth-signin">Sign in</button>
-          <button class="btn btn-ghost" id="auth-signup">Create account</button>
-        </div>
-        <div class="auth-divider"><span>or</span></div>
-        <button class="btn btn-ghost btn-block" id="auth-anon">👤 Continue anonymously (no email)</button>
-        <button class="btn btn-ghost btn-block" id="auth-offline">📱 Use this device only (no cloud sync)</button>
-        <div id="auth-msg" class="criterion-comment" style="margin-top:10px;min-height:18px"></div>
-      </div>`;
-    document.body.appendChild(overlay);
-
-    const msg = (t, err = false) => {
-      const m = overlay.querySelector("#auth-msg");
-      m.textContent = t;
-      m.style.color = err ? "var(--red)" : "var(--muted)";
-    };
-    const close = () => overlay.remove();
-
-    overlay.querySelector("#auth-signin").addEventListener("click", async () => {
-      try { await signIn(overlay.querySelector("#auth-email").value, overlay.querySelector("#auth-pw").value); msg("Signed in ✓"); close(); } catch (e) { msg(e.message || "Sign-in failed", true); }
-    });
-    overlay.querySelector("#auth-signup").addEventListener("click", async () => {
-      try {
-        const r = await signUp(overlay.querySelector("#auth-email").value, overlay.querySelector("#auth-pw").value);
-        if (r.needsConfirmation) { msg("Check your email to confirm, then sign in.", false); }
-        else { msg("Account created ✓"); close(); }
-      } catch (e) { msg(e.message || "Sign-up failed", true); }
-    });
-    overlay.querySelector("#auth-anon").addEventListener("click", async () => {
-      try { await signInAnon(); msg("Connected anonymously ✓"); close(); } catch (e) { msg(e.message || "Could not connect", true); }
-    });
-    overlay.querySelector("#auth-offline").addEventListener("click", close);
-    overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
-  }
-
-  // ------------------------------------------------------------------
-  // Settings dialog (connection config + profile)
-  // ------------------------------------------------------------------
-  function openSettings() {
-    const overlay = document.createElement("div");
-    overlay.className = "dialog-overlay";
-    overlay.setAttribute("role", "dialog");
-    overlay.setAttribute("aria-modal", "true");
-    const c = cfg();
     const prof = Store.profile.get();
     overlay.innerHTML = `
       <div class="dialog auth-dialog">
-        <h3>Settings</h3>
+        <h3>Profile</h3>
         <label class="field-label" for="set-name">Your name</label>
         <input id="set-name" class="text-input" value="${esc(prof.name || "")}" placeholder="Md Musfiqur Rahaman" style="margin-bottom:8px" />
         <label class="field-label" for="set-target">Target band</label>
         <select id="set-target" class="text-input" style="margin-bottom:8px">
           ${[6.0, 6.5, 7.0, 7.5, 8.0, 8.5].map((b) => `<option ${b === (prof.targetBand || 7.5) ? "selected" : ""}>${b.toFixed(1)}</option>`).join("")}
         </select>
-        <hr class="auth-divider" />
-        <p class="field-label" style="margin:0 0 6px">Supabase connection (for cloud sync)</p>
-        <label class="field-label" for="set-supabase-url">Supabase URL</label>
-        <input id="set-supabase-url" class="text-input" value="${esc(c.SUPABASE_URL || "")}" placeholder="https://xxxx.supabase.co" style="margin-bottom:8px" />
-        <label class="field-label" for="set-anon-key">Anon public key</label>
-        <input id="set-anon-key" class="text-input" value="${esc(c.SUPABASE_ANON_KEY || "")}" placeholder="eyJhbGciOi…" style="margin-bottom:8px" />
-        <label class="field-label" for="set-api-base">Backend API URL (leave blank if same origin)</label>
-        <input id="set-api-base" class="text-input" value="${esc(c.API_BASE || "")}" placeholder="https://your-app.onrender.com" style="margin-bottom:16px" />
+        <label class="field-label" for="set-version">Test version</label>
+        <div class="seg-toggle" style="width:100%;margin:0 0 16px">
+          <button class="seg ${prof.version !== "general" ? "on" : ""}" id="set-ver-academic" style="flex:1">Academic</button>
+          <button class="seg ${prof.version === "general" ? "on" : ""}" id="set-ver-general" style="flex:1">General Training</button>
+        </div>
         <div class="dialog-actions">
           <button class="btn btn-ghost" id="set-cancel">Cancel</button>
           <button class="btn btn-primary" id="set-save">Save</button>
         </div>
       </div>`;
     document.body.appendChild(overlay);
+    let version = prof.version || "academic";
+    overlay.querySelector("#set-ver-academic").addEventListener("click", () => { version = "academic"; overlay.querySelector("#set-ver-academic").classList.add("on"); overlay.querySelector("#set-ver-general").classList.remove("on"); });
+    overlay.querySelector("#set-ver-general").addEventListener("click", () => { version = "general"; overlay.querySelector("#set-ver-general").classList.add("on"); overlay.querySelector("#set-ver-academic").classList.remove("on"); });
     const close = () => overlay.remove();
     overlay.querySelector("#set-cancel").addEventListener("click", close);
     overlay.querySelector("#set-save").addEventListener("click", () => {
       Store.profile.set({
         name: overlay.querySelector("#set-name").value,
         targetBand: parseFloat(overlay.querySelector("#set-target").value) || 7.5,
+        version,
       });
+      toast("Profile saved.");
+      close();
+      if (window.renderDashboard) renderDashboard();
+    });
+    overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
+  }
+
+  // ------------------------------------------------------------------
+  // One-time connection setup — ONLY shown when Supabase isn't configured
+  // yet (i.e. the owner is setting up the app). Not a normal user feature.
+  // ------------------------------------------------------------------
+  function openConnectionSetup() {
+    const c = cfg();
+    const overlay = document.createElement("div");
+    overlay.className = "dialog-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+    overlay.innerHTML = `
+      <div class="dialog auth-dialog">
+        <h3>Connect Supabase</h3>
+        <p class="criterion-comment" style="margin:0 0 12px">Needed once to enable accounts and cloud sync. Find these in Supabase → Project Settings → API.</p>
+        <label class="field-label" for="set-supabase-url">Supabase URL</label>
+        <input id="set-supabase-url" class="text-input" value="${esc(c.SUPABASE_URL || "")}" placeholder="https://xxxx.supabase.co" style="margin-bottom:8px" />
+        <label class="field-label" for="set-anon-key">Anon public key</label>
+        <input id="set-anon-key" class="text-input" value="${esc(c.SUPABASE_ANON_KEY || "")}" placeholder="eyJhbGciOi…" style="margin-bottom:8px" />
+        <label class="field-label" for="set-api-base">Backend API URL (blank = same origin)</label>
+        <input id="set-api-base" class="text-input" value="${esc(c.API_BASE || "")}" placeholder="https://your-app.onrender.com" style="margin-bottom:16px" />
+        <div class="dialog-actions">
+          <button class="btn btn-ghost" id="set-cancel">Cancel</button>
+          <button class="btn btn-primary" id="set-save">Save &amp; connect</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    const close = () => overlay.remove();
+    overlay.querySelector("#set-cancel").addEventListener("click", close);
+    overlay.querySelector("#set-save").addEventListener("click", () => {
       saveAppConfig({
         SUPABASE_URL: overlay.querySelector("#set-supabase-url").value.trim(),
         SUPABASE_ANON_KEY: overlay.querySelector("#set-anon-key").value.trim(),
         API_BASE: overlay.querySelector("#set-api-base").value.trim().replace(/\/$/, ""),
       });
       init();
-      toast("Settings saved.");
+      toast("Connection saved.");
       close();
-      if (window.renderDashboard) renderDashboard();
+      if (window.Login) Login.render();
     });
     overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
   }
@@ -260,15 +241,34 @@ const Supa = (() => {
     init, ready, currentUser, onChange,
     signUp, signIn, signInAnon, signOut,
     pushProfile, pushHistory, pullAll,
-    openAuth, openSettings, isConfigured,
+    openProfile, openConnectionSetup, isConfigured,
   };
 })();
 
 // Expose for store.js write-through hooks.
 window.Supa = Supa;
 
-// Attempt to restore session on load and pull fresh data.
-Supa.onChange(() => { if (window.renderDashboard && document.getElementById("dashboard-wrap")) renderDashboard(); });
+// On auth state change: signed in -> dashboard, signed out -> login.
+Supa.onChange((user) => {
+  if (window.goNav) {
+    if (user) {
+      // Refresh dashboard data after login.
+      if (window.renderDashboard && document.getElementById("dashboard-wrap")) renderDashboard();
+      if (document.getElementById("screen-login") && !document.getElementById("screen-login").classList.contains("hidden")) {
+        goNav("dashboard");
+      }
+    } else {
+      goNav("login");
+    }
+  }
+});
+
+// Attempt to restore session on load; pull fresh data if connected.
 if (Supa.ready()) {
   Supa.pullAll().catch(() => {});
+  // If a session was restored, land on the dashboard.
+  setTimeout(() => {
+    if (Supa.currentUser() && window.goNav) goNav("dashboard");
+  }, 400);
 }
+

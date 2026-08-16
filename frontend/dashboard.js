@@ -125,11 +125,7 @@ function renderDashboard() {
   });
   const settings = wrap.querySelector("#dash-settings");
   if (settings) settings.addEventListener("click", () => {
-    const name = prompt("Your name:", profile.name || "");
-    const tb = prompt("Target band (e.g. 7.5):", String(target));
-    const v = confirm("Use Academic or General Training?\n(OK = Academic, Cancel = General Training)") ? "academic" : "general";
-    Store.profile.set({ name: name || "", targetBand: parseFloat(tb) || target, version: v });
-    renderDashboard();
+    if (window.Supa) Supa.openProfile();
   });
 }
 

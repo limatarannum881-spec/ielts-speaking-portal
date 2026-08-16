@@ -24,11 +24,11 @@ const Login = (() => {
           <h2>You're signed in</h2>
           <p class="criterion-comment">${user.email ? esc(user.email) : "Anonymous session"} · your results sync securely to Supabase.</p>
           <button class="btn btn-primary btn-big" id="login-go-dashboard">Go to dashboard →</button>
-          <button class="btn btn-ghost btn-block" id="login-settings">⚙️ Settings</button>
+          <button class="btn btn-ghost btn-block" id="login-settings">⚙️ Profile</button>
           <button class="btn btn-ghost btn-block danger-text" id="login-signout">Sign out</button>
         </div>`;
       wrap.querySelector("#login-go-dashboard").addEventListener("click", () => Go.nav("dashboard"));
-      wrap.querySelector("#login-settings").addEventListener("click", () => Supa.openSettings());
+      wrap.querySelector("#login-settings").addEventListener("click", () => Supa.openProfile());
       wrap.querySelector("#login-signout").addEventListener("click", async () => { await Supa.signOut(); render(); });
       return;
     }
@@ -132,12 +132,23 @@ const Login = (() => {
       try { await Supa.signInAnon(); Go.nav("dashboard"); }
       catch (e) { msg(e.message || "Could not connect anonymously.", true); }
     });
-    wrap.querySelector("#login-offline").addEventListener("click", () => Go.nav("dashboard"));
+    wrap.querySelector("#login-offline").addEventListener("click", () => {
+      // Local/device mode — a fallback for when Supabase isn't connected.
+      try { localStorage.setItem("ielts_local_mode", "true"); } catch (_) {}
+      Go.nav("dashboard");
+    });
     const cfgBtn = wrap.querySelector("#login-config-now");
-    if (cfgBtn) cfgBtn.addEventListener("click", () => Supa.openSettings());
+    if (cfgBtn) cfgBtn.addEventListener("click", () => Supa.openConnectionSetup());
   }
 
   return { render };
 })();
 
 registerRenderer("login", () => Login.render());
+window.Login = Login;
+
+// Render the login screen immediately — it is the default landing screen
+// (shown before any data, per the auth gate).
+if (document.getElementById("login-wrap")) {
+  Login.render();
+}

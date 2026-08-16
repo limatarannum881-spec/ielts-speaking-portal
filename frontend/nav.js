@@ -20,12 +20,40 @@ const NAV_TARGETS = {
 const ScreenRenderers = {};
 function registerRenderer(name, fn) { ScreenRenderers[name] = fn; }
 
+// ----------------------------------------------------------------------
+// Auth gate — only signed-in users (or local-device mode) can view the app.
+// ----------------------------------------------------------------------
+function isAllowed() {
+  if (window.Supa && Supa.currentUser()) return true;
+  try { if (localStorage.getItem("ielts_local_mode") === "true") return true; } catch (_) {}
+  return false;
+}
+
 function goNav(name) {
   const screenId = NAV_TARGETS[name];
   if (!screenId) return;
+
+  // Everything except the login screen requires authentication.
+  if (name !== "login" && !isAllowed()) {
+    goNav("login");
+    return false;
+  }
+
   hideAllScreens();
   document.getElementById(screenId).classList.remove("hidden");
   window.scrollTo(0, 0);
+  // Hide the nav bars on the login screen (auth-first, clean look).
+  const top = document.getElementById("topnav");
+  const bottom = document.getElementById("bottomnav");
+  if (name === "login") {
+    document.body.classList.add("nav-hidden");
+    if (top) top.classList.add("hidden");
+    if (bottom) bottom.classList.add("hidden");
+  } else {
+    document.body.classList.remove("nav-hidden");
+    if (top) top.classList.remove("hidden");
+    if (bottom) bottom.classList.remove("hidden");
+  }
   // Highlight active nav link
   document.querySelectorAll("[data-nav]").forEach((el) => {
     el.classList.toggle("active", el.dataset.nav === name);
@@ -44,6 +72,17 @@ function hideAllScreens() {
 window.Go = { nav: goNav, hideAll: hideAllScreens, register: registerRenderer };
 
 document.addEventListener("DOMContentLoaded", () => {
+  // On first load the login screen is visible — hide the nav bars for a
+  // clean, auth-first appearance.
+  const loginScreen = document.getElementById("screen-login");
+  if (loginScreen && !loginScreen.classList.contains("hidden")) {
+    document.body.classList.add("nav-hidden");
+    const t = document.getElementById("topnav");
+    const b = document.getElementById("bottomnav");
+    if (t) t.classList.add("hidden");
+    if (b) b.classList.add("hidden");
+  }
+
   document.querySelectorAll("[data-nav]").forEach((el) => {
     el.addEventListener("click", (e) => {
       e.preventDefault();

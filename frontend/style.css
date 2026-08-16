@@ -769,3 +769,114 @@ body.nav-hidden .app { padding-top: 0; }
 .login-msg.ok { color: var(--green); }
 .danger-text { color: var(--red) !important; }
 .login-card .btn-block { margin-top: 8px; }
+
+/* =========================================================================
+   Animations & transitions
+   ========================================================================= */
+
+/* Screen fade-in — applied whenever a screen becomes visible */
+.screen:not(.hidden) {
+  animation: screenFade .4s ease both;
+}
+@keyframes screenFade {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .screen:not(.hidden), .login-card, .hero-badge, .mode-card, .feature, .stat,
+  .card, .brand-logo, .mic-btn {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Buttons */
+.btn, .mode-card, .qa-btn, .seg, .test-card, .resource-link, .mic-btn {
+  transition: transform .15s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+}
+.btn:not(:disabled):active { transform: scale(.97); }
+
+/* Login card entrance */
+.login-card {
+  animation: cardPop .5s cubic-bezier(.2, .8, .2, 1) both;
+}
+@keyframes cardPop {
+  from { opacity: 0; transform: translateY(24px) scale(.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Animated gradient background on login screen */
+.login-wrap {
+  background: linear-gradient(-45deg, #eef0ff, #f4f6fb, #fdf0f7, #eef0ff);
+  background-size: 300% 300%;
+  animation: gradientShift 16s ease infinite;
+}
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Home hero — staggered entrance */
+.hero-badge { animation: fadeUp .6s ease both; }
+.hero h1    { animation: fadeUp .6s .08s ease both; }
+.tagline    { animation: fadeUp .6s .16s ease both; }
+.hero-stats { animation: fadeUp .6s .24s ease both; }
+.features   { animation: fadeUp .6s .3s ease both; }
+.mode-grid  { animation: fadeUp .6s .36s ease both; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Mode / feature cards — lift + glow on hover */
+.mode-card:hover, .qa-btn:hover, .test-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(79, 70, 229, .14);
+}
+.mode-emoji { transition: transform .2s ease; }
+.mode-card:hover .mode-emoji { transform: scale(1.12) rotate(-4deg); }
+
+/* Brand logo gentle float */
+.brand-logo { animation: logoFloat 3.5s ease-in-out infinite; }
+@keyframes logoFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+
+/* Cards fade in on results/dashboard */
+.card { animation: cardFade .45s ease both; }
+@keyframes cardFade {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Mic button listening pulse (enhanced) */
+.mic-btn.listening { animation: pulse 1.2s infinite; }
+
+/* Progress bars animate their width */
+.bar-fill, .progress-fill { transition: width .6s ease; }
+
+/* Timer ring subtle pulse on prep screen */
+.timer-ring { animation: ringPulse 2s ease-in-out infinite; }
+@keyframes ringPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(79, 70, 229, .25); }
+  50%      { box-shadow: 0 0 0 14px rgba(79, 70, 229, 0); }
+}
+
+/* Toast slide-up */
+.toast { animation: toastIn .3s ease both; }
+@keyframes toastIn {
+  from { opacity: 0; transform: translate(-50%, 16px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* Dialog fade + pop */
+.dialog-overlay { animation: overlayIn .2s ease both; }
+.dialog { animation: cardPop .3s ease both; }
+@keyframes overlayIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* Nav active indicator */
+.topnav-links a, .bottomnav a { transition: color .15s ease, background .15s ease; }
