@@ -21,38 +21,52 @@ async def chat(messages, json_mode=False, temperature=0.7, max_tokens=700):
         raise LLMError("no_key")
 
     url = f"{config.OPENAI_BASE_URL}/chat/completions"
-    payload = {
-        "model": config.LLM_MODEL,
-        "messages": messages,
-        "temperature": temperature,
-        "max_tokens": max_tokens,
-    }
-    if json_mode:
-        payload["response_format"] = {"type": "json_object"}
-
     headers = {
         "Authorization": f"Bearer {config.OPENAI_API_KEY}",
         "Content-Type": "application/json",
     }
 
-    try:
-        async with httpx.AsyncClient(timeout=90) as client:
-            resp = await client.post(url, json=payload, headers=headers)
-    except httpx.TimeoutException:
-        raise LLMError("timeout")
-    except httpx.HTTPError as e:
-        raise LLMError("network", str(e))
+    # Try each configured model in order (fallback chain for free models,
+    # which can be rate-limited). The first successful call wins.
+    models = config.llm_models()
+    last_err = None
+    for model in models:
+        payload = {
+            "model": model,
+            "messages": messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        }
+        if json_mode:
+            payload["response_format"] = {"type": "json_object"}
 
-    if resp.status_code == 402:
-        raise LLMError("credits", resp.text[:300])
-    if resp.status_code != 200:
-        raise LLMError("api", f"status {resp.status_code}: {resp.text[:300]}")
+        try:
+            async with httpx.AsyncClient(timeout=90) as client:
+                resp = await client.post(url, json=payload, headers=headers)
+        except httpx.TimeoutException:
+            last_err = LLMError("timeout")
+            continue
+        except httpx.HTTPError as e:
+            last_err = LLMError("network", str(e))
+            continue
 
-    try:
-        data = resp.json()
-        return data["choices"][0]["message"]["content"]
-    except (KeyError, IndexError, json.JSONDecodeError):
-        raise LLMError("api", "Unexpected response shape from the AI service")
+        if resp.status_code == 402:
+            raise LLMError("credits", resp.text[:300])
+        # 429 rate limit / 5xx — try the next model in the chain.
+        if resp.status_code in (429, 500, 502, 503, 504):
+            last_err = LLMError("api", f"model {model} unavailable ({resp.status_code})")
+            continue
+        if resp.status_code != 200:
+            raise LLMError("api", f"status {resp.status_code}: {resp.text[:300]}")
+
+        try:
+            data = resp.json()
+            return data["choices"][0]["message"]["content"]
+        except (KeyError, IndexError, json.JSONDecodeError):
+            last_err = LLMError("api", "Unexpected response shape from the AI service")
+            continue
+
+    raise last_err or LLMError("api", "All configured models failed")
 
 
 async def transcribe_audio(audio_bytes: bytes, filename: str, mime_type: str) -> str:

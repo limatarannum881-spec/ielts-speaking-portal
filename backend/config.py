@@ -22,6 +22,12 @@ DEMO_MODE = os.getenv("DEMO_MODE", "").strip().lower() in ("1", "true", "yes")
 PORT = int(os.getenv("PORT", "8000"))
 
 
+def llm_models() -> list:
+    """The model(s) to use for chat. A comma-separated LLM_MODEL becomes a
+    fallback chain — useful with free models, which occasionally rate-limit."""
+    return [m.strip() for m in LLM_MODEL.split(",") if m.strip()]
+
+
 def is_demo() -> bool:
     """True when running without an API key (or when DEMO_MODE is forced)."""
     return (not OPENAI_API_KEY) or DEMO_MODE
