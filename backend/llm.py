@@ -83,6 +83,18 @@ async def transcribe_audio(audio_bytes: bytes, filename: str, mime_type: str) ->
         raise LLMError("api", "Unexpected transcription response")
 
 
+def chat_sync(messages, json_mode=False, temperature=0.7, max_tokens=700):
+    """Synchronous wrapper around chat() for CLI tools (e.g. generate.py)."""
+    import asyncio
+
+    try:
+        loop = asyncio.get_event_loop()
+    except RuntimeError:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+    return loop.run_until_complete(chat(messages, json_mode, temperature, max_tokens))
+
+
 def parse_json(text: str):
     """Best-effort JSON parse (handles markdown fences / stray text)."""
     text = text.strip()

@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-000",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, Sarah! Have you thought about what we should do this weekend? \nB: Hi, Mark! Yeah, I was thinking about a weekend getaway. Maybe to the mountains? \nA: That sounds great! I’d love to go hiking. Do you have a specific place in mind? \nB: I heard about a beautiful national park about two hours away. We could do some hiking trails there. \nA: Perfect! Do we need to reserve a place to stay? \nB: Yes, I think we should book a cabin. I saw some nice ones online. \nA: How many people are coming with us? \nB: Just us and a few friends, so around five in total. \nA: Awesome! I can take care of the food if you handle the bookings. \nB: Sounds like a plan! Let’s finalize it by tonight so we can enjoy the trip! \nA: Absolutely! I can’t wait! \nB: Me too! It’s going to be so much fun! ",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What destination do Sarah and Mark consider for the weekend?",
+          "options": [
+            "A. The beach",
+            "B. The city",
+            "C. The mountains",
+            "D. The countryside"
+          ],
+          "answer": "C",
+          "explanation": "Sarah suggests a weekend getaway to the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Accommodation"
+          ],
+          "answer": [
+            "mountains",
+            "cabin"
+          ],
+          "explanation": "The destination mentioned is the mountains, and they plan to book a cabin."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "How many friends are joining Sarah and Mark?",
+          "answer": "Five",
+          "explanation": "Mark mentions that around five people in total will be joining them."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Who is responsible for handling food for the trip?",
+          "options": [
+            "A. Sarah",
+            "B. Mark",
+            "C. Both",
+            "D. A friend"
+          ],
+          "answer": "B",
+          "explanation": "Mark says he can take care of the food."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Write down the planned activity for the trip: _____ trails.",
+          "fields": [
+            "Activity"
+          ],
+          "answer": [
+            "hiking"
+          ],
+          "explanation": "They plan to go hiking in the national park."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does Mark want to finalize by tonight?",
+          "answer": "The bookings",
+          "explanation": "Mark wants to finalize the bookings for their trip."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

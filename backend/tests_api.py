@@ -19,19 +19,48 @@ DATA_DIR = Path(__file__).resolve().parent / "data"
 router = APIRouter(prefix="/api/tests")
 
 # ---------------------------------------------------------------------------
-# Load question banks once at import.
+# Load question banks at import.
+#
+# Tests live in subdirectories, one JSON file per test:
+#   data/reading/academic/*.json
+#   data/reading/general/*.json
+#   data/listening/*.json
+#   data/writing/*.json
+#
+# This lets the app hold an unlimited number of practice tests (e.g. 100+).
 # ---------------------------------------------------------------------------
-def _load(name):
-    p = DATA_DIR / name
-    if not p.exists():
-        return None
-    with open(p, "r", encoding="utf-8") as f:
-        return json.load(f)
+def _load_all(subdir):
+    d = DATA_DIR / subdir
+    if not d.exists():
+        return []
+    tests = []
+    for p in sorted(d.glob("*.json")):
+        try:
+            with open(p, "r", encoding="utf-8") as f:
+                tests.append(json.load(f))
+        except (json.JSONDecodeError, OSError):
+            continue
+    return tests
 
-READING_ACADEMIC = _load("reading_academic.json")
-READING_GENERAL = _load("reading_general.json")
-LISTENING = _load("listening.json")
-WRITING = _load("writing.json")
+
+READING_ACADEMIC = _load_all("reading/academic")
+READING_GENERAL = _load_all("reading/general")
+LISTENING_TESTS = _load_all("listening")
+WRITING_ACADEMIC = _load_all("writing/academic")
+WRITING_GENERAL = _load_all("writing/general")
+
+# Writing prompts — combined from any files present (each file is {task1:[...], task2:[...]}).
+WRITING = {"academic": {"task1": [], "task2": []}, "general": {"task1": [], "task2": []}}
+for t in WRITING_ACADEMIC:
+    WRITING["academic"]["task1"].extend(t.get("task1", []))
+    WRITING["academic"]["task2"].extend(t.get("task2", []))
+for t in WRITING_GENERAL:
+    WRITING["general"]["task1"].extend(t.get("task1", []))
+    WRITING["general"]["task2"].extend(t.get("task2", []))
+
+
+def _all_reading():
+    return READING_ACADEMIC + READING_GENERAL
 
 
 def _strip_answers(test):
@@ -92,14 +121,13 @@ def _q_text(q):
 @router.get("/reading")
 def list_reading():
     tests = []
-    for t in (READING_ACADEMIC, READING_GENERAL):
-        if t:
-            tests.append({
-                "id": t["id"], "title": t["title"], "version": t["version"],
-                "duration": t["duration"],
-                "questionCount": len(_flatten_questions(t)),
-                "source": t.get("source"),
-            })
+    for t in _all_reading():
+        tests.append({
+            "id": t["id"], "title": t["title"], "version": t["version"],
+            "duration": t["duration"],
+            "questionCount": len(_flatten_questions(t)),
+            "source": t.get("source"),
+        })
     return {"tests": tests}
 
 
@@ -110,8 +138,8 @@ def get_reading(test_id: str):
 
 
 def _find_reading(test_id):
-    for t in (READING_ACADEMIC, READING_GENERAL):
-        if t and t["id"] == test_id:
+    for t in _all_reading():
+        if t["id"] == test_id:
             return t
     raise HTTPException(status_code=404, detail="Reading test not found.")
 
@@ -167,22 +195,28 @@ def submit_reading(test_id: str, req: ReadingSubmit):
 # ---------------------------------------------------------------------------
 @router.get("/listening")
 def list_listening():
-    if not LISTENING:
-        return {"tests": []}
-    return {"tests": [{
-        "id": LISTENING["id"], "title": LISTENING["title"],
-        "duration": LISTENING["duration"],
-        "parts": len(LISTENING["parts"]),
-        "questionCount": len(_flatten_questions(LISTENING)),
-        "source": LISTENING.get("source"),
-    }]}
+    tests = []
+    for t in LISTENING_TESTS:
+        tests.append({
+            "id": t["id"], "title": t["title"],
+            "duration": t["duration"],
+            "parts": len(t["parts"]),
+            "questionCount": len(_flatten_questions(t)),
+            "source": t.get("source"),
+        })
+    return {"tests": tests}
+
+
+def _find_listening(test_id):
+    for t in LISTENING_TESTS:
+        if t["id"] == test_id:
+            return t
+    raise HTTPException(status_code=404, detail="Listening test not found.")
 
 
 @router.get("/listening/{test_id}")
 def get_listening(test_id: str):
-    if not LISTENING or LISTENING["id"] != test_id:
-        raise HTTPException(status_code=404, detail="Listening test not found.")
-    return _strip_answers(LISTENING)
+    return _strip_answers(_find_listening(test_id))
 
 
 class ListeningSubmit(BaseModel):
@@ -191,9 +225,8 @@ class ListeningSubmit(BaseModel):
 
 @router.post("/listening/{test_id}/submit")
 def submit_listening(test_id: str, req: ListeningSubmit):
-    if not LISTENING or LISTENING["id"] != test_id:
-        raise HTTPException(status_code=404, detail="Listening test not found.")
-    items = _flatten_questions(LISTENING)
+    test = _find_listening(test_id)
+    items = _flatten_questions(test)
     total = len(items)
     correct = 0
     unanswered = 0
@@ -223,7 +256,7 @@ def submit_listening(test_id: str, req: ListeningSubmit):
     result = scoring.score_to_raw_and_band(correct, total, "listening")
     result.update({
         "testId": test_id,
-        "title": LISTENING["title"],
+        "title": test["title"],
         "unanswered": unanswered,
         "incorrect": total - correct - unanswered,
         "review": review,

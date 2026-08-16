@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Internet Usage by Region in 2023",
+      "prompt": "The bar chart illustrates the percentage of internet users across different regions of the world in the year 2023. Each region is represented by a separate bar, showing the proportion of its population that has access to the internet. The regions included are North America, South America, Europe, Asia, Africa, and Oceania. From the chart, it is evident that North America has the highest percentage of internet users, with approximately 95% of its population online. Europe follows closely with around 90%. In contrast, Africa has the lowest percentage at just 30%, highlighting significant disparities in internet accessibility. Asia showcases a varied landscape, with countries like China and India contributing to its overall statistic of about 60%. South America and Oceania have moderate figures, showcasing the ongoing global digital divide. Overall, the chart underscores the regional differences in internet adoption and accessibility worldwide.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "North America",
+            "value": 95
+          },
+          {
+            "label": "Europe",
+            "value": 90
+          },
+          {
+            "label": "Asia",
+            "value": 60
+          },
+          {
+            "label": "South America",
+            "value": 65
+          },
+          {
+            "label": "Africa",
+            "value": 30
+          },
+          {
+            "label": "Oceania",
+            "value": 85
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, technology has drastically changed the landscape of education, sparking a debate about its advantages and disadvantages. On one hand, proponents argue that technology enhances the learning experience by providing access to vast resources and enabling innovative teaching methods. Online courses and educational apps have made learning more flexible and accessible, allowing students from different backgrounds to acquire knowledge at their own pace. Conversely, critics contend that the reliance on technology can lead to distractions, reduce face-to-face interactions, and may widen the gap between those who can afford advanced technology and those who cannot. This essay will discuss both perspectives, highlighting the extent to which technology has transformed education while also addressing the possible negative implications. Ultimately, it is crucial to find a balance that maximizes the benefits of technology in education without compromising the quality of learning."
+    }
+  ]
+}

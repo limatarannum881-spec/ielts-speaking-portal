@@ -1,0 +1,92 @@
+{
+  "id": "academic-reading-002",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Microplastics in Aquatic Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Microplastics, defined as plastic particles less than five millimeters in diameter, have emerged as a significant environmental concern. These minute particles originate from various sources, including the breakdown of larger plastic debris, synthetic clothing fibers released during washing, and the degradation of personal care products. As microplastics enter aquatic ecosystems, they pose a myriad of problems for marine life and the broader ecological balance. \n\nOne of the primary concerns regarding microplastics is their ingestion by marine organisms. Studies have shown that a wide range of species, from tiny zooplankton to large fish, ingest these particles, mistaking them for food. This can lead to physical harm, such as blockages in the digestive system, as well as chemical exposure to toxic substances that adhere to the surface of microplastics. These toxins can then bioaccumulate in the food web, affecting not only marine life but also the humans who rely on these species for sustenance. \n\nFurthermore, microplastics can serve as carriers for harmful pathogens and invasive species, facilitating their spread across diverse aquatic environments. While some research has focused on the impact of microplastics in oceans, freshwater ecosystems are also severely affected, with rivers and lakes showing alarming levels of contamination. This has raised concerns about water quality and the overall health of freshwater biodiversity. \n\nEfforts are being made globally to mitigate the impact of microplastics, ranging from improved waste management systems to public awareness campaigns that promote responsible consumption and recycling practices. Nevertheless, the challenge remains daunting, as the production of plastic continues to rise and the degradation rates are insufficient to keep pace with consumption. The long-term implications of microplastic pollution necessitate further research and concerted action to safeguard both aquatic ecosystems and human health.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Microplastics only originate from the breakdown of larger plastic items.",
+          "answer": "false",
+          "explanation": "The passage states that microplastics also come from synthetic clothing fibers and personal care products."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the main concerns regarding microplastics?",
+          "options": [
+            "A) They can help marine organisms",
+            "B) They are ingested by marine organisms",
+            "C) They are beneficial to freshwater ecosystems",
+            "D) They will decompose quickly"
+          ],
+          "answer": "B",
+          "explanation": "The passage emphasizes that microplastics are ingested by various marine organisms."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Microplastics can carry harmful _____ and invasive species.",
+          "answer": "pathogens",
+          "explanation": "The passage clearly states that microplastics can serve as carriers for harmful pathogens."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What method is suggested to help mitigate the impact of microplastics?",
+          "answer": "improved waste management systems",
+          "explanation": "The passage mentions efforts being made globally that include improved waste management systems."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Freshwater ecosystems are unaffected by microplastics.",
+          "answer": "false",
+          "explanation": "The passage indicates that freshwater ecosystems are severely affected by microplastics."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "According to the passage, why do microplastics pose a threat to humans?",
+          "options": [
+            "A) They reduce plastic production",
+            "B) They affect fish that humans consume",
+            "C) They improve aquatic biodiversity",
+            "D) They are biodegradable"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that toxins from microplastics bioaccumulate in the food web, affecting humans who eat marine species."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The long-term implications of microplastic pollution require further _____ and action.",
+          "prompt": "research and _____",
+          "answer": "concerted action",
+          "explanation": "The passage stresses the necessity for further research and concerted action to address microplastic pollution."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is the diameter size that defines microplastics?",
+          "answer": "less than five millimeters",
+          "explanation": "The passage defines microplastics as plastic particles that are less than five millimeters in diameter."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

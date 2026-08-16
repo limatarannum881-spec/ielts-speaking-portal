@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-001",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, have you thought about where we should go for the weekend? \nB: I was thinking maybe we could head to the mountains. It's been a while since I went hiking. \nA: That sounds great! Which mountain do you have in mind? \nB: I was thinking Mount Maple. I've heard the trails there are fantastic. \nA: Good choice! Do we need to book a cabin or something? \nB: Yes, I think we should. We can find one near the trailhead. \nA: What about food? Should we bring our own groceries? \nB: I think that would be best. We can make a list of what we need. \nA: Sounds like a plan! We’ll need snacks for the hike too. \nB: Absolutely! I suggest we leave early Saturday morning, so we have plenty of time to explore. \nA: That works for me. Let’s finalize the details later today. \nB: Perfect! I’ll start looking for a cabin online. \nA: Great! I’ll check the weather too, just to be prepared.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the destination for the weekend?",
+          "options": [
+            "A) The beach",
+            "B) The city",
+            "C) The mountains",
+            "D) The countryside"
+          ],
+          "answer": "C",
+          "explanation": "The conversation indicates that they are planning to go to the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Activity"
+          ],
+          "answer": [
+            "Mount Maple",
+            "hiking"
+          ],
+          "explanation": "The speakers mention Mount Maple as their destination and hiking as their planned activity."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What will they bring for the hike?",
+          "answer": "snacks",
+          "explanation": "They discuss the need to bring snacks for their hiking trip."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does A suggest they check?",
+          "options": [
+            "A) Cabin prices",
+            "B) Trail maps",
+            "C) Weather",
+            "D) Hiking gear"
+          ],
+          "answer": "C",
+          "explanation": "A mentions checking the weather to be better prepared."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Departure Day",
+            "Departure Time"
+          ],
+          "answer": [
+            "Saturday",
+            "morning"
+          ],
+          "explanation": "They plan to leave early in the morning on Saturday."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What will B look for online?",
+          "answer": "a cabin",
+          "explanation": "B states that they will start looking for a cabin online."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

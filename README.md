@@ -91,6 +91,7 @@ ielts-speaking-portal/
 │   ├── analysis.py      # Merges LLM + deterministic metrics
 │   ├── demo.py          # Offline demo responses (no API key needed)
 │   ├── config.py        # Env loading
+│   ├── generate.py      # Question-bank generator (original content, bulk)
 │   ├── data/            # Original question banks (reading/listening/writing)
 │   └── requirements.txt
 ├── frontend/
@@ -199,6 +200,42 @@ mode. The **language detection and filler-word analysis are still real** in demo
 mode (they run locally, not via AI).
 
 Force demo mode even with a key: `DEMO_MODE=true`.
+
+---
+
+## 📚 Question bank & the 100+ sessions generator
+
+Test content is stored as JSON in `backend/data/`, organised so the app can hold
+**unlimited tests per section**:
+
+```
+backend/data/
+├── reading/academic/*.json
+├── reading/general/*.json
+├── listening/*.json
+└── writing/{academic,general}/*.json
+```
+
+> ⚠️ **Copyright note:** we do **not** include Cambridge IELTS books or any
+> third-party copyrighted content. Instead, generate your own **original**
+> practice tests with the bundled generator.
+
+Generate 100+ original practice sessions per section with your own API key:
+
+```bash
+python backend/generate.py --section reading   --version academic --count 100
+python backend/generate.py --section listening --count 100
+python backend/generate.py --section writing   --version academic --count 100
+python backend/generate.py --section reading   --version general  --count 100
+```
+
+- `--sample` prints one test instead of saving (to check quality).
+- `--retries N` retries failed validations (default 2).
+- Each generated test is **validated** before saving, and given a unique id.
+
+Content is generated *fresh* by the model (original, not scraped). Cost: roughly
+$0.002–0.005 per test with `gpt-4o-mini`, so 300 tests ≈ $1–2. Restart the
+server (or redeploy) after generating to serve the new tests.
 
 ---
 

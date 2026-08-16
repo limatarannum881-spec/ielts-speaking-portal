@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-002",
+  "type": "listening",
+  "title": "Planning a Community Event",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emma: Hi, Liam! Have you given any thought to the community fair we're organizing next month?  \nLiam: Hi, Emma! Yes, I was thinking we could set up some fun activities for all age groups. What do you have in mind?  \nEmma: I think a bake sale would be a great addition. We could ask local bakers to contribute.  \nLiam: Absolutely! And maybe we can arrange for some live music as well. That would really enhance the atmosphere.  \nEmma: Good idea! We should also include some games for the kids. How about a face painting station?  \nLiam: Face painting sounds perfect! What about promoting the event?  \nEmma: We could create a flyer and share it on social media.  \nLiam: Definitely! I can design the flyer if you provide the details.  \nEmma: I’ll gather the information and send it to you by tomorrow.  \nLiam: Great! Let’s meet again next week to discuss the final plans.  \nEmma: Sounds good! Looking forward to it.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What type of event are Emma and Liam planning?",
+          "options": [
+            "A community fair",
+            "A concert",
+            "A charity run",
+            "A workshop"
+          ],
+          "answer": "A",
+          "explanation": "They are discussing a community fair."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Activity 1",
+            "Activity 2"
+          ],
+          "answer": [
+            "bake sale",
+            "face painting"
+          ],
+          "explanation": "These are the activities mentioned for the fair."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What will Liam do for the flyer?",
+          "answer": "Design it",
+          "explanation": "Liam offers to design the flyer for the event."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

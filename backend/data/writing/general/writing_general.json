@@ -1,0 +1,18 @@
+{
+  "task1": [
+    {
+      "id": "w-general-task1-001",
+      "type": "letter",
+      "title": "Letter of complaint",
+      "prompt": "You recently stayed at a hotel and were unhappy with your experience.\n\nWrite a letter to the hotel manager. In your letter:\n- describe the problems you experienced\n- explain how these problems affected your stay\n- say what you would like the manager to do\n\nWrite at least 150 words."
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-opinion-001",
+      "type": "opinion",
+      "title": "Working from home",
+      "prompt": "Some people believe that working from home is more productive and better for employees, while others think it harms teamwork and career development.\n\nDiscuss both these views and give your own opinion.\n\nWrite at least 250 words."
+    }
+  ]
+}
