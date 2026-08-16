@@ -16,10 +16,19 @@ for candidate in (
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1").strip().rstrip("/")
-LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o-mini").strip()
+LLM_MODEL = os.getenv("LLM_MODEL", "nvidia/nemotron-3-super-120b-a12b:free,openai/gpt-oss-20b:free,google/gemma-4-26b-a4b-it:free").strip()
 LLM_STT_MODEL = os.getenv("LLM_STT_MODEL", "openai/whisper-large-v3").strip()
 DEMO_MODE = os.getenv("DEMO_MODE", "").strip().lower() in ("1", "true", "yes")
 PORT = int(os.getenv("PORT", "8000"))
+
+# Free models to fall back to when the configured (paid) model runs out of
+# credits (OpenRouter returns 402). Lets the app keep working at $0.
+FREE_FALLBACK_MODELS = [
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "openai/gpt-oss-20b:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "google/gemma-4-31b-it:free",
+]
 
 
 def llm_models() -> list:

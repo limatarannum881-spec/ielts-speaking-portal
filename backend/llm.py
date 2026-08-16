@@ -30,7 +30,9 @@ async def chat(messages, json_mode=False, temperature=0.7, max_tokens=700):
     # which can be rate-limited). The first successful call wins.
     models = config.llm_models()
     last_err = None
-    for model in models:
+    i = 0
+    while i < len(models):
+        model = models[i]
         payload = {
             "model": model,
             "messages": messages,
@@ -45,16 +47,27 @@ async def chat(messages, json_mode=False, temperature=0.7, max_tokens=700):
                 resp = await client.post(url, json=payload, headers=headers)
         except httpx.TimeoutException:
             last_err = LLMError("timeout")
+            i += 1
             continue
         except httpx.HTTPError as e:
             last_err = LLMError("network", str(e))
+            i += 1
             continue
 
         if resp.status_code == 402:
+            # Out of credits on this model. If we have free fallbacks available
+            # (and aren't already using them), keep trying so the app keeps
+            # working at $0. Otherwise surface a friendly credits error.
+            if not any(m.endswith(":free") for m in models) and config.FREE_FALLBACK_MODELS:
+                models = models + config.FREE_FALLBACK_MODELS
+                last_err = LLMError("credits", "paid model out of credits — trying free fallback")
+                i += 1
+                continue
             raise LLMError("credits", resp.text[:300])
         # 429 rate limit / 5xx — try the next model in the chain.
         if resp.status_code in (429, 500, 502, 503, 504):
             last_err = LLMError("api", f"model {model} unavailable ({resp.status_code})")
+            i += 1
             continue
         if resp.status_code != 200:
             raise LLMError("api", f"status {resp.status_code}: {resp.text[:300]}")
@@ -64,6 +77,7 @@ async def chat(messages, json_mode=False, temperature=0.7, max_tokens=700):
             return data["choices"][0]["message"]["content"]
         except (KeyError, IndexError, json.JSONDecodeError):
             last_err = LLMError("api", "Unexpected response shape from the AI service")
+            i += 1
             continue
 
     raise last_err or LLMError("api", "All configured models failed")
