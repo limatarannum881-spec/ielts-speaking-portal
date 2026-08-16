@@ -735,6 +735,15 @@ async function endSession() {
     if (window.MockFlow && MockFlow.active) {
       MockFlow.onSpeakingDone(result);
     } else {
+      // Record this Speaking practice session in history so every activity is logged.
+      const band = result.overall_band ?? null;
+      Store.history.add({
+        testType: "speaking",
+        title: MODES[state.mode].name,
+        speaking: band,
+        overall: band,
+        status: "completed",
+      });
       renderResults(result);
     }
   } catch (_) {

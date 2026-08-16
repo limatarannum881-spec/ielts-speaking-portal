@@ -77,6 +77,40 @@ const Supa = (() => {
     await pullAll();
   }
 
+  // Shared guest account with a fixed password (e.g. "pharmacy2026").
+  // Anyone can use it; the account is auto-provisioned on first use.
+  async function signInGuest() {
+    if (!ready()) throw new Error("Supabase is not configured.");
+    const email = cfg().GUEST_EMAIL || "guest@ielts-ai.app";
+    const password = cfg().GUEST_PASSWORD || "pharmacy2026";
+
+    let { data, error } = await client.auth.signInWithPassword({ email, password });
+    if (error) {
+      // Account doesn't exist yet — create it, then sign in.
+      const up = await client.auth.signUp({
+        email, password,
+        options: { data: { name: "Guest" } },
+      });
+      if (up.error) throw up.error;
+      if (up.data.session) {
+        user = up.data.session.user;
+      } else {
+        // Email confirmation may be enabled: fall back to anonymous sign-in
+        // so the user still gets in (and can be upgraded later).
+        const anon = await client.auth.signInAnonymously();
+        if (anon.error) throw up.error || anon.error;
+        user = anon.data.user;
+        emit();
+        await pullAll();
+        return;
+      }
+    } else {
+      user = data.user;
+    }
+    emit();
+    await pullAll();
+  }
+
   async function signOut() {
     if (!ready()) return;
     await client.auth.signOut();
@@ -239,7 +273,7 @@ const Supa = (() => {
   init();
   return {
     init, ready, currentUser, onChange,
-    signUp, signIn, signInAnon, signOut,
+    signUp, signIn, signInAnon, signInGuest, signOut,
     pushProfile, pushHistory, pullAll,
     openProfile, openConnectionSetup, isConfigured,
   };

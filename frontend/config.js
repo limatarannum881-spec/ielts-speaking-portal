@@ -16,6 +16,11 @@ window.APP_CONFIG = {
   SUPABASE_URL: "https://cohhvfcyrtspjblylwyn.supabase.co",
   SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNvaGh2ZmN5cnRzcGpibHlsd3luIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY4ODc5MjksImV4cCI6MjEwMjQ2MzkyOX0.5S_4ZBFAEZO4HLXCqpPV7z-Ac4e85ao6XcI2HMeDJr8",
   API_BASE: "https://ielts-speaking-ai-86ql.onrender.com",
+
+  // Shared "guest" account — anyone signs in with these credentials.
+  // The account is auto-created on first use (requires email confirmation OFF).
+  GUEST_EMAIL: "guest@ielts-ai.app",
+  GUEST_PASSWORD: "pharmacy2026",
 };
 
 // Runtime override (set from the in-app Settings dialog).

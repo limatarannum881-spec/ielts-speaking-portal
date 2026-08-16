@@ -67,7 +67,7 @@ const Login = (() => {
 
         <div class="auth-divider"><span>or</span></div>
 
-        <button class="btn btn-ghost btn-block" id="login-anon">👤 Continue anonymously</button>
+        <button class="btn btn-primary btn-block" id="login-anon">👤 Guest / Anonymous access</button>
         <button class="btn btn-ghost btn-block" id="login-offline">📱 Use this device only</button>
 
         ${!configured ? `<div class="banner banner-warn" style="margin-top:16px">Supabase isn't connected yet. <button class="btn btn-ghost btn-sm" id="login-config-now">Configure now</button></div>` : ""}
@@ -129,8 +129,8 @@ const Login = (() => {
     });
 
     wrap.querySelector("#login-anon").addEventListener("click", async () => {
-      try { await Supa.signInAnon(); Go.nav("dashboard"); }
-      catch (e) { msg(e.message || "Could not connect anonymously.", true); }
+      try { await Supa.signInGuest(); Go.nav("dashboard"); }
+      catch (e) { msg(e.message || "Could not sign in as guest.", true); }
     });
     wrap.querySelector("#login-offline").addEventListener("click", () => {
       // Local/device mode — a fallback for when Supabase isn't connected.
