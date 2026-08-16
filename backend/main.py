@@ -169,35 +169,46 @@ async def analyze(req: AnalyzeReq):
             status_code=400,
             detail="There was nothing to analyse. Please start a session and speak first.",
         )
-    try:
-        if config.is_demo():
-            result = demo.demo_analyze(req.mode, req.history, req.answers)
-            return analysis.assemble(req.mode, req.history, req.answers, result)
-
-        raw = await llm.chat(
-            [
-                {"role": "system", "content": prompts.ANALYSIS_SYSTEM},
-                {
-                    "role": "user",
-                    "content": (
-                        "Practice mode: " + req.mode + "\n\n"
-                        "--- Conversation ---\n"
-                        + "\n".join(
-                            f"{'Examiner' if m.get('role') in ('examiner', 'assistant') else 'Candidate'}: {m.get('text', '')}"
-                            for m in req.history
-                        )
-                        + "\n\nAnalyse the candidate's speech and return the JSON."
-                    ),
-                },
-            ],
-            json_mode=True,
-            temperature=0.3,
-            max_tokens=2500,
-        )
-        result = llm.parse_json(raw)
+    if config.is_demo():
+        result = demo.demo_analyze(req.mode, req.history, req.answers)
         return analysis.assemble(req.mode, req.history, req.answers, result)
-    except llm.LLMError as e:
-        raise friendly_error(e)
+
+    messages = [
+        {"role": "system", "content": prompts.ANALYSIS_SYSTEM},
+        {
+            "role": "user",
+            "content": (
+                "Practice mode: " + req.mode + "\n\n"
+                "--- Conversation ---\n"
+                + "\n".join(
+                    f"{'Examiner' if m.get('role') in ('examiner', 'assistant') else 'Candidate'}: {m.get('text', '')}"
+                    for m in req.history
+                )
+                + "\n\nAnalyse the candidate's speech and return the JSON."
+            ),
+        },
+    ]
+
+    result = None
+    last_err = None
+    # Retry a few times — free models occasionally return non-JSON or get
+    # rate-limited, and a short retry makes analysis far more reliable.
+    for _ in range(3):
+        try:
+            raw = await llm.chat(messages, json_mode=True, temperature=0.3, max_tokens=2500)
+            result = llm.parse_json(raw)
+            break
+        except llm.LLMError as e:
+            last_err = e
+            if e.kind in ("credits", "no_key"):
+                break
+            import asyncio
+            await asyncio.sleep(1.5)
+
+    if result is None:
+        raise friendly_error(last_err or llm.LLMError("parse", "empty response"))
+
+    return analysis.assemble(req.mode, req.history, req.answers, result)
 
 
 # --------------------------------------------------------------------------

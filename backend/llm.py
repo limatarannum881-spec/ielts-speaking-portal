@@ -127,6 +127,8 @@ def chat_sync(messages, json_mode=False, temperature=0.7, max_tokens=700):
 
 def parse_json(text: str):
     """Best-effort JSON parse (handles markdown fences / stray text)."""
+    if not text:
+        raise LLMError("parse", "empty response")
     text = text.strip()
     if text.startswith("```"):
         text = text.strip("`")
@@ -137,6 +139,16 @@ def parse_json(text: str):
     if start != -1 and end != -1 and end > start:
         try:
             return json.loads(text[start : end + 1])
+        except json.JSONDecodeError:
+            pass
+    # Some models wrap the object in an array, e.g. [{...}]
+    start = text.find("[")
+    end = text.rfind("]")
+    if start != -1 and end != -1 and end > start:
+        try:
+            arr = json.loads(text[start : end + 1])
+            if isinstance(arr, list) and arr and isinstance(arr[0], dict):
+                return arr[0]
         except json.JSONDecodeError:
             pass
     try:

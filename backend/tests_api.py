@@ -307,19 +307,28 @@ async def evaluate_writing(req: WritingEvalReq):
     if config.is_demo():
         raise HTTPException(status_code=502, detail="AI evaluation needs a configured API key.")
 
-    try:
-        raw = await llm.chat(
-            [
-                {"role": "system", "content": prompts.WRITING_EVAL_SYSTEM},
-                {"role": "user", "content": prompts.writing_eval_prompt(req.task, req.prompt, req.essay)},
-            ],
-            json_mode=True,
-            temperature=0.3,
-            max_tokens=2000,
-        )
-        result = llm.parse_json(raw)
-    except llm.LLMError as e:
-        raise _friendly(e)
+    messages = [
+        {"role": "system", "content": prompts.WRITING_EVAL_SYSTEM},
+        {"role": "user", "content": prompts.writing_eval_prompt(req.task, req.prompt, req.essay)},
+    ]
+
+    result = None
+    last_err = None
+    # Retry a few times: free models occasionally return non-JSON or get
+    # rate-limited; a short retry makes the evaluation far more reliable.
+    for _ in range(3):
+        try:
+            raw = await llm.chat(messages, json_mode=True, temperature=0.3, max_tokens=2000)
+            result = llm.parse_json(raw)
+            break
+        except llm.LLMError as e:
+            last_err = e
+            if e.kind in ("credits", "no_key"):
+                break  # no point retrying a hard error
+            await __import__("asyncio").sleep(1.5)
+
+    if result is None:
+        raise _friendly(last_err or llm.LLMError("parse", "empty response"))
 
     # Merge in task metadata and word count (server-side truth).
     result["wordCount"] = len(req.essay.split())
