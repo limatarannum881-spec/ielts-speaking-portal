@@ -12,6 +12,7 @@ const NAV_TARGETS = {
   writing: "screen-writing",
   mock: "screen-mock",
   results: "screen-results-history",
+  studyplan: "screen-studyplan",
   resources: "screen-resources",
   login: "screen-login",
 };

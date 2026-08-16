@@ -9,6 +9,31 @@ const Reading = (() => {
   let tests = [];
   let version = "academic";
   let state = null; // {test, flat, answers, reviewed, current, timer}
+  let adaptive = { active: false, band: null, version: "academic" };
+
+  // Current reading band from history (for adaptive starting point).
+  function readingBand() {
+    const r = Store.history.list().find((x) => typeof x.reading === "number");
+    return r ? r.reading : 6.5;
+  }
+
+  // Pick the test whose difficulty is closest to a target band.
+  function nearestTest(band, versionFilter) {
+    const pool = tests.filter((t) => t.version === versionFilter && t.difficulty != null);
+    if (!pool.length) return null;
+    pool.sort((a, b) => Math.abs(a.difficulty - band) - Math.abs(b.difficulty - band));
+    return pool[0];
+  }
+
+  // After a result, adjust the adaptive band and continue.
+  function adaptiveNext(result) {
+    const accuracy = result.accuracy || 0;
+    let next = adaptive.band;
+    if (accuracy >= 80) next = Math.min(9, next + 0.5);
+    else if (accuracy <= 50) next = Math.max(4.5, next - 0.5);
+    const dir = accuracy >= 80 ? "harder" : accuracy <= 50 ? "easier" : "same";
+    return { next, dir, accuracy };
+  }
 
   // ---------- Landing ----------
   async function renderLanding() {
@@ -40,10 +65,20 @@ const Reading = (() => {
         <button class="btn btn-primary" data-start="${t.id}">Start test</button>
       </div>`).join("");
 
+    const startBand = readingBand();
     wrap.innerHTML = `
       <div class="module-head">
         <h1>IELTS Reading</h1>
         <p class="sub">3 sections, 40 questions, 60 minutes in the real test. Practise Academic or General Training.</p>
+      </div>
+
+      <div class="card adaptive-card">
+        <h2>🎯 Adaptive Practice</h2>
+        <p class="criterion-comment">The difficulty adjusts to you: answer correctly and it gets harder, struggle and it gets easier — a more credible way to estimate your real band.</p>
+        <div class="adaptive-row">
+          <span class="criterion-comment">Current level: <b>Band ${fmtBand(startBand)}</b></span>
+          <button class="btn btn-primary" id="adaptive-start">Start adaptive session</button>
+        </div>
       </div>
 
       <div class="seg-toggle" role="tablist">
@@ -66,6 +101,13 @@ const Reading = (() => {
     });
     wrap.querySelectorAll("[data-start]").forEach((b) => {
       b.addEventListener("click", () => startTest(b.dataset.start));
+    });
+    const adaptiveBtn = wrap.querySelector("#adaptive-start");
+    if (adaptiveBtn) adaptiveBtn.addEventListener("click", () => {
+      adaptive = { active: true, band: readingBand(), version };
+      const t = nearestTest(adaptive.band, version);
+      if (t) startTest(t.id, { adaptive: true });
+      else toast("No difficulty-tagged tests available for this version yet.", true);
     });
   }
 
@@ -234,6 +276,23 @@ const Reading = (() => {
         <div class="review-ans"><span>Correct answer:</span> ${fmtAns(x.correctAnswer)}</div>
       </div>`).join("");
 
+    // Adaptive session continuation.
+    let adaptiveBlock = "";
+    if (adaptive.active) {
+      const { next, dir } = adaptiveNext(r);
+      adaptive.band = next;
+      const label = dir === "harder" ? "⬆️ Harder" : dir === "easier" ? "⬇️ Easier" : "➡️ Same level";
+      adaptiveBlock = `
+        <div class="card adaptive-card">
+          <h2>🎯 Adaptive Next Step</h2>
+          <p class="criterion-comment">Accuracy ${r.accuracy}% → ${label}. Next difficulty: <b>Band ${fmtBand(next)}</b></p>
+          <div class="adaptive-row">
+            <button class="btn btn-primary" id="adaptive-continue">Continue → Band ${fmtBand(next)}</button>
+            <button class="btn btn-ghost" id="adaptive-stop">Stop adaptive</button>
+          </div>
+        </div>`;
+    }
+
     wrap.innerHTML = `
       <div class="result-header">
         <div class="band-badge">Reading Result
@@ -247,6 +306,7 @@ const Reading = (() => {
         <div class="rstat"><div class="rstat-num">${r.accuracy}%</div><div class="rstat-label">Accuracy</div></div>
         <div class="rstat"><div class="rstat-num">${r.unanswered}</div><div class="rstat-label">Unanswered</div></div>
       </div>
+      ${adaptiveBlock}
       <div class="card"><h2>Review</h2>${review}</div>
       <div class="actions-row">
         <button class="btn btn-primary" id="read-again">Try another test</button>
@@ -254,6 +314,14 @@ const Reading = (() => {
       </div>`;
     document.getElementById("read-again").addEventListener("click", renderLanding);
     document.getElementById("read-dash").addEventListener("click", () => Go.nav("dashboard"));
+    const cont = document.getElementById("adaptive-continue");
+    if (cont) cont.addEventListener("click", () => {
+      const t = nearestTest(adaptive.band, adaptive.version);
+      if (t) startTest(t.id, { adaptive: true });
+      else { adaptive.active = false; renderLanding(); }
+    });
+    const stop = document.getElementById("adaptive-stop");
+    if (stop) stop.addEventListener("click", () => { adaptive.active = false; renderLanding(); });
   }
 
   function fmtAns(a) {

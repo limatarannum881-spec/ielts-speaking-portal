@@ -887,3 +887,29 @@ body.nav-hidden .app { padding-top: 0; }
   background: var(--primary-soft); border-radius: 999px; padding: 4px 10px;
   white-space: nowrap; flex-shrink: 0;
 }
+
+/* ---------- Adaptive practice card ---------- */
+.adaptive-card { background: linear-gradient(135deg, #eef0ff, #f5f3ff); border-color: #dbe0ff; }
+.adaptive-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+
+/* ---------- Study plan ---------- */
+.plan-summary .result-stats { display: flex; }
+.plan-list { display: flex; flex-direction: column; gap: 14px; }
+.plan-day { display: flex; gap: 14px; align-items: flex-start; }
+.plan-day-num {
+  flex-shrink: 0; width: 56px; text-align: center; font-weight: 800; font-size: 14px;
+  color: var(--primary); background: var(--primary-soft); border-radius: 10px; padding: 8px 4px;
+}
+.plan-day-items { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.plan-item {
+  display: flex; gap: 10px; align-items: flex-start; background: #fbfcfe;
+  border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; font-size: 14px;
+}
+.plan-item.light { opacity: .8; background: #fafafa; }
+.plan-item.target { border-left: 4px solid var(--amber); }
+.plan-item.review { border-left: 4px solid var(--green); background: var(--green-soft); }
+.plan-icon { flex-shrink: 0; }
+@media (max-width: 480px) {
+  .plan-day { flex-direction: column; gap: 8px; }
+  .plan-day-num { width: 100%; text-align: left; }
+}

@@ -145,6 +145,7 @@ function renderDashboard() {
         <button class="qa-btn" data-quick="reading">📖 Reading</button>
         <button class="qa-btn" data-quick="writing">✍️ Writing</button>
         <button class="qa-btn" data-quick="speaking">🎙️ Speaking</button>
+        <button class="qa-btn" data-quick="studyplan">📅 Get my study plan</button>
       </div>
     </div>
 
