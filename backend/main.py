@@ -10,6 +10,7 @@ import os
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, File, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -23,6 +24,17 @@ import tests_api
 
 app = FastAPI(title="IELTS Speaking AI", version="1.0.0")
 app.include_router(tests_api.router)
+
+# Allow the static frontend (e.g. Cloudflare Pages) to call this API from
+# a different origin. CORS_ORIGINS can be set to a comma-separated list to
+# restrict it; by default any origin is allowed (no cookies are used).
+_origins = os.getenv("CORS_ORIGINS", "*").split(",") if os.getenv("CORS_ORIGINS") else ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_origins,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 

@@ -16,7 +16,7 @@ const Reading = (() => {
     wrap.innerHTML = `<div class="loading">Loading…</div>`;
     let data = { tests: [] };
     try {
-      const r = await fetch("/api/tests/reading");
+      const r = await fetch(apiUrl("/api/tests/reading"));
       data = await r.json();
       tests = data.tests;
     } catch (_) {}
@@ -74,7 +74,7 @@ const Reading = (() => {
     wrap.innerHTML = `<div class="loading">Loading test…</div>`;
     let test;
     try {
-      const r = await fetch(`/api/tests/reading/${testId}`);
+      const r = await fetch(apiUrl(`/api/tests/reading/${testId}`));
       test = await r.json();
     } catch (_) {
       wrap.innerHTML = `<div class="error-box">Could not load the test. Please try again.</div>`;

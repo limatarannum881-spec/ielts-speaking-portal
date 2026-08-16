@@ -14,7 +14,7 @@ const Listening = (() => {
     wrap.innerHTML = `<div class="loading">Loading…</div>`;
     let data = { tests: [] };
     try {
-      const r = await fetch("/api/tests/listening");
+      const r = await fetch(apiUrl("/api/tests/listening"));
       data = await r.json();
     } catch (_) {}
 
@@ -56,7 +56,7 @@ const Listening = (() => {
     wrap.innerHTML = `<div class="loading">Loading test…</div>`;
     let test;
     try {
-      const r = await fetch(`/api/tests/listening/${testId}`);
+      const r = await fetch(apiUrl(`/api/tests/listening/${testId}`));
       test = await r.json();
     } catch (_) {
       wrap.innerHTML = `<div class="error-box">Could not load the test. Please try again.</div>`;

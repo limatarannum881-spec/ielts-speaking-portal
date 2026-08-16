@@ -31,6 +31,7 @@
         <a data-nav="results" href="#results">Results</a>
         <a data-nav="resources" href="#resources">Resources</a>
       </nav>
+      <button id="nav-auth" class="nav-auth-btn" title="Sign in / account">👤<span id="nav-auth-status"></span></button>
       <span class="owner-chip">by Md Musfiqur Rahaman</span>
     </div>
   </header>
@@ -221,8 +222,11 @@
   </div>
 
   <script src="vendor/jspdf.umd.min.js"></script>
-  <script src="app.js"></script>
+  <script src="vendor/supabase.min.js"></script>
+  <script src="config.js"></script>
   <script src="store.js"></script>
+  <script src="supabase.js"></script>
+  <script src="app.js"></script>
   <script src="nav.js"></script>
   <script src="testengine.js"></script>
   <script src="dashboard.js"></script>

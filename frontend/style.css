@@ -714,3 +714,26 @@ body.nav-hidden .app { padding-top: 0; }
   .result-stats { flex-direction: row; flex-wrap: wrap; }
   .module-head h1 { font-size: 22px; }
 }
+
+/* ---------- Auth / account ---------- */
+.nav-auth-btn {
+  display: flex; align-items: center; gap: 6px;
+  border: 1px solid var(--border); background: #fff; color: var(--muted);
+  border-radius: 999px; padding: 7px 13px; font-size: 14px; font-weight: 700;
+  cursor: pointer; flex-shrink: 0; touch-action: manipulation;
+}
+.nav-auth-btn:hover { border-color: #c7d0f8; color: var(--primary); }
+.nav-auth-btn.signed-in { background: var(--green-soft); border-color: #b7e0c3; color: var(--green); }
+.nav-auth-btn #nav-auth-status { font-size: 12px; max-width: 90px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 899px) {
+  .nav-auth-btn { order: 2; }
+  .nav-auth-btn #nav-auth-status { display: none; }
+}
+
+.auth-dialog { max-width: 400px; }
+.auth-divider {
+  display: flex; align-items: center; gap: 10px; color: var(--muted);
+  font-size: 12px; margin: 16px 0; text-transform: uppercase; letter-spacing: .05em;
+}
+.auth-divider::before, .auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+.auth-dialog .field-label { display: block; font-size: 12.5px; color: var(--muted); font-weight: 600; margin: 2px 0 4px; }

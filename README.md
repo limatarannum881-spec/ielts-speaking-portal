@@ -58,6 +58,8 @@ with context-aware follow-up questions and sentence-by-sentence analysis.
 | Speech→Text | **Live**: browser Web Speech API · **Record**: MediaRecorder → server Whisper |
 | Text→Speech | Browser **speechSynthesis** (free, no key needed)|
 | PDF       | **jsPDF** (client-side, bundled locally)            |
+| Database  | **Supabase** (Postgres + Row Level Security, optional — falls back to localStorage) |
+| Hosting   | **Cloudflare Pages** (frontend) + **Render** (Python backend) |
 
 The voice pipeline is the simple, cost-efficient version:
 **Record (mic) → Transcribe (browser or server) → AI response → Text-to-speech (browser)**.
@@ -94,6 +96,8 @@ ielts-speaking-portal/
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
+│   ├── config.js        # Supabase URL/anon key + API base URL
+│   ├── supabase.js      # auth + cloud sync (profile & history)
 │   ├── app.js           # Speaking: voice, session state machine, results, PDF
 │   ├── store.js         # localStorage persistence (history, profile, session)
 │   ├── nav.js           # top/bottom navigation
@@ -105,10 +109,15 @@ ielts-speaking-portal/
 │   ├── mocktest.js      # Full Mock Test orchestration
 │   ├── history.js       # results / history
 │   ├── resources.js     # curated external resource links
-│   └── vendor/jspdf.umd.min.js   # bundled PDF library
+│   ├── _headers         # Cloudflare Pages security headers
+│   ├── _redirects       # Cloudflare Pages SPA fallback
+│   └── vendor/          # bundled jsPDF + supabase-js
+├── supabase/
+│   └── schema.sql       # tables + Row Level Security (run once)
 ├── .env.example         # copy to .env
 ├── .gitignore
 ├── render.yaml          # Render one-click deploy
+├── DEPLOY.md            # Supabase + Cloudflare Pages + Render guide
 └── README.md
 ```
 
@@ -192,6 +201,20 @@ mode (they run locally, not via AI).
 Force demo mode even with a key: `DEMO_MODE=true`.
 
 ---
+
+## 🗄️ Database & secure history (Supabase)
+
+Test history and profile can be stored securely in **Supabase** (Postgres with
+Row Level Security) instead of just localStorage — so results persist across
+devices and are private to you.
+
+1. Create a free project at [supabase.com](https://supabase.com).
+2. Run `supabase/schema.sql` in the SQL Editor (creates tables + RLS).
+3. In the app: **👤 → Settings** → paste your Supabase URL + anon key → Save.
+   (Or set them in `frontend/config.js`.)
+
+If Supabase isn't configured, the app gracefully falls back to localStorage.
+Full details in **[DEPLOY.md](DEPLOY.md)**.
 
 ## 🌐 Deploying
 

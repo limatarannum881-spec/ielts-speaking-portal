@@ -100,7 +100,7 @@ async function api(path, body, retries = 1) {
   for (let attempt = 0; attempt <= retries; attempt++) {
     let resp;
     try {
-      resp = await fetch(path, {
+      resp = await fetch(apiUrl(path), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
@@ -412,7 +412,7 @@ async function transcribeBlob(blob) {
   fd.append("file", blob, "recording." + ext);
   let resp;
   try {
-    resp = await fetch("/api/transcribe", { method: "POST", body: fd });
+    resp = await fetch(apiUrl("/api/transcribe"), { method: "POST", body: fd });
   } catch (e) {
     toast("Network error — please check your connection.", true);
     setStatus("idle");
@@ -1176,7 +1176,7 @@ $("btn-prep-skip").addEventListener("click", prepDone);
     $("inapp-banner").classList.remove("hidden");
   }
   try {
-    const h = await fetch("/api/health");
+    const h = await fetch(apiUrl("/api/health"));
     const data = await h.json();
     if (data.demo) $("demo-banner").classList.remove("hidden");
   } catch (_) {}

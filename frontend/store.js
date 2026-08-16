@@ -29,7 +29,13 @@ const Store = (() => {
   const defaultProfile = { name: "", targetBand: 7.5, version: "academic" };
   const profile = {
     get() { return Object.assign({}, defaultProfile, get(P.profile, {})); },
-    set(p) { set(P.profile, Object.assign(profile.get(), p)); },
+    set(p) {
+      set(P.profile, Object.assign(profile.get(), p));
+      // Write-through to Supabase when connected.
+      if (window.Supa && Supa.ready() && Supa.currentUser()) {
+        Supa.pushProfile().catch(() => {});
+      }
+    },
   };
 
   // ---- History ----
@@ -37,11 +43,26 @@ const Store = (() => {
     list() { return get(P.history, []); },
     add(record) {
       const list = history.list();
-      list.unshift(Object.assign({ id: "t" + Date.now(), date: new Date().toISOString() }, record));
+      const full = Object.assign({ id: "t" + Date.now(), date: new Date().toISOString() }, record);
+      list.unshift(full);
       set(P.history, list.slice(0, 200));
-      return list[0];
+      // Write-through to Supabase when connected (fire-and-forget).
+      if (window.Supa && Supa.ready() && Supa.currentUser()) {
+        Supa.pushHistory(full).catch(() => {});
+      }
+      return full;
     },
-    clear() { set(P.history, []); },
+    merge(remoteList) {
+      // Merge remote records into the local list (remote wins on id conflict).
+      const local = history.list();
+      const map = new Map(local.map((r) => [r.id, r]));
+      remoteList.forEach((r) => map.set(r.id, r));
+      const merged = Array.from(map.values()).sort((a, b) => new Date(b.date) - new Date(a.date));
+      set(P.history, merged.slice(0, 200));
+    },
+    clear() {
+      set(P.history, []);
+    },
     latest() { return history.list()[0] || null; },
     best() {
       const list = history.list().filter((r) => typeof r.overall === "number");

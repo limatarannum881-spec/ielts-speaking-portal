@@ -49,6 +49,36 @@ document.addEventListener("DOMContentLoaded", () => {
       goNav(el.dataset.nav);
     });
   });
+
+  // Account button → auth dialog (or sign out).
+  const authBtn = document.getElementById("nav-auth");
+  if (authBtn) {
+    const update = () => {
+      const user = window.Supa ? Supa.currentUser() : null;
+      const status = document.getElementById("nav-auth-status");
+      if (user) {
+        authBtn.title = "Signed in — click to sign out";
+        authBtn.classList.add("signed-in");
+        const email = user.email || "Anonymous";
+        status.textContent = email.split("@")[0];
+      } else {
+        authBtn.title = "Sign in to sync your results";
+        authBtn.classList.remove("signed-in");
+        status.textContent = "";
+      }
+    };
+    authBtn.addEventListener("click", () => {
+      if (window.Supa && Supa.currentUser()) {
+        if (confirm("Sign out? Your results stay saved on this device and in the cloud.")) {
+          Supa.signOut();
+        }
+      } else {
+        Supa.openAuth();
+      }
+    });
+    if (window.Supa) Supa.onChange(update);
+    update();
+  }
 });
 
 // Hide the global nav during a full mock test (anti-accidental-navigation).

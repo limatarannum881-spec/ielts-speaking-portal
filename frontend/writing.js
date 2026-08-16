@@ -12,7 +12,7 @@ const Writing = (() => {
 
   async function loadPrompts() {
     if (prompts) return prompts;
-    const r = await fetch("/api/tests/writing");
+    const r = await fetch(apiUrl("/api/tests/writing"));
     prompts = await r.json();
     return prompts;
   }
