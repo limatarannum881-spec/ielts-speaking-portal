@@ -82,5 +82,5 @@ const Store = (() => {
     clear() { localStorage.removeItem(P.active); },
   };
 
-  return { profile, history, active };
+  return { profile, history, active, get, set };
 })();
