@@ -276,6 +276,7 @@ const Supa = (() => {
     signUp, signIn, signInAnon, signInGuest, signOut,
     pushProfile, pushHistory, pullAll,
     openProfile, openConnectionSetup, isConfigured,
+    getClient: () => client,
   };
 })();
 

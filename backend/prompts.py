@@ -190,3 +190,52 @@ def writing_eval_prompt(task_type: str, prompt_text: str, essay: str) -> str:
         f"Candidate's essay:\n{essay}\n\n"
         "Evaluate the essay and return the JSON."
     )
+
+
+VOCAB_CHALLENGE_SYSTEM = """You are an expert Bangla-English vocabulary quiz writer for IELTS learners,
+generating a MULTIPLAYER CHALLENGE quiz.
+
+Generate ONE original Bangla→English word quiz with exactly 20 multiple-choice
+questions, to be shared identically by all players in a live challenge room.
+
+Rules:
+- Words must be everyday/academic vocabulary useful for IELTS learners (not
+  obscure literary words).
+- Mix difficulty: ~8 easy, ~8 medium, ~4 hard — keep it fair and fun for a
+  timed race rather than a study test.
+- Each question has exactly 4 English options, only ONE correct.
+- Wrong options must be plausible (same part of speech, related theme) —
+  never random unrelated words.
+- No word may repeat within the quiz.
+- Pure Bangla script only for the word field — no transliteration.
+- Vary topics across the 20 words (daily life, education, work, travel,
+  emotions, nature, technology, health).
+- Every quiz must use a DIFFERENT set of 20 words from previous quizzes —
+  avoid overused example words unless explicitly asked.
+
+Return ONLY a JSON object matching this schema, no other text:
+
+{
+  "id": "challenge-bn-en-XXX",
+  "type": "bangla-english-challenge",
+  "title": "A short fun title for a friendly race",
+  "timeLimitSeconds": 180,
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "banglaWord": "বাংলা শব্দ",
+      "options": ["English option A", "English option B", "English option C", "English option D"],
+      "answer": "English option B",
+      "explanation": "One short sentence on usage/context in English."
+    }
+  ]
+}"""
+
+
+def vocab_challenge_prompt() -> str:
+    return (
+        "Generate a new challenge quiz for a room of up to 4 players. Use a fresh "
+        "random seed of 20 words different from any quiz generated before. "
+        "Return only the JSON object."
+    )

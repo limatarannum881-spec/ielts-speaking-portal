@@ -73,3 +73,47 @@ drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created
   after insert on auth.users
   for each row execute function public.handle_new_user();
+
+-- =====================================================================
+-- 5. Live Challenge (multiplayer Bangla->English vocab race)
+-- =====================================================================
+create table if not exists public.challenge_rooms (
+  code         text primary key,          -- short join code, e.g. "X7K2"
+  host_user_id uuid,
+  quiz         jsonb,                     -- the 20-question JSON (shared by all)
+  status       text default 'waiting',    -- waiting | countdown | live | finished
+  max_players  int default 4,
+  starts_at    timestamptz,               -- synchronized start time (server-set)
+  created_at   timestamptz default now()
+);
+
+create table if not exists public.challenge_participants (
+  id            bigint generated always as identity primary key,
+  room_code     text references public.challenge_rooms (code) on delete cascade,
+  user_id       uuid,
+  display_name  text,
+  ready         boolean default false,
+  score         int,
+  time_taken_ms int,
+  finished_at   timestamptz
+);
+
+create index if not exists challenge_participants_room_idx
+  on public.challenge_participants (room_code);
+
+-- Row Level Security: anyone in the room (or the public, for this friendly
+-- feature) can read; writes are allowed for simplicity (it's a low-stakes game).
+alter table public.challenge_rooms        enable row level security;
+alter table public.challenge_participants enable row level security;
+
+drop policy if exists "challenge_rooms_public" on public.challenge_rooms;
+create policy "challenge_rooms_public" on public.challenge_rooms
+  for all using (true) with check (true);
+
+drop policy if exists "challenge_participants_public" on public.challenge_participants;
+create policy "challenge_participants_public" on public.challenge_participants
+  for all using (true) with check (true);
+
+-- Realtime: broadcast changes on these tables to subscribed clients.
+alter publication supabase_realtime add table public.challenge_rooms;
+alter publication supabase_realtime add table public.challenge_participants;

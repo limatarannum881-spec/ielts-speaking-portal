@@ -111,6 +111,27 @@ def health():
     return {"status": "ok", "demo": config.is_demo()}
 
 
+@app.post("/api/vocab/start")
+async def vocab_start():
+    """Generate a fresh Bangla->English challenge quiz (one per room, generated
+    live so every room gets a different set of 20 words)."""
+    try:
+        if config.is_demo():
+            raise llm.LLMError("no_key")
+        raw = await llm.chat(
+            [
+                {"role": "system", "content": prompts.VOCAB_CHALLENGE_SYSTEM},
+                {"role": "user", "content": prompts.vocab_challenge_prompt()},
+            ],
+            json_mode=True,
+            temperature=0.9,
+            max_tokens=3000,
+        )
+        return llm.parse_json(raw)
+    except llm.LLMError as e:
+        raise friendly_error(e)
+
+
 @app.post("/api/session/start")
 async def session_start(req: StartReq):
     try:
