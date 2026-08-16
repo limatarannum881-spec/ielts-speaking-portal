@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for a Change of Appointment",
+      "prompt": "You are unable to attend an appointment you made with a local doctor. Write a letter to the doctor's office to inform them of this. In your letter, explain the reason for your inability to attend, request a new appointment, and express your appreciation for their understanding.",
+      "chart": {}
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "Some people believe that technology has significantly improved education, while others argue that it has negative impacts on learning. Discuss both views and give your own opinion. Include relevant examples to support your argument."
+    }
+  ]
+}

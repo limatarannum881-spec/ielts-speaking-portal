@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-036",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hi Sarah! Have you thought about our weekend trip?  \nB: Yes, I have! I was thinking we could go to the mountains this time.  \nA: That sounds great! Do you have a specific place in mind?  \nB: I was considering Pine Valley. It’s supposed to have beautiful hiking trails.  \nA: Perfect! How do we get there?  \nB: It’s about a two-hour drive, but I think we could leave early Saturday morning to avoid traffic.  \nA: Sounds good. What should we pack?  \nB: We’ll need to bring our hiking gear, snacks, and maybe a tent if we want to camp overnight.  \nA: Are you sure you want to camp? I thought we could stay in a cabin.  \nB: The cabin would be nice, but camping under the stars could be more fun!  \nA: True! Let’s check if we need to book a camping spot in advance.  \nB: Good idea. I’ll look it up after our call.  \nA: Awesome! And we should also see what the weather is going to be like.  \nB: Absolutely, I hope it’s sunny!  \nA: Me too! This is going to be exciting.  \nB: Definitely! Can’t wait!  \nA: Alright, let’s finalize the details later.  \nB: Sure! Talk to you soon!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where do the speakers plan to go for their trip?",
+          "options": [
+            "A. The beach",
+            "B. The city",
+            "C. The mountains",
+            "D. The forest"
+          ],
+          "answer": "C",
+          "explanation": "The conversation mentions going to the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "Travel Method"
+          ],
+          "answer": [
+            "Pine Valley",
+            "Car"
+          ],
+          "explanation": "The speakers mention Pine Valley as the location and driving as their travel method."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What do the speakers plan to bring for their trip?",
+          "answer": "Hiking gear and snacks",
+          "explanation": "The conversation discusses packing hiking gear and snacks for the trip."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

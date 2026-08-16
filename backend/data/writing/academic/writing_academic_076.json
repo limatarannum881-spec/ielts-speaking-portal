@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Sales by Brand in 2022",
+      "prompt": "The bar chart illustrates the total number of smartphones sold worldwide in 2022, categorized by brand. The data reveals that Brand A dominated the market with 100 million units sold, followed by Brand B with 80 million. Brand C and Brand D reported significantly lower figures, with sales of 40 million and 30 million smartphones, respectively. Other brands, collectively categorized as 'Others', sold a total of 50 million units. It is evident that Brand A and Brand B held a considerable share of the market, together accounting for approximately 60% of total smartphone sales. Meanwhile, the remaining brands, although collectively significant, had lower individual contributions. Overall, the chart clearly highlights the competitive landscape of the smartphone market in 2022, showcasing the disparity in sales among leading brands and other competitors.",
+      "chart": {
+        "kind": "bar",
+        "unit": "million units",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 100
+          },
+          {
+            "label": "Brand B",
+            "value": 80
+          },
+          {
+            "label": "Brand C",
+            "value": 40
+          },
+          {
+            "label": "Brand D",
+            "value": 30
+          },
+          {
+            "label": "Others",
+            "value": 50
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work on Employee Productivity",
+      "prompt": "In recent years, the rise of remote work has transformed how businesses operate and how employees perform their tasks. On one hand, proponents argue that remote work increases productivity as it offers flexibility and eliminates commuting time. Employees can work in comfortable environments, leading to enhanced focus and efficiency. On the other hand, critics contend that remote work can hinder productivity due to distractions at home and a lack of supervision. It may also create barriers to communication and collaboration among team members. This essay will discuss both perspectives, examining how remote work can be a double-edged sword, impacting productivity in various ways. Ultimately, it is essential to explore solutions to maximize the benefits of remote work while addressing its challenges."
+    }
+  ]
+}

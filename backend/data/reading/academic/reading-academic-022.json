@@ -1,0 +1,111 @@
+{
+  "id": "reading-academic-022",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Biodiversity",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urbanization has significantly transformed landscapes across the globe, frequently leading to habitat loss for various species. However, the incorporation of green spaces in urban environments has emerged as a vital strategy for promoting biodiversity. Studies have found that parks, gardens, and green roofs can support a diverse array of flora and fauna, creating a refuge for wildlife amidst concrete cities. \n\nResearch conducted in several major cities indicates that urban green spaces can increase species richness. For example, in New York City, over 300 species of birds have been documented using these habitats. Similarly, London's parks and gardens contribute to the survival of many pollinator species, which are crucial for pollination and maintaining healthy ecosystems. \n\nMoreover, green spaces can ameliorate the urban heat island effect, provide cleaner air, and enhance the overall well-being of residents. Despite these benefits, challenges remain in maintaining these areas to ensure they effectively support biodiversity. Issues such as invasive species and pollution can undermine the ecological value of urban green spaces.\n\nTo maximize their impact, urban planners are encouraged to adopt a multifaceted approach that considers not only the aesthetic value of green spaces but also their ecological function. By fostering a synergy between human activity and nature, cities can become more sustainable environments that support biodiversity and improve quality of life for their inhabitants.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urbanization always leads to a decline in biodiversity.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces can promote biodiversity, which suggests that urbanization does not always lead to a decline."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of urban green spaces mentioned in the passage?",
+          "options": [
+            "A) Increase in urban crime",
+            "B) Support for diverse species",
+            "C) Decrease in population density",
+            "D) Enhanced traffic flow"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights that urban green spaces support a diverse array of flora and fauna."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "In New York City, over ______ species of birds have been documented using urban green spaces.",
+          "answer": "300",
+          "explanation": "The passage specifically states that over 300 species of birds have been documented in New York City's green spaces."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What ecological issue can undermine the value of urban green spaces?",
+          "answer": "Pollution",
+          "explanation": "The passage mentions pollution as one of the issues that can undermine the ecological value of urban green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "matching",
+          "question": "Match the cities to their respective observations regarding green spaces.",
+          "pairs": [
+            {
+              "city": "New York",
+              "observation": "Over 300 species of birds"
+            },
+            {
+              "city": "London",
+              "observation": "Supports many pollinator species"
+            }
+          ],
+          "answer": [
+            {
+              "city": "New York",
+              "observation": "Over 300 species of birds"
+            },
+            {
+              "city": "London",
+              "observation": "Supports many pollinator species"
+            }
+          ],
+          "explanation": "The passage provides specific observations regarding urban green spaces in both New York and London."
+        },
+        {
+          "id": "q6",
+          "type": "true-false-not-given",
+          "question": "Urban planners should focus solely on the aesthetic value of green spaces.",
+          "answer": "false",
+          "explanation": "The passage states that urban planners should adopt a multifaceted approach that considers ecological function as well as aesthetic value."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The urban heat island effect is ______ by green spaces.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "ameliorated",
+          "explanation": "The passage mentions that green spaces can ameliorate the urban heat island effect."
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "According to the passage, why are pollinators important?",
+          "options": [
+            "A) They promote urbanization",
+            "B) They maintain healthy ecosystems",
+            "C) They reduce air pollution",
+            "D) They increase species extinction"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that pollinators are crucial for pollination and maintaining healthy ecosystems."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

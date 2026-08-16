@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-081",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impacts of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green rooftops, have gained attention in recent years for their positive impacts on mental health. Studies suggest that access to these areas can reduce stress, anxiety, and depression among city dwellers. One significant study conducted by researchers at the University of Edinburgh revealed that individuals living within a half-mile radius of green spaces reported higher levels of well-being compared to their counterparts living farther away.\n\nThe connection between nature and mental health can be attributed to several factors. First, green environments provide opportunities for physical activity, which is known to enhance mood and cognitive function. Additionally, spending time in nature promotes relaxation and a sense of calm, offering a respite from the hustle and bustle of urban life. \n\nFurthermore, the social aspect of green spaces cannot be overlooked. Parks and gardens serve as communal areas where individuals can engage in social interactions, fostering a sense of belonging and community. This social support is essential for maintaining mental well-being, particularly in urban settings where individuals may feel isolated.\n\nDespite the numerous benefits associated with urban green spaces, there are challenges in their maintenance and accessibility. Urbanization often leads to the prioritization of infrastructure over green areas, resulting in insufficient availability of these vital spaces. Local governments are increasingly recognizing the importance of preserving and enhancing green areas, implementing initiatives aimed at increasing accessibility for all residents.\n\nIn conclusion, urban green spaces play a crucial role in promoting mental health by offering both physical and social benefits. As cities continue to grow, the integration of more green spaces into urban planning will be essential in fostering a healthier population.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on mental health.",
+          "answer": "false",
+          "explanation": "The passage clearly states that urban green spaces have positive impacts on mental health."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of living near green spaces?",
+          "options": [
+            "A) Increased physical activity",
+            "B) Higher levels of stress",
+            "C) More isolation",
+            "D) Increased urban noise"
+          ],
+          "answer": "A",
+          "explanation": "The passage mentions that access to green spaces leads to increased physical activity, which enhances mood."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Green spaces provide _____ opportunities for physical activity.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "physical activity",
+          "explanation": "The passage indicates that green environments provide opportunities for physical activity."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do urban green spaces help foster among individuals?",
+          "answer": "sense of belonging",
+          "explanation": "The passage states that green spaces serve as areas for social interactions that foster a sense of belonging."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urbanization typically enhances the availability of green spaces.",
+          "answer": "false",
+          "explanation": "The passage indicates that urbanization often leads to prioritization of infrastructure, reducing green space availability."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is mentioned as a challenge for urban green spaces?",
+          "options": [
+            "A) Lack of interest",
+            "B) Maintenance and accessibility",
+            "C) Public perception",
+            "D) Overcrowding"
+          ],
+          "answer": "B",
+          "explanation": "The passage discusses challenges such as maintenance and accessibility of green spaces due to urbanization."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "As cities continue to grow, the integration of more green spaces into urban planning will be _____ for a healthier population.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "essential",
+          "explanation": "The passage concludes that integrating green spaces is essential for fostering a healthier population."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "Who conducted a significant study on the impacts of green spaces?",
+          "answer": "University of Edinburgh",
+          "explanation": "The passage mentions that researchers at the University of Edinburgh conducted a notable study on this topic."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

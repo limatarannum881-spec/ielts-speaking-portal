@@ -1,0 +1,71 @@
+{
+  "id": "reading-general-009",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Your Local Library",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Local libraries are more than just places to borrow books; they are vibrant community hubs that offer various services and resources to all residents. Libraries are often free to join for local residents and may require some basic information to obtain a membership card. Once a card is acquired, members can access a vast collection of books, e-books, audiobooks, and magazines across a wide variety of genres.\n\nIn addition to physical materials, most libraries host workshops and events for people of all ages. These can include storytelling sessions for children, book clubs, and lectures from local authors. Furthermore, many libraries provide free access to computers and the internet, which is essential for job seekers and those who need to conduct research. Many libraries also have dedicated spaces for studying or group work, making them an ideal place for students and professionals alike.\n\nAn increasingly popular service offered by local libraries is the ability to borrow items beyond books, such as DVDs, tools, and even musical instruments. This trend reflects a shift towards a more resource-sharing approach, where communities support one another by lending items that may not be used frequently.\n\nTo ensure that all community members can utilize their resources, libraries often collaborate with local schools, community organizations, and businesses. This collaboration allows libraries to cater to specific community needs, such as offering English as a Second Language (ESL) classes or programs for new immigrants. \n\nIn conclusion, local libraries play a crucial role in promoting literacy, fostering community engagement, and providing access to information and resources that are vital for personal and professional growth. Whether you are a lifelong learner or just looking for a good story, your local library has something to offer everyone.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Local libraries are only for borrowing books.",
+          "answer": "false",
+          "explanation": "The passage states that libraries offer various services and resources beyond just borrowing books."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What type of events do libraries host?",
+          "options": [
+            "A) Exclusive events for senior citizens",
+            "B) Workshops for people of all ages",
+            "C) Cooking classes",
+            "D) Televised broadcasts"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that libraries host workshops and events for people of all ages."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Libraries provide free access to ______ and ______.",
+          "prompt": "computers and the internet",
+          "answer": "computers and internet",
+          "explanation": "The passage states that many libraries provide free access to computers and the internet."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What service allows borrowing items beyond books?",
+          "answer": "resource-sharing",
+          "explanation": "The passage discusses the trend of borrowing items beyond books, referring to it as resource-sharing."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Libraries often work with local organizations to meet community needs.",
+          "answer": "true",
+          "explanation": "The passage mentions that libraries collaborate with local schools and organizations to cater to community needs."
+        },
+        {
+          "id": "q6",
+          "type": "short-answer",
+          "question": "What type of classes may libraries offer for new immigrants?",
+          "answer": "ESL classes",
+          "explanation": "The passage specifically mentions English as a Second Language (ESL) classes for new immigrants."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

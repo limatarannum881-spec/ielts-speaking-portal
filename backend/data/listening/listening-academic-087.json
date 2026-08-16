@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-087",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emma: Hey, Mark! Have you thought about where we should go for our weekend trip?  \nMark: I was thinking we could head to the mountains. The weather forecast looks great!  \nEmma: That sounds awesome! What activities do you have in mind?  \nMark: I thought we could go hiking and maybe do some kayaking.  \nEmma: Kayaking would be fun! Do we need to rent equipment for that?  \nMark: Yes, but I checked and there's a rental shop near the lake.  \nEmma: Perfect! How about meals? Should we pack some food or eat out?  \nMark: Let’s do a mix. We can pack some sandwiches for lunch and try a nice restaurant for dinner.  \nEmma: Sounds like a plan! What time should we leave on Saturday?  \nMark: I suggest we leave early, around 7 AM, to make the most of the day.  \nEmma: Good idea! I’ll make sure to set my alarm.  \nMark: Great! I can’t wait for this trip!  \nEmma: Me too! It’s going to be an adventure!  \n",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the main activity Mark suggests for the trip?",
+          "options": [
+            "A. Swimming",
+            "B. Hiking",
+            "C. Cycling",
+            "D. Skiing"
+          ],
+          "answer": "B",
+          "explanation": "Mark mentions hiking and kayaking as the main activities."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Activity 1",
+            "Activity 2"
+          ],
+          "answer": [
+            "hiking",
+            "kayaking"
+          ],
+          "explanation": "The activities they plan for the trip are hiking and kayaking."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What time do Emma and Mark plan to leave on Saturday?",
+          "answer": "7 AM",
+          "explanation": "Mark suggests leaving at 7 AM to maximize their day."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Where is the rental shop located?",
+          "options": [
+            "A. Near the mountains",
+            "B. By the lake",
+            "C. In the town",
+            "D. At the campsite"
+          ],
+          "answer": "B",
+          "explanation": "Mark states that there's a rental shop near the lake."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Meal Type 1",
+            "Meal Type 2"
+          ],
+          "answer": [
+            "sandwiches",
+            "restaurant"
+          ],
+          "explanation": "They plan to pack sandwiches for lunch and eat at a restaurant for dinner."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "Whose responsibility is it to set the alarm?",
+          "answer": "Emma",
+          "explanation": "Emma says she will make sure to set her alarm."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

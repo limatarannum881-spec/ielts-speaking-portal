@@ -1,0 +1,18 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Expenditure on Renewable Energy Sources by Country in 2022",
+      "prompt": "The bar chart illustrates the amount of money spent on renewable energy sources in several countries during the year 2022. Overall, it is evident that countries vary significantly in their levels of investment in renewable energy. The data shows that Germany and the United States led the expenditure, with Germany allocating approximately $50 billion and the United States around $45 billion. In contrast, countries such as India and Brazil invested $20 billion and $15 billion, respectively. The chart demonstrates a clear trend where more developed nations, particularly in Europe and North America, tend to invest more in renewable energy technologies. Conversely, countries in South America and Asia show comparatively lower investments, despite the increasing global demand for sustainable energy solutions. This disparity may reflect differences in economic capabilities, energy policies, and environmental priorities among these nations. Overall, the chart highlights the ongoing commitment of certain countries to transition towards renewable energy."
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work on Work-Life Balance",
+      "prompt": "In recent years, remote work has become increasingly popular due to advancements in technology and changes in workplace culture. This trend has sparked a debate regarding its impact on work-life balance. On one hand, many argue that remote work enhances work-life balance by providing employees with more flexibility in managing their schedules and reducing commute times. This flexibility allows individuals to spend more time with family, pursue personal interests, and maintain their mental health. On the other hand, some contend that remote work can blur the boundaries between professional and personal life, leading to longer working hours and increased stress. The lack of a clear separation from the office environment may cause individuals to feel 'always on,' which can negatively affect their overall well-being. In this essay, both perspectives will be examined, and a conclusion will be drawn based on the evidence presented. By evaluating the potential benefits and drawbacks of remote work, one can better understand its role in shaping the modern work environment."
+    }
+  ]
+}

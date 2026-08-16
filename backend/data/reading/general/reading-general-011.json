@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-011",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Your Community Park",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Community parks are essential spaces that enhance urban living and provide residents with an opportunity to connect with nature. Most community parks offer a variety of features including walking trails, playgrounds, picnic areas, and sports facilities. These parks can vary in size and amenities but often serve as a hub for local activities and gatherings. For example, many parks host seasonal events such as outdoor movie nights, farmers' markets, and holiday celebrations. Such events not only provide entertainment but also foster a sense of community and belonging among the residents. Furthermore, community parks play a significant role in promoting physical health. They offer safe environments for people to engage in exercise, whether that is through jogging, cycling, or playing sports. Families often frequent parks to enjoy quality time together and encourage children to be active. To maintain the beauty and functionality of these parks, local governments typically allocate funds for regular upkeep and improvements. Residents are encouraged to participate in park clean-up days and attend meetings regarding future developments. Overall, community parks serve as vibrant spaces that reflect the culture and values of the communities they inhabit.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Community parks are only for sports activities.",
+          "answer": "false",
+          "explanation": "The passage mentions various features of community parks, indicating they offer more than just sports facilities."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What type of events do community parks often host?",
+          "options": [
+            "A) Concerts only",
+            "B) Seasonal events",
+            "C) Only fitness classes",
+            "D) Private parties"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifically states that parks host seasonal events such as outdoor movie nights and farmers' markets."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Community parks help promote __________ among residents.",
+          "prompt": "",
+          "answer": "physical health",
+          "explanation": "The passage discusses how parks provide environments for exercise, promoting physical health."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do local governments allocate funds for in community parks?",
+          "answer": "upkeep and improvements",
+          "explanation": "The passage states that local governments fund regular upkeep and improvements for community parks."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Residents are not allowed to participate in park maintenance activities.",
+          "answer": "false",
+          "explanation": "The passage mentions that residents are encouraged to participate in park clean-up days."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is one benefit of community parks mentioned in the passage?",
+          "options": [
+            "A) They increase property values",
+            "B) They foster a sense of community",
+            "C) They are a place for specialized sports training",
+            "D) They require no maintenance"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that events in the parks foster a sense of community and belonging."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

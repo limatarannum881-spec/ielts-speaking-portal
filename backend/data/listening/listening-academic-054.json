@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-054",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Alice: Hey Tom, have you thought about our weekend trip? I was looking at a few places we could visit. \nTom: Yeah, I was thinking maybe we could go to the mountains. It would be great to do some hiking.\nAlice: That sounds good! I found this cabin rental that’s pretty affordable.\nTom: Oh really? How much is it?\nAlice: It’s around $120 per night. We could split that between us.\nTom: Not bad at all! How many people are coming?\nAlice: Just us and maybe Sarah. She said she’d love to join.\nTom: Perfect! Have you checked the weather for the weekend?\nAlice: Yes, it should be sunny. A perfect time for hiking! \nTom: What do you think we should pack? \nAlice: We’ll need some snacks, a lot of water, and maybe a first-aid kit.\nTom: Definitely good to have that. Should we bring a map, too? \nAlice: Yes, just in case we lose signal out there. \nTom: Great! I can take care of the snacks and drinks.\nAlice: Awesome! I’ll handle the rental and the first-aid kit. We are all set then! ",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the main purpose of the conversation?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "The main purpose is to plan a weekend trip."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Rental Price",
+            "Number of Guests"
+          ],
+          "answer": [
+            "$120",
+            "3"
+          ],
+          "explanation": "The rental price mentioned is $120 per night and the total number of guests includes Alice, Tom, and Sarah."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What is one item they plan to pack for the trip?",
+          "answer": "snacks",
+          "explanation": "Alice mentions packing snacks for their trip."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

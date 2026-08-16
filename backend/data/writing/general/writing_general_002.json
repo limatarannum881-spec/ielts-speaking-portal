@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling Paper",
+      "prompt": "You should spend about 20 minutes on this task. The diagram below shows the process of recycling paper. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words. The process begins with the collection of used paper from various sources such as homes and offices. This paper is then transported to a recycling facility where it is sorted into different categories based on its quality and type. The next step involves shredding the sorted paper into smaller pieces. These pieces are subsequently mixed with water and chemicals to create a slurry. After that, the slurry is spread onto a flat surface to allow the water to drain, leaving behind the pulp. This pulp is then pressed and dried to form sheets of recycled paper. Finally, the finished recycled paper is rolled up and packaged for distribution to manufacturers who will use it to create new paper products.",
+      "chart": {
+        "kind": "process",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Sorting",
+            "value": 2
+          },
+          {
+            "label": "Shredding",
+            "value": 3
+          },
+          {
+            "label": "Creating Slurry",
+            "value": 4
+          },
+          {
+            "label": "Drying",
+            "value": 5
+          },
+          {
+            "label": "Distribution",
+            "value": 6
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "advantages-disadvantages",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, technology has profoundly changed the way education is delivered. While some believe that technological advancements have greatly benefited students and educators, others argue that they have created new challenges in the educational environment. Discuss both the advantages and disadvantages of technology in education. Provide specific examples to support your arguments. Write at least 250 words."
+    }
+  ]
+}

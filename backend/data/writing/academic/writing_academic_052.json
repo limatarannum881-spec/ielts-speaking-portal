@@ -1,0 +1,36 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Employment Sectors in Country X (2020)",
+      "prompt": "The bar chart illustrates the distribution of the workforce in various employment sectors in Country X during the year 2020. Overall, it is evident that the service sector employs the majority of the population, while the agricultural sector accounts for the least significant portion. According to the chart, approximately 60% of the workforce is engaged in the service industry, which encompasses areas such as healthcare, education, and retail. Following this, the industrial sector occupies around 30% of employment, covering manufacturing and construction jobs. In contrast, the agricultural sector employs only about 10% of the workforce, indicating a gradual shift away from traditional farming practices. Additionally, it is worth noting that the service sector has seen substantial growth compared to previous years, reflecting broader economic trends towards urbanization and technological advancement. This shift highlights the changing dynamics within the labor market and the increasing importance of service-oriented jobs in the country's economy.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Service Sector",
+            "value": 60
+          },
+          {
+            "label": "Industrial Sector",
+            "value": 30
+          },
+          {
+            "label": "Agricultural Sector",
+            "value": 10
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work",
+      "prompt": "In recent years, remote work has become an increasingly popular trend among companies and employees alike. While there are various advantages to this shift in work dynamics, there are also several disadvantages that should be carefully considered. On one hand, remote work offers employees greater flexibility and autonomy, allowing them to create a work-life balance that suits their personal needs. This flexibility can lead to increased job satisfaction and productivity as individuals can work in environments that are most comfortable for them. Additionally, companies can benefit from cost savings associated with maintaining physical office spaces. On the other hand, remote work can lead to feelings of isolation among employees, as they may miss out on crucial face-to-face interactions with colleagues. Furthermore, communication and collaboration can be challenging, potentially hindering teamwork and innovation. Therefore, it is essential to evaluate both the positive and negative impacts of remote work to determine its effectiveness in the modern workplace. Ultimately, finding a suitable balance between remote and in-office work may provide the best solution for both employees and employers."
+    }
+  ]
+}

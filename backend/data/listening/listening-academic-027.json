@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-027",
+  "type": "listening",
+  "title": "Weekend Plans Discussion",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Anna: Hey Mark, do you have any plans for this weekend?  \nMark: Not yet, I was thinking of going hiking if the weather is good. How about you?  \nAnna: I’m planning to visit my parents. They live about two hours away.  \nMark: That sounds nice. Are you driving there?  \nAnna: Yes, I’ll take my car. I haven’t seen them in a while.  \nMark: Do you have anything specific in mind for your visit?  \nAnna: Just spending quality time together. We might go out for dinner at our favorite restaurant.  \nMark: That sounds great! I hope you have a lovely time. If I go hiking, I’ll probably take some sandwiches and water.  \nAnna: Good idea! Do you have a specific trail in mind?  \nMark: Yes, I want to try that new trail they opened last month. I heard the view from the top is amazing!  \nAnna: You should take some photos to show me later.  \nMark: Absolutely! Let’s catch up next week to share our weekend adventures.  \nAnna: Deal!  \nMark: Have a safe trip to your parents!  \nAnna: Thanks, you too! Enjoy your hike!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What does Mark plan to do this weekend?",
+          "options": [
+            "A. Visit his parents",
+            "B. Go hiking",
+            "C. Stay at home",
+            "D. Go to a restaurant"
+          ],
+          "answer": "B",
+          "explanation": "Mark mentions that he is thinking of going hiking if the weather is good."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Mode of transport",
+            "Destination"
+          ],
+          "answer": [
+            "car",
+            "parents"
+          ],
+          "explanation": "Anna is driving her car to visit her parents."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What does Anna plan to do with her parents?",
+          "answer": "Spend quality time together",
+          "explanation": "Anna says she plans to spend quality time with her parents."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

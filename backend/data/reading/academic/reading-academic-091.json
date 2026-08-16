@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-091",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Public Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and nature reserves, play a significant role in enhancing the quality of life in densely populated cities. These areas not only provide recreational opportunities for residents but also contribute to physical and mental well-being. Numerous studies have shown that access to green spaces directly correlates with improved public health outcomes, lowering the risks of chronic diseases and mental health disorders.\n\nOne of the primary benefits of urban green spaces is their ability to encourage physical activity. Research indicates that individuals living near parks are more likely to engage in regular exercise, which is essential for maintaining a healthy lifestyle. For instance, a study conducted in a major metropolitan area found that people living within a half-mile radius of a park were 30% more likely to report higher levels of physical activity compared to those living farther away.\n\nMoreover, greenery has a profound psychological impact on city dwellers. Exposure to nature has been linked to reduced stress levels, improved mood, and increased feelings of well-being. Urban green spaces serve as vital sanctuaries that allow people to escape the hustle and bustle of city life, fostering relaxation and social interaction.\n\nNotably, the presence of trees and plants can also mitigate air pollution, improve air quality, and regulate urban temperatures, further promoting health. Cities with abundant green spaces tend to have lower incidences of respiratory issues and heat-related illnesses.\n\nIn light of these benefits, urban planners and policymakers are increasingly recognizing the importance of integrating green spaces into city designs. This shift reflects a growing understanding that public health is intrinsically linked to environmental factors. However, the distribution of green spaces is often uneven, with marginalized communities frequently having less access to these vital resources. To address this disparity, equitable planning efforts must prioritize the development of green spaces in underserved neighborhoods, ensuring that all residents can enjoy the health benefits they provide.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are only beneficial for physical health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces contribute to both physical and mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What percentage more likely are people living near parks to engage in physical activity?",
+          "options": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifies that those living within a half-mile radius of a park were 30% more likely to report higher levels of physical activity."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces contribute to physical activity and reduce risks of __________.",
+          "prompt": "chronic diseases and mental health disorders",
+          "answer": "chronic diseases",
+          "explanation": "The passage indicates that urban green spaces lower the risks of both chronic diseases and mental health disorders."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one psychological benefit of exposure to urban green spaces?",
+          "answer": "reduced stress",
+          "explanation": "The passage mentions that exposure to nature is linked to reduced stress levels."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "All residents have equal access to urban green spaces.",
+          "answer": "false",
+          "explanation": "The passage highlights that marginalized communities often have less access to green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What do urban planners increasingly recognize about urban green spaces?",
+          "options": [
+            "They are unimportant.",
+            "They correlate with public health.",
+            "They are costly to maintain.",
+            "They should be limited."
+          ],
+          "answer": "B",
+          "explanation": "The passage states that planners recognize the importance of green spaces in relation to public health."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Urban planners must prioritize the development of green spaces in __________ communities.",
+          "prompt": "underserved neighborhoods",
+          "answer": "underserved",
+          "explanation": "The passage emphasizes the need for equitable planning efforts in underserved areas."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "Name one way urban greenery can mitigate environmental issues.",
+          "answer": "improve air quality",
+          "explanation": "The passage states that greenery can mitigate air pollution and improve air quality."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

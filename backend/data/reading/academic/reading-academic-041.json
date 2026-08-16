@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-041",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Evolution of Urban Agriculture",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban agriculture has transformed significantly over the last few decades, evolving from traditional community gardens to high-tech vertical farms. This shift is largely driven by the increasing urban population, which has resulted in a greater demand for fresh produce. In urban areas, the concept of food miles has gained attention; the further food travels from farm to table, the more environmental impact it typically has. As a response, urban agriculture seeks to reduce these distances by promoting local food production.  \n\nModern urban farms utilize innovative technologies, such as hydroponics and aquaponics, to maximize space and yield. Hydroponics involves growing plants without soil, using nutrient-rich water, while aquaponics combines fish farming with plant cultivation, creating a symbiotic environment. These methods not only conserve water but also reduce the need for pesticides and fertilizers, offering a more sustainable approach to food production.  \n\nAdditionally, urban agriculture plays a significant role in enhancing food security, particularly in areas where access to fresh food is limited. Initiatives have emerged in cities worldwide, including community-supported agriculture (CSA) programs and rooftop gardens, which provide residents with direct access to fresh, locally-grown produce.  \n\nDespite the benefits, urban agriculture faces challenges such as zoning laws, lack of investment, and community acceptance. Regulations can often hinder the establishment of urban farms, while potential investors may be skeptical about the profitability of such ventures.  \n\nIn conclusion, urban agriculture presents a promising solution for sustainable food production in cities, contributing to environmental conservation and community resilience. Continued support and innovation are essential to address the challenges and fully realize its potential.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban agriculture has remained unchanged for decades.",
+          "answer": "false",
+          "explanation": "The passage states that urban agriculture has transformed significantly over the last few decades."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is a benefit of modern urban farming methods?",
+          "options": [
+            "A) They require more water",
+            "B) They reduce environmental impact",
+            "C) They rely heavily on soil",
+            "D) They increase food miles"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that modern urban farms conserve water and reduce the environmental impact of food production."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban agriculture can enhance __________ in cities.",
+          "prompt": "Urban agriculture can enhance __________ in cities.",
+          "answer": "food security",
+          "explanation": "The passage explicitly states that urban agriculture plays a significant role in enhancing food security."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What are two high-tech methods mentioned in the passage?",
+          "answer": "hydroponics, aquaponics",
+          "explanation": "The passage describes hydroponics and aquaponics as modern urban farming methods."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Community-supported agriculture (CSA) programs offer residents access to fresh produce.",
+          "answer": "true",
+          "explanation": "The passage discusses CSA programs as initiatives providing access to locally-grown produce."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What challenge does urban agriculture face?",
+          "options": [
+            "A) Excessive water usage",
+            "B) Community acceptance",
+            "C) Abundance of land",
+            "D) Overproduction of food"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that community acceptance is one of the challenges urban agriculture faces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Urban farms often utilize __________ technologies to maximize space.",
+          "prompt": "Urban farms often utilize __________ technologies to maximize space.",
+          "answer": "innovative",
+          "explanation": "The passage states that modern urban farms utilize innovative technologies to maximize space and yield."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "Name one factor that has contributed to the rise of urban agriculture.",
+          "answer": "increasing urban population",
+          "explanation": "The passage attributes the rise of urban agriculture to the increasing urban population."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

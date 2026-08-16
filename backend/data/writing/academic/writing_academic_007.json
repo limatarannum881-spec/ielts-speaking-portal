@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Internet Users by Region (2020)",
+      "prompt": "The bar chart illustrates the number of internet users across different regions in the world in the year 2020. From the data provided, it is evident that Asia had the highest number of internet users, totaling over 2.5 billion, while North America had the lowest, with approximately 300 million users. Europe followed closely behind Asia, with around 700 million users. Africa and Latin America also demonstrated significant figures, with approximately 500 million and 400 million users, respectively. The chart clearly indicates a disparity in internet usage among different regions, with Asia leading by a substantial margin. Additionally, the data highlights the growing trend of internet adoption in less developed regions like Africa, where numbers are steadily increasing. Overall, this chart provides important insights into the global digital landscape and the distribution of internet users worldwide.",
+      "chart": {
+        "kind": "bar",
+        "unit": "millions",
+        "data": [
+          {
+            "label": "Asia",
+            "value": 2500
+          },
+          {
+            "label": "Europe",
+            "value": 700
+          },
+          {
+            "label": "North America",
+            "value": 300
+          },
+          {
+            "label": "Africa",
+            "value": 500
+          },
+          {
+            "label": "Latin America",
+            "value": 400
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has increasingly played a crucial role in education. While some argue that technology enhances the learning experience, others believe it may produce adverse effects. Discuss both views and give your opinion. On one hand, proponents of technology in education assert that it provides vast resources and tools that can improve student engagement and facilitate personalized learning. For instance, online platforms allow students to access diverse materials and connect with peers and educators from around the globe. Conversely, critics raise concerns about technology leading to distractions and diminishing interpersonal skills. They argue that an overreliance on technology can result in students lacking critical thinking abilities and face-to-face communication skills. In my opinion, while technology indeed offers valuable advantages, it is essential for educators to strike a balance and ensure it is used as a supplement rather than a replacement for traditional teaching methods. Overall, integrating technology thoughtfully can potentially enrich educational experiences while mitigating its drawbacks."
+    }
+  ]
+}

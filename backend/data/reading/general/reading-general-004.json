@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-004",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Recycling Guidelines",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling is a crucial part of waste management and environmental sustainability. Many local authorities provide guidelines to help residents recycle effectively. However, these guidelines can vary significantly from one area to another. Understanding what materials are accepted can greatly enhance recycling efforts. Typically, common recyclable items include paper, cardboard, certain plastics, glass containers, and metals. It is essential that recyclable materials are clean and dry before being placed in the recycling bins.\n\nIn most communities, residents are encouraged to use designated bins or containers to separate recyclables from general waste. This separation prevents contamination of the recyclable materials, which can lead to entire loads being sent to landfills. For instance, food waste can spoil paper products, making them unrecyclable. Therefore, rinsing out containers and ensuring that no food residue remains is highly advised.\n\nSome areas also offer curbside recycling services, where bins are collected directly from residents' homes. This service often increases the participation rate in recycling programs. In addition, local governments frequently run educational campaigns to inform the public about the benefits of recycling and proper practices.\n\nIt is important to note that not all plastics are recyclable. For example, plastic bags and certain types of plastic containers may need to be taken to specialized recycling facilities, rather than being placed in curbside bins. Residents are encouraged to check the recycling symbols on products to identify if they can be recycled locally.\n\nIn conclusion, understanding local recycling guidelines is essential for effective waste management and environmental conservation. By following these guidelines, residents not only contribute to a cleaner environment but also help reduce the burden on landfills, making a positive impact on their community and the world at large.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Recycling guidelines are the same across all communities.",
+          "answer": "false",
+          "explanation": "The passage states that recycling guidelines can vary significantly from one area to another."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is typically NOT considered a recyclable item?",
+          "options": [
+            "A) Paper",
+            "B) Clean plastic containers",
+            "C) Food waste",
+            "D) Glass bottles"
+          ],
+          "answer": "C",
+          "explanation": "The passage mentions that food waste can spoil recyclable materials, making them unrecyclable."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "To avoid contamination, recyclable materials should be clean and ____ before disposal.",
+          "answer": "dry",
+          "explanation": "The passage states that recyclable materials must be clean and dry before being placed in recycling bins."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What service do some communities offer to help with recycling?",
+          "answer": "curbside recycling services",
+          "explanation": "The passage describes curbside recycling services where bins are collected directly from residents' homes."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Plastic bags are generally accepted in curbside recycling bins.",
+          "answer": "false",
+          "explanation": "The passage mentions that plastic bags may need to be taken to specialized recycling facilities."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is a common reason local governments run educational campaigns?",
+          "options": [
+            "A) To promote new recycling technologies",
+            "B) To inform the public about recycling practices",
+            "C) To increase the variety of waste collected",
+            "D) To reduce the cost of waste management"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that local governments run campaigns to educate the public about the benefits of recycling and proper practices."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

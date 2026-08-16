@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-048",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Influence of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and gardens, have long been recognized for their aesthetic value and role in improving the environment. Recently, however, researchers have been focusing on their impact on mental health. Studies indicate that individuals who regularly spend time in green spaces tend to report lower levels of stress and anxiety compared to those who do not. The presence of nature in urban settings can significantly enhance mood and overall well-being.\n\nSeveral mechanisms have been proposed to explain this phenomenon. Exposure to green environments is associated with increased physical activity, which is known to improve mental health. Furthermore, natural settings can act as a restorative environment, reducing mental fatigue by providing a break from the fast-paced urban lifestyle. The sounds of nature and the visual beauty of plants can also induce feelings of tranquility and happiness, which further contribute to psychological benefits.\n\nA study conducted in a metropolitan area demonstrated that participants who engaged in regular visits to parks reported significant improvements in their mood. Those who were actively involved in gardening found that the physical exertion combined with the nurturing of plants provided a dual benefit—enhancing physical health and boosting emotional states. \n\nThe implications of these findings are profound. City planners are increasingly encouraged to integrate more green spaces into urban development. Such spaces not only enhance the physical landscape but also promote community well-being. In various parts of the world, initiatives to create urban gardens or improve park facilities reflect this understanding. \n\nIn summary, urban green spaces play a pivotal role in promoting mental health, providing numerous benefits that extend beyond mere environmental aesthetics. As urban areas continue to grow, incorporating more nature into our cities is essential for fostering healthier societies.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no effect on physical health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces enhance physical health due to increased physical activity."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one proposed mechanism for the mental health benefits of green spaces?",
+          "options": [
+            "A) Increased noise levels",
+            "B) Physical activity",
+            "C) Urban congestion",
+            "D) High-density living"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that exposure to green environments is associated with increased physical activity, which improves mental health."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "The integration of green spaces into urban planning is seen as a strategy to enhance __________.",
+          "answer": "community well-being",
+          "explanation": "The passage emphasizes the importance of green spaces for promoting community well-being."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of plants are mentioned as beneficial for mental health in the passage?",
+          "answer": "none",
+          "explanation": "The passage does not specify any types of plants."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Gardening is suggested to have physical and emotional health benefits.",
+          "answer": "true",
+          "explanation": "The passage states that gardening provides both physical exertion and emotional benefits."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What do city planners aim to achieve by incorporating green spaces?",
+          "options": [
+            "A) To reduce air pollution",
+            "B) To boost tourism",
+            "C) To foster healthier societies",
+            "D) To increase housing density"
+          ],
+          "answer": "C",
+          "explanation": "The passage highlights the goal of fostering healthier societies through the integration of green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Participants who visited parks reported improvements in their __________.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "mood",
+          "explanation": "The passage states that participants reported significant improvements in their mood."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What environmental element is mentioned as inducing tranquility?",
+          "answer": "sounds of nature",
+          "explanation": "The passage mentions that the sounds of nature can induce feelings of tranquility."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-025",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Public Transportation in Cities",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Public transportation is an essential aspect of urban living, providing an efficient means for residents and visitors to navigate a city. In most metropolitan areas, various forms of public transit, including buses, trains, and trams, cater to the diverse needs of users. The convenience of public transportation not only reduces personal commuting costs but also mitigates traffic congestion and decreases environmental impact by lowering vehicle emissions.\n\nCity planners design public transportation systems to connect key areas such as residential neighborhoods, business districts, and educational institutions. For instance, cities often implement transit maps that detail routes and schedules to simplify the travel process for users. Many public transport systems are also supplemented with mobile applications that provide real-time updates. These apps inform users of arrival times, delays, and potential changes in service, enhancing the overall commuting experience.\n\nSafety and accessibility are paramount in public transportation systems. Most buses and trains are equipped with features like low floors and designated seating to accommodate people with disabilities. Moreover, many cities have adopted measures to ensure safety, such as surveillance cameras in vehicles and transit stations and the presence of security personnel.\n\nFare structures vary across different cities but usually include options like single-ride tickets, day passes, and monthly subscriptions to cater to frequent travelers. Some cities offer discounted rates for seniors, students, and low-income residents, making public transport more inclusive.\n\nTo encourage the use of public transit, many municipalities engage in promotional campaigns that highlight the benefits of public transportation, including the cost savings, reduced carbon footprint, and the opportunity to socialize while commuting. As urban populations continue to grow, the role of public transport in creating sustainable cities becomes increasingly significant.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Public transportation systems are designed only for residents.",
+          "answer": "false",
+          "explanation": "The passage states that public transportation serves both residents and visitors."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of public transportation mentioned in the passage?",
+          "options": [
+            "A. Increased traffic congestion",
+            "B. Higher personal commuting costs",
+            "C. Lower vehicle emissions",
+            "D. Limited accessibility"
+          ],
+          "answer": "C",
+          "explanation": "The passage mentions that public transport decreases environmental impact by lowering vehicle emissions."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. City planners design public transportation systems to connect __________.",
+          "prompt": "...",
+          "answer": "key areas",
+          "explanation": "The passage states that public transportation systems are designed to connect key areas such as neighborhoods and business districts."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of features do public transportation buses typically have for people with disabilities?",
+          "answer": "low floors",
+          "explanation": "The passage mentions that buses are equipped with low floors to accommodate people with disabilities."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "All cities charge the same fare for public transportation.",
+          "answer": "false",
+          "explanation": "The passage indicates that fare structures vary across different cities."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is a feature of public transport apps mentioned in the passage?",
+          "options": [
+            "A. Booking accommodations",
+            "B. Providing real-time updates",
+            "C. Offering discounts",
+            "D. Displaying weather forecasts"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that apps provide real-time updates regarding arrival times and delays."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

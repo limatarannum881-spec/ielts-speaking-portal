@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2023",
+      "prompt": "The bar chart illustrates the market share of several major smartphone manufacturers in 2023. It is evident from the chart that Apple holds the largest market share, followed closely by Samsung and Xiaomi. Specifically, Apple's market share is represented at 40%, while Samsung and Xiaomi account for 30% and 15% respectively. Other companies, including Huawei and OnePlus, make up the remaining 15% of the market. The data suggests a significant concentration of market share among the top three companies, highlighting the competitive landscape of the smartphone industry. The implications of such distribution indicate that brand loyalty plays a crucial role in consumer choices. In contrast, smaller companies face challenges in gaining market presence. Overall, the smartphone market in 2023 appears to prioritize established brands, potentially affecting innovation and competition within the sector.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Apple",
+            "value": 40
+          },
+          {
+            "label": "Samsung",
+            "value": 30
+          },
+          {
+            "label": "Xiaomi",
+            "value": 15
+          },
+          {
+            "label": "Huawei",
+            "value": 10
+          },
+          {
+            "label": "OnePlus",
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work",
+      "prompt": "In recent years, remote work has become increasingly prevalent due to advances in technology and the COVID-19 pandemic. This shift towards working from home has both positive and negative consequences for employees and employers alike. On one hand, remote work offers employees greater flexibility, allowing them to manage their work-life balance more effectively. Additionally, it eliminates commuting time, which can lead to increased productivity and job satisfaction. On the other hand, the lack of face-to-face interaction can result in feelings of isolation and disengagement among employees, which may hinder teamwork and collaboration. For employers, while remote work can reduce overhead costs, it also poses challenges in monitoring employee performance and maintaining company culture. It is essential for organizations to adapt to this new work model by implementing effective communication strategies and fostering a supportive work environment. To what extent do you agree or disagree with the view that remote work is beneficial for both employees and employers?"
+    }
+  ]
+}

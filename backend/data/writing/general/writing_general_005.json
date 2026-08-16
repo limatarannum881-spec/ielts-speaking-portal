@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Water Filtration Process",
+      "prompt": "You are given a diagram illustrating the process of water filtration used in a household water system. The system comprises several stages including the initial sedimentation, activated carbon filtration, and UV treatment. Describe the process in detail, explaining each step and the purpose it serves in ensuring the water is safe for drinking. Begin with the water entering the sedimentation tank where heavier particles settle at the bottom, followed by the water passing through activated carbon filters that remove chlorine and impurities. Finally, detail the UV treatment stage where the water is exposed to ultraviolet light, effectively killing bacteria and viruses. Conclude with the water being stored for use, emphasizing the importance of each stage in maintaining water quality.",
+      "chart": {
+        "kind": "process",
+        "unit": "stages",
+        "data": [
+          {
+            "label": "Sedimentation",
+            "value": 1
+          },
+          {
+            "label": "Activated Carbon Filtration",
+            "value": 2
+          },
+          {
+            "label": "UV Treatment",
+            "value": 3
+          },
+          {
+            "label": "Storage",
+            "value": 4
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work",
+      "prompt": "In recent years, remote work has become increasingly common, especially due to technological advancements and recent global events. While some argue that remote work has numerous advantages for both employers and employees, others believe it poses significant challenges. Discuss both sides of this issue. On one hand, proponents of remote work argue that it offers flexibility, reduces commuting time, and can lead to increased productivity. On the other hand, critics point out potential downsides such as isolation, difficulties in team collaboration, and the blurring of work-life boundaries. In your opinion, what are the most critical factors to consider when evaluating the effects of remote work on individuals and organizations? Provide examples to support your discussion."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-094",
+  "type": "listening",
+  "title": "A Day at the Market",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Anna: Hi Tom, did you manage to visit the farmers' market this weekend?  \nTom: Yes, I did! It was bustling with people. I went early in the morning.  \nAnna: That's great! What did you buy?  \nTom: I got some fresh vegetables, a few fruits, and even a homemade pie!  \nAnna: A pie? That sounds delicious! Was it expensive?  \nTom: Not really, it was only $10. The fruits and vegetables were quite reasonable too.  \nAnna: Did you see anything unusual at the market?  \nTom: Actually, I did. There was a stall selling handmade candles, and they had all sorts of unique scents. I bought a lavender one!  \nAnna: That sounds lovely! Did you talk to any of the vendors?  \nTom: Yes, I spoke to a lady selling organic honey. She was very passionate about her products.  \nAnna: I love local markets. They really bring the community together.  \nTom: Exactly! Plus, it’s a great way to support local farmers and artisans.  \nAnna: I should definitely go next weekend.  \nTom: You should! You'll have a great time!  \n",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What time did Tom go to the farmers' market?",
+          "options": [
+            "A. Afternoon",
+            "B. Early morning",
+            "C. Late morning",
+            "D. Evening"
+          ],
+          "answer": "B",
+          "explanation": "Tom mentioned that he went early in the morning."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Item 1",
+            "Item 2"
+          ],
+          "answer": [
+            "fresh vegetables",
+            "homemade pie"
+          ],
+          "explanation": "Tom listed fresh vegetables and a homemade pie as items he bought at the market."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What unique item did Tom buy at the market?",
+          "answer": "lavender candle",
+          "explanation": "Tom mentioned that he bought a lavender candle from a stall."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

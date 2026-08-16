@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-079",
+  "type": "listening",
+  "title": "Planning a Weekend Hike",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Sarah: Hey Tom, did you finalize the plans for our hike this weekend?  \nTom: Not yet, but I was thinking we could start early Saturday morning. What do you think?  \nSarah: Sounds good! Do we have a trail in mind?  \nTom: I was looking at Pine Ridge Trail. It's about a five-mile loop.  \nSarah: Perfect! Is it suitable for beginners?  \nTom: Yes, it’s mostly flat but has some rocky areas. We’ll need to wear good hiking shoes.  \nSarah: Got it! And what about water and snacks?  \nTom: I think we should bring at least two liters of water each and some trail mix and sandwiches.  \nSarah: Great idea. Should we meet at your place around 7 AM?  \nTom: Yeah, that works. I’ll drive us there.  \nSarah: Awesome! I can’t wait. It’ll be nice to get outdoors and enjoy nature.  \nTom: Definitely, and don’t forget to charge your camera. The views are amazing!  \nSarah: Oh, right! I’ll make sure I do that.  \nTom: Cool, see you then!  \nSarah: See you!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What time do they plan to meet?",
+          "options": [
+            "A) 6 AM",
+            "B) 7 AM",
+            "C) 8 AM",
+            "D) 9 AM"
+          ],
+          "answer": "B",
+          "explanation": "They specifically mention meeting at 7 AM."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Trail Name",
+            "Water Requirement"
+          ],
+          "answer": [
+            "Pine Ridge Trail",
+            "two liters"
+          ],
+          "explanation": "The trail discussed is Pine Ridge Trail, and they agree on needing two liters of water each."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What items did Tom suggest bringing for snacks?",
+          "answer": "Trail mix and sandwiches",
+          "explanation": "Tom suggests bringing trail mix and sandwiches for their hike."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What type of terrain does the Pine Ridge Trail have?",
+          "options": [
+            "A) Very steep",
+            "B) Mostly flat",
+            "C) Completely flat",
+            "D) Difficult"
+          ],
+          "answer": "B",
+          "explanation": "Tom mentions that the trail is mostly flat but has some rocky areas."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Departure Day",
+            "Activity"
+          ],
+          "answer": [
+            "Saturday",
+            "hiking"
+          ],
+          "explanation": "They are planning to go hiking on Saturday."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does Sarah need to remember to charge?",
+          "answer": "Camera",
+          "explanation": "Sarah needs to charge her camera to capture the views."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

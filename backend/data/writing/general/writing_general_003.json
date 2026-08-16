@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "How Coffee is Processed",
+      "prompt": "You should spend about 20 minutes on this task. The diagram below shows the process of how coffee is made from the bean to the cup. Summarize the information by selecting and reporting the main features and make comparisons where relevant. Your answer should be at least 150 words.",
+      "chart": {
+        "kind": "process",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Growing",
+            "value": 1
+          },
+          {
+            "label": "Harvesting",
+            "value": 2
+          },
+          {
+            "label": "Processing",
+            "value": 3
+          },
+          {
+            "label": "Roasting",
+            "value": 4
+          },
+          {
+            "label": "Grinding",
+            "value": 5
+          },
+          {
+            "label": "Brewing",
+            "value": 6
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Impact of Technology on Communication",
+      "prompt": "Modern technology has transformed the way we communicate with each other. While some argue that this has improved human interaction, others believe it has led to a decline in face-to-face communication skills. Discuss both views and give your opinion on whether you think technology has had a positive or negative impact on communication. Your essay should be at least 250 words."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-095",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Dynamics of Urban Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban ecosystems, defined as the interdependent community of living organisms and their environment within a city, have become increasingly significant in recent years. As more than half of the world’s population now resides in urban areas, understanding the dynamics of these ecosystems is crucial for sustainable development. Urban ecosystems are characterized by both their biodiversity and their unique challenges. Unlike natural ecosystems, they often face anthropogenic pressures, such as pollution, habitat destruction, and climate change, which can significantly impact the health of both flora and fauna. \n\nRecent studies highlight the value of green spaces in urban areas, which can enhance biodiversity and improve the quality of life for residents. Parks, gardens, and urban forests provide habitats for various species and serve as essential recreation areas for people. However, the integration of green spaces into urban planning is often hindered by competing land-use demands and economic considerations.\n\nMoreover, urban ecosystems play a vital role in regulating local climates. Trees and vegetation can help mitigate the urban heat island effect, where urban areas become significantly warmer than their rural surroundings. By providing shade and releasing moisture through transpiration, greenery can lower temperatures and improve air quality. \n\nFurthermore, the concept of ‘green infrastructure’ is gaining traction. This term refers to an interconnected network of natural and semi-natural areas designed to manage stormwater, improve air quality, and enhance urban biodiversity. Green roofs, permeable pavements, and rain gardens are examples of such infrastructure, which not only address environmental issues but also promote aesthetic and recreational benefits. \n\nIn conclusion, as cities continue to expand, the need for a deeper understanding of urban ecosystems becomes increasingly urgent. Effective urban planning that integrates ecological principles is essential to fostering biodiversity and improving the resilience of urban areas against environmental changes. The future of urban living depends significantly on how we manage these vital ecosystems.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "More than half of the global population lives in rural areas.",
+          "answer": "false",
+          "explanation": "The passage states that more than half of the world’s population resides in urban areas."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is a key characteristic of urban ecosystems?",
+          "options": [
+            "A) Lower biodiversity",
+            "B) Anthropogenic pressures",
+            "C) Few recreational areas",
+            "D) Natural habitats"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights anthropogenic pressures as significant challenges faced by urban ecosystems."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Green spaces in urban areas are essential for...",
+          "answer": "biodiversity and health",
+          "explanation": "The passage states that parks, gardens, and urban forests enhance biodiversity and quality of life."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What concept refers to an interconnected network of natural areas in cities?",
+          "answer": "green infrastructure",
+          "explanation": "The passage defines 'green infrastructure' as an interconnected network designed to manage urban environmental issues."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban ecosystems have no impact on local climates.",
+          "answer": "false",
+          "explanation": "The passage states that urban ecosystems play a vital role in regulating local climates."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A) Mitigating the heat island effect",
+            "B) Providing habitats for species",
+            "C) Reducing economic competition",
+            "D) Improving air quality"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not mention reducing economic competition as a benefit of urban green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Effective urban planning requires the integration of...",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "ecological principles",
+          "explanation": "The passage states that effective urban planning integrates ecological principles to ensure biodiversity."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "Name one example of green infrastructure mentioned in the passage.",
+          "answer": "green roofs",
+          "explanation": "The passage lists green roofs as an example of green infrastructure designed to address urban environmental issues."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

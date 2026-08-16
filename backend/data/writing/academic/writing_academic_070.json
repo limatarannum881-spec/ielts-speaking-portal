@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Internet Users by Region (2023)",
+      "prompt": "The bar chart illustrates the number of internet users across different regions of the world in 2023. Overall, it can be seen that Asia has the highest number of internet users, followed by Europe and North America. Specifically, Asia boasts approximately 2.5 billion users, which represents around 50% of the global total. Europe comes in second with about 750 million users, accounting for roughly 15%. North America follows closely with around 300 million users, equating to nearly 7%. In comparison, regions such as Africa and Oceania have significantly lower figures, with Africa at around 500 million users and Oceania at just under 100 million. The data highlights a significant disparity in internet access and usage across different regions, reflecting varying levels of technological development and infrastructure.",
+      "chart": {
+        "kind": "bar",
+        "unit": "millions",
+        "data": [
+          {
+            "label": "Asia",
+            "value": 2500
+          },
+          {
+            "label": "Europe",
+            "value": 750
+          },
+          {
+            "label": "North America",
+            "value": 300
+          },
+          {
+            "label": "Africa",
+            "value": 500
+          },
+          {
+            "label": "Oceania",
+            "value": 100
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Impact of Technology on Education",
+      "prompt": "The integration of technology in the educational system has sparked a significant debate among educators and policymakers. On one hand, proponents argue that technology enhances learning experiences and provides students with a wealth of resources that were previously unavailable. For instance, online platforms and educational apps can facilitate personalized learning, allowing students to progress at their own pace. On the other hand, critics contend that over-reliance on technology can lead to a decline in traditional educational values such as critical thinking and interpersonal skills. Moreover, there are concerns about the digital divide, where students from lower socioeconomic backgrounds may lack access to necessary technology, exacerbating inequalities. This essay will explore both sides of the argument and present a balanced view on the impact of technology on education, ultimately suggesting that while technology offers significant advantages, it is crucial to incorporate it in a way that complements traditional educational methods without compromising fundamental learning principles."
+    }
+  ]
+}

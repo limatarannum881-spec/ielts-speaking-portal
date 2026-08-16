@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-011",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Anna: Hey, Matt! Are you free this weekend? I was thinking we could go on a little weekend getaway. What do you think?  \nMatt: That sounds great! Where do you want to go?  \nAnna: I was thinking we could head to the lake. It’s only a couple of hours away.  \nMatt: Nice! Do you want to drive there?  \nAnna: Yeah, I can drive. We can leave early Saturday morning.  \nMatt: Perfect! Should we pack food for the trip?  \nAnna: Definitely! I’ll bring sandwiches and some snacks. How about drinks?  \nMatt: I can take care of the drinks. Maybe some water and soda?  \nAnna: Sounds good. And we should also bring a few games for the evening.  \nMatt: Right, I have a card game we can play!  \nAnna: Awesome! Should we invite Sarah too?  \nMatt: Yeah, she loves outdoor activities!  \nAnna: Okay, I’ll text her and see if she can join us.  \nMatt: Great! I can’t wait for the weekend!  \nAnna: Me too! It’s going to be a lot of fun.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where are Anna and Matt planning to go?",
+          "options": [
+            "A) The beach",
+            "B) The mountains",
+            "C) The lake",
+            "D) A city"
+          ],
+          "answer": "C",
+          "explanation": "They mentioned planning a trip to the lake."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Departure Time"
+          ],
+          "answer": [
+            "lake",
+            "Saturday morning"
+          ],
+          "explanation": "The destination is the lake, and they plan to leave on Saturday morning."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What does Anna plan to bring for food?",
+          "answer": "sandwiches and snacks",
+          "explanation": "Anna mentioned she would bring sandwiches and some snacks."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Who is Matt planning to invite?",
+          "options": [
+            "A) John",
+            "B) Sarah",
+            "C) Mike",
+            "D) Lisa"
+          ],
+          "answer": "B",
+          "explanation": "They discussed inviting Sarah to join them."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Games",
+            "Drink"
+          ],
+          "answer": [
+            "card game",
+            "water"
+          ],
+          "explanation": "Matt mentioned a card game and will bring water."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What time do they plan to leave?",
+          "answer": "early Saturday morning",
+          "explanation": "Anna stated that they can leave early Saturday morning."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

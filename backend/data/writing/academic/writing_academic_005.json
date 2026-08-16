@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2022",
+      "prompt": "The bar chart illustrates the market share of different smartphone brands worldwide in 2022. According to the data, Brand A held the largest portion with 30% of the market, followed by Brand B at 25%, and Brand C with a 20% share. Other brands, namely Brand D and Brand E, accounted for 15% and 10% of the market, respectively. Overall, the chart highlights the dominance of the leading brands in the smartphone industry while showing that smaller companies have a significantly lesser impact on the global market. It is evident that Brand A, with its innovative features and marketing strategies, has managed to attract a considerable customer base, surpassing its competitors. In contrast, the other brands have struggled to maintain a substantial market presence, indicating a competitive environment that favors a few key players.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percent",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 30
+          },
+          {
+            "label": "Brand B",
+            "value": 25
+          },
+          {
+            "label": "Brand C",
+            "value": 20
+          },
+          {
+            "label": "Brand D",
+            "value": 15
+          },
+          {
+            "label": "Brand E",
+            "value": 10
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Social Media on Society",
+      "prompt": "In recent years, social media has become an integral part of people's lives, influencing various aspects of society. While some argue that social media platforms foster meaningful connections and promote the exchange of ideas, others contend that they contribute to negative consequences such as misinformation and decreased face-to-face interactions. Discuss both views and provide your own opinion. In your response, consider the ways in which social media impacts relationships and communication, and whether the benefits outweigh the drawbacks. Reflect on the role of social media in shaping public opinion, its effects on mental health, and its influence on political discourse. Ultimately, it is crucial to evaluate whether social media serves as a force for good or as a detrimental factor in our daily lives."
+    }
+  ]
+}

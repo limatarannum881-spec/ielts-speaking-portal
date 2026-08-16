@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-052",
+  "type": "listening",
+  "title": "Weekend Plans",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Mark, do you have any plans for the weekend?  B: Not yet! I was thinking about catching up on some reading. How about you?  A: I'm considering going hiking if the weather stays nice.  B: That sounds great! Which trail are you thinking of?  A: Probably the one at Blue Ridge Park. I’ve heard it has amazing views.  B: Yes, I’ve heard that too! Do you want some company?  A: Sure! It would be fun to go together.  B: What time do you want to leave?  A: I was thinking around 9 AM. We could pack a picnic lunch.  B: Good idea! I can bring some sandwiches and snacks.  A: Perfect! I’ll take care of the drinks. Do you have a hiking backpack?  B: Yes, I do! I’ll bring that along.  A: Awesome! I’ll text you later to finalize the details.  B: Sounds good. Looking forward to it!  A: Me too! Let’s hope for sunny weather.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is Mark considering doing for the weekend?",
+          "options": [
+            "A. Going hiking",
+            "B. Visiting a museum",
+            "C. Catching up on reading",
+            "D. Watching movies"
+          ],
+          "answer": "C",
+          "explanation": "Mark mentioned he was thinking about catching up on some reading."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Activity",
+            "Time"
+          ],
+          "answer": [
+            "hiking",
+            "9 AM"
+          ],
+          "explanation": "The main activity planned is hiking, and they plan to leave at 9 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What type of food will Mark bring for the hike?",
+          "answer": "sandwiches",
+          "explanation": "Mark said he would bring sandwiches and snacks for their picnic."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Where is the hiking trail they plan to visit?",
+          "options": [
+            "A. Green Valley",
+            "B. Blue Ridge Park",
+            "C. Sunnydale",
+            "D. Mountain Heights"
+          ],
+          "answer": "B",
+          "explanation": "They mentioned the trail at Blue Ridge Park."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Label 1",
+            "Label 2"
+          ],
+          "answer": [
+            "drinks",
+            "picnic lunch"
+          ],
+          "explanation": "They discussed bringing drinks and a picnic lunch."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does A hope for in terms of weather?",
+          "answer": "sunny weather",
+          "explanation": "A expresses hope for sunny weather for their hike."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-063",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Wellbeing",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban areas often experience a lack of natural environments due to extensive development and population density. This deficiency raises concerns regarding the mental health of city dwellers, as studies suggest that access to green spaces can mitigate stress and enhance overall wellbeing. Recent research indicates that individuals living near parks and gardens report lower levels of anxiety and depression compared to those without such access. \n\nThe healing benefits of nature have been acknowledged for centuries, and modern science is beginning to validate these age-old beliefs. A study conducted by the University of Exeter reveals that individuals who spend at least two hours a week in natural settings significantly boost their mental health. This increment in time spent outdoors is linked to a greater sense of happiness and life satisfaction.\n\nMoreover, urban green spaces serve not just as a refuge from the urban hustle, but also as venues for social interaction. Community gardens and recreational parks provide opportunities for residents to engage, fostering social ties that contribute positively to mental health. The social aspect of these spaces is crucial, as isolation can exacerbate feelings of stress and loneliness.\n\nHowever, the design and maintenance of green spaces are critical for maximizing their benefits. Research indicates that well-maintained parks with accessible walking paths, clean environments, and diverse plant life attract more visitors. In contrast, neglected areas can become sites of crime and anti-social behavior, deterring people from using these spaces. Thus, urban planners and policymakers must prioritize the creation and upkeep of green areas as an essential part of urban infrastructure. The intersection of environmental design and public health highlights the importance of integrating nature into our cities, making urban green spaces vital for the mental wellbeing of residents.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Access to green spaces has been linked to increased stress levels.",
+          "answer": "false",
+          "explanation": "The passage states that access to green spaces mitigates stress, implying a negative relationship."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What do studies indicate about individuals living near parks?",
+          "options": [
+            "A) They feel more anxious.",
+            "B) They report lower anxiety levels.",
+            "C) They are less likely to socialize.",
+            "D) They prefer urban environments."
+          ],
+          "answer": "B",
+          "explanation": "The passage explicitly mentions that individuals living near parks report lower levels of anxiety."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Individuals who spend at least ___ in natural settings significantly boost their mental health.",
+          "answer": "two hours",
+          "explanation": "The passage references the importance of spending at least two hours a week in nature."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What can well-maintained parks attract more of?",
+          "answer": "visitors",
+          "explanation": "The passage states that well-maintained parks attract more visitors compared to neglected areas."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Neglected parks can deter people from using these spaces.",
+          "answer": "true",
+          "explanation": "The passage indicates that neglected areas can deter people from visiting them."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What aspect of green spaces is emphasized in the passage?",
+          "options": [
+            "A) Their aesthetic appeal.",
+            "B) Their contribution to social ties.",
+            "C) Their role in biodiversity.",
+            "D) Their economic impact."
+          ],
+          "answer": "B",
+          "explanation": "The passage emphasizes that urban green spaces foster social interaction and ties that benefit mental health."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The integration of nature into cities is vital for the ___ of residents.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "mental wellbeing",
+          "explanation": "The passage concludes by stating that green spaces are vital for the mental wellbeing of residents."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What type of behavior can neglected parks become sites of?",
+          "answer": "crime",
+          "explanation": "The passage mentions that neglected areas can become sites of crime and anti-social behavior."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Changes in the Population of Five Countries from 2000 to 2020",
+      "prompt": "The bar chart illustrates the population changes in five countries—Country A, Country B, Country C, Country D, and Country E—over a 20-year period from 2000 to 2020. Overall, it is evident that Country A experienced significant growth, while Country D saw a decrease in its population. In 2000, Country A had a population of approximately 50 million, which rose to around 70 million by 2020. Country B also witnessed an increase, from about 30 million to 45 million during the same period. Conversely, Country C's population fluctuated slightly, starting at 25 million and ending at 30 million. Country D, however, declined from 40 million to around 35 million, while Country E's population remained relatively stable at around 20 million. This data suggests varying trends in population dynamics across the five countries over two decades.",
+      "chart": {
+        "kind": "bar",
+        "unit": "million",
+        "data": [
+          {
+            "label": "Country A",
+            "value": 70
+          },
+          {
+            "label": "Country B",
+            "value": 45
+          },
+          {
+            "label": "Country C",
+            "value": 30
+          },
+          {
+            "label": "Country D",
+            "value": 35
+          },
+          {
+            "label": "Country E",
+            "value": 20
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "Technological advancements have profoundly influenced various aspects of our lives, especially in the realm of education. While some argue that technology has significantly improved educational outcomes, others maintain that it has introduced several challenges. Discuss both views and provide your own opinion. In your response, consider the advantages that technology brings to learning, such as increased access to resources and interactive learning experiences. However, also explore the disadvantages, including distractions stemming from excessive screen time and the potential for reduced face-to-face interactions. Ultimately, reflect on how these factors shape the educational landscape in contemporary society."
+    }
+  ]
+}

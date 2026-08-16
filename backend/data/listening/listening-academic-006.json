@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-006",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emma: Hey Jake, have you thought about what we should do this weekend? \nJake: I was thinking we could go hiking. The weather looks perfect for it! \nEmma: That sounds great! Do you have a specific trail in mind? \nJake: Yes, I found one that’s about five miles near the lake. It has some beautiful views. \nEmma: Awesome! Do we need to bring anything special? \nJake: Just the usual snacks and water, but maybe we should also pack a first-aid kit, just in case. \nEmma: Good idea! What time do you want to leave? \nJake: How about 8 AM? That way, we can avoid the heat later in the day. \nEmma: Sounds perfect. I can bring the sandwiches and drinks! \nJake: Great! I’ll handle the hiking gear then. Can't wait! \nEmma: Same here! It's going to be such a fun adventure! ",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What activity are Emma and Jake planning for the weekend?",
+          "options": [
+            "A) Going to the beach",
+            "B) Hiking",
+            "C) Visiting a museum",
+            "D) Camping"
+          ],
+          "answer": "B",
+          "explanation": "They are discussing hiking as their weekend activity."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Trail Distance",
+            "Departure Time"
+          ],
+          "answer": [
+            "five miles",
+            "8 AM"
+          ],
+          "explanation": "The trail they plan to hike is five miles long, and they plan to leave at 8 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What should they pack for safety?",
+          "answer": "first-aid kit",
+          "explanation": "Jake suggests packing a first-aid kit for safety."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

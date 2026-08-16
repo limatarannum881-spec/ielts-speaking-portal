@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-064",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Tom: Hey, Sarah! Have you thought about where we should go for our weekend trip?  \nSarah: I was thinking we could visit the lake. It’s supposed to be really nice this time of year.  \nTom: That sounds great! Do you think we should take a tent or just stay in a cabin?  \nSarah: I prefer a cabin. It’ll be more comfortable, and we won’t have to worry about the weather.  \nTom: Good point. Should we book it now?  \nSarah: Yes, let's check online. I think there’s a site called Lakeview Cabins that has good options.  \nTom: Excellent! Do you remember how much we spent last time?  \nSarah: I believe it was around two hundred dollars for the weekend.  \nTom: For both of us?  \nSarah: Yes, that included food as well.  \nTom: Alright, let’s budget for something similar this time.  \nSarah: Sounds like a plan! We should also think about what activities we want to do there.  \nTom: Right! I’d love to go hiking and maybe do some fishing too.  \nSarah: Perfect! I can bring my fishing gear.  \nTom: That sounds fantastic! I’m really looking forward to it!  \nSarah: Me too! Let’s finalize the details later today.  \n",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What destination do Tom and Sarah plan to visit?",
+          "options": [
+            "A) A mountain",
+            "B) A beach",
+            "C) A lake",
+            "D) A city"
+          ],
+          "answer": "C",
+          "explanation": "They specifically mention visiting the lake."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Accommodation Type",
+            "Budget"
+          ],
+          "answer": [
+            "cabin",
+            "two hundred"
+          ],
+          "explanation": "They decide to stay in a cabin and budget around two hundred dollars."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What activities do Tom and Sarah plan to do at the lake?",
+          "answer": "hiking and fishing",
+          "explanation": "Tom mentions he would love to go hiking and fishing."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

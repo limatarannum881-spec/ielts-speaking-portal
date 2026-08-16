@@ -1,0 +1,57 @@
+{
+  "id": "reading-general-021",
+  "type": "reading",
+  "version": "general",
+  "title": "The Importance of Recycling in Urban Areas",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling has become a crucial practice in urban environments, where the density of population leads to significant waste generation. Not only does recycling help in reducing the amount of waste sent to landfills, but it also conserves natural resources and reduces pollution. In cities, where space is limited, managing waste effectively is essential for sustainability. Recycling programs vary significantly across different urban areas, often influenced by local policies and community awareness. For example, some cities have implemented single-stream recycling, which allows residents to place all recyclables in one bin, making the process easier and more efficient. On the other hand, other cities still rely on multiple bins for different materials, which can be more complicated but may enhance sorting quality. Community education plays a vital role in the success of recycling initiatives. Programs that inform residents about what can and cannot be recycled help reduce contamination rates in recycling bins. Additionally, many urban centers have introduced incentives for households that actively participate in recycling, such as reduced waste collection fees or rewards points redeemable for local goods. However, despite these efforts, challenges remain. Contaminated materials often find their way into recycling streams, leading to increased processing costs and sometimes causing entire batches of recyclables to be sent to landfills instead of being processed into new products. As cities continue to grow, the importance of recycling will only increase. By making informed decisions about waste management and participating in recycling programs, residents can contribute to a cleaner environment and a more sustainable future.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Recycling helps to increase the amount of waste sent to landfills.",
+          "answer": "false",
+          "explanation": "The passage states that recycling helps reduce the amount of waste sent to landfills."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the benefits of single-stream recycling?",
+          "options": [
+            "A) It requires more bins.",
+            "B) It simplifies the recycling process.",
+            "C) It increases pollution.",
+            "D) It decreases natural resources."
+          ],
+          "answer": "B",
+          "explanation": "Single-stream recycling simplifies the recycling process by allowing all recyclables to be placed in one bin."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Community education is important to reduce ____ in recycling bins.",
+          "answer": "contamination rates",
+          "explanation": "The text specifies that community education helps reduce contamination rates in recycling bins."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What incentive is mentioned for households that participate in recycling?",
+          "answer": "reduced waste collection fees",
+          "explanation": "The passage mentions that some urban centers provide reduced waste collection fees for households that actively participate in recycling."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

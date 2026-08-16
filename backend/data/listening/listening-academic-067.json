@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-067",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Tom: Hey Sarah, have you thought about our weekend getaway yet?  \nSarah: Yeah, I was thinking we could head to the mountains. It would be nice to escape the city for a bit.  \nTom: That sounds great! Do you have any specific place in mind?  \nSarah: I heard about a cozy cabin near Lakeview. It has a beautiful view and some hiking trails nearby.  \nTom: Perfect! How do we get there?  \nSarah: It’s about a two-hour drive from here. We could leave early Saturday morning.  \nTom: Sounds good. Should we bring any food or drinks along?  \nSarah: Definitely! I can pack some sandwiches and snacks for the road.  \nTom: And maybe we can stop by the local market on the way for fresh fruits and drinks?  \nSarah: Great idea! I also want to bring some board games for the evening.  \nTom: I’ll bring my guitar too. We can have a little music session by the fire.  \nSarah: That will be so much fun! Let’s finalize the plan later this week.  \nTom: Agreed! I'm really looking forward to it.  \nSarah: Me too! It will be a nice break.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where does Sarah suggest they go for the weekend?",
+          "options": [
+            "A) The beach",
+            "B) The mountains",
+            "C) The forest",
+            "D) The city"
+          ],
+          "answer": "B",
+          "explanation": "Sarah suggests going to the mountains for their weekend getaway."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Departure Time"
+          ],
+          "answer": [
+            "Lakeview Cabin",
+            "Saturday morning"
+          ],
+          "explanation": "The destination is the Lakeview Cabin, and they plan to leave Saturday morning."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What will Sarah pack for the road?",
+          "answer": "Sandwiches and snacks",
+          "explanation": "Sarah mentions packing sandwiches and snacks for their trip."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does Tom plan to bring?",
+          "options": [
+            "A) A book",
+            "B) A guitar",
+            "C) A fishing rod",
+            "D) A camera"
+          ],
+          "answer": "B",
+          "explanation": "Tom plans to bring his guitar for a music session."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "What type of games does Sarah want to take?",
+          "fields": [
+            "Game Type"
+          ],
+          "answer": [
+            "Board games"
+          ],
+          "explanation": "Sarah wants to bring board games for entertainment."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "How long is the drive to their destination?",
+          "answer": "Two hours",
+          "explanation": "The conversation states that it is about a two-hour drive to the cabin."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

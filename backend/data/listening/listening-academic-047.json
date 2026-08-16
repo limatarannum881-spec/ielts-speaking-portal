@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-047",
+  "type": "listening",
+  "title": "Planning a Community Garden",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Megan: Hey Alex, have you thought about our idea for the community garden? I think it could really bring everyone together.  \nAlex: Yes, I have! I love the idea, but we need to discuss the location first. What do you think about the park by the library?  \nMegan: That sounds great! It has enough sunlight and space for the plants.  \nAlex: Exactly! We also need to consider what types of plants we want to grow. Should we focus on vegetables or flowers?  \nMegan: I think a mix of both would attract more community members. We could have some herbs and vegetables for cooking too.  \nAlex: Good idea! We should also think about organizing workshops. People could learn gardening skills while contributing to the garden.  \nMegan: Absolutely! If we can plan for a monthly workshop, it could keep everyone engaged. Plus, we could have a small market at the end of the season to sell the produce.  \nAlex: I love that plan! Let's set a date for our first meeting to gather more volunteers.  \nMegan: Sounds perfect! I'll create a flyer to distribute around the neighborhood.  \nAlex: Great! This will be awesome. I can't wait to get started!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where do Megan and Alex suggest to place the community garden?",
+          "options": [
+            "A) Behind the school",
+            "B) At the park by the library",
+            "C) Next to the community center",
+            "D) In Megan's backyard"
+          ],
+          "answer": "B",
+          "explanation": "They specifically mention the park by the library as a suitable location."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "First Workshop Date"
+          ],
+          "answer": [
+            "park by the library",
+            "monthly"
+          ],
+          "explanation": "The location is confirmed as the park by the library, and they plan to hold workshops monthly."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What types of plants do Megan and Alex decide to grow?",
+          "answer": "A mix of vegetables and flowers",
+          "explanation": "They agree that a combination of both would attract more community members."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What additional activity do they plan to organize?",
+          "options": [
+            "A) A cooking class",
+            "B) Workshops",
+            "C) A cleanup event",
+            "D) A picnic"
+          ],
+          "answer": "B",
+          "explanation": "They discuss organizing workshops to teach gardening skills."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Market Type"
+          ],
+          "answer": [
+            "small market"
+          ],
+          "explanation": "They mention having a small market at the end of the season to sell produce."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What will Megan create to promote the garden project?",
+          "answer": "A flyer",
+          "explanation": "Megan says she will create a flyer to distribute around the neighborhood."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-051",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Alice: Hey, Mark! Have you thought about our weekend getaway? I’m really excited!  \nMark: Yes! I was thinking we could go to the lake. It’s supposed to be beautiful this time of year.  \nAlice: That sounds great. Do we need to book a cabin?  \nMark: I checked online, and there are a few available. We can get one that has a nice view of the water.  \nAlice: Perfect! How many people are we inviting?  \nMark: I was thinking just the four of us – you, me, Sarah, and Tom. It’ll be cozy that way.  \nAlice: Agreed! Are we bringing any food or cooking there?  \nMark: I suggest we prepare some meals at the cabin. We can buy groceries on the way.  \nAlice: Good idea! Should we plan any activities, like hiking or fishing?  \nMark: Definitely! I heard the hiking trails around there are stunning. We should check out the fishing spots too.  \nAlice: Sounds like a perfect weekend! Let's finalize the details tonight.  \nMark: Yeah, I’ll create a list of what we need.  \nAlice: Great! I can't wait to relax by the lake.  \nMark: Me too!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What location do Alice and Mark plan to visit for their weekend getaway?",
+          "options": [
+            "A) The mountains",
+            "B) The beach",
+            "C) The lake",
+            "D) The forest"
+          ],
+          "answer": "C",
+          "explanation": "Alice and Mark discussed going to the lake for their getaway."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Accommodation Type",
+            "Activity"
+          ],
+          "answer": [
+            "cabin",
+            "hiking"
+          ],
+          "explanation": "They plan to stay in a cabin and mentioned hiking as an activity."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "How many people are invited for the getaway?",
+          "answer": "Four",
+          "explanation": "Alice and Mark mentioned inviting four people in total."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

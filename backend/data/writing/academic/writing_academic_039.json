@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Monthly Expenditure of a Household",
+      "prompt": "The bar chart illustrates the monthly expenditure of a household in various categories for the year 2022. The categories include food, housing, transportation, healthcare, and entertainment. Overall, it can be observed that housing and food constitute the largest portions of the household budget. Specifically, food expenses accounted for 30% of the total monthly expenditure, while housing costs made up 35%. Transportation and healthcare were less significant, with transportation costs at 15% and healthcare at 10%. Lastly, entertainment expenses represented the smallest share at 10%. This data suggests that households prioritize essential living expenses, with a notable focus on securing shelter and nutrition. In conclusion, the bar chart provides a clear overview of how households allocate their financial resources across different needs, highlighting the importance of food and housing in everyday life.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Food",
+            "value": 30
+          },
+          {
+            "label": "Housing",
+            "value": 35
+          },
+          {
+            "label": "Transportation",
+            "value": 15
+          },
+          {
+            "label": "Healthcare",
+            "value": 10
+          },
+          {
+            "label": "Entertainment",
+            "value": 10
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "In today's world, technology has significantly transformed the way we communicate. While some argue that this shift has brought about several advantages, others believe it has detrimental effects. Discuss both views and give your opinion. On one hand, supporters of technological advancements in communication argue that it has made connecting with others much easier and faster. With the advent of instant messaging and social media platforms, people can communicate across vast distances in real-time. This not only fosters relationships but also facilitates collaboration in professional settings. On the other hand, detractors point out that reliance on technology can erode face-to-face interactions. They argue that online communication lacks the emotional depth and non-verbal cues present in personal conversations, which can lead to misunderstandings and a sense of isolation. In my opinion, while technology has undeniably enhanced communication convenience, it is crucial to maintain a balance. Engaging in direct interactions remains essential for building strong, meaningful relationships. Therefore, I believe that leveraging technology should complement, rather than replace, traditional forms of communication."
+    }
+  ]
+}

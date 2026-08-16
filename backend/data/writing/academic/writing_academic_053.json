@@ -1,0 +1,84 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Fruit Consumption in Five Different Countries",
+      "prompt": "The bar chart illustrates the average consumption of three types of fruit (apples, bananas, and cherries) in five different countries (USA, UK, France, Germany, and Italy) in the year 2022 (measured in kilograms per person). Overall, it can be seen that apples were the most consumed fruit across all countries except for Italy, where bananas took the lead. In the USA, the average consumption of apples was approximately 10 kg, which was significantly higher than the consumption of bananas at around 5 kg and cherries at about 3 kg. The UK displayed a similar pattern with apples topping at around 9 kg, while bananas and cherries accounted for 4 kg and 2 kg respectively. France showed more balanced preferences with apples at 7 kg, bananas at 6 kg, and cherries at 5 kg. In Germany, people preferred cherries the most, with an average consumption of 6 kg, while apples and bananas were less favored. Italy diverged from the trend, leading in banana consumption at 12 kg, while apples and cherries were around 6 kg and 4 kg respectively. This data provides a clear comparison of fruit consumption trends in these countries.",
+      "chart": {
+        "kind": "bar",
+        "unit": "kg per person",
+        "data": [
+          {
+            "label": "USA - Apples",
+            "value": 10
+          },
+          {
+            "label": "USA - Bananas",
+            "value": 5
+          },
+          {
+            "label": "USA - Cherries",
+            "value": 3
+          },
+          {
+            "label": "UK - Apples",
+            "value": 9
+          },
+          {
+            "label": "UK - Bananas",
+            "value": 4
+          },
+          {
+            "label": "UK - Cherries",
+            "value": 2
+          },
+          {
+            "label": "France - Apples",
+            "value": 7
+          },
+          {
+            "label": "France - Bananas",
+            "value": 6
+          },
+          {
+            "label": "France - Cherries",
+            "value": 5
+          },
+          {
+            "label": "Germany - Apples",
+            "value": 4
+          },
+          {
+            "label": "Germany - Bananas",
+            "value": 4
+          },
+          {
+            "label": "Germany - Cherries",
+            "value": 6
+          },
+          {
+            "label": "Italy - Apples",
+            "value": 6
+          },
+          {
+            "label": "Italy - Bananas",
+            "value": 12
+          },
+          {
+            "label": "Italy - Cherries",
+            "value": 4
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Online Learning",
+      "prompt": "In recent years, online learning has gained significant popularity as a mode of education. While some argue that this trend offers various benefits, others believe it poses serious drawbacks. Discuss both views and give your own opinion. On one hand, proponents of online learning point out its flexibility and accessibility. Students can learn at their own pace and access education from anywhere in the world, making it possible for those in remote areas or with disabilities to receive quality instruction. Furthermore, online platforms often provide a wide range of resources and interactive materials that can enhance the learning experience. On the other hand, critics argue that online learning lacks the personal interaction found in traditional classroom settings, which can hinder social development and lead to feelings of isolation among students. Additionally, the effectiveness of online education may be compromised by technological challenges and the need for self-discipline in learners. In conclusion, while online learning offers considerable advantages in terms of convenience and accessibility, it also presents challenges that cannot be overlooked. In my opinion, a blended approach that combines both online and traditional methods may be the most effective way to cater to diverse learning needs."
+    }
+  ]
+}

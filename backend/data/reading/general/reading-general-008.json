@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-008",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Community Centers",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Community centers play a vital role in the fabric of local neighborhoods. These spaces are designed to serve the diverse needs of residents, offering a variety of programs that encourage social interaction, personal development, and community cohesion. Most community centers provide facilities for recreational activities such as sports, arts, and crafts, and may also include meeting rooms, kitchens, and even libraries or computer labs.  \n\nIn many towns, community centers serve as hubs for educational programming and workshops. These might include computer literacy classes, language courses, and health seminars aimed at promoting wellness in the community. Often partnering with local schools and organizations, community centers strive to offer resources that empower individuals and families.  \n\nAnother critical aspect of community centers is their role in fostering volunteerism. Many organizations rely on community center volunteers to help run events and programs, creating a sense of ownership among residents. This not only bolsters community spirit but also allows participants to gain valuable skills and experience that may be beneficial in their professional lives.  \n\nCommunity centers also often host cultural events and celebrations, recognizing the rich diversity within neighborhoods. From festivals celebrating local heritage to workshops highlighting various art forms, these events provide opportunities for cultural exchange and understanding.  \n\nDespite their many benefits, community centers face challenges such as funding cuts and limited resources. As budgets shrink, it's essential for community members to advocate for their centers to ensure they remain vibrant parts of the community. The continued support of residents is crucial for the survival and enhancement of services these centers provide.  \n\nIn conclusion, community centers are invaluable resources that contribute to the social and cultural life of neighborhoods. They offer a place for residents to gather, learn, and grow together, fostering a stronger sense of community. To keep these centers thriving, ongoing engagement from community members and local leaders is essential.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Community centers only provide recreational activities.",
+          "answer": "false",
+          "explanation": "The passage states that community centers provide a variety of programs, including educational and cultural activities."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the main roles of community centers?",
+          "options": [
+            "A) To serve as a venue for private parties",
+            "B) To support education and wellness",
+            "C) To house government offices",
+            "D) To provide long-term housing"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights educational programming and wellness seminars as significant roles of community centers."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Community centers rely heavily on ____________ to help run events and programs.",
+          "prompt": "Community centers rely heavily on ____________",
+          "answer": "volunteers",
+          "explanation": "The passage mentions that volunteerism is a critical aspect of community centers."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do community centers often partner with to provide educational programs?",
+          "answer": "local schools",
+          "explanation": "The text indicates that community centers partner with local schools to offer various educational resources."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Cultural events at community centers typically only reflect one heritage.",
+          "answer": "false",
+          "explanation": "The passage states that community centers host events recognizing the rich diversity within neighborhoods."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is a significant challenge faced by community centers?",
+          "options": [
+            "A) Lack of interest from community members",
+            "B) Funding cuts",
+            "C) Overcrowding",
+            "D) Too many volunteers"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions funding cuts as a challenge facing community centers."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

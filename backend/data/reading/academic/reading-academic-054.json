@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-054",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and forests, offer more than just aesthetic appeal; they provide significant mental health benefits to city dwellers. Research has shown that access to these green environments can reduce levels of stress, anxiety, and depression. A study conducted by the University of Exeter found that individuals who spent at least two hours a week in natural environments reported better mental well-being than those who did not.\n\nThe mechanisms behind these benefits are multifaceted. Spending time in green spaces has been found to lower cortisol levels, which is the hormone associated with stress. Furthermore, exposure to nature promotes physical activity, which in turn releases endorphins that enhance mood. The presence of greenery also encourages social interaction, allowing individuals to connect with others, which is crucial for mental health.\n\nMoreover, urban green spaces contribute to the overall quality of life in cities. They provide a refuge from the bustling urban environment and can serve as venues for recreational activities. Cities with ample green space tend to attract visitors and residents alike, contributing to economic vitality.\n\nDespite these benefits, urbanization often leads to the destruction of natural habitats. Governments and city planners face the challenge of balancing development with the preservation and creation of green spaces. Initiatives such as community gardens and rooftop parks are gaining popularity in urban areas to counteract this trend and enhance residents' well-being.\n\nOverall, the integration of green spaces into urban planning is not merely an aesthetic choice but a vital component of public health strategy. As cities continue to expand, prioritizing these areas could lead to healthier, happier populations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on stress levels.",
+          "answer": "false",
+          "explanation": "The passage states that access to green spaces can reduce levels of stress."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What did the University of Exeter study focus on?",
+          "options": [
+            "A) Economic benefits of urban parks",
+            "B) Mental well-being related to natural environments",
+            "C) Wildlife in urban areas",
+            "D) Urbanization effects on biodiversity"
+          ],
+          "answer": "B",
+          "explanation": "The study highlighted in the passage is about mental well-being in relation to natural environments."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Spending time in green spaces lowers _____ levels.",
+          "answer": "cortisol",
+          "explanation": "The passage states that spending time in green spaces lowers cortisol levels, which are associated with stress."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "Name one type of urban green space mentioned in the passage.",
+          "answer": "parks",
+          "explanation": "The passage mentions parks as a type of urban green space."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Economic vitality is positively affected by urban green spaces.",
+          "answer": "true",
+          "explanation": "The passage indicates that cities with ample green space tend to attract visitors and contribute to economic vitality."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What do community gardens and rooftop parks aim to achieve?",
+          "options": [
+            "A) To destroy urban habitats",
+            "B) To enhance residents’ well-being",
+            "C) To increase urbanization",
+            "D) To limit social interaction"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that such initiatives are aimed at enhancing residents' well-being."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Green spaces encourage _____ interaction among individuals.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "social",
+          "explanation": "The passage mentions that greenery encourages social interaction."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is a vital component of public health strategy according to the passage?",
+          "answer": "integration of green spaces",
+          "explanation": "The passage suggests that integrating green spaces is crucial for public health strategy in cities."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

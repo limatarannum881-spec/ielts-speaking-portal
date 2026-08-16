@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-042",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recent studies have demonstrated a significant correlation between urban green spaces and mental health outcomes. As urbanization increases, cities around the world are becoming more crowded and less conducive to relaxation and mental wellness. However, researchers argue that integrating parks, gardens, and other green areas into urban planning can greatly benefit the psychological well-being of city inhabitants.\n\nThe presence of greenery in urban environments has been linked to lower levels of stress, anxiety, and depression. A study conducted by scientists at the University of Queensland found that individuals who spent at least 30 minutes a week in green spaces reported improved mood and lower stress levels. Furthermore, green spaces provide not only aesthetic benefits but also promote physical activity, which is crucial for maintaining mental health.\n\nResearchers have observed that access to nature helps to foster social interaction, a critical component of mental health. Parks and gardens serve as social hubs where individuals can meet, exercise, and participate in community activities. Engaging with the natural environment can lead to an increase in feelings of belonging and community cohesion, which are essential for psychological well-being.\n\nIn contrast, the absence of green spaces can contribute to what is referred to as 'nature deficit disorder,' a term coined to describe the behavioral problems that arise when people, particularly children, are disconnected from nature. Urban areas often lack adequate green spaces, leading to increased feelings of isolation and stress among residents.\n\nExperts recommend that city planners prioritize the creation and maintenance of urban green spaces to enhance residents' mental health. This includes designing multifunctional green areas that can accommodate recreational activities, community events, and serene spaces for relaxation. The challenge lies in balancing urban development with the preservation and enhancement of nature, but the potential benefits for mental health make it a worthy pursuit.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on mental health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces have a significant positive impact on mental health."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of spending time in green spaces according to the University of Queensland study?",
+          "options": [
+            "A) Increased stress",
+            "B) Improved mood",
+            "C) Reduced physical activity",
+            "D) Enhanced isolation"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that individuals who spend time in green spaces report improved mood."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. The term 'nature deficit disorder' refers to ________.",
+          "prompt": "the behavioral problems caused by a lack of connection to nature.",
+          "answer": "nature deficit disorder",
+          "explanation": "The passage defines 'nature deficit disorder' as behavioral problems arising from disconnection from nature."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do experts recommend city planners prioritize to enhance residents' mental health?",
+          "answer": "urban green spaces",
+          "explanation": "Experts recommend prioritizing the creation and maintenance of urban green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Green spaces only provide aesthetic benefits.",
+          "answer": "false",
+          "explanation": "The passage mentions that green spaces also promote physical activity and social interaction."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is one factor that urban green spaces help foster?",
+          "options": [
+            "A) Isolation",
+            "B) Community interaction",
+            "C) Stress levels",
+            "D) Pollution"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that green spaces help foster social interaction, which is important for mental health."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. The challenge for city planners is to balance urban development with ________.",
+          "prompt": "the preservation of nature.",
+          "answer": "preservation of nature",
+          "explanation": "The passage states that a challenge for city planners is balancing development with nature preservation."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What does the passage suggest about parks and gardens in urban environments?",
+          "answer": "They serve as social hubs.",
+          "explanation": "The passage states that parks and gardens provide social spaces for interactions and community activities."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

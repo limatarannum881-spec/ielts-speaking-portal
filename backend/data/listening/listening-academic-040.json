@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-040",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Sarah, do you have any plans for the weekend?  B: Not really. I was thinking about just relaxing at home.  A: That sounds nice, but what if we went on a weekend getaway instead?  B: That could be fun! Do you have a place in mind?  A: I was thinking about the beach. It's only a couple of hours away.  B: The beach sounds great! What should we pack?  A: We’ll definitely need swimsuits, sunscreen, and maybe some beach towels.  B: Should we bring food too?  A: Absolutely! I can make some sandwiches and snacks. We could have a picnic on the beach.  B: I love that idea. What time do you want to leave?  A: I thought we could leave early, around 7 AM.  B: Perfect! That way we can enjoy the whole day.  A: Do you have a beach umbrella?  B: Yes, I do. I'll bring it along.  A: Great! This is going to be an amazing trip.  B: I can’t wait!  A: Let's finalize everything tonight.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What does A suggest they do for the weekend?",
+          "options": [
+            "A) Stay home",
+            "B) Go to a movie",
+            "C) Plan a getaway",
+            "D) Visit friends"
+          ],
+          "answer": "C",
+          "explanation": "A suggests going on a weekend getaway instead of staying home."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "Departure Time"
+          ],
+          "answer": [
+            "the beach",
+            "7 AM"
+          ],
+          "explanation": "The location they plan to visit is the beach, and they want to leave at 7 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What will A prepare for their trip?",
+          "answer": "Sandwiches and snacks",
+          "explanation": "A mentions making sandwiches and snacks for their picnic at the beach."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What item does B mention bringing?",
+          "options": [
+            "A) Towels",
+            "B) Sunscreen",
+            "C) Beach umbrella",
+            "D) Sunglasses"
+          ],
+          "answer": "C",
+          "explanation": "B confirms that they will bring a beach umbrella."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Activity",
+            "Time"
+          ],
+          "answer": [
+            "Picnic",
+            "All day"
+          ],
+          "explanation": "They plan to have a picnic and enjoy the whole day at the beach."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "When do they plan to finalize everything?",
+          "answer": "Tonight",
+          "explanation": "A suggests finalizing all the plans tonight."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

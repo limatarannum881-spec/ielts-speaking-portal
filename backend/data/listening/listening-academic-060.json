@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-060",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Mike: Hey Sarah, are you excited about our weekend trip to the mountains?  \nSarah: Absolutely! I’ve been looking forward to it for weeks. Do you remember what time we planned to leave?  \nMike: I think we said around 8 AM. That way we can beat the traffic.  \nSarah: Good idea! And do you have the list of items we need to pack?  \nMike: Yes, I have it right here. We need to bring enough food, water, and the camping gear.  \nSarah: Right! I can handle the food. What do you think we should bring?  \nMike: I suggest sandwiches, snacks, and some fruits.  \nSarah: Sounds perfect! Should we also bring a portable stove?  \nMike: Great idea! We can cook dinner there.  \nSarah: And don’t forget the marshmallows for roasting!  \nMike: Of course! Let’s also pack some music to enjoy around the campfire.  \nSarah: Good thinking! I can’t wait to relax and enjoy nature.  \nMike: Me too! It’s going to be an amazing getaway.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What time do Mike and Sarah plan to leave?",
+          "options": [
+            "A. 7 AM",
+            "B. 8 AM",
+            "C. 9 AM",
+            "D. 10 AM"
+          ],
+          "answer": "B",
+          "explanation": "They planned to leave around 8 AM to avoid traffic."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Food Items",
+            "Camping Gear"
+          ],
+          "answer": [
+            "sandwiches",
+            "portable stove"
+          ],
+          "explanation": "They discussed packing sandwiches for food and a portable stove for cooking."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What do they plan to do around the campfire?",
+          "answer": "roast marshmallows",
+          "explanation": "Sarah mentioned not to forget the marshmallows for roasting around the campfire."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

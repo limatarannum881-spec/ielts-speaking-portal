@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Water Consumption in Different Countries",
+      "prompt": "The bar chart illustrates the annual water consumption (in cubic meters) per person in five different countries: India, China, the United States, Brazil, and Germany for the year 2021. Overall, it is evident that water consumption varies significantly across these countries. The United States leads with approximately 1,500 cubic meters per person, followed by Brazil, where individuals consume around 1,200 cubic meters. In contrast, India and China show much lower figures, with annual per capita consumption recorded at about 700 and 600 cubic meters respectively. Germany's water consumption stands at around 900 cubic meters. Notably, the differences in water usage could be attributed to factors such as industrial usage, agricultural requirements, and climate conditions. The data suggests a clear disparity in water resource management and availability among these nations, with developed countries generally consuming more water than those in the developing category.",
+      "chart": {
+        "kind": "bar",
+        "unit": "cubic meters",
+        "data": [
+          {
+            "label": "India",
+            "value": 700
+          },
+          {
+            "label": "China",
+            "value": 600
+          },
+          {
+            "label": "United States",
+            "value": 1500
+          },
+          {
+            "label": "Brazil",
+            "value": 1200
+          },
+          {
+            "label": "Germany",
+            "value": 900
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, technology has transformed the educational landscape, with many arguing that it brings both significant benefits and certain drawbacks. On one hand, technology enhances learning experiences through interactive tools, access to information, and personalized education plans. Digital platforms enable students to collaborate across the globe, fostering a sense of community and diverse perspectives. Additionally, online resources allow for flexible learning opportunities, accommodating various learning styles and paces. On the other hand, some critics of technology in education argue that it can lead to distractions, reduce face-to-face interactions, and even hinder critical thinking skills. There are also concerns regarding inequities in access to technology, potentially widening the gap between different socio-economic groups. In conclusion, while technology undeniably offers valuable tools for enhancing education, it is crucial to address its challenges to ensure that it serves as a positive force in learning."
+    }
+  ]
+}

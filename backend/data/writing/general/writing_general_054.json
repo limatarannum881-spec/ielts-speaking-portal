@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "Recycling Process",
+      "prompt": "You have recently learned about the recycling process of plastic bottles in your community. Write a letter to a friend explaining how plastic bottles are recycled. In your letter, describe the steps involved in the recycling process, the importance of recycling for the environment, and encourage your friend to participate in recycling efforts. You can also mention any local initiatives or programs that support recycling. Make sure to include your thoughts on how individual actions can contribute to a healthier planet.",
+      "chart": {
+        "kind": "bar",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Sorting",
+            "value": 2
+          },
+          {
+            "label": "Cleaning",
+            "value": 3
+          },
+          {
+            "label": "Shredding",
+            "value": 4
+          },
+          {
+            "label": "Melting",
+            "value": 5
+          },
+          {
+            "label": "Reforming",
+            "value": 6
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Working from Home vs. Office",
+      "prompt": "In recent years, working from home has become increasingly popular, especially due to the COVID-19 pandemic. While some people argue that this arrangement has many benefits, others believe it has significant drawbacks. Discuss the advantages and disadvantages of working from home compared to traditional office work. In your essay, consider factors such as productivity, work-life balance, and social interactions. Provide examples to support your arguments and conclude by stating your opinion on whether working from home is a better option than working in an office."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling",
+      "prompt": "You recently visited a recycling center and learned about the process of recycling various materials. Write a letter to a friend describing how recycling works, including the steps involved and the benefits of recycling. Be sure to provide enough detail for your friend to understand the process and encourage them to participate in recycling efforts. (Minimum 150 words)",
+      "chart": {
+        "kind": "process",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Collection of materials",
+            "value": 1
+          },
+          {
+            "label": "Sorting and cleaning",
+            "value": 2
+          },
+          {
+            "label": "Processing into raw materials",
+            "value": 3
+          },
+          {
+            "label": "Manufacturing new products",
+            "value": 4
+          },
+          {
+            "label": "Distribution of recycled products",
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "In recent years, technology has significantly changed the way we communicate with each other. While some argue that technology has improved our relationships, others believe it has had a negative effect. Discuss both views and give your opinion. Support your response with relevant examples and reasons. (Minimum 250 words)"
+    }
+  ]
+}

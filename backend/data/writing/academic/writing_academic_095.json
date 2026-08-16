@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Sales of Electronic Devices in 2020",
+      "prompt": "The bar chart illustrates the annual sales data of four different electronic devices—smartphones, tablets, laptops, and smartwatches—over the year 2020. The sales figures are presented in millions of units. Overall, it is evident that smartphones were the most popular device, while smartwatches had the least sales. Specifically, smartphones sold approximately 450 million units, marking them as the frontrunner in the market. Following closely were laptops, with around 270 million units sold. Tablets had a moderate sales figure of 150 million units, and smartwatches lagged significantly behind with only 30 million units sold. This data highlights the growing preference for smartphones and laptops among consumers, while smartwatches seem to have yet to catch on despite their increasing presence in the market.",
+      "chart": {
+        "kind": "bar",
+        "unit": "millions of units",
+        "data": [
+          {
+            "label": "Smartphones",
+            "value": 450
+          },
+          {
+            "label": "Laptops",
+            "value": 270
+          },
+          {
+            "label": "Tablets",
+            "value": 150
+          },
+          {
+            "label": "Smartwatches",
+            "value": 30
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "Technology has revolutionized educational practices and the way students learn. Discuss both the advantages and disadvantages of integrating technology into education. In your opinion, what is the overall impact of technology on learning outcomes? In recent years, educational institutions have increasingly adopted technological tools, such as online learning platforms, interactive software, and digital resources, enhancing access to information and personalized learning experiences. Moreover, technology can foster engagement and facilitate collaboration among students. However, some argue that too much reliance on technology can lead to issues such as diminished critical thinking skills, reduced face-to-face interactions, and an overemphasis on multitasking. While technology undeniably offers several benefits to modern education, it is crucial to maintain a balanced approach to ensure that it enhances rather than detracts from the learning experience."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-049",
+  "type": "listening",
+  "title": "Preparing for the Art Exhibition",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Anna: Hey Mark, have you finished preparing your pieces for the art exhibition this weekend?  \nMark: Almost! I just have to add the final touches to a few of them. What about you?  \nAnna: I’m done with my paintings, but I need to frame them. I want them to look professional.  \nMark: That’s a good idea! Are you using the same frames as last year?  \nAnna: No, I decided to go for a more modern look this time. What theme are you going with?  \nMark: I’m focusing on nature this year. I have some stunning landscapes and a couple of floral pieces.  \nAnna: Sounds beautiful! Are you displaying all your works in one area or scattered throughout the venue?  \nMark: I think I’ll group them together. It’ll create a nice flow for viewers.  \nAnna: That makes sense. Have you thought about your artist statement?  \nMark: Yes, I’m working on it. I want to convey my inspiration clearly.  \nAnna: That’s important! I should get on mine too.  \nMark: Let’s meet up tomorrow to discuss our ideas.  \nAnna: Great idea, see you then!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is Anna's main task for the exhibition?",
+          "options": [
+            "Framing her paintings",
+            "Creating new artworks",
+            "Writing an artist statement",
+            "Organizing the venue"
+          ],
+          "answer": "A",
+          "explanation": "Anna mentions that she needs to frame her paintings to make them look professional."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Mark's Theme",
+            "Anna's Action"
+          ],
+          "answer": [
+            "nature",
+            "framing"
+          ],
+          "explanation": "Mark is focusing on nature for his artwork, while Anna is framing her paintings."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What does Mark want to convey in his artist statement?",
+          "answer": "his inspiration",
+          "explanation": "Mark mentions that he wants to clearly convey his inspiration in the artist statement."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

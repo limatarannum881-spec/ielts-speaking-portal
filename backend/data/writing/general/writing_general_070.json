@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling Paper",
+      "prompt": "You have recently learned about the process of recycling paper. Write a letter to a friend explaining how paper is recycled. In your letter, include the following points: 1. Describe the initial steps in collecting used paper. 2. Explain the process of turning the used paper into new paper products. 3. Discuss the environmental benefits of recycling paper. Your letter should be at least 150 words.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percent",
+        "data": [
+          {
+            "label": "Paper Collected",
+            "value": 80
+          },
+          {
+            "label": "Paper Processed",
+            "value": 70
+          },
+          {
+            "label": "New Paper Products Created",
+            "value": 60
+          },
+          {
+            "label": "Paper Recycled",
+            "value": 50
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "advantages-disadvantages",
+      "title": "The Rise of Remote Work",
+      "prompt": "In recent years, remote work has become increasingly popular among companies and employees. Some people argue that remote work is beneficial for both parties, while others believe it has drawbacks. Discuss the advantages and disadvantages of remote work, and provide your opinion on whether you think it should be embraced as a long-term solution in the workforce. Your essay should be at least 250 words."
+    }
+  ]
+}

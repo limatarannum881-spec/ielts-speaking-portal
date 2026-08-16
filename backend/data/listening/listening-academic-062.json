@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-062",
+  "type": "listening",
+  "title": "Weekend Hiking Plans",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, Jamie! Do you have any plans for the weekend? I was thinking about going on a hike. It's supposed to be really nice weather. \nB: Hi, Alex! That sounds like a great idea! Where do you want to go hiking? \nA: I was thinking about Timber Ridge Trail. It's about a three-hour drive from here, but the views are incredible. \nB: I’ve heard of that place! Isn’t it near the lake? \nA: Yes, exactly! We could also do a little picnic by the lake afterward. \nB: That would be fun! Should we invite Steve and Mia? They love hiking too. \nA: For sure! The more, the merrier! I’ll text them and see if they’re free. What time do you want to leave? \nB: How about 8 AM? That way, we can avoid the crowds. \nA: Sounds good to me! Also, do we need to bring anything special? \nB: Just the usual stuff—water, snacks, and maybe a first aid kit just in case. \nA: Great! I can take care of the snacks. What do you think we should bring? \nB: Maybe some sandwiches and fruit? \nA: Perfect! Looking forward to it! ",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where are Alex and Jamie planning to hike?",
+          "options": [
+            "A) Timber Ridge Trail",
+            "B) Forest Lake Trail",
+            "C) Mountain View Trail",
+            "D) Riverbank Track"
+          ],
+          "answer": "A",
+          "explanation": "Alex mentions Timber Ridge Trail as their hiking destination."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Departure Time"
+          ],
+          "answer": [
+            "Timber Ridge",
+            "8 AM"
+          ],
+          "explanation": "The destination of the hike is Timber Ridge Trail, and they plan to leave at 8 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What food items do Alex and Jamie decide to bring for the hike?",
+          "answer": "sandwiches and fruit",
+          "explanation": "They agree on bringing sandwiches and fruit for their picnic."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "How long is the drive to the hiking location?",
+          "options": [
+            "A) One hour",
+            "B) Two hours",
+            "C) Three hours",
+            "D) Four hours"
+          ],
+          "answer": "C",
+          "explanation": "Alex states that it takes about a three-hour drive to reach Timber Ridge Trail."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "What are two items they plan to take for safety?",
+          "fields": [
+            "Safety Item 1",
+            "Safety Item 2"
+          ],
+          "answer": [
+            "water",
+            "first aid kit"
+          ],
+          "explanation": "They mention bringing water and a first aid kit as part of their safety preparations."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "Who do they plan to invite to go with them?",
+          "answer": "Steve and Mia",
+          "explanation": "Jamie suggests inviting Steve and Mia, who enjoy hiking."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

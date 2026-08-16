@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-090",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey Sam, have you thought about what we should do this weekend? \nSam: Not really. I was just planning to relax at home. \nEmily: Come on, we should make the most of our days off! How about a weekend getaway? \nSam: Sounds interesting! Where do you want to go? \nEmily: I was thinking we could visit the lake. It’s only a couple of hours away. \nSam: That could be fun! Do you know what activities we could do there? \nEmily: Yes! We could go hiking, rent kayaks, and even have a barbecue by the water. \nSam: Wow, that sounds great! Should we invite a few friends? \nEmily: Definitely! I think it would be more enjoyable with a group. \nSam: Alright, let’s plan it out. What should we take with us? \nEmily: We’ll need food, drinks, and some camping gear just in case we decide to stay overnight. \nSam: I can handle the food. Do you want to take care of the reservations? \nEmily: Sure! I’ll check the campsite availability and get back to you. \nSam: Sounds good! Let’s make this happen! ",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What does Emily suggest for the weekend?",
+          "options": [
+            "A) Staying at home",
+            "B) Going to a concert",
+            "C) Visiting the lake",
+            "D) Attending a festival"
+          ],
+          "answer": "C",
+          "explanation": "Emily suggests a weekend getaway to the lake."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "Activities"
+          ],
+          "answer": [
+            "the lake",
+            "hiking, kayaking"
+          ],
+          "explanation": "The location is the lake and activities include hiking and kayaking."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who will handle the food for the trip?",
+          "answer": "Sam",
+          "explanation": "Sam mentions that he can handle the food."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

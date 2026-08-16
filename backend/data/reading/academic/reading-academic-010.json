@@ -1,0 +1,105 @@
+{
+  "id": "reading-academic-010",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Microplastics in Marine Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Microplastics, defined as plastic particles smaller than five millimeters, have increasingly become a significant environmental concern, especially in marine ecosystems. These tiny pollutants originate from various sources, including the breakdown of larger plastic debris and the direct release of small plastic products such as microbeads used in cosmetics and personal care items. Once in the ocean, microplastics can be ingested by marine organisms, leading to potential health risks for these animals and the humans who consume them.\n\nNumerous studies have documented the presence of microplastics in marine life, ranging from the smallest plankton to large fish species. Research indicates that microplastics can cause physical harm to marine organisms, including blockages in the digestive system and reductions in feeding efficiency. Furthermore, microplastics can act as vectors for harmful chemicals and pathogens, exacerbating the risks associated with their ingestion.\n\nThe impacts of microplastics extend beyond marine biology; they also pose significant challenges for biodiversity and sustainable fisheries. The accumulation of microplastics can disrupt food webs, as larger predators become contaminated through the consumption of smaller prey that have ingested microplastics. This contamination may lead to a decline in fish populations, affecting food security and local economies dependent on fishing.\n\nEfforts to mitigate the impact of microplastics have gained traction in recent years. Researchers are exploring various strategies, including improved waste management practices, the development of biodegradable alternatives to traditional plastics, and legislative measures to restrict the use of microbeads in consumer products. Public awareness campaigns are also crucial in encouraging responsible consumer behavior and promoting the reduction of plastic usage.\n\nIn conclusion, the issue of microplastics in marine environments demands urgent attention from scientists, policymakers, and the general public. Collaborative efforts are essential to tackle this pervasive problem and to ensure the health of marine ecosystems for future generations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Microplastics can only be found in fish species.",
+          "answer": "false",
+          "explanation": "The passage states that microplastics are present in various marine organisms, not just fish."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one possible effect of microplastics on marine organisms?",
+          "options": [
+            "A) Increased growth rate",
+            "B) Blockages in the digestive system",
+            "C) Improved feeding efficiency",
+            "D) Enhanced reproduction"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that microplastics can cause blockages in the digestive system of marine organisms."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Microplastics can act as vectors for harmful __________ and chemicals.",
+          "answer": "pathogens",
+          "explanation": "The passage explicitly states that microplastics can act as vectors for harmful pathogens and chemicals."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one strategy being explored to mitigate the impact of microplastics?",
+          "answer": "Improved waste management practices",
+          "explanation": "The passage discusses various strategies, including improved waste management, to address the issue of microplastics."
+        },
+        {
+          "id": "q5",
+          "type": "matching",
+          "question": "Match the following terms with their descriptions.",
+          "options": {
+            "A": "Microplastics",
+            "B": "Biodegradable alternatives",
+            "C": "Public awareness campaigns"
+          },
+          "descriptions": {
+            "1": "A type of pollution found in oceans.",
+            "2": "Methods to reduce plastic usage.",
+            "3": "Products that can decompose naturally."
+          },
+          "answer": {
+            "A": "1",
+            "B": "3",
+            "C": "2"
+          },
+          "explanation": "The terms are correctly matched to their respective descriptions based on the information provided in the passage."
+        },
+        {
+          "id": "q6",
+          "type": "true-false-not-given",
+          "question": "Legislative measures are being considered to limit the use of microbeads in products.",
+          "answer": "true",
+          "explanation": "The passage indicates that legislative measures are being explored to restrict microbeads in consumer products."
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "What is a consequence of microplastics on biodiversity?",
+          "options": [
+            "A) Improved fish populations",
+            "B) Disruption of food webs",
+            "C) Increased species variety",
+            "D) Enhanced marine health"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that microplastics can disrupt food webs, which is a negative impact on biodiversity."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "Which aspect of marine ecosystems is affected by microplastics according to the passage?",
+          "answer": "Food security",
+          "explanation": "The passage mentions that the decline of fish populations due to microplastics affects food security."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

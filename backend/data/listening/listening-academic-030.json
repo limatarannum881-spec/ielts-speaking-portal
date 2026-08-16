@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-030",
+  "type": "listening",
+  "title": "A Day at the Farmers' Market",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Maria: Hey Tom, have you ever been to the local farmers' market on Saturdays?  \nTom: No, I haven't. What's it like?  \nMaria: It's great! There are so many fresh fruits and vegetables. I love buying organic produce.  \nTom: That sounds nice. Do they sell anything else?  \nMaria: Yes! You can find homemade jams, fresh bread, and even local honey.  \nTom: Wow! Do you usually go there every week?  \nMaria: I try to! It's a perfect way to support local farmers, and the atmosphere is so lively.  \nTom: That’s awesome. What time does it open?  \nMaria: It starts at 8 AM and goes until 1 PM. I usually go early to get the best selection.  \nTom: I might check it out this Saturday. Any tips for a first-timer?  \nMaria: Bring cash, as not all vendors accept cards, and wear comfortable shoes! You'll be walking around a lot.  \nTom: Thanks for the tips! I’ll definitely join you this week.  \nMaria: Great! We can grab some coffee from the stall there too.  \nTom: Sounds like a plan!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What does Maria love buying at the farmers' market?",
+          "options": [
+            "A. Homemade jams",
+            "B. Fresh bread",
+            "C. Organic produce",
+            "D. Local honey"
+          ],
+          "answer": "C",
+          "explanation": "Maria specifically mentions that she loves buying organic produce."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Best time to visit",
+            "Tip for first-timer"
+          ],
+          "answer": [
+            "8 AM",
+            "comfortable shoes"
+          ],
+          "explanation": "Maria advises going at 8 AM for the best selection and suggests wearing comfortable shoes."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What do they plan to do after visiting the market?",
+          "answer": "grab some coffee",
+          "explanation": "Maria mentions that they can grab some coffee from a stall after visiting the market."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "How long does the farmers' market operate?",
+          "options": [
+            "A. 3 hours",
+            "B. 4 hours",
+            "C. 5 hours",
+            "D. 6 hours"
+          ],
+          "answer": "B",
+          "explanation": "Maria states that the market operates from 8 AM to 1 PM, making it 5 hours long."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What is one type of product they can find at the market?",
+          "answer": "homemade jams",
+          "explanation": "Tom asks if they sell anything else, and Maria lists homemade jams as one of the products."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What does Maria recommend bringing to the market?",
+          "options": [
+            "A. Credit card",
+            "B. Cash",
+            "C. Check",
+            "D. ID"
+          ],
+          "answer": "B",
+          "explanation": "Maria advises bringing cash since not all vendors accept cards."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

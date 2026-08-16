@@ -1,47 +1,80 @@
 {
   "id": "listening-academic-002",
   "type": "listening",
-  "title": "Planning a Community Event",
+  "title": "Weekend Plans Discussion",
   "duration": 1800,
   "parts": [
     {
       "part": 1,
       "audioUrl": "",
-      "script": "Emma: Hi, Liam! Have you given any thought to the community fair we're organizing next month?  \nLiam: Hi, Emma! Yes, I was thinking we could set up some fun activities for all age groups. What do you have in mind?  \nEmma: I think a bake sale would be a great addition. We could ask local bakers to contribute.  \nLiam: Absolutely! And maybe we can arrange for some live music as well. That would really enhance the atmosphere.  \nEmma: Good idea! We should also include some games for the kids. How about a face painting station?  \nLiam: Face painting sounds perfect! What about promoting the event?  \nEmma: We could create a flyer and share it on social media.  \nLiam: Definitely! I can design the flyer if you provide the details.  \nEmma: I’ll gather the information and send it to you by tomorrow.  \nLiam: Great! Let’s meet again next week to discuss the final plans.  \nEmma: Sounds good! Looking forward to it.",
+      "script": "Emily: Hey James, do you have any plans for the weekend?  \nJames: Not really, I was thinking about just relaxing at home. What about you?  \nEmily: I’m actually planning a small hike with some friends.  \nJames: That sounds fun! Where are you going?  \nEmily: We’re heading to Maple Mountain, it’s about an hour’s drive from here.  \nJames: Nice! How long do you expect to be hiking?  \nEmily: We should be out there for about five hours, including breaks.  \nJames: That’s a good amount of time. What should I bring?  \nEmily: Just the usual – water, snacks, and maybe a camera if you want to take photos.  \nJames: Sounds like a plan! Mind if I join you?  \nEmily: Of course not! The more, the merrier.  \nJames: Great! What time are you meeting?  \nEmily: We’re meeting at 8 AM at the coffee shop.  \nJames: Perfect, I’ll see you then!  \nEmily: Looking forward to it!",
       "questions": [
         {
           "id": "lq1",
           "type": "multiple-choice",
-          "question": "What type of event are Emma and Liam planning?",
+          "question": "What does Emily plan to do on the weekend?",
           "options": [
-            "A community fair",
-            "A concert",
-            "A charity run",
-            "A workshop"
+            "A. Work on a project",
+            "B. Go to a concert",
+            "C. Hike with friends",
+            "D. Relax at home"
           ],
-          "answer": "A",
-          "explanation": "They are discussing a community fair."
+          "answer": "C",
+          "explanation": "Emily is planning a hike with friends."
         },
         {
           "id": "lq2",
           "type": "form-completion",
           "question": "Complete the form. Write no more than TWO WORDS.",
           "fields": [
-            "Activity 1",
-            "Activity 2"
+            "Location",
+            "Meeting Time"
           ],
           "answer": [
-            "bake sale",
-            "face painting"
+            "Maple Mountain",
+            "8 AM"
           ],
-          "explanation": "These are the activities mentioned for the fair."
+          "explanation": "Emily is hiking at Maple Mountain and meeting at 8 AM."
         },
         {
           "id": "lq3",
           "type": "short-answer",
-          "question": "What will Liam do for the flyer?",
-          "answer": "Design it",
-          "explanation": "Liam offers to design the flyer for the event."
+          "question": "How long does Emily expect to be hiking?",
+          "answer": "five hours",
+          "explanation": "Emily mentions that they expect to be out for about five hours."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What items does Emily suggest bringing?",
+          "options": [
+            "A. Tent and sleeping bag",
+            "B. Water and snacks",
+            "C. Extra clothes",
+            "D. Fishing gear"
+          ],
+          "answer": "B",
+          "explanation": "Emily suggests bringing water and snacks."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What will James bring if he wants to take pictures?",
+          "answer": "a camera",
+          "explanation": "Emily suggests bringing a camera for taking photos."
+        },
+        {
+          "id": "lq6",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "James's Plan"
+          ],
+          "answer": [
+            "Join Emily",
+            "Hike"
+          ],
+          "explanation": "James's plan is to join Emily for the hike."
         }
       ]
     }

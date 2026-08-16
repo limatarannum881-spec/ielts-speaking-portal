@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Comparison of Energy Consumption by Source in Two Countries",
+      "prompt": "The bar chart illustrates the energy consumption from various sources in Country A and Country B in 2022. Overall, it is evident that both countries relied heavily on fossil fuels for energy, but there were notable differences in their use of renewable sources. In Country A, fossil fuels accounted for 70% of the total energy consumption, while renewable sources made up only 20%. In contrast, Country B had a more balanced approach, with fossil fuels constituting 55% and renewables accounting for 35%. Additionally, Country A displayed minimal use of nuclear energy, contributing just 10% to its total energy mix. Conversely, Country B utilized nuclear energy significantly more, representing 10% of its energy consumption. This data highlights the contrasting approaches of the two countries towards energy sourcing, with Country B appearing to prioritize renewable energy more than Country A.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Country A - Fossil Fuels",
+            "value": 70
+          },
+          {
+            "label": "Country A - Renewables",
+            "value": 20
+          },
+          {
+            "label": "Country A - Nuclear",
+            "value": 10
+          },
+          {
+            "label": "Country B - Fossil Fuels",
+            "value": 55
+          },
+          {
+            "label": "Country B - Renewables",
+            "value": 35
+          },
+          {
+            "label": "Country B - Nuclear",
+            "value": 10
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Technology and Communication",
+      "prompt": "In recent years, advancements in technology have significantly altered the way we communicate. While some people argue that these changes have a positive impact, others believe that they may lead to negative consequences. Discuss both views and give your own opinion. On one hand, supporters of technological communication argue that it provides convenience and accessibility. For instance, people can connect with others across the globe instantly through social media and video calls, enhancing personal and professional relationships. On the other hand, critics raise concerns about the decline of face-to-face interactions and the potential for misunderstandings when communicating digitally. They argue that technology can lead to isolation and a lack of genuine connection between individuals. In my opinion, while technology has indeed revolutionized communication, it is crucial to find a balance between digital interactions and personal engagements to foster meaningful relationships in society."
+    }
+  ]
+}

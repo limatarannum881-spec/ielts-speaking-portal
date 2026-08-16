@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-011",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, including parks, gardens, and recreational areas, are essential components of city life. Recent studies have shown that these natural environments provide significant mental health benefits to urban dwellers. Access to green spaces has been associated with reduced levels of stress, anxiety, and depression. Additionally, being in nature has a restorative effect on cognitive function, improving attention and concentration. Research suggests that the mere presence of greenery can foster a sense of community and wellbeing among residents. Furthermore, these areas serve as critical social hubs, encouraging physical activity and social interaction, both of which are important for psychological health. However, despite their advantages, urban green spaces are often under threat from urbanization and development pressures. City planners are increasingly recognizing the importance of integrating green spaces into urban designs to promote healthier living environments. One study found that individuals living within a 10-minute walk of a park report better overall mental health compared to those with limited access. The challenge remains for cities to balance development with the preservation and enhancement of green spaces, ensuring that all residents can benefit from their positive impacts on mental health.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are detrimental to mental health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces provide significant mental health benefits."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of being in urban green spaces?",
+          "options": [
+            "A. Increased loneliness",
+            "B. Reduced anxiety",
+            "C. Higher stress levels",
+            "D. Decreased physical activity"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights that access to green spaces is associated with reduced levels of anxiety."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces encourage ________ and ________ among residents.",
+          "prompt": "Urban green spaces encourage ________ and ________ among residents.",
+          "answer": "social interaction",
+          "explanation": "The passage mentions that these areas encourage social interaction, which contributes to psychological health."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do residents within a 10-minute walk of a park report?",
+          "answer": "better overall mental health",
+          "explanation": "The study mentioned shows that residents living near parks report better mental health."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban development has no impact on green spaces.",
+          "answer": "false",
+          "explanation": "The passage states that green spaces are often under threat from urbanization and development pressures."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is a challenge for city planners?",
+          "options": [
+            "A. Increasing urbanization",
+            "B. Balancing development with green spaces",
+            "C. Reducing park sizes",
+            "D. Eliminating recreational areas"
+          ],
+          "answer": "B",
+          "explanation": "The passage notes the challenge of balancing development with preserving green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Access to green spaces has been linked with reduced levels of ________.",
+          "prompt": "Access to green spaces has been linked with reduced levels of ________.",
+          "answer": "stress",
+          "explanation": "The passage indicates that green spaces are linked to reduced stress levels."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What do city planners recognize about urban green spaces?",
+          "answer": "importance of integrating them",
+          "explanation": "City planners are recognizing the importance of integrating green spaces into urban designs."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

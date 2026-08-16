@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-045",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recent studies have increasingly highlighted the importance of urban green spaces, such as parks and gardens, in promoting psychological well-being among city dwellers. Research indicates that access to these green areas helps reduce symptoms of anxiety and depression, which are prevalent in urban environments. One notable study conducted in London found that individuals living within 300 meters of a park reported significantly lower levels of stress compared to those residing farther away.\n\nFurthermore, the presence of greenery encourages physical activity, which is further linked to improved mental health. Activities such as walking, jogging, and outdoor sports provide not only exercise but also social interaction, contributing to an enhanced sense of community. The psychological benefits of such interactions are profound; they foster feelings of belonging and support, which are crucial for emotional health.\n\nMoreover, the aesthetic value of green spaces cannot be underestimated. Natural landscapes have a restorative effect, allowing individuals to escape the fast pace of city life, offering a respite that can rejuvenate the mind. The 'biophilia hypothesis' proposes that humans possess an innate tendency to seek connections with nature, and urban green spaces fulfill this need.\n\nWhile the advantages of having accessible green areas are clear, challenges remain. Urbanization continues to reduce the availability of such spaces, threatening the mental health benefits they provide. City planners are urged to prioritize green infrastructure in urban development to combat this decline. The integration of parks and gardens into urban areas not only serves to beautify the environment but also enhances the quality of life for residents, making cities more livable places.\n\nIn conclusion, urban green spaces play a vital role in maintaining and improving the mental health of urban populations. Future urban policies must consider the incorporation of green spaces as essential components for the well-being of city inhabitants.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are primarily beneficial for physical health.",
+          "answer": "false",
+          "explanation": "The passage emphasizes the mental health benefits of urban green spaces."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What does the biophilia hypothesis suggest?",
+          "options": [
+            "A. Cities should minimize green spaces",
+            "B. Humans naturally seek connections with nature",
+            "C. Urbanization is beneficial for mental health",
+            "D. Parks should be designed only for aesthetic appeal"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that the biophilia hypothesis proposes that humans have an innate tendency to connect with nature."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. The presence of greenery encourages __________, linked to improved mental health.",
+          "prompt": "Complete the sentence.",
+          "answer": "physical activity",
+          "explanation": "The passage indicates that greenery encourages physical activity."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one method suggested for enhancing the quality of life in cities?",
+          "answer": "integrating parks and gardens",
+          "explanation": "The passage states that city planners should prioritize the integration of parks and gardens into urban areas."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Individuals living farther from parks experience more stress.",
+          "answer": "true",
+          "explanation": "The study mentioned indicates that those living farther from parks reported higher stress levels."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which benefit is NOT mentioned in relation to urban green spaces?",
+          "options": [
+            "A. Reducing anxiety",
+            "B. Encouraging social interaction",
+            "C. Increasing pollution",
+            "D. Providing aesthetic pleasure"
+          ],
+          "answer": "C",
+          "explanation": "The passage discusses various benefits but does not mention increasing pollution."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urbanization continues to __________ the availability of green spaces.",
+          "prompt": "Complete the sentence.",
+          "answer": "reduce",
+          "explanation": "The passage states that urbanization is reducing the availability of green spaces."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What do city planners need to prioritize according to the passage?",
+          "answer": "green infrastructure",
+          "explanation": "The passage calls for city planners to prioritize green infrastructure in urban development."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

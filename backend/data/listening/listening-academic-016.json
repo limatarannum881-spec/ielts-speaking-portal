@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-016",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, Sarah! Have you thought about what we should do for the weekend? \nB: Hi, Tom! I was thinking we could go to that new cabin by the lake. \nA: That sounds great! How far is it from our place? \nB: It’s about two hours’ drive. I checked the maps earlier. \nA: Perfect! Do we need to book in advance? \nB: Yes, I think we should. It might get crowded since it’s a holiday weekend. \nA: Good point! I can look up some options online. \nB: Awesome! Do you think we should invite anyone else? \nA: Maybe just Emma and Jake? They love the outdoors as well. \nB: That’s true! I’ll message them to see if they’re interested. \nA: Great! And what about food? Should we pack some meals? \nB: Yes, it would be nice to have a barbecue by the lake. Let’s plan on bringing some drinks, too. \nA: Sounds like a perfect getaway! Let's finalize the plans tonight. \nB: Definitely. I’m excited now!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "How far is the cabin from their place?",
+          "options": [
+            "A: One hour",
+            "B: Two hours",
+            "C: Three hours",
+            "D: Four hours"
+          ],
+          "answer": "B",
+          "explanation": "The conversation states that it is about two hours’ drive from their place."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Extras"
+          ],
+          "answer": [
+            "cabin by the lake",
+            "barbecue"
+          ],
+          "explanation": "The destination they discuss is the 'cabin by the lake', and they plan to have a 'barbecue'."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who do they consider inviting to the getaway?",
+          "answer": "Emma and Jake",
+          "explanation": "They mention inviting Emma and Jake because they love the outdoors."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does Tom plan to do regarding the cabin?",
+          "options": [
+            "A: Check prices",
+            "B: Book online",
+            "C: Visit it first",
+            "D: Ignore it"
+          ],
+          "answer": "B",
+          "explanation": "Tom mentions looking up some options online to book the cabin."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Time to plan"
+          ],
+          "answer": [
+            "tonight"
+          ],
+          "explanation": "They agree to finalize the plans tonight."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What type of food do they plan to bring?",
+          "answer": "drinks",
+          "explanation": "They mention planning to bring drinks along with meals for the barbecue."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

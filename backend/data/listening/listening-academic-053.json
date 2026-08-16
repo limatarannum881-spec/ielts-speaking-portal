@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-053",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, have you thought about what we should do this weekend?\nB: I was thinking we could go for a weekend getaway. Maybe to the mountains?\nA: That sounds nice! Do you have a specific place in mind?\nB: Yes, I heard about a cozy cabin near Lake Pine. It’s supposed to have great views and hiking trails.\nA: Oh, I love hiking! How do we get there?\nB: It’s about a two-hour drive from here. I can drive if you want.\nA: Perfect! What should we pack?\nB: We’ll definitely need some warm clothes, since it might get chilly at night. And don’t forget your camera!\nA: Right! I want to take photos of the scenery. Also, should we bring some food?\nB: Yes, I can pack some snacks, and we can also plan to eat at a local restaurant.\nA: Sounds like a fun trip! What time do you think we should leave?\nB: I suggest we leave early Saturday morning to make the most of the day. What do you think?\nA: That works for me! Let’s finalize the plan tonight then.\nB: Great! I’ll check the weather too to see if any adjustments are needed.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What type of trip are they planning?",
+          "options": [
+            "A. Beach holiday",
+            "B. City tour",
+            "C. Weekend getaway",
+            "D. Camping trip"
+          ],
+          "answer": "C",
+          "explanation": "They are discussing a weekend getaway."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "Activity"
+          ],
+          "answer": [
+            "Lake Pine",
+            "hiking"
+          ],
+          "explanation": "They mentioned going to Lake Pine for hiking."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "How long is the drive to the cabin?",
+          "answer": "two hours",
+          "explanation": "It is mentioned that the drive takes about two hours."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What should they definitely pack?",
+          "options": [
+            "A. Swimsuits",
+            "B. Warm clothes",
+            "C. Umbrellas",
+            "D. Hiking boots"
+          ],
+          "answer": "B",
+          "explanation": "They mentioned needing warm clothes."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Driver",
+            "Time to leave"
+          ],
+          "answer": [
+            "B",
+            "early Saturday"
+          ],
+          "explanation": "B is the one who offers to drive and they plan to leave early Saturday."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What is one of the plans for meals?",
+          "answer": "eat at a local restaurant",
+          "explanation": "They plan to eat at a local restaurant."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

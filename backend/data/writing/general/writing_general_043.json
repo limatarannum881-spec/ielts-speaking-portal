@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "Applying for a Job",
+      "prompt": "You are required to write a letter to your friend explaining the process of applying for a job at a company where you recently interviewed. Describe the steps involved, including the preparation of your resume, the submission process, and the interview itself. Also, mention any tips you have for your friend who may be considering applying for the same job.\n\nBegin by greeting your friend and expressing your excitement about the opportunity. Then, outline the key steps: researching the company, tailoring your resume, submitting your application, preparing for the interview, and following up afterward. Close your letter by encouraging your friend and wishing them luck with their application.",
+      "chart": null
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Society",
+      "prompt": "In recent years, technology has profoundly changed the way we live and work. Some people argue that technology has brought significant benefits to society, while others believe it has had negative consequences. Discuss both views and provide your own opinion.\n\nIn your essay, examine the positive aspects of technology, such as improved communication, access to information, and advancements in various fields like healthcare and education. On the other hand, consider the drawbacks, including issues related to privacy, job displacement, and the impact on personal relationships. Finally, conclude with your perspective on whether the advantages of technology outweigh its disadvantages or vice versa."
+    }
+  ]
+}

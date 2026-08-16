@@ -1,0 +1,85 @@
+{
+  "id": "reading-general-000",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Your Local Library",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Local libraries play a crucial role in community life, providing not only access to books but also a range of services that support education and cultural enrichment. Most libraries offer a variety of programs for people of all ages, from storytime for toddlers to computer classes for seniors. In addition to traditional book lending, many libraries have embraced technology, allowing patrons to borrow e-books and audiobooks through their online platforms.\n\nOne of the key features of modern libraries is their focus on community engagement. Many libraries host workshops, lectures, and events that encourage public participation and foster a sense of belonging. These events can range from author talks to crafting sessions, aimed at bringing people together and promoting learning. Furthermore, libraries frequently partner with local schools and organizations to facilitate literacy programs and community outreach initiatives.\n\nLibraries also provide crucial resources for job seekers and entrepreneurs. Most have dedicated career centers that offer resume writing workshops, interview preparation sessions, and access to job databases, helping individuals to successfully navigate the job market. Moreover, many libraries boast a wealth of information on small business development, including free access to business databases and networking opportunities.\n\nWith the rise of digital media, libraries have adapted by providing access to various online resources, including databases for research and learning, online courses, and virtual book clubs. This evolution ensures that libraries remain relevant in a rapidly changing information landscape.\n\nDespite the challenges faced by public libraries, such as funding cuts and the increasing prevalence of digital information, they continue to be a vital resource for communities. Visitors are encouraged to take advantage of the myriad services available to them, and library staff are always eager to assist in finding the right resources.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Local libraries only offer books and no other services.",
+          "answer": "false",
+          "explanation": "The passage details various services offered by libraries beyond book lending."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the key features of modern libraries?",
+          "options": [
+            "A) Book lending",
+            "B) Community engagement",
+            "C) Free food",
+            "D) Movie screenings"
+          ],
+          "answer": "B",
+          "explanation": "The passage emphasizes community engagement as a key feature of modern libraries."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Many libraries partner with local schools to facilitate __________ programs.",
+          "prompt": "Many libraries partner with local schools to facilitate __________ programs.",
+          "answer": "literacy",
+          "explanation": "The passage mentions that libraries partner with schools for literacy programs."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do libraries provide that assists job seekers?",
+          "answer": "career centers",
+          "explanation": "The passage states that libraries have dedicated career centers to help job seekers."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Libraries have started lending e-books and audiobooks.",
+          "answer": "true",
+          "explanation": "The passage states that libraries have embraced technology to lend e-books and audiobooks."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What type of events do libraries host to encourage public participation?",
+          "options": [
+            "A) Library board meetings",
+            "B) Author talks",
+            "C) Book sales",
+            "D) None of the above"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions author talks as part of the events hosted by libraries."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Libraries provide access to online resources including __________ and virtual book clubs.",
+          "prompt": "Libraries provide access to online resources including __________ and virtual book clubs.",
+          "answer": "online courses",
+          "explanation": "The passage notes that libraries provide access to online courses among other resources."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

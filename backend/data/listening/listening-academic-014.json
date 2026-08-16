@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-014",
+  "type": "listening",
+  "title": "Planning a Weekend Hike",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey, Jake! Are you ready for our hike this weekend? \nJake: I am, but I was thinking we might want to change the trail we originally chose. \nEmily: Oh really? Why's that? \nJake: Well, I heard the one we picked can get really crowded. I thought we could try the Maple Ridge trail instead. \nEmily: That sounds good! Is it far from here? \nJake: Not too far, about an hour's drive. It offers some great views and is less populated. Plus, it’s suitable for beginners. \nEmily: Perfect! What should we pack? \nJake: I suggest we bring water, some snacks, and a first aid kit. Oh, and don’t forget to wear comfortable shoes! \nEmily: Right! I also have a portable charger for our phones, just in case. \nJake: Good thinking! We should also check the weather before we go. \nEmily: Agreed. I’ll look it up tonight and text you. \nJake: Great! This is going to be fun. Can’t wait!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What trail did Jake suggest instead of the original one?",
+          "options": [
+            "A) Oak Valley",
+            "B) Greenfield Trail",
+            "C) Maple Ridge",
+            "D) Pine Hill"
+          ],
+          "answer": "C",
+          "explanation": "Jake suggested the Maple Ridge trail as a better option."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "First Item",
+            "Second Item"
+          ],
+          "answer": [
+            "water",
+            "snacks"
+          ],
+          "explanation": "Emily and Jake plan to pack water and snacks for the hike."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What should they check before going?",
+          "answer": "the weather",
+          "explanation": "Jake mentioned that they should check the weather before heading out."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

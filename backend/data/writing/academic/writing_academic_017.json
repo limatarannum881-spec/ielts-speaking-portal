@@ -1,0 +1,88 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Expenditure on Renewable Energy Sources",
+      "prompt": "The bar chart below shows the annual expenditure on different renewable energy sources (solar, wind, hydro, and geothermal) in four countries (USA, Germany, China, and India) in the year 2022. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "kind": "bar",
+        "unit": "million dollars",
+        "data": [
+          {
+            "label": "USA Solar",
+            "value": 30
+          },
+          {
+            "label": "USA Wind",
+            "value": 20
+          },
+          {
+            "label": "USA Hydro",
+            "value": 10
+          },
+          {
+            "label": "USA Geothermal",
+            "value": 5
+          },
+          {
+            "label": "Germany Solar",
+            "value": 25
+          },
+          {
+            "label": "Germany Wind",
+            "value": 20
+          },
+          {
+            "label": "Germany Hydro",
+            "value": 15
+          },
+          {
+            "label": "Germany Geothermal",
+            "value": 10
+          },
+          {
+            "label": "China Solar",
+            "value": 50
+          },
+          {
+            "label": "China Wind",
+            "value": 40
+          },
+          {
+            "label": "China Hydro",
+            "value": 30
+          },
+          {
+            "label": "China Geothermal",
+            "value": 15
+          },
+          {
+            "label": "India Solar",
+            "value": 15
+          },
+          {
+            "label": "India Wind",
+            "value": 10
+          },
+          {
+            "label": "India Hydro",
+            "value": 5
+          },
+          {
+            "label": "India Geothermal",
+            "value": 2
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Social Media",
+      "prompt": "In recent years, social media has become an integral part of our daily lives. While some people believe that social media has a negative impact on society, others argue that it has benefits. Discuss both views and give your own opinion on the matter. What do you think is the primary effect of social media on individuals and communities?"
+    }
+  ]
+}

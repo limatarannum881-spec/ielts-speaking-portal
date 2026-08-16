@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-018",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Climate Change on Coral Reefs",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Coral reefs, often termed the 'rainforests of the sea', are vital marine ecosystems that provide habitat and shelter for numerous marine organisms. They are particularly sensitive to environmental changes, making them some of the first ecosystems to show signs of stress due to climate change. One of the most significant threats to coral reefs is rising ocean temperatures, which cause coral bleaching. During this process, corals expel the symbiotic algae that live within their tissues, leading to a loss of color and vital nutrients. If temperatures do not return to normal levels, this can result in widespread coral death.\n\nIn addition to warming waters, ocean acidification poses another grave threat to coral reefs. As the level of carbon dioxide in the atmosphere rises, more CO2 is absorbed by oceans, leading to a decrease in pH levels. This process can weaken the calcium carbonate structures that make up coral reefs, inhibiting their growth and making them more susceptible to erosion.\n\nScientific research has shown that approximately 30% of coral reefs worldwide have already been damaged due to climate change, and projections indicate that this number could rise sharply if significant action is not taken. Some regions, such as the Great Barrier Reef, have experienced unprecedented coral bleaching events, prompting local governments to implement conservation strategies aimed at protecting their marine health.\n\nMoreover, the socioeconomic implications of coral reef degradation are considerable. Coral reefs support fisheries that millions of people rely on for their livelihoods and food. Additionally, they protect coastal regions from storm surges and erosion, acting as natural barriers. Therefore, the decline of coral reefs due to climate change could have dire consequences not only for marine biodiversity but also for human communities dependent on these ecosystems.\n\nIn conclusion, the resilience of coral reefs in the face of climate change is a pressing concern. It is critical to understand the multifaceted impacts of environmental changes on these ecosystems, as well as to promote and enforce effective conservation measures to mitigate further damage. Increasing public awareness and scientific research are essential to ensure the future survival of coral reefs in an era of climate uncertainties.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Coral reefs are known as the 'deserts of the sea'.",
+          "answer": "false",
+          "explanation": "The passage states that coral reefs are known as the 'rainforests of the sea', not 'deserts'."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one major consequence of rising ocean temperatures?",
+          "options": [
+            "A) Increased biodiversity",
+            "B) Coral bleaching",
+            "C) Improved fish populations",
+            "D) Enhanced coral growth"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that rising ocean temperatures cause coral bleaching."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Coral reefs are primarily made of ________ structures.",
+          "prompt": "Coral reefs are primarily made of ________ structures.",
+          "answer": "calcium carbonate",
+          "explanation": "The passage indicates that the calcium carbonate structures make up coral reefs."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What percentage of coral reefs have already been damaged due to climate change?",
+          "answer": "30%",
+          "explanation": "The passage states that approximately 30% of coral reefs have been damaged due to climate change."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Ocean acidification does not affect the growth of coral reefs.",
+          "answer": "false",
+          "explanation": "The passage explains that ocean acidification weakens the coral structures and inhibits their growth."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What role do coral reefs play in coastal regions?",
+          "options": [
+            "A) They create new land",
+            "B) They support marine tourism",
+            "C) They act as natural barriers",
+            "D) They increase water temperatures"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that coral reefs protect coastal regions from storm surges and erosion."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Local governments are implementing conservation strategies to protect ________ health.",
+          "prompt": "Local governments are implementing conservation strategies to protect ________ health.",
+          "answer": "marine",
+          "explanation": "The passage mentions that local governments are implementing strategies to protect marine health."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is essential to ensure the future survival of coral reefs?",
+          "answer": "Public awareness",
+          "explanation": "The passage states that increasing public awareness is essential for the survival of coral reefs."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

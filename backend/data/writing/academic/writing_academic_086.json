@@ -1,0 +1,72 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Fruit Consumption in Different Countries",
+      "prompt": "The bar chart illustrates the average annual consumption of three types of fruits – apples, bananas, and oranges – in four different countries: the USA, the UK, India, and Brazil in the year 2022. Overall, it is evident that bananas were the most popular fruit in all four countries, while oranges were the least consumed. In the USA, the average annual consumption of bananas was approximately 40 kilograms per person, followed closely by apples at around 35 kilograms. In contrast, orange consumption in the USA was significantly lower, at around 20 kilograms. In the UK, the numbers were somewhat similar, with bananas again leading at about 30 kilograms, apples at 25 kilograms, and oranges at 15 kilograms. Moving to India, apple consumption was notably lower than in the USA and UK, at just 10 kilograms, while banana consumption soared to 50 kilograms, making it the most favored fruit. Lastly, Brazil displayed a unique trend, with orange consumption peaking at 30 kilograms, while bananas and apples were consumed less at 25 and 20 kilograms, respectively. This data reflects diverse fruit preferences across these nations.",
+      "chart": {
+        "kind": "bar",
+        "unit": "kilograms per person",
+        "data": [
+          {
+            "label": "USA - Apples",
+            "value": 35
+          },
+          {
+            "label": "USA - Bananas",
+            "value": 40
+          },
+          {
+            "label": "USA - Oranges",
+            "value": 20
+          },
+          {
+            "label": "UK - Apples",
+            "value": 25
+          },
+          {
+            "label": "UK - Bananas",
+            "value": 30
+          },
+          {
+            "label": "UK - Oranges",
+            "value": 15
+          },
+          {
+            "label": "India - Apples",
+            "value": 10
+          },
+          {
+            "label": "India - Bananas",
+            "value": 50
+          },
+          {
+            "label": "India - Oranges",
+            "value": 8
+          },
+          {
+            "label": "Brazil - Apples",
+            "value": 20
+          },
+          {
+            "label": "Brazil - Bananas",
+            "value": 25
+          },
+          {
+            "label": "Brazil - Oranges",
+            "value": 30
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Impact of Technology on Education",
+      "prompt": "In recent years, technology has played an increasingly vital role in education, bringing both positive and negative effects. While some argue that technology enhances learning experiences, others believe that it can hinder students’ academic performance. Discuss both views and give your opinion. On one hand, proponents of technology in education argue that it provides students with access to a wealth of information and resources that were previously unavailable. Online learning platforms, interactive software, and educational apps facilitate personalized learning and help cater to students' individual needs. For instance, virtual labs enable students to perform experiments remotely, thus enhancing their understanding of complex concepts. On the other hand, critics argue that an over-reliance on technology can lead to distractions and reduced face-to-face interactions. Students may find it challenging to focus on their studies when tempted by social media and gaming. Moreover, the lack of personal interaction with teachers can hinder the development of essential communication skills. In my opinion, while technology has undoubtedly transformed education for the better by making learning more accessible, it is crucial to strike a balance. Proper guidelines must be established to ensure that technology aids rather than detracts from the educational experience."
+    }
+  ]
+}

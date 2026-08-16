@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-022",
+  "type": "reading",
+  "version": "general",
+  "title": "Community Recycling Efforts",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "In recent years, community recycling initiatives have gained significant attention as a means to reduce waste and promote sustainability. In many cities, local governments have implemented programs that encourage residents to recycle materials such as paper, plastic, glass, and metal. These initiatives often include the provision of separate bins for recyclable materials, making it easier for residents to participate. Additionally, educational campaigns are launched to inform the public about the benefits of recycling, including its positive impact on the environment and its role in conserving natural resources.\n\nOne successful example of a community recycling program is the 'Green City' project. Launched in 2020, this initiative aims to achieve a 50% recycling rate within the next five years. Volunteers play a crucial role in the program, helping to organize collection events and workshops that teach residents how to properly sort materials. The program not only aims to improve recycling rates but also fosters a sense of community by bringing people together for a common cause.\n\nAnother important aspect of these programs is the partnership with local businesses. Many companies offer discounts to customers who bring in recyclable materials, creating a win-win situation for both the environment and local commerce. These collaborations highlight the importance of community engagement in making recycling efforts successful.\n\nDespite the progress made, challenges still remain. Some residents are unsure about what can be recycled, leading to contamination of recyclable bins and increased costs for sorting facilities. To combat this issue, ongoing education and clear labeling of recycling bins are essential. In addition, reaching out to underrepresented communities to ensure they have access to recycling resources is critical for inclusive participation in sustainability efforts.\n\nIn conclusion, community recycling initiatives are vital for waste reduction and environmental protection. By encouraging active participation and building partnerships, cities can work towards a greener future. Continued education and support will help to address challenges and increase the effectiveness of these programs, ultimately benefiting both the community and the planet.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "The 'Green City' project started in 2020.",
+          "answer": "true",
+          "explanation": "The passage states that the 'Green City' project was launched in 2020."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is the primary goal of the 'Green City' project?",
+          "options": [
+            "A) To improve public transportation",
+            "B) To achieve a 50% recycling rate",
+            "C) To reduce plastic use",
+            "D) To promote local businesses"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that the primary goal of the 'Green City' project is to achieve a 50% recycling rate."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Many residents are __________ about what materials can be recycled.",
+          "prompt": "Many residents are __________ about what materials can be recycled.",
+          "answer": "unsure",
+          "explanation": "The passage mentions that some residents are unsure about what can be recycled."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do local businesses offer to customers who bring in recyclable materials?",
+          "answer": "discounts",
+          "explanation": "The passage states that many companies offer discounts to customers who bring in recyclable materials."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Community recycling programs have been entirely successful with no challenges.",
+          "answer": "false",
+          "explanation": "The passage mentions that challenges still remain in community recycling efforts."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What does the passage suggest is crucial for successful community recycling programs?",
+          "options": [
+            "A) Increasing waste production",
+            "B) Community engagement",
+            "C) Limiting educational resources",
+            "D) Reducing volunteer participation"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights the importance of community engagement in making recycling efforts successful."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

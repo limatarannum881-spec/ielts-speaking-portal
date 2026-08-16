@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-010",
+  "type": "listening",
+  "title": "Planning a Community Event",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Sarah, have you thought about the community event we’re planning for next month?  \nB: Yes, I have! I think it would be great to focus on local artists this year.  \nA: That’s a fantastic idea! We could have an exhibition area and maybe some live performances.  \nB: Exactly! I also thought we could set up a small food stall featuring local cuisine.  \nA: Good point. We should reach out to those food vendors in the market.  \nB: Right, I can contact them this week. What about the venue?  \nA: I believe the community center is available, but we need to check the booking.  \nB: Let’s confirm that soon. Should we also consider any activities for kids?  \nA: Definitely! Face painting or a small puppet show could be engaging.  \nB: I’ll add that to my to-do list. Do you think we should set a budget?  \nA: Yes, that’s essential. Let’s draft one based on the expenses we anticipate.  \nB: Sounds like a plan. I’ll work on a proposal to present at our next committee meeting.  \nA: Perfect! I’m excited to see how it all comes together.  \nB: Me too! Let’s make it an unforgettable day for everyone.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the main focus of the community event this year?",
+          "options": [
+            "A) Local cuisine",
+            "B) Local artists",
+            "C) Children's activities",
+            "D) Sports events"
+          ],
+          "answer": "B",
+          "explanation": "The speakers specifically mention wanting to focus on local artists."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Venue",
+            "Activities"
+          ],
+          "answer": [
+            "community center",
+            "face painting"
+          ],
+          "explanation": "The venue discussed is the community center and an activity mentioned is face painting."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What vendor type does speaker A suggest contacting?",
+          "answer": "food vendors",
+          "explanation": "Speaker A suggests reaching out to food vendors in the market for the event."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

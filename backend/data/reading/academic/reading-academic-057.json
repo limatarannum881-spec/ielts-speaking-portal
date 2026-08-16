@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-057",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green rooftops, play a significant role in enhancing the quality of life in densely populated cities. Numerous studies have shown that access to these natural environments can positively affect mental health by reducing stress, anxiety, and depression. One pivotal study conducted by the University of Michigan found that spending at least 20 minutes in nature each day can lead to noticeable improvements in mood and overall emotional well-being.\n\nResearchers believe that the benefits of green spaces are linked to the 'biophilia hypothesis,' which suggests that humans possess an innate tendency to seek connections with nature and other forms of life. Engaging with nature, even in a small urban park, provides individuals with a calming effect and an escape from the hustle and bustle of city life.\n\nIn light of these findings, cities around the world are increasingly prioritizing the creation and maintenance of green spaces. Initiatives such as community gardens and urban forest projects are becoming common as urban planners recognize their importance in fostering healthier communities. Furthermore, studies indicate that areas with more green spaces not only see improvements in mental health but also in social cohesion, as these spaces often serve as venues for community interaction.\n\nDespite the clear advantages, challenges remain in maximizing the impact of urban green spaces. Issues such as funding, maintenance, and equitable access often hinder the development of these areas. Additionally, while the availability of nature is crucial, the design and accessibility of these spaces are equally important, as poorly maintained areas or those situated far from residential zones may not be utilized effectively.\n\nTo conclude, while urban green spaces undeniably offer a multitude of benefits for mental health and community well-being, continued efforts are necessary to ensure these areas are preserved and enhanced for future generations. The balance between urban development and maintaining natural environments is vital for sustainable city living.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are only beneficial for physical health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces positively affect mental health, not just physical health."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is the 'biophilia hypothesis' about?",
+          "options": [
+            "A) The benefits of urban greenery",
+            "B) The human tendency to connect with nature",
+            "C) The design of urban parks",
+            "D) The quality of life in cities"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that the biophilia hypothesis suggests humans have an innate tendency to seek connections with nature."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Spending at least 20 minutes in _____ can lead to improvements in mood.",
+          "answer": "nature",
+          "explanation": "The passage specifically mentions that spending time in nature improves mood."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do urban planners prioritize to enhance community health?",
+          "answer": "green spaces",
+          "explanation": "According to the passage, urban planners prioritize the creation and maintenance of green spaces for better community health."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Poorly maintained green spaces can lead to decreased usage.",
+          "answer": "true",
+          "explanation": "The passage mentions that poorly maintained areas may not be utilized effectively."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A) Reduced stress",
+            "B) Improved social cohesion",
+            "C) Increased property values",
+            "D) Enhanced emotional well-being"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not mention increased property values as a benefit of urban green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Community gardens are examples of _____ initiated by cities.",
+          "prompt": "green space projects",
+          "answer": "initiatives",
+          "explanation": "The passage describes community gardens as initiatives promoting green spaces."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What challenge is mentioned regarding urban green spaces?",
+          "answer": "funding",
+          "explanation": "Funding is mentioned as one of the challenges affecting the development of urban green spaces."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

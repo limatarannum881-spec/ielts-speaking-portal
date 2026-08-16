@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-015",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Well-being",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, including parks, gardens, and natural reserves, play a pivotal role in enhancing the mental health of city dwellers. Studies have demonstrated that access to green spaces can significantly reduce levels of stress, anxiety, and depression. The presence of greenery in urban environments provides residents with an opportunity to escape the hustle and bustle of city life, promoting relaxation and tranquility. Researchers have found that individuals who regularly visit parks report higher levels of happiness and life satisfaction compared to those who do not.\n\nMoreover, green spaces offer a variety of activities that contribute to physical health, which is closely linked to mental well-being. Engaging in outdoor activities such as jogging, cycling, or simply walking in nature can release endorphins, the body's natural mood lifters. In addition, community gardens encourage social interaction, fostering a sense of belonging among residents.\n\nDespite the evident benefits, urban planners often overlook the importance of green spaces in favor of commercial development. This oversight can lead to a decrease in quality of life for urban residents, as well as a rise in mental health issues. As cities continue to grow, integrating green infrastructure into urban designs is increasingly recognized as essential for sustainable development. Policymakers are encouraged to prioritize the establishment and maintenance of green areas to create healthier, happier communities.\n\nRecent initiatives in various cities have demonstrated the positive outcomes of enhancing green space availability. For instance, a city in Canada implemented a program to transform vacant lots into community parks, resulting in increased property values and lower crime rates in the surrounding areas. Local residents expressed increased feelings of safety and belonging due to the presence of these green spaces.\n\nIn conclusion, urban green spaces are more than just aesthetic additions to a city; they are vital for improving the mental health of its residents. As awareness of their benefits rises, it is imperative that communities advocate for the preservation and expansion of these crucial areas.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no effect on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces can significantly reduce levels of stress, anxiety, and depression."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of community gardens mentioned in the passage?",
+          "options": [
+            "A) They decrease crime rates.",
+            "B) They increase social interaction.",
+            "C) They enhance property values.",
+            "D) They eliminate anxiety."
+          ],
+          "answer": "B",
+          "explanation": "The passage notes that community gardens encourage social interaction, fostering a sense of belonging."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban planners often prioritize __________ over green spaces.",
+          "prompt": "Urban planners often prioritize __________ over green spaces.",
+          "answer": "commercial development",
+          "explanation": "The text indicates that urban planners often overlook green spaces in favor of commercial development."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "According to the passage, what natural chemicals does physical activity release that can improve mood?",
+          "answer": "endorphins",
+          "explanation": "The text specifies that engaging in outdoor activities can release endorphins, which are natural mood lifters."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Cities that increase their green spaces have lower property values.",
+          "answer": "false",
+          "explanation": "The passage states that transforming vacant lots into community parks resulted in increased property values."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is a recent initiative mentioned in the text?",
+          "options": [
+            "A) Establishing new commercial centers.",
+            "B) Creating art installations in parks.",
+            "C) Transforming vacant lots into parks.",
+            "D) Expanding public transportation."
+          ],
+          "answer": "C",
+          "explanation": "The passage describes a program in Canada that transformed vacant lots into community parks."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The passage suggests that urban green spaces lead to increased feelings of __________ among local residents.",
+          "prompt": "The passage suggests that urban green spaces lead to increased feelings of __________ among local residents.",
+          "answer": "safety and belonging",
+          "explanation": "Residents expressed increased feelings of safety and belonging due to the presence of green spaces."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What does the passage recommend policymakers prioritize in urban planning?",
+          "answer": "green areas",
+          "explanation": "The passage indicates that policymakers should prioritize the establishment and maintenance of green areas."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

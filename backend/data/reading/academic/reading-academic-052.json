@@ -1,0 +1,85 @@
+{
+  "id": "reading-academic-052",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces in Enhancing City Livability",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, play a crucial role in enhancing the livability of cities. With increasing urbanization, the importance of these green areas becomes more pronounced. Studies have shown that access to urban green spaces can significantly improve mental well-being, foster community interactions, and reduce urban heat effects. Moreover, these areas are instrumental in supporting biodiversity, providing habitats for various species within urban environments.\n\nThe psychological benefits associated with greenery are well-documented. Regular exposure to natural environments has been linked to decreased levels of stress, anxiety, and depression. For instance, a study conducted in large metropolitan areas found that residents living within proximity to parks reported higher satisfaction with their lives compared to those residing in densely populated neighborhoods devoid of green spaces.\n\nFurther, urban greenery contributes to aesthetic appeal and can enhance property values. Cities that prioritize the development of parks and gardens not only attract more residents but also appeal to businesses looking to relocate. The presence of greenery can create a sense of community pride, as well as provide opportunities for recreational activities including walking, jogging, and social gatherings.\n\nHowever, the equitable distribution of green spaces is a pressing issue. Low-income neighborhoods often lack sufficient access to quality parks, leading to disparities in health and well-being among urban populations. Urban planners have started to recognize the need for integrating green spaces into their designs to ensure all residents benefit from natural environments.\n\nIn conclusion, the integration of urban green spaces is critical for fostering healthier, more sustainable cities. These areas are not merely recreational; they are vital for environmental health, biodiversity, and the overall well-being of urban residents. Effective urban planning must prioritize green spaces to ensure that cities remain livable for all inhabitants.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage states that access to urban green spaces can significantly improve mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of urban green spaces mentioned in the passage?",
+          "options": [
+            "A) Decreased biodiversity",
+            "B) Increased property values",
+            "C) More traffic congestion",
+            "D) Reduced community pride"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that urban greenery can enhance property values."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Regular exposure to natural environments has been linked to ____ levels of stress.",
+          "answer": "decreased",
+          "explanation": "The passage states that regular exposure to nature is linked to decreased levels of stress."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do low-income neighborhoods often lack according to the passage?",
+          "answer": "quality parks",
+          "explanation": "The passage mentions that low-income neighborhoods often lack sufficient access to quality parks."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "All urban residents equally benefit from green spaces.",
+          "answer": "false",
+          "explanation": "The passage indicates that low-income neighborhoods often lack access to quality parks, leading to disparities."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "According to the passage, what role do urban green spaces play in community interactions?",
+          "options": [
+            "A) They hinder social gatherings",
+            "B) They create a sense of community pride",
+            "C) They reduce recreational opportunities",
+            "D) They increase traffic"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that the presence of greenery can create a sense of community pride."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Urban planning must prioritize ____ to ensure cities remain livable.",
+          "prompt": "______",
+          "answer": "green spaces",
+          "explanation": "The passage concludes by highlighting the importance of integrating urban green spaces in planning."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

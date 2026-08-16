@@ -1,0 +1,18 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for a Replacement Item",
+      "prompt": "You recently ordered a piece of furniture online, but it arrived damaged. Write a letter to the company's customer service department. In your letter, explain the situation and request a replacement item. Include details about the order, how the item was damaged, and any previous communication you've had with the company. Ensure your letter is polite and clear, and specify what steps you expect them to take to resolve the issue."
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Technology and Communication",
+      "prompt": "Some people believe that technology has made communication easier and more efficient. However, others argue that it has led to a decline in face-to-face interaction and personal relationships. Discuss both views and give your own opinion. Support your arguments with relevant examples and reasons."
+    }
+  ]
+}

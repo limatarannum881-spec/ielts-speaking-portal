@@ -1,81 +1,81 @@
 {
   "id": "listening-academic-001",
   "type": "listening",
-  "title": "Planning a Weekend Getaway",
+  "title": "Planning a Community Event",
   "duration": 1800,
   "parts": [
     {
       "part": 1,
       "audioUrl": "",
-      "script": "A: Hey, have you thought about where we should go for the weekend? \nB: I was thinking maybe we could head to the mountains. It's been a while since I went hiking. \nA: That sounds great! Which mountain do you have in mind? \nB: I was thinking Mount Maple. I've heard the trails there are fantastic. \nA: Good choice! Do we need to book a cabin or something? \nB: Yes, I think we should. We can find one near the trailhead. \nA: What about food? Should we bring our own groceries? \nB: I think that would be best. We can make a list of what we need. \nA: Sounds like a plan! We’ll need snacks for the hike too. \nB: Absolutely! I suggest we leave early Saturday morning, so we have plenty of time to explore. \nA: That works for me. Let’s finalize the details later today. \nB: Perfect! I’ll start looking for a cabin online. \nA: Great! I’ll check the weather too, just to be prepared.",
+      "script": "Anna: Hey Mark, have you thought about the community picnic next month? We need to finalize the details.  \nMark: I was just looking at the proposal you sent over. I think it’s a great idea, but we should consider the location carefully.  \nAnna: I agree. The park by the river is scenic, but it can get crowded. Do you think we should choose a different spot?  \nMark: Perhaps the sports field on Main Street? It’s spacious and has plenty of parking.  \nAnna: That sounds good! What about the activities? I thought we could have games for kids and maybe a small concert.  \nMark: Yes! Live music would be fantastic. We could invite local bands. What do you think about food vendors?  \nAnna: Definitely, but let’s ensure we have a variety, like vegetarian options too.  \nMark: Great point! I can contact some local vendors.  \nAnna: Perfect, I’ll handle the permits and publicity. Let’s meet next week to review our progress.  \nMark: Sounds like a plan! Looking forward to it.  \nAnna: Me too. This is going to be fun!",
       "questions": [
         {
           "id": "lq1",
           "type": "multiple-choice",
-          "question": "What is the destination for the weekend?",
+          "question": "What is the main topic of the conversation?",
           "options": [
-            "A) The beach",
-            "B) The city",
-            "C) The mountains",
-            "D) The countryside"
+            "A. A concert planning",
+            "B. A community picnic",
+            "C. A school event",
+            "D. A charity fundraiser"
           ],
-          "answer": "C",
-          "explanation": "The conversation indicates that they are planning to go to the mountains."
+          "answer": "B",
+          "explanation": "The conversation revolves around organizing a community picnic."
         },
         {
           "id": "lq2",
           "type": "form-completion",
           "question": "Complete the form. Write no more than TWO WORDS.",
           "fields": [
-            "Destination",
-            "Activity"
+            "Location",
+            "Activities"
           ],
           "answer": [
-            "Mount Maple",
-            "hiking"
+            "sports field",
+            "games for kids"
           ],
-          "explanation": "The speakers mention Mount Maple as their destination and hiking as their planned activity."
+          "explanation": "The location discussed is the sports field, and activities include games for kids."
         },
         {
           "id": "lq3",
           "type": "short-answer",
-          "question": "What will they bring for the hike?",
-          "answer": "snacks",
-          "explanation": "They discuss the need to bring snacks for their hiking trip."
+          "question": "Who will handle the permits for the event?",
+          "answer": "Anna",
+          "explanation": "Anna mentions she will take care of the permits for the picnic."
         },
         {
           "id": "lq4",
           "type": "multiple-choice",
-          "question": "What does A suggest they check?",
+          "question": "What type of music do they plan to include?",
           "options": [
-            "A) Cabin prices",
-            "B) Trail maps",
-            "C) Weather",
-            "D) Hiking gear"
+            "A. Classical",
+            "B. Local bands",
+            "C. DJ music",
+            "D. Recorded music"
           ],
-          "answer": "C",
-          "explanation": "A mentions checking the weather to be better prepared."
+          "answer": "B",
+          "explanation": "Mark suggests inviting local bands for live music."
         },
         {
           "id": "lq5",
           "type": "form-completion",
           "question": "Complete the form. Write no more than TWO WORDS.",
           "fields": [
-            "Departure Day",
-            "Departure Time"
+            "Consideration",
+            "Vendor Options"
           ],
           "answer": [
-            "Saturday",
-            "morning"
+            "location",
+            "vegetarian options"
           ],
-          "explanation": "They plan to leave early in the morning on Saturday."
+          "explanation": "They considered the location carefully and also discussed having vegetarian food options."
         },
         {
           "id": "lq6",
           "type": "short-answer",
-          "question": "What will B look for online?",
-          "answer": "a cabin",
-          "explanation": "B states that they will start looking for a cabin online."
+          "question": "When will they meet again to review the event progress?",
+          "answer": "next week",
+          "explanation": "Anna suggests they meet next week to discuss their progress on the picnic planning."
         }
       ]
     }

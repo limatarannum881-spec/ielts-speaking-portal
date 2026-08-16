@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Sales (2018-2022)",
+      "prompt": "The bar chart illustrates the global smartphone sales from 2018 to 2022. Overall, it is evident that there was a steady increase in smartphone sales over the five-year period, with noticeable peaks in certain years. In 2018, sales were recorded at approximately 1.3 billion units, which increased to around 1.5 billion in 2019. The trend continued upwards, with sales reaching 1.8 billion units in 2020. The year 2021 marked the highest sales of 2.1 billion units, before a slight decline to 2 billion units in 2022. The data also indicates that the sales growth was consistent during this period, suggesting a robust demand for smartphones worldwide. Notably, the increase in sales from 2020 to 2021 was the most significant, highlighting a peak in market demand. Overall, the chart reflects a positive trajectory in global smartphone sales and indicates a strong consumer interest.",
+      "chart": {
+        "kind": "bar",
+        "unit": "billion units",
+        "data": [
+          {
+            "label": "2018",
+            "value": 1.3
+          },
+          {
+            "label": "2019",
+            "value": 1.5
+          },
+          {
+            "label": "2020",
+            "value": 1.8
+          },
+          {
+            "label": "2021",
+            "value": 2.1
+          },
+          {
+            "label": "2022",
+            "value": 2.0
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work on Productivity",
+      "prompt": "In recent years, particularly due to the COVID-19 pandemic, remote work has become increasingly common. While some argue that remote work enhances productivity, others believe it can hinder it. Discuss both views and give your opinion. On one hand, proponents of remote work argue that it allows employees to have flexible schedules, which can lead to increased job satisfaction and motivation. Additionally, it eliminates time lost in commuting and provides a more comfortable working environment. On the other hand, detractors contend that remote work can lead to distractions at home, decreased collaboration among team members, and difficulties in maintaining work-life balance. They argue that in-person interactions are crucial for team cohesion and idea generation. In my opinion, while remote work has its advantages, it is essential to strike a balance between remote and in-office work to maximize productivity. Both companies and employees should consider the unique nature of their tasks and adjust their working arrangements accordingly."
+    }
+  ]
+}

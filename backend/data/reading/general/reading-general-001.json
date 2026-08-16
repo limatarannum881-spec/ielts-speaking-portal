@@ -1,0 +1,57 @@
+{
+  "id": "reading-general-001",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Community Recycling Programs",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "In recent years, many communities have established recycling programs to encourage residents to reduce waste and promote environmental sustainability. These programs often include various bins that are designated for different materials, such as paper, plastics, and metals. Each type of bin has specific guidelines regarding what can and cannot be recycled. For example, while clean pizza boxes can be placed in the paper bin, those with leftover grease should be disposed of in regular trash as they contaminate the recycling stream. \n \nMany municipalities offer curbside pickup, where residents are encouraged to place their recycling bins out for collection on designated days. This service not only makes recycling more convenient but also significantly increases participation rates in recycling programs. Additionally, some cities have implemented drop-off centers where residents can bring their recyclable materials at any time. These centers typically accept a wider variety of items, including electronics and hazardous waste, which are not picked up curbside. \n \nEducation plays a crucial role in the success of recycling initiatives. Many communities organize workshops and provide informative materials to help residents understand the importance of recycling and how to participate effectively. Children in schools are often taught about waste reduction and recycling through hands-on activities, fostering a culture of environmental awareness from a young age. \n \nDespite these efforts, challenges remain. Common issues include contamination of recycling bins with non-recyclable items, which can lead to increased costs and reduce the efficiency of recycling operations. To combat this, community leaders continue to seek innovative solutions, such as offering incentives for proper recycling and utilizing technology to monitor recycling behaviors. Through collective efforts, communities aim to create a cleaner environment and promote sustainable living for future generations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Residents can place greasy pizza boxes in the paper recycling bin.",
+          "answer": "false",
+          "explanation": "The passage states that greasy pizza boxes should be disposed of in regular trash."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What service do many municipalities offer to help residents recycle?",
+          "options": [
+            "A. Drop-off centers",
+            "B. Curbside pickup",
+            "C. Workshops",
+            "D. Waste audits"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that curbside pickup is a service offered to residents for recycling."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Education is important in recycling programs because it helps residents understand the importance of _____ and how to participate effectively.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "recycling programs",
+          "explanation": "The passage emphasizes education as key to helping residents understand recycling."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What common issue can arise from contamination of recycling bins?",
+          "answer": "Increased costs",
+          "explanation": "The passage describes that contamination can lead to increased costs and reduce efficiency."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

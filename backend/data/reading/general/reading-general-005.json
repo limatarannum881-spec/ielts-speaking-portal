@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-005",
+  "type": "reading",
+  "version": "general",
+  "title": "Local Parks: A Community Treasure",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Local parks are an essential part of any community, providing a space for recreation, relaxation, and social interaction. These green spaces are where families gather for picnics, children play, and jogging enthusiasts find their rhythm. Communities across the globe recognize the importance of parks, which offer not only beauty but also numerous benefits to physical and mental well-being. \n\nIn recent years, many cities have committed to creating and maintaining parks as part of their urban planning efforts. Improvements include the installation of walking trails, fitness stations, and even community gardens that allow residents to grow their own fruits and vegetables. Additionally, parks often host events such as farmers' markets, outdoor movie nights, and seasonal festivals, bringing people together and fostering a sense of community. \n\nHowever, the maintenance of these parks can be challenging. Budget constraints often limit the frequency of landscaping services, and litter can accumulate quickly if not regularly addressed. To combat these issues, many communities have turned to volunteer programs, encouraging residents to participate in park clean-up days or to adopt specific areas for ongoing care. \n\nLocal governments and non-profit organizations frequently collaborate to ensure that parks remain accessible and welcoming. They encourage public involvement through surveys and meetings to gather input on what improvements or new facilities residents would like to see. This democratic approach not only enhances the parks but also increases community ownership and pride. \n\nIn conclusion, local parks play a crucial role in enhancing quality of life. From providing recreational spaces to fostering community engagement, they are invaluable assets that require collective effort to maintain and improve. If you haven’t visited your local park recently, consider taking a stroll this weekend and witnessing firsthand the community spirit alive within these treasured green spaces.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Volunteering is not encouraged in local park maintenance.",
+          "answer": "false",
+          "explanation": "The passage states that many communities have turned to volunteer programs to help with park maintenance."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What recent improvement has been made to many local parks?",
+          "options": [
+            "A. Increased parking space",
+            "B. Fitness stations",
+            "C. More wildlife",
+            "D. Larger playgrounds"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions the installation of fitness stations as part of recent improvements in local parks."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Local parks provide a space for __________ and __________.",
+          "answer": "recreation, relaxation",
+          "explanation": "The passage states that local parks are essential for recreation and relaxation."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What types of events do parks often host to bring the community together?",
+          "answer": "farmers' markets, outdoor movie nights, seasonal festivals",
+          "explanation": "The passage lists these events as examples of how parks foster community interaction."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Budget constraints can limit park maintenance.",
+          "answer": "true",
+          "explanation": "The passage explains that budget constraints often limit how frequently landscaping services can be provided."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "How do local governments gather input from the public about park improvements?",
+          "options": [
+            "A. By hosting private meetings",
+            "B. Through surveys and meetings",
+            "C. By sending mail",
+            "D. Using social media"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that local governments encourage public involvement through surveys and meetings."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

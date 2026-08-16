@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-025",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces in Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, including parks, gardens, and green rooftops, play a crucial role in enhancing the mental health of city dwellers. Research indicates that these areas contribute to reduced levels of stress, anxiety, and depression. One of the primary reasons for this positive impact is the restorative effect of nature. Studies have shown that exposure to greenery can significantly improve mood and cognitive function. In particular, a 2016 study found that individuals who spent time in natural environments reported lower stress levels compared to those who remained in urban settings devoid of greenery.\n\nAdditionally, urban green spaces provide opportunities for physical activity, which is closely linked to improved mental well-being. Exercise has been known to release endorphins, often referred to as the body's natural mood lifters. The presence of green spaces encourages residents to engage in activities such as walking, jogging, or cycling, which can further enhance mental resilience.\n\nFurthermore, the social aspect of urban green spaces cannot be overlooked. Parks and community gardens serve as venues for social interaction, fostering a sense of community among residents. This social connectivity is essential for reducing feelings of isolation and loneliness, which can exacerbate mental health issues.\n\nDespite these benefits, urban planning often neglects the development of sufficient green spaces. Many cities are expanding rapidly, with green areas being converted into commercial or residential properties, thereby diminishing access to nature for urban populations. Some experts argue that this trend must be reversed to promote better mental health outcomes. Incorporating more green spaces into urban design could be a strategic approach to addressing the mental health crisis afflicting many metropolitan areas today.\n\nIn conclusion, urban green spaces are vital not only for environmental sustainability but also for the mental health of the urban population. By acknowledging their importance and ensuring their preservation and expansion, cities can contribute to the overall well-being of their residents.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Exposure to urban green spaces increases stress levels.",
+          "answer": "false",
+          "explanation": "The passage states that exposure to greenery can lower stress levels."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of exercise mentioned in the passage?",
+          "options": [
+            "A) It increases loneliness",
+            "B) It releases endorphins",
+            "C) It reduces access to green spaces",
+            "D) It promotes commercial development"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that exercise releases endorphins, which are natural mood lifters."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces provide opportunities for __________.",
+          "prompt": "Complete the sentence.",
+          "answer": "physical activity",
+          "explanation": "The passage states that urban green spaces provide opportunities for physical activity."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one primary reason for the positive impact of green spaces on mental health?",
+          "answer": "restorative effect of nature",
+          "explanation": "The passage notes the restorative effect of nature as a primary reason for the positive impact."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Cities are increasingly prioritizing the development of green spaces.",
+          "answer": "false",
+          "explanation": "The passage indicates that many cities are converting green areas into commercial or residential properties."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is one consequence of lacking urban green spaces?",
+          "options": [
+            "A) Increased physical activity",
+            "B) Enhanced mood",
+            "C) Increased feelings of isolation",
+            "D) Better social connectivity"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that the lack of green spaces can exacerbate feelings of isolation and loneliness."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Incorporating more green spaces into urban design could address the __________ health crisis.",
+          "prompt": "Complete the sentence.",
+          "answer": "mental health",
+          "explanation": "The passage mentions that incorporating green spaces could address the mental health crisis."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What role do parks and community gardens serve in urban areas?",
+          "answer": "venues for social interaction",
+          "explanation": "According to the passage, parks and community gardens serve as venues for social interaction."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Recycling Process",
+      "prompt": "You recently visited a local recycling facility as part of a community event. Write a letter to your friend describing the recycling process you learned about. In your letter, explain the steps involved in recycling common materials such as paper, plastic, and glass. Additionally, discuss the importance of recycling for the environment and the role community members can play in supporting this initiative. Provide your friend with some tips on how they can contribute to recycling efforts in their daily life.",
+      "chart": {
+        "kind": "bar",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Sorting",
+            "value": 2
+          },
+          {
+            "label": "Processing",
+            "value": 3
+          },
+          {
+            "label": "Manufacturing",
+            "value": 4
+          },
+          {
+            "label": "Distribution",
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Work-Life Balance",
+      "prompt": "In today's fast-paced society, many individuals find it increasingly challenging to maintain a healthy work-life balance. Discuss the main factors that contribute to this problem and how both employers and employees can work together to improve this situation. In your response, consider the responsibilities of each party and provide examples of strategies that can be implemented to create a more balanced work environment."
+    }
+  ]
+}

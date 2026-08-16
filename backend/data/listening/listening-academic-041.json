@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-041",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey Tom, have you thought about our weekend getaway? \nTom: Yes! I have a few ideas. I was thinking we could go to the beach. \nEmily: The beach sounds great, but what about the mountains? I could really use some fresh air. \nTom: That’s a good point. The mountains would be nice for hiking. \nEmily: Exactly! Plus, we could also have a picnic. \nTom: True. How long do you plan to stay there? \nEmily: I was thinking maybe two nights. Enough to explore but not too long. \nTom: That works for me! Should we look for a cabin? \nEmily: Yes, a cabin would be perfect. It’s also more private. \nTom: Alright, let’s check some sites later tonight. Should we invite Sarah and Mike? \nEmily: I think that would be fun! The more, the merrier. \nTom: Agreed! I’ll text them later. \nEmily: Great! Looking forward to it!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What location do Emily and Tom primarily discuss?",
+          "options": [
+            "A) City",
+            "B) Beach",
+            "C) Mountains",
+            "D) Desert"
+          ],
+          "answer": "C",
+          "explanation": "They talk about the beach and the mountains, ultimately leaning towards the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Duration"
+          ],
+          "answer": [
+            "Mountains",
+            "two nights"
+          ],
+          "explanation": "Emily suggests the mountains for their getaway and decides on a duration of two nights."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who do they consider inviting to the getaway?",
+          "answer": "Sarah and Mike",
+          "explanation": "Emily and Tom discuss inviting their friends Sarah and Mike to join them."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

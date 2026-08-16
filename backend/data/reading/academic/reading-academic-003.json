@@ -1,0 +1,102 @@
+{
+  "id": "reading-academic-003",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Benefits of Urban Green Spaces",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, including parks, gardens, and green rooftops, play a crucial role in enhancing the quality of city life. They serve various purposes, from providing recreational areas for residents to acting as habitats for urban wildlife. One of the most significant benefits of green spaces is their positive impact on mental health. Studies have shown that exposure to nature can reduce stress levels, alleviate symptoms of anxiety, and improve overall mood. Furthermore, green spaces offer opportunities for physical activity through walking, jogging, or cycling, contributing to better physical health among urban populations.\n\nAdditionally, urban green spaces improve air quality by filtering pollutants and producing oxygen. Trees, for example, absorb carbon dioxide and release oxygen, making cities healthier places to live. The presence of plants in urban areas also helps mitigate the urban heat island effect, where cities experience higher temperatures than surrounding rural areas due to human activities and infrastructure. By providing shade and cooling through evapotranspiration, green spaces can help regulate temperatures.\n\nHowever, not all urban areas have equal access to green spaces. Socioeconomic factors often determine the availability and condition of these areas, leading to disparities in health outcomes among different populations. Efforts to incorporate more green spaces in city planning are essential for promoting equity and improving public health. Cities like Singapore and Amsterdam have set examples by integrating greenery into their urban layouts, demonstrating that thoughtfully designed green infrastructure can lead to sustainable urban environments. As cities continue to grow, the preservation and creation of green spaces will be vital for maintaining ecological balance and supporting urban living.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on mental health.",
+          "answer": "false",
+          "explanation": "The passage states that exposure to nature reduces stress levels and improves mood, indicating a positive impact on mental health."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the primary benefits of urban green spaces mentioned in the passage?",
+          "options": [
+            "A. Improved air quality",
+            "B. Increased traffic congestion",
+            "C. Enhanced noise pollution",
+            "D. Limited recreational space"
+          ],
+          "answer": "A",
+          "explanation": "The passage explicitly mentions that urban green spaces improve air quality by filtering pollutants."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces provide opportunities for __________.",
+          "prompt": "Urban green spaces provide opportunities for __________.",
+          "answer": "physical activity",
+          "explanation": "The passage states that green spaces offer opportunities for physical activities like walking, jogging, or cycling."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "Name one city mentioned in the passage known for integrating greenery into its urban layout.",
+          "answer": "Singapore",
+          "explanation": "The passage mentions Singapore as an example of a city successfully integrating greenery into urban planning."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "All urban areas have equal access to green spaces.",
+          "answer": "false",
+          "explanation": "The passage indicates that socioeconomic factors often determine access to green spaces, leading to disparities."
+        },
+        {
+          "id": "q6",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Trees absorb __________ and release oxygen.",
+          "prompt": "Trees absorb __________.",
+          "answer": "carbon dioxide",
+          "explanation": "The passage states that trees absorb carbon dioxide and release oxygen."
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Which of the following is mentioned as a problem caused by a lack of urban green spaces?",
+          "options": [
+            "A. High mortality rates",
+            "B. Urban heat island effect",
+            "C. Decreased public transportation",
+            "D. Increased traffic accidents"
+          ],
+          "answer": "B",
+          "explanation": "The passage discusses the urban heat island effect as a consequence of insufficient green spaces."
+        },
+        {
+          "id": "q8",
+          "type": "matching",
+          "question": "Match the following cities with their green initiatives.",
+          "pairs": [
+            {
+              "city": "Singapore",
+              "initiative": "Integrating greenery into urban layouts"
+            },
+            {
+              "city": "Amsterdam",
+              "initiative": "Promoting sustainable urban environments"
+            }
+          ],
+          "answer": "Correct matches as described in the passage.",
+          "explanation": "The passage provides information on both cities and their green initiatives."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

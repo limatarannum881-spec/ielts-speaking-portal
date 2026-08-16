@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-002",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impacts of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, including parks, gardens, and natural reserves, have been increasingly recognized for their significant contributions to public health, particularly mental well-being. Research indicates that access to these areas can lead to reductions in stress, anxiety, and depression. A study conducted in a major metropolitan area found that individuals living within a half-mile radius of green spaces reported higher levels of happiness compared to those in densely built environments devoid of nature. The therapeutic effects of nature are attributed to several factors: the opportunity for physical activities, the benefits of fresh air, and the soothing effects of natural scenery. Furthermore, urban green spaces serve as crucial social hubs, facilitating community interactions and cohesion. People are more likely to engage in social activities in parks and gardens, which can help to combat feelings of isolation and loneliness. While the benefits of urban green spaces are becoming more widely acknowledged, there are also challenges in their maintenance and accessibility. As urban areas continue to expand, the preservation and creation of green spaces must be prioritized to ensure that all residents can reap their mental health benefits. Overall, the integration of nature into urban planning appears to be a vital step towards enhancing quality of life in increasingly crowded cities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Access to urban green spaces is linked to higher levels of stress.",
+          "answer": "false",
+          "explanation": "The passage states that access to green spaces leads to reductions in stress."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A. Increase in physical activities",
+            "B. Improvement in air quality",
+            "C. Reduction in feelings of isolation",
+            "D. Enhance community interactions"
+          ],
+          "answer": "B",
+          "explanation": "The passage does not mention air quality as a benefit."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Individuals living near green spaces report higher levels of ___.",
+          "prompt": "happiness.",
+          "answer": "happiness",
+          "explanation": "The passage explicitly states that those living near green spaces report higher happiness."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What must be prioritized in urban planning according to the passage?",
+          "answer": "preservation and creation of green spaces",
+          "explanation": "The passage emphasizes the importance of prioritizing green spaces in urban development."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are known to facilitate social cohesion.",
+          "answer": "true",
+          "explanation": "The passage clearly states that these spaces serve as social hubs."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which city feature is highlighted for its therapeutic effect?",
+          "options": [
+            "A. Skyscrapers",
+            "B. Urban noise",
+            "C. Natural scenery",
+            "D. Shopping malls"
+          ],
+          "answer": "C",
+          "explanation": "The passage mentions the soothing effects of natural scenery."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Urban green spaces help to combat feelings of ___.",
+          "prompt": "isolation.",
+          "answer": "isolation",
+          "explanation": "The passage mentions that they help to combat feelings of isolation."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What challenges are associated with urban green spaces as mentioned in the passage?",
+          "answer": "maintenance and accessibility",
+          "explanation": "The passage notes that challenges include maintenance and ensuring accessibility."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

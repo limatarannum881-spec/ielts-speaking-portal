@@ -2,108 +2,83 @@
   "id": "reading-academic-000",
   "type": "reading",
   "version": "academic",
-  "title": "The Role of Microplastics in Marine Ecosystems",
+  "title": "The Role of Microorganisms in Soil Health",
   "duration": 3600,
   "sections": [
     {
       "id": "section-1",
       "heading": "Reading Passage 1",
-      "passage": "Microplastics are tiny plastic particles less than five millimeters in size, which are now ubiquitous in marine environments. These particles arise from the breakdown of larger plastic debris, such as bottles and bags, as well as from microbeads found in personal care products like exfoliants. As they degrade, larger plastics fragment into smaller pieces, creating microplastics that are easily ingested by marine organisms. Research indicates that these particles have a detrimental effect on marine life; they can cause physical harm or even death to smaller creatures such as plankton, which forms the base of the ocean food chain.\n\nIn addition to physical risks, microplastics can also act as vectors for harmful chemicals and pathogens. Many of these plastics absorb toxic substances from the surrounding water and can transfer these toxins to marine animals when ingested. This bioaccumulation poses serious risks not only to marine ecosystems but also to human health, as many species of fish consumed by humans are found to contain microplastic pollutants.\n\nEfforts to combat the microplastics problem are underway globally. Countries are implementing stricter regulations on plastic production and usage, and there is a growing movement toward biodegradable alternatives. Additionally, scientific research is focused on developing methods for cleaning up existing microplastic pollution in oceans and rivers. Awareness campaigns are also playing a vital role in educating the public about the impact of their consumption habits on the marine environment. However, despite these efforts, the scale of the issue remains daunting, and ongoing research is crucial to understand the long-term effects of microplastics on marine life and ecosystems.\n\nIn conclusion, while the issue of microplastics presents significant challenges, a combination of legislative action, innovative research, and public awareness is key to mitigating their impact on marine environments.",
+      "passage": "Microorganisms play a crucial role in maintaining soil health, a factor that is increasingly recognized as essential for sustainable agriculture and environmental preservation. The term 'soil health' refers to the ability of soil to function as a living ecosystem, sustaining plants, animals, and humans. Key microorganisms include bacteria, fungi, protozoa, and nematodes, each contributing in various ways to soil fertility, structure, and nutrient cycling.\n\nBacteria are the most abundant organisms in soil and are involved in organic matter decomposition, which releases essential nutrients such as nitrogen and phosphorus into the soil. Fungi, on the other hand, form symbiotic relationships with plant roots through structures called mycorrhizae, enhancing water and nutrient uptake for the plants. Protozoa and nematodes serve as predators in the soil food web, regulating the populations of bacteria and fungi and ensuring a balanced ecosystem.\n\nResearch has shown that diverse microbial communities contribute to greater soil resilience against pests and diseases, making it imperative for farmers to adopt practices that promote microbial diversity. Such practices include reduced tillage, cover cropping, and organic amendments, which not only enhance microbial activity but also improve soil structure and water retention, ultimately leading to better crop yields.\n\nMoreover, soil health is linked to carbon sequestration, a process where carbon dioxide is captured and stored in the soil, helping to mitigate climate change. By fostering healthy soil ecosystems, agriculture can transition towards a more sustainable model that benefits both food production and environmental integrity. As the global population continues to rise, the importance of understanding and improving soil health through microbial management cannot be overstated.",
       "questions": [
         {
           "id": "q1",
           "type": "true-false-not-given",
-          "question": "Microplastics are larger than five millimeters in size.",
+          "question": "Bacteria are less abundant than fungi in soil.",
           "answer": "false",
-          "explanation": "The passage states that microplastics are less than five millimeters in size."
+          "explanation": "The passage states that bacteria are the most abundant organisms in soil."
         },
         {
           "id": "q2",
           "type": "multiple-choice",
-          "question": "What is one source of microplastics mentioned in the passage?",
+          "question": "What is one role of fungi in soil?",
           "options": [
-            "A) Plastic bottles",
-            "B) Glass containers",
-            "C) Steel products",
-            "D) Natural fibers"
+            "A) Decomposing organic matter",
+            "B) Enhancing water and nutrient uptake for plants",
+            "C) Regulating bacterial populations",
+            "D) Converting carbon dioxide into oxygen"
           ],
-          "answer": "A",
-          "explanation": "The passage mentions plastic bottles as a source of microplastics."
+          "answer": "B",
+          "explanation": "The passage explains that fungi enhance water and nutrient uptake for plants through mycorrhizae."
         },
         {
           "id": "q3",
           "type": "sentence-completion",
-          "question": "Complete the sentence. Choose no more than two words. Microplastics can cause ____ or even ____ to smaller marine organisms.",
-          "prompt": "physical harm or even ____",
-          "answer": "death",
-          "explanation": "The passage states that microplastics can cause physical harm or even death to small marine creatures."
+          "question": "Complete the sentence. Choose no more than two words. Soil health refers to the ability of soil to function as a __________.",
+          "prompt": "living ecosystem",
+          "answer": "living ecosystem",
+          "explanation": "The passage defines soil health as the ability of soil to function as a living ecosystem."
         },
         {
           "id": "q4",
           "type": "short-answer",
-          "question": "What are one of the two main efforts mentioned to combat microplastics?",
-          "answer": "Stricter regulations",
-          "explanation": "The passage discusses stricter regulations on plastic production as an effort to combat microplastics."
+          "question": "What is the relationship between soil health and carbon sequestration?",
+          "answer": "Soil health is linked to carbon sequestration",
+          "explanation": "The passage mentions that healthy soil ecosystems help with capturing and storing carbon dioxide."
         },
         {
           "id": "q5",
           "type": "true-false-not-given",
-          "question": "All species of fish consumed by humans contain microplastics.",
-          "answer": "not-given",
-          "explanation": "The passage states that many species of fish consumed by humans contain microplastics, but does not specify that all do."
+          "question": "Microbial diversity has no effect on pest resilience.",
+          "answer": "false",
+          "explanation": "The passage states that diverse microbial communities contribute to greater soil resilience against pests."
         },
         {
           "id": "q6",
           "type": "multiple-choice",
-          "question": "Which of the following is a method being researched to tackle microplastics?",
+          "question": "Which of the following practices promote microbial diversity?",
           "options": [
-            "A) Oil-based cleanup",
-            "B) Cleaning methods",
-            "C) Electrolysis",
-            "D) Incineration"
+            "A) Increased tillage",
+            "B) Use of synthetic fertilizers",
+            "C) Cover cropping",
+            "D) Monoculture planting"
           ],
-          "answer": "B",
-          "explanation": "The passage mentions that research is focused on developing methods for cleaning up existing microplastic pollution."
+          "answer": "C",
+          "explanation": "The passage lists cover cropping as a practice that promotes microbial diversity."
         },
         {
           "id": "q7",
           "type": "sentence-completion",
-          "question": "Microplastics can transfer toxins to marine animals when they are _____.",
-          "prompt": "when they are _____",
-          "answer": "ingested",
-          "explanation": "The passage states that microplastics can transfer toxins when ingested by marine animals."
+          "question": "Choose no more than three words. Farmers are advised to use __________ to improve soil structure.",
+          "prompt": "",
+          "answer": "organic amendments",
+          "explanation": "The passage states that organic amendments enhance microbial activity and improve soil structure."
         },
         {
           "id": "q8",
           "type": "short-answer",
-          "question": "What forms the base of the ocean food chain?",
-          "answer": "Plankton",
-          "explanation": "The passage indicates that plankton forms the base of the ocean food chain."
-        },
-        {
-          "id": "q9",
-          "type": "matching",
-          "question": "Match the terms to their definitions.",
-          "pairs": [
-            {
-              "term": "Microplastics",
-              "definition": "Tiny plastic particles less than five millimeters"
-            },
-            {
-              "term": "Bioaccumulation",
-              "definition": "Accumulation of substances in an organism"
-            },
-            {
-              "term": "Regulations",
-              "definition": "Rules set by governments to control practices"
-            }
-          ],
-          "answer": [
-            "Microplastics - Tiny plastic particles less than five millimeters",
-            "Bioaccumulation - Accumulation of substances in an organism",
-            "Regulations - Rules set by governments to control practices"
-          ],
-          "explanation": "Each term in the matching question corresponds correctly to its definition as stated in or implied by the passage."
+          "question": "What are the main microorganisms mentioned in the passage?",
+          "answer": "Bacteria, fungi, protozoa, nematodes",
+          "explanation": "The passage lists bacteria, fungi, protozoa, and nematodes as key microorganisms."
         }
       ]
     }

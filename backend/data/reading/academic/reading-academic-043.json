@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-043",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Well-being",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "In recent years, urban green spaces have been recognized as essential components of city planning due to their significant impact on mental well-being. These areas, which include parks, gardens, and green roofs, provide a refuge from the bustling city life. Numerous studies have shown that access to green spaces is associated with lower levels of stress, anxiety, and depression. For instance, research conducted in major cities indicates that individuals living in proximity to parks report higher levels of psychological satisfaction compared to those without such access.\n\nThe benefits of green spaces extend beyond mere aesthetics; they promote physical activity and social interaction, both of which are crucial for mental health. Activities such as jogging, walking, or simply relaxing in a park can enhance mood and foster a sense of community. Furthermore, the presence of nature has been linked to cognitive restoration, allowing individuals to recover from mental fatigue.\n\nDespite these advantages, the distribution of green spaces is often uneven, with low-income neighborhoods frequently lacking adequate access. This inequity has prompted urban planners and policymakers to prioritize the development of green areas in underserved communities. Initiatives such as community gardens and neighborhood parks not only serve to beautify an area but also encourage social cohesion and provide a sense of ownership among residents.\n\nIn summary, urban green spaces are vital for enhancing mental health and well-being. They offer a myriad of benefits, from reducing stress to fostering community spirit. As cities continue to grow, incorporating green spaces into urban design will be essential for creating healthier living environments for all residents.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces significantly impact mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one identified benefit of urban green spaces?",
+          "options": [
+            "A) Increased crime rates",
+            "B) Lower levels of mental distress",
+            "C) Decreased physical activity",
+            "D) Isolation among community members"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that access to green spaces is associated with lower levels of stress, anxiety, and depression."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces promote __________ and social interaction.",
+          "prompt": "Complete the sentence.",
+          "answer": "physical activity",
+          "explanation": "The passage states that green spaces promote physical activity and social interaction."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of initiatives are urban planners prioritizing to improve access to green spaces?",
+          "answer": "community gardens",
+          "explanation": "The passage mentions community gardens and neighborhood parks as initiatives to improve access."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Low-income neighborhoods often have adequate green space access.",
+          "answer": "false",
+          "explanation": "The passage indicates that low-income neighborhoods frequently lack adequate access to green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What effect does nature have on individuals according to the passage?",
+          "options": [
+            "A) It causes mental fatigue",
+            "B) It promotes cognitive restoration",
+            "C) It enhances anxiety",
+            "D) It increases stress levels"
+          ],
+          "answer": "B",
+          "explanation": "The passage links the presence of nature to cognitive restoration."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces serve to beautify an area and encourage __________.",
+          "prompt": "Complete the sentence.",
+          "answer": "social cohesion",
+          "explanation": "The passage states that green areas encourage social cohesion among residents."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is essential for creating healthier living environments according to the passage?",
+          "answer": "incorporating green spaces",
+          "explanation": "The passage concludes that incorporating green spaces into urban design is essential for healthier living."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

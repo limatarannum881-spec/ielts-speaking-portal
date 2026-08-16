@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-072",
+  "type": "listening",
+  "title": "A Day at the Local Market",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Good morning, Lisa! Are you heading to the market today?  B: Yes, I am! I need to pick up some fresh vegetables and maybe a few fruits. What about you?  A: I’m planning to get some herbs and spices for the dinner I’m making tonight.  B: Sounds delicious! Do you know where to find the best prices?  A: I usually go to the stall near the bakery; they have great deals on organic produce.  B: Good tip! I always struggle to find the right stall. The market can be overwhelming.  A: I totally understand! Sometimes I just wander around until I find what I need.  B: Do you think it’s worth visiting the new organic stall that opened last week?  A: I've heard good things about it. They have a special for a basket of fruits for just five dollars.  B: Wow, that’s a steal! I might grab that too.  A: Let’s meet up after and compare what we bought.  B: Great idea! I’ll see you later then.  A: See you at noon!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is Lisa planning to buy at the market?",
+          "options": [
+            "A) Herbs",
+            "B) Bakery items",
+            "C) Vegetables and fruits",
+            "D) Spices"
+          ],
+          "answer": "C",
+          "explanation": "Lisa specifically mentions that she needs to pick up fresh vegetables and fruits."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Label 1",
+            "Label 2"
+          ],
+          "answer": [
+            "organic produce",
+            "five dollars"
+          ],
+          "explanation": "The script states that the best deals are found on organic produce and that fruits are five dollars."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What time do Lisa and her friend plan to meet?",
+          "answer": "noon",
+          "explanation": "The conversation ends with them deciding to meet at noon to compare their purchases."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-014",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Mycorrhizal Fungi in Ecosystem Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Mycorrhizal fungi are a pivotal component of various ecosystems, forming symbiotic relationships with the roots of most plants. These fungi enhance nutrient absorption, particularly phosphorus, which is often limited in soil environments. The association between mycorrhizal fungi and plant roots allows plants to access water and nutrients more effectively, which improves their growth and resilience against environmental stresses such as drought and disease. Studies have shown that mycorrhizal networks can transfer nutrients not only between plants but also between different plant species, facilitating inter-plant communication and resource sharing. \n\nThe role of mycorrhizal fungi extends beyond individual plants; they also contribute significantly to soil health and structure. By binding soil particles together, they improve soil aeration and water retention, which are crucial for maintaining healthy ecosystems. Furthermore, mycorrhizal fungi can also aid in carbon storage in the soil, thus playing a role in mitigating climate change. Recent research has indicated that the loss of these fungi due to habitat destruction and land use changes can lead to decreased plant diversity and impaired ecosystem functions. \n\nIn agricultural contexts, the application of mycorrhizal fungi as a biofertilizer has gained traction, with farmers seeking sustainable alternatives to chemical fertilizers. The incorporation of these fungi into farming practices not only boosts crop yields but also promotes healthier soil ecosystems. However, the effectiveness of mycorrhizal inoculations can vary based on soil type, crop species, and environmental conditions, indicating the need for tailored applications. Overall, mycorrhizal fungi are essential for supporting biodiversity and enhancing ecosystem stability, making their conservation a priority in the face of global environmental challenges.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Mycorrhizal fungi are harmful to plant growth.",
+          "answer": "false",
+          "explanation": "The passage states that mycorrhizal fungi enhance nutrient absorption and improve plant growth."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What nutrient is specifically mentioned as being enhanced by mycorrhizal fungi?",
+          "options": [
+            "A. Nitrogen",
+            "B. Phosphorus",
+            "C. Potassium",
+            "D. Calcium"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights phosphorus as a nutrient that mycorrhizal fungi help plants absorb."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Mycorrhizal fungi improve plant resilience against ______.",
+          "prompt": "Mycorrhizal fungi improve plant resilience against ______.",
+          "answer": "environmental stresses",
+          "explanation": "The passage states that these fungi improve resilience against environmental stresses."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What benefit do mycorrhizal fungi provide to soil health?",
+          "answer": "improve soil aeration and water retention",
+          "explanation": "The passage explains that mycorrhizal fungi enhance soil structure, leading to better aeration and water retention."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Mycorrhizal fungi can facilitate communication between different plant species.",
+          "answer": "true",
+          "explanation": "The passage indicates that mycorrhizal networks can transfer nutrients and facilitate inter-plant communication."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is a potential effect of losing mycorrhizal fungi?",
+          "options": [
+            "A. Increased crop yields",
+            "B. Enhanced plant diversity",
+            "C. Impaired ecosystem functions",
+            "D. Improved soil quality"
+          ],
+          "answer": "C",
+          "explanation": "The passage notes that the loss of mycorrhizal fungi can lead to impaired ecosystem functions."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Farmers are using mycorrhizal fungi as a ______.",
+          "prompt": "Farmers are using mycorrhizal fungi as a ______.",
+          "answer": "biofertilizer",
+          "explanation": "The passage mentions that mycorrhizal fungi are being applied as biofertilizers in agriculture."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What does the passage suggest about the effectiveness of mycorrhizal inoculations?",
+          "answer": "it can vary based on soil type and crop species",
+          "explanation": "The passage states that the effectiveness of these inoculations varies based on several factors."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

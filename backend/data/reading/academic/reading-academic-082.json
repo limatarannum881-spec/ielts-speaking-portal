@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-082",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Influence of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and gardens, have long been recognized for their aesthetic and recreational value. However, recent research highlights their significant role in promoting mental health and well-being among city dwellers. Multiple studies indicate that regular exposure to green environments can lead to reduced stress levels, enhanced mood, and an overall sense of community. For instance, a study conducted by the University of Queensland found that participants who engaged in outdoor activities in parks reported lower anxiety levels compared to those who remained indoors. Additionally, green spaces provide opportunities for social interaction, which is essential for mental health. Group activities in these settings, such as exercise classes or community events, foster social ties and support networks, further contributing to psychological resilience.\n\nMoreover, some researchers suggest that the mere presence of greenery in urban settings can positively influence cognitive functions and emotional well-being. A study published in the journal 'Environmental Psychology' demonstrated that individuals living near parks showed improved concentration and memory retention. The biophilia hypothesis, which posits that humans have an innate affinity for nature, supports the idea that interacting with green spaces can be vital for mental rejuvenation and cognitive recovery.\n\nDespite these benefits, urban planning often neglects the incorporation of adequate green spaces in city development. Many metropolitan areas suffer from a lack of accessible parks, leading to increased mental health issues among residents. Urban planners are thus encouraged to prioritize green infrastructure as a means of enhancing public health and well-being. In conclusion, the integration of urban green spaces can play a crucial role in mitigating mental health issues and fostering a healthier urban living environment.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are primarily valued for their aesthetic appeal.",
+          "answer": "true",
+          "explanation": "The passage begins by acknowledging the aesthetic and recreational value of urban green spaces."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What did the University of Queensland study find?",
+          "options": [
+            "A) Indoor activities reduce anxiety levels",
+            "B) Outdoor activities in parks reduce anxiety",
+            "C) Parks have no effect on anxiety",
+            "D) Community events increase stress"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifically states that participants engaging in outdoor activities in parks reported lower anxiety levels compared to those indoors."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces provide opportunities for __________________.",
+          "prompt": "Urban green spaces provide opportunities for",
+          "answer": "social interaction",
+          "explanation": "The passage mentions that green spaces are essential for social interaction which enhances mental health."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "According to the research, what hypothesis supports the benefits of green spaces?",
+          "answer": "biophilia hypothesis",
+          "explanation": "The text references the biophilia hypothesis to explain humans' affinity for nature."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "The passage suggests that urban planning often incorporates adequate green spaces.",
+          "answer": "false",
+          "explanation": "The passage states that urban planning often neglects the incorporation of adequate green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What cognitive benefits were reported for individuals living near parks?",
+          "options": [
+            "A) Improved physical health",
+            "B) Enhanced creativity",
+            "C) Better concentration",
+            "D) Increased anxiety"
+          ],
+          "answer": "C",
+          "explanation": "The passage indicates that individuals living near parks showed improved concentration and memory retention."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The integration of urban green spaces is crucial for mitigating __________.",
+          "prompt": "The integration of urban green spaces is crucial for mitigating",
+          "answer": "mental health issues",
+          "explanation": "The passage concludes that the integration of green spaces can play a crucial role in mitigating mental health issues."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What type of events can be organized in green spaces to foster community ties?",
+          "answer": "exercise classes",
+          "explanation": "The passage mentions that group activities such as exercise classes in parks foster social ties and support networks."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

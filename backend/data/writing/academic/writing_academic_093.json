@@ -1,0 +1,72 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Monthly Sales of Different Fruits in 2023",
+      "prompt": "The bar chart illustrates the monthly sales of different types of fruits (apples, oranges, bananas, and grapes) in a supermarket from January to December 2023. Overall, it is evident that apple sales consistently ranked highest throughout the year, while grape sales were the least popular among consumers. From January to March, apple sales peaked at around 500 units in March before declining slightly to about 400 units in April. In contrast, banana sales showed a steady increase, starting at approximately 300 units and reaching 450 units by July. Orange sales fluctuated between 200 and 300 units, peaking in August but declining towards the end of the year. Grapes remained the least sold fruit, with sales at only 150 units from January to December. This chart highlights trends in fruit preferences and consumption patterns over the year, indicating a strong preference for apples among customers.",
+      "chart": {
+        "kind": "bar",
+        "unit": "units",
+        "data": [
+          {
+            "label": "January",
+            "value": 400
+          },
+          {
+            "label": "February",
+            "value": 450
+          },
+          {
+            "label": "March",
+            "value": 500
+          },
+          {
+            "label": "April",
+            "value": 400
+          },
+          {
+            "label": "May",
+            "value": 350
+          },
+          {
+            "label": "June",
+            "value": 300
+          },
+          {
+            "label": "July",
+            "value": 450
+          },
+          {
+            "label": "August",
+            "value": 300
+          },
+          {
+            "label": "September",
+            "value": 250
+          },
+          {
+            "label": "October",
+            "value": 200
+          },
+          {
+            "label": "November",
+            "value": 180
+          },
+          {
+            "label": "December",
+            "value": 150
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Social Media on Society",
+      "prompt": "Social media has become an integral part of modern life, influencing various aspects of society. While some people argue that social media has a mostly positive impact, others believe it poses significant risks and drawbacks. This essay will discuss both sides of the argument. On one hand, proponents of social media highlight its ability to connect people globally, facilitate communication, and foster relationships. It can also serve as a platform for raising awareness about social issues and mobilizing support for different causes. On the other hand, critics point out that social media can lead to negative consequences such as cyberbullying, misinformation, and a decline in face-to-face interactions. Additionally, excessive use of social media has been linked to mental health issues, particularly among younger generations. In conclusion, while social media offers numerous benefits, it is essential to recognize its potential hazards and strive for a balanced approach to its usage."
+    }
+  ]
+}

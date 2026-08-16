@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Expenditure on Different Categories",
+      "prompt": "The bar chart illustrates the annual expenditure in thousands of dollars allocated to various categories by a group of consumers in 2022. The categories include Food, Housing, Transport, Entertainment, and Healthcare. Overall, it can be observed that Housing constituted the largest share of expenditure, while Entertainment received the least allocation. In detail, consumers spent approximately $30,000 on Housing, surpassing the amount spent on Food, which was around $25,000. Transport expenditures were close to $15,000, whereas Healthcare costs stood at about $12,000. Entertainment, on the other hand, accounted for just $8,000. The variation in spending among these categories highlights the differing priorities of consumers and their preferences when it comes to allocating their budget. The significant investment in Housing suggests that consumers prioritize stable living conditions, whereas the lower allocation for Entertainment indicates a possible trend towards more prudent spending in that area.",
+      "chart": {
+        "kind": "bar",
+        "unit": "thousands of dollars",
+        "data": [
+          {
+            "label": "Food",
+            "value": 25000
+          },
+          {
+            "label": "Housing",
+            "value": 30000
+          },
+          {
+            "label": "Transport",
+            "value": 15000
+          },
+          {
+            "label": "Entertainment",
+            "value": 8000
+          },
+          {
+            "label": "Healthcare",
+            "value": 12000
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, the integration of technology in education has prompted widespread debate. Some believe that technology enhances the learning experience, while others argue that it can hinder the development of crucial skills. Discuss both views and give your own opinion. On one hand, proponents of technology in education argue that it provides students with access to an abundance of resources and information that can enrich their learning experience. Digital tools can make lessons more engaging and interactive, catering to a variety of learning styles. Moreover, technology can facilitate remote learning, which has become increasingly relevant in today's global context. On the other hand, critics contend that reliance on technology can adversely affect students' critical thinking and problem-solving abilities. They argue that over-dependence on electronic devices may lead to reduced attention spans and a lack of interpersonal skills. In my opinion, while technology can significantly enhance education, it is essential to strike a balance to ensure that students develop essential life skills alongside their academic growth."
+    }
+  ]
+}

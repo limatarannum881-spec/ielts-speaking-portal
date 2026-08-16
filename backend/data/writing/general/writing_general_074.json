@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for Information",
+      "prompt": "You recently moved to a new neighborhood and are interested in gathering more information about the local community. Write a letter to the local community center. In your letter, introduce yourself, explain why you are interested in the community, and ask for information regarding activities, clubs, and resources available for new residents.",
+      "chart": null
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "In recent years, technology has transformed the way people communicate with one another. While some believe that this change has improved interpersonal relationships, others argue that it has deteriorated personal connections. Discuss both views and give your own opinion on the impact of technology on communication."
+    }
+  ]
+}

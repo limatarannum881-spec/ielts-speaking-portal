@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2023",
+      "prompt": "The bar chart illustrates the market share of various global smartphone manufacturers in 2023. It compares the percentage of total sales accounted for by each brand. Overall, it is evident that Brand A leads the market significantly, followed by Brands B and C, with the remaining brands capturing much smaller shares. Specifically, Brand A holds 40% of the market, while Brand B and Brand C have 25% and 20%, respectively. Other brands, including Brand D and Brand E, account for 10% and 5% of the market share. It is also notable that smaller brands have been seeing growth, albeit slowly, which indicates an increasingly competitive market. The data suggests that consumer preferences are shifting, and larger brands may need to innovate further to maintain their dominance.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 40
+          },
+          {
+            "label": "Brand B",
+            "value": 25
+          },
+          {
+            "label": "Brand C",
+            "value": 20
+          },
+          {
+            "label": "Brand D",
+            "value": 10
+          },
+          {
+            "label": "Brand E",
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Remote Work: Advantages and Disadvantages",
+      "prompt": "In recent years, remote work has become increasingly popular, particularly accelerated by the COVID-19 pandemic. While many view remote work as a beneficial arrangement, others argue that it poses significant drawbacks. Discuss both the advantages and disadvantages of remote work. On one hand, remote work offers employees greater flexibility, allowing them to balance their professional and personal lives more effectively. Additionally, it often eliminates commuting time, leading to increased productivity and job satisfaction. On the other hand, remote work can lead to feelings of isolation, hinder effective communication among team members, and blur the lines between work and home life. This essay will explore these contrasting viewpoints, ultimately arguing that while remote work has notable benefits, the challenges associated with it cannot be overlooked."
+    }
+  ]
+}

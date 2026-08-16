@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-003",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey, Jake! Have you thought about our weekend plans? \nJake: I was thinking we could go hiking in the mountains. The weather looks perfect! \nEmily: That sounds great, but I’d prefer somewhere a bit more relaxing, like the beach.\nJake: The beach is nice, but it might be too crowded this time of year. \nEmily: True, but we could find a less popular beach to avoid the crowds. \nJake: What if we compromise? We could go to the beach Saturday and hike on Sunday. \nEmily: I love that idea! I can pack a picnic for the beach too. \nJake: Perfect! Should we leave early on Saturday? \nEmily: Yes, let’s aim to leave by 8 AM. That way, we can enjoy more time at the beach. \nJake: Sounds like a plan! I’ll take care of the gas and parking. \nEmily: Great! I’ll handle the food and drinks. \nJake: Awesome, I’m really looking forward to it! \nEmily: Me too! It’ll be a nice break from work.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is Jake's initial suggestion for the weekend?",
+          "options": [
+            "A) Go to the beach",
+            "B) Go hiking in the mountains",
+            "C) Visit a historical site",
+            "D) Stay home"
+          ],
+          "answer": "B",
+          "explanation": "Jake suggested going hiking in the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination 1",
+            "Activity 1"
+          ],
+          "answer": [
+            "beach",
+            "hiking"
+          ],
+          "explanation": "Emily and Jake decided on the beach and hiking as their activities."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What time do they plan to leave on Saturday?",
+          "answer": "8 AM",
+          "explanation": "They agreed to leave by 8 AM on Saturday."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Who will handle the food and drinks for the beach?",
+          "options": [
+            "A) Jake",
+            "B) Emily",
+            "C) Both",
+            "D) Neither"
+          ],
+          "answer": "B",
+          "explanation": "Emily will take care of the food and drinks."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What will Jake take care of for the trip?",
+          "answer": "gas and parking",
+          "explanation": "Jake mentioned he would handle the gas and parking."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What did Emily suggest about finding a beach?",
+          "options": [
+            "A) It should be popular",
+            "B) It should be less crowded",
+            "C) It should be far away",
+            "D) It should have lots of amenities"
+          ],
+          "answer": "B",
+          "explanation": "Emily suggested finding a less crowded beach."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

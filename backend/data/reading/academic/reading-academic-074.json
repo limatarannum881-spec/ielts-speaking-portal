@@ -1,0 +1,117 @@
+{
+  "id": "reading-academic-074",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and gardens, play a crucial role in enhancing the quality of life in densely populated cities. Research indicates that access to these areas positively influences mental health by reducing stress and anxiety levels. A study conducted by the University of California found that individuals living within a half-mile radius of a park reported lower instances of depression compared to those who lived further away. The presence of greenery has been linked to improvements in mood and overall well-being, providing residents with a space to escape the hustle and bustle of urban life.\n\nFurthermore, the benefits of urban green spaces extend beyond individual mental health; they foster community engagement and social interaction. Parks serve as gathering places where residents can connect, participate in recreational activities, and attend community events. This sense of belonging contributes to social cohesion, which is imperative for a healthy urban environment.\n\nDespite these benefits, many cities struggle with adequate green space allocation. As urbanization continues to rise, the demand for housing often leads to the neglect of parks and gardens. Urban planners are now recognizing the necessity of integrating green areas into city designs to promote not only environmental sustainability but also public health.\n\nThe World Health Organization emphasizes the importance of urban green spaces in their health guidelines, suggesting that cities should aim for at least 9 square meters of green area per resident. This guideline encourages urban planners to rethink existing landscapes and incorporate more greenery into their future projects. In conclusion, urban green spaces are not merely aesthetic enhancements but vital components of urban infrastructure that significantly impact mental health and community wellbeing.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Living near a park is associated with higher levels of depression.",
+          "answer": "false",
+          "explanation": "The passage states that individuals living near a park reported lower instances of depression."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of urban green spaces mentioned in the passage?",
+          "options": [
+            "A) Increased housing availability",
+            "B) Improved mental health",
+            "C) Decreased community engagement",
+            "D) Higher pollution levels"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that access to green spaces positively influences mental health."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces contribute to ________ and ________ interaction.",
+          "prompt": "Urban green spaces contribute to",
+          "answer": "community engagement",
+          "explanation": "The passage states that parks serve as gathering places fostering community engagement."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What organization emphasizes the importance of urban green spaces?",
+          "answer": "World Health Organization",
+          "explanation": "The passage mentions the World Health Organization in relation to urban green space guidelines."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban planners are increasingly neglecting the integration of green areas in city designs.",
+          "answer": "false",
+          "explanation": "The passage states that urban planners are recognizing the necessity of integrating green areas into city designs."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "According to the World Health Organization, how much green space should cities aim for per resident?",
+          "options": [
+            "A) 5 square meters",
+            "B) 7 square meters",
+            "C) 9 square meters",
+            "D) 11 square meters"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that cities should aim for at least 9 square meters of green area per resident."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The presence of greenery has been linked to improvements in _____ and overall well-being.",
+          "prompt": "The presence of greenery has been linked to improvements in",
+          "answer": "mood",
+          "explanation": "The passage mentions that greenery improves mood and overall well-being."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What happens to many cities as urbanization continues?",
+          "answer": "struggle with adequate green space allocation",
+          "explanation": "The passage describes that many cities struggle with green space allocation due to urbanization."
+        },
+        {
+          "id": "q9",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces provide residents with a space to escape urban life.",
+          "answer": "true",
+          "explanation": "The passage mentions that urban green spaces provide spaces to escape the hustle and bustle of urban life."
+        },
+        {
+          "id": "q10",
+          "type": "matching",
+          "question": "Match the benefits to their descriptions.",
+          "options": {
+            "A": "Improved mental health",
+            "B": "Community engagement"
+          },
+          "descriptions": {
+            "1": "Residents connect and participate in activities",
+            "2": "Lower instances of depression"
+          },
+          "answer": {
+            "A": "2",
+            "B": "1"
+          },
+          "explanation": "The passage links improved mental health to lower depression rates and community engagement to social activities."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

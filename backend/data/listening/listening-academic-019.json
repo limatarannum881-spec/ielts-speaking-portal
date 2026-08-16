@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-019",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey Alex, have you thought about our weekend trip? We should finalize our plans today.  \nAlex: Yes, I have! I was thinking we could head to the mountains. The weather forecast looks great for hiking.  \nEmily: That sounds perfect! How long are we planning to stay?  \nAlex: I was thinking just two days, Saturday and Sunday. We can leave early Saturday morning.  \nEmily: Good idea. Should we book a cabin? I heard the views are amazing from there.  \nAlex: Absolutely! I found a few options online. One has a hot tub and an outdoor grill.  \nEmily: That sounds wonderful! Do we need to bring anything special?  \nAlex: Just the usual snacks and some hiking gear. Oh, and maybe a board game for the evenings.  \nEmily: Perfect! Let’s book the cabin later today. What time do you think we should leave on Saturday?  \nAlex: If we can leave by 7 AM, we’ll have enough time to hike in the afternoon.  \nEmily: Agreed! Let’s meet at my place at 6:30 then.  \nAlex: Sounds like a plan! I can’t wait!  ",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the primary destination for the weekend trip?",
+          "options": [
+            "A. Beach",
+            "B. Mountains",
+            "C. City",
+            "D. Lake"
+          ],
+          "answer": "B",
+          "explanation": "They specifically mention heading to the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Departure Time"
+          ],
+          "answer": [
+            "mountains",
+            "7 AM"
+          ],
+          "explanation": "The destination is mentioned as the mountains, and they plan to leave at 7 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What two items do they plan to bring for the trip?",
+          "answer": "snacks, hiking gear",
+          "explanation": "Emily and Alex mention bringing snacks and hiking gear."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does the cabin they found have?",
+          "options": [
+            "A. Swimming pool",
+            "B. Hot tub",
+            "C. Sauna",
+            "D. Gym"
+          ],
+          "answer": "B",
+          "explanation": "The cabin has a hot tub and an outdoor grill, as mentioned."
+        },
+        {
+          "id": "lq5",
+          "type": "multiple-choice",
+          "question": "When will they meet to leave for the trip?",
+          "options": [
+            "A. 6:00 AM",
+            "B. 6:30 AM",
+            "C. 7:00 AM",
+            "D. 7:30 AM"
+          ],
+          "answer": "B",
+          "explanation": "They agreed to meet at 6:30 AM."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What activity do they plan to do in the afternoon?",
+          "answer": "hiking",
+          "explanation": "They plan to hike in the afternoon after arriving."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

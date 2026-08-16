@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-023",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Recycling Programs",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "In many communities around the world, recycling programs are an essential part of waste management. They help reduce the amount of garbage sent to landfills and encourage the reuse of materials. Local recycling initiatives often focus on several key materials, primarily paper, plastic, metals, and glass. These programs educate residents on how to properly sort their waste, thereby increasing the overall effectiveness of the recycling process.\n\nPaper recycling is one of the most established forms of recycling. Paper products can be made from recycled materials, significantly reducing the need for new resources. Many localities provide specific bins for different types of paper, such as newspapers, cardboard, and office paper. It's important for residents to remove any contaminants, such as food residues, which can spoil batches of recyclables.\n\nPlastic recycling, on the other hand, is more complex due to the variety of plastics available. Most programs accept common items like bottles and containers, but residents should check their local guidelines as not all plastics are recyclable. Moreover, many municipalities offer incentives for recycling plastics to encourage residents to participate actively.\n\nMetals, like aluminum and steel, are highly valuable in recycling due to their ability to be reused multiple times without losing quality. Aluminum cans are often the most common type of metal recycled, with programs making it easy for residents to contribute by providing clearly labeled bins.\n\nGlass recycling is less straightforward and often involves separate collection systems. Residents must rinse out glass bottles and jars before disposal. Many areas offer drop-off locations for glass, which can be transported to specialized facilities that can recycle glass efficiently.\n\nTo further promote recycling, community organizations frequently hold events, such as clean-up days or educational workshops, aimed at raising awareness about the importance of recycling and teaching community members the best practices for waste management. Participating in these events can foster a more environmentally conscious community and help individuals feel more connected to their local area.\n\nIn summary, understanding how local recycling programs operate and the materials they accept is crucial for effective waste management. Residents are encouraged to engage with their local recycling initiatives, which ultimately contribute to a more sustainable environment.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Recycling programs only focus on paper products.",
+          "answer": "false",
+          "explanation": "The passage states that recycling programs focus on several key materials, including paper, plastic, metals, and glass."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is a common problem with recycling plastics?",
+          "options": [
+            "A. They cannot be recycled at all",
+            "B. The variety of plastics complicates recycling",
+            "C. They are always contaminated",
+            "D. They need to be melted down first"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that the variety of plastics available makes recycling more complex."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Glass recycling often requires residents to __________ before disposal.",
+          "prompt": "rinsing out",
+          "answer": "rinse out",
+          "explanation": "The passage indicates that residents must rinse out glass bottles and jars before disposal."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "Name one type of event organized by community organizations to promote recycling.",
+          "answer": "clean-up days",
+          "explanation": "The passage refers to community organizations holding events like clean-up days to promote recycling."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Residents must remove food residues from paper items before recycling.",
+          "answer": "true",
+          "explanation": "The passage states that it's important for residents to remove contaminants like food residues from paper items."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which metal is commonly recycled according to the passage?",
+          "options": [
+            "A. Copper",
+            "B. Aluminum",
+            "C. Gold",
+            "D. Iron"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifically mentions aluminum cans as a common type of metal recycled."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

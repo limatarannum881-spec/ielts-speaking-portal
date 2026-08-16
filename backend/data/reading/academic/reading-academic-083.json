@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-083",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "In recent years, the importance of urban green spaces has gained significant attention, particularly concerning their influence on mental health. Urban green spaces include parks, gardens, and other natural environments found within city limits. Numerous studies have indicated that access to these areas contributes positively to psychological well-being. For instance, a 2020 study published in the Journal of Environmental Psychology found that individuals living near green spaces reported lower levels of stress and higher levels of overall happiness compared to those in more urbanized settings. \n\nOne potential explanation for this phenomenon lies in the concept of biophilia, which suggests that humans possess an innate affinity for nature. Interaction with natural environments can reduce anxiety, enhance mood, and facilitate feelings of peace and tranquility. Furthermore, green spaces can serve as venues for social interaction, which is essential for maintaining mental health. Community gardens and public parks enable residents to engage with one another, fostering a sense of belonging and reducing feelings of isolation.\n\nAdditionally, urban green spaces provide opportunities for physical activity, which is inherently linked to mental well-being. Regular exercise is known to release endorphins, the body's natural mood lifters. Consequently, the presence of parks and recreational areas encourages a more active lifestyle, which can lead to improved mental health outcomes.\n\nDespite the evidence supporting the benefits of urban green spaces, challenges remain in maintaining and creating these areas, particularly in densely populated cities. Urban planners face the dilemma of balancing developmental needs with the preservation of natural spaces. Some cities have initiated innovative strategies to integrate green areas into urban environments, such as vertical gardens and green roofs. Such initiatives not only contribute to mental health but also help combat urban heat and improve air quality.\n\nIn conclusion, urban green spaces play a crucial role in enhancing mental health by providing an escape from the stresses of city life, facilitating social interaction, and encouraging physical activity. Moving forward, it is imperative for city planners and policymakers to prioritize the development and maintenance of these essential areas to foster healthier urban living environments.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Access to urban green spaces has no effect on mental health.",
+          "answer": "false",
+          "explanation": "The passage states that access to green spaces contributes positively to psychological well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is biophilia?",
+          "options": [
+            "A natural affinity for technology",
+            "An innate affinity for nature",
+            "A method of urban planning",
+            "A psychological disorder"
+          ],
+          "answer": "B",
+          "explanation": "The concept of biophilia suggests that humans possess an innate affinity for nature."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Urban planners face the dilemma of balancing developmental needs with the preservation of _____.",
+          "answer": "natural spaces",
+          "explanation": "The passage explicitly mentions the challenge of balancing development with the preservation of natural spaces."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do urban green spaces provide opportunities for?",
+          "answer": "physical activity",
+          "explanation": "The passage mentions that urban green spaces provide opportunities for physical activity, which is linked to mental well-being."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Community gardens can help foster a sense of belonging.",
+          "answer": "true",
+          "explanation": "The passage states that community gardens enable residents to engage with one another, helping foster a sense of belonging."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following benefits is NOT mentioned in relation to urban green spaces?",
+          "options": [
+            "Reducing anxiety",
+            "Improving air quality",
+            "Enhancing mood",
+            "Increasing traffic congestion"
+          ],
+          "answer": "D",
+          "explanation": "The passage discusses various benefits but does not mention increasing traffic congestion."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Regular exercise is known to release _____, which helps lift mood.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "endorphins",
+          "explanation": "The passage states that regular exercise releases endorphins, the body's natural mood lifters."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What type of innovative strategies have some cities initiated?",
+          "answer": "vertical gardens and green roofs",
+          "explanation": "The passage mentions that cities have initiated strategies like vertical gardens and green roofs to integrate green areas into urban environments."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

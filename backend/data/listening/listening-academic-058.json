@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-058",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey John, have you thought about our weekend trip? I think we should decide on a place soon.\nJohn: Yes, I was thinking maybe we could go to the beach. It’s been a while since we’ve had a proper getaway.\nEmily: The beach sounds great! We could relax and do some water sports too.\nJohn: Absolutely! Do you have any specific beaches in mind?\nEmily: I was considering Sandy Shore. It’s not too far and has great reviews.\nJohn: Good choice! Should we book a hotel now, or see if we can find a rental?\nEmily: A rental could be nice for the extra space. Plus, we might save some money.\nJohn: True, plus we can cook our own meals. Do you think we need to plan any activities?\nEmily: Maybe some kayaking or paddleboarding? They offer rentals near the beach.\nJohn: Sounds fun! Let’s make a list of everything we need to bring as well. \nEmily: Right! I’ll get started on that. \nJohn: Perfect! Let’s aim to have everything booked by tomorrow evening.\nEmily: Agreed! I’m looking forward to it!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What place do they plan to visit for their trip?",
+          "options": [
+            "A) Mountains",
+            "B) Beach",
+            "C) Forest",
+            "D) City"
+          ],
+          "answer": "B",
+          "explanation": "They specifically mention the beach as their destination."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Accommodation Type"
+          ],
+          "answer": [
+            "Sandy Shore",
+            "Rental"
+          ],
+          "explanation": "They plan to go to Sandy Shore and prefer a rental accommodation."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What activities do they consider doing at the beach?",
+          "answer": "Kayaking or paddleboarding",
+          "explanation": "They mention kayaking and paddleboarding as potential activities."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does Emily suggest about meals?",
+          "options": [
+            "A) Eating out",
+            "B) Cooking their own",
+            "C) Ordering delivery",
+            "D) No preference"
+          ],
+          "answer": "B",
+          "explanation": "Emily mentions that cooking their own meals could save money."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "When do they aim to have everything booked by?",
+          "answer": "Tomorrow evening",
+          "explanation": "They agree to have everything booked by tomorrow evening."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What is John's reaction to Emily's choice of beach?",
+          "options": [
+            "A) Disappointed",
+            "B) Indifferent",
+            "C) Supportive",
+            "D) Dismissive"
+          ],
+          "answer": "C",
+          "explanation": "John responds positively to Emily’s suggestion of Sandy Shore."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

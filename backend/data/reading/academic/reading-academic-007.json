@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-007",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban environments are often characterized by concrete jungles, towering skyscrapers, and bustling traffic. However, amid this chaos, urban green spaces such as parks, gardens, and green roofs play an essential role in enhancing the well-being of city dwellers. Recent studies indicate that access to these green areas is linked to improved mental health outcomes, particularly in urban populations. One study conducted in a major metropolitan area revealed that individuals who lived within a five-minute walk from a green space reported lower levels of stress and anxiety compared to those who did not.\n\nMoreover, the presence of greenery has been shown to encourage physical activity, which is also beneficial for mental health. Activities such as walking, jogging, or simply spending time in nature can lead to increased levels of serotonin, a neurotransmitter that contributes to feelings of happiness and well-being. As city planners become more aware of the importance of green spaces, many cities are investing in the development and maintenance of parks and community gardens.\n\nThe mental health benefits of green spaces are not only limited to direct exposure. Studies suggest that viewing images of natural landscapes can also evoke a positive emotional response, further emphasizing the psychological benefits associated with nature. Research has demonstrated that even a short period spent in a natural setting can significantly decrease levels of cortisol, a hormone associated with stress.\n\nDespite these positive findings, challenges remain in ensuring equitable access to green spaces for all urban residents. In many cities, low-income neighborhoods often lack sufficient parks and recreational areas, leading to disparities in mental health benefits. To address this issue, urban planners and mental health professionals are increasingly advocating for policies that prioritize the creation of accessible green spaces in underserved communities.\n\nIn conclusion, urban green spaces are vital to promoting mental well-being among city residents. As urbanization continues to expand, fostering the integration of nature into city life is essential for developing healthier, more resilient communities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no significant effect on mental health.",
+          "answer": "false",
+          "explanation": "The passage states that access to green spaces is linked to improved mental health outcomes."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of physical activity in green spaces mentioned in the passage?",
+          "options": [
+            "A. It increases levels of cortisol.",
+            "B. It decreases feelings of happiness.",
+            "C. It improves levels of serotonin.",
+            "D. It promotes isolation."
+          ],
+          "answer": "C",
+          "explanation": "The passage indicates that physical activity in green spaces can lead to increased levels of serotonin."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Green spaces can help to decrease ______ levels.",
+          "prompt": "",
+          "answer": "cortisol",
+          "explanation": "The passage states that being in a natural setting can decrease levels of cortisol, a stress hormone."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do urban planners advocate for in underserved communities?",
+          "answer": "accessible green spaces",
+          "explanation": "The passage mentions that urban planners advocate for policies prioritizing the creation of accessible green spaces in underserved communities."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "All urban neighborhoods have equal access to green spaces.",
+          "answer": "false",
+          "explanation": "The passage discusses how low-income neighborhoods often lack sufficient parks."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is mentioned as a benefit of viewing images of natural landscapes?",
+          "options": [
+            "A. Increased physical health.",
+            "B. Evoking a positive emotional response.",
+            "C. Reduced need for parks.",
+            "D. Encouraging isolation."
+          ],
+          "answer": "B",
+          "explanation": "The passage states that viewing images of natural landscapes can evoke a positive emotional response."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "According to the passage, individuals near green spaces report lower levels of ______.",
+          "prompt": "",
+          "answer": "stress and anxiety",
+          "explanation": "The passage indicates that those who live near green spaces report lower levels of stress and anxiety."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What are the two types of green spaces mentioned in the passage?",
+          "answer": "parks and gardens",
+          "explanation": "The passage lists parks and gardens as examples of urban green spaces."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

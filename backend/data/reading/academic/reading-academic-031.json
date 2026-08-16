@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-031",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Microplastics in Marine Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Microplastics, small plastic particles less than five millimeters in diameter, have emerged as a significant environmental concern in recent years. Their prevalence in oceans and waterways poses critical threats to marine life and ecosystems. Microplastics can originate from a variety of sources, including the breakdown of larger plastic debris, synthetic fibers released during laundry, and the fragmentation of personal care products. Due to their small size, they are easily ingested by marine organisms, ranging from plankton to larger fish species.\n\nThe ingestion of microplastics can lead to various health complications for marine fauna. Research indicates that these particles may cause physical harm, such as blockages in the digestive tract, and may also introduce toxic substances into the food chain. Chemicals used in the manufacturing of plastics, such as bisphenol A and phthalates, are known to have hormone-disrupting effects. As larger predators consume smaller fish that have ingested microplastics, these toxins accumulate in their bodies, leading to bioaccumulation and biomagnification, which can affect the entire food web.\n\nEfforts to address the microplastics issue include enhanced waste management practices and public awareness campaigns aimed at reducing plastic consumption. Researchers advocate for more stringent regulations on plastic production and disposal to mitigate future environmental impacts. Moreover, the development of biodegradable alternatives to traditional plastics has gained momentum as scientists seek sustainable solutions to this pressing global issue.\n\nIn conclusion, the presence of microplastics in marine ecosystems constitutes a complex challenge that intertwines environmental health and public policy. Continued research and collaboration among scientists, policymakers, and industry leaders are essential to devise strategies for combating the spread of microplastics and protecting our oceans for future generations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Microplastics are only harmful to larger fish species.",
+          "answer": "false",
+          "explanation": "The passage states that microplastics can be ingested by a variety of marine organisms, including plankton."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one source of microplastics mentioned in the passage?",
+          "options": [
+            "A) Plastic bags",
+            "B) Synthetic fibers",
+            "C) Food packaging",
+            "D) Construction materials"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that synthetic fibers are released during laundry, contributing to microplastics."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Microplastics can lead to ______________ in marine fauna.",
+          "answer": "health complications",
+          "explanation": "The passage explains that ingestion of microplastics can cause various health complications."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "Name one chemical mentioned that is harmful to marine life.",
+          "answer": "bisphenol A",
+          "explanation": "The passage specifically mentions bisphenol A as a toxic substance that affects marine organisms."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Efforts to reduce microplastics include improving waste management.",
+          "answer": "true",
+          "explanation": "The passage states that efforts include enhanced waste management practices."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "According to the passage, what is a potential outcome of consuming microplastics?",
+          "options": [
+            "A) Bioaccumulation",
+            "B) Increased biodiversity",
+            "C) Improved health",
+            "D) Reduced plastic usage"
+          ],
+          "answer": "A",
+          "explanation": "The passage mentions that toxins from microplastics accumulate in larger predators, leading to bioaccumulation."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The passage concludes that addressing microplastics is a challenge that connects ______________ and public policy.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "environmental health",
+          "explanation": "The passage states that the challenge of microplastics intertwines environmental health and public policy."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is one suggested solution to the microplastics problem?",
+          "answer": "biodegradable alternatives",
+          "explanation": "The passage discusses the development of biodegradable alternatives to traditional plastics as a possible solution."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

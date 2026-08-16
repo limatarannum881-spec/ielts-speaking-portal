@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-030",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Wellbeing",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban areas are often characterized by high population density, concrete structures, and limited access to nature. This environment can lead to a range of mental health issues among residents. However, the integration of green spaces into urban planning has been shown to have significant positive effects on the mental wellbeing of city dwellers. Studies indicate that even small parks or community gardens can provide psychological benefits, such as reducing stress and enhancing mood. Furthermore, access to nature has been linked to lower levels of anxiety and depression. For instance, a study conducted in a major city revealed that people who spent at least 30 minutes a week in green spaces reported feeling happier and less anxious compared to those who did not. The presence of trees, plants, and open spaces encourages physical activity, which is another crucial aspect of mental health. Walking, jogging, or simply spending time outdoors can lead to the release of endorphins, chemicals in the brain that act as natural painkillers and mood elevators. Despite these benefits, many urban planners still overlook the importance of green spaces, often prioritizing residential and commercial development. Some cities are beginning to recognize the value of integrating nature into the urban landscape, with initiatives that aim to create parks and preserve existing green areas. As awareness of the mental health crisis continues to grow, the promotion of urban green spaces is becoming an increasingly vital topic in public health discussions. Investing in these spaces is not only beneficial for the physical environment but also for the psychological wellbeing of urban populations. Overall, the relationship between urban green spaces and mental health illustrates the need for a balanced approach to urban development, one that includes both infrastructure and the natural environment to foster healthier communities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no effect on mental health.",
+          "answer": "false",
+          "explanation": "The passage states that green spaces have significant positive effects on mental wellbeing."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the psychological benefits of green spaces mentioned in the passage?",
+          "options": [
+            "A) Increased stress",
+            "B) Enhanced mood",
+            "C) Higher anxiety levels",
+            "D) None of the above"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that green spaces enhance mood."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Access to green spaces has been linked to lower levels of __________.",
+          "prompt": "...",
+          "answer": "anxiety and depression",
+          "explanation": "The passage indicates that access to nature is linked to lower levels of anxiety and depression."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "How many minutes a week should one spend in green spaces to feel happier according to the study?",
+          "answer": "30",
+          "explanation": "The passage states that people who spent at least 30 minutes a week in green spaces reported feeling happier."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "All urban planners prioritize green spaces in their designs.",
+          "answer": "false",
+          "explanation": "The passage explains that many urban planners overlook the importance of green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What do cities begin to recognize according to the passage?",
+          "options": [
+            "A) The importance of commercial development",
+            "B) The value of integrating nature into urban landscape",
+            "C) The need for more residential areas",
+            "D) None of the above"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that cities are recognizing the importance of integrating nature into urban areas."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Investing in urban green spaces is beneficial for __________.",
+          "prompt": "...",
+          "answer": "psychological wellbeing",
+          "explanation": "The passage discusses the psychological benefits of investing in green spaces."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is released in the brain when engaging in physical activity outdoors?",
+          "answer": "endorphins",
+          "explanation": "The passage mentions that physical activity leads to the release of endorphins."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

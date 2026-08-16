@@ -1,0 +1,18 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for Leave",
+      "prompt": "You have recently been offered a new job that requires you to move to another city. Write a letter to your current employer requesting a leave of absence. In your letter, explain why you need the leave, how long you expect to be away, and what arrangements you have made to cover your responsibilities while you are gone."
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "Some people believe that the use of technology in education has improved the learning experience, while others argue that it has created more distractions for students. Discuss both views and give your opinion. What impact do you think technology has had on education, and how can it be used effectively to enhance student learning?"
+    }
+  ]
+}

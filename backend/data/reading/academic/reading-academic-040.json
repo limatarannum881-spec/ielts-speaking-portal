@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-040",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on City Dwellers",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, have increasingly become a focal point of urban planning. Their significance is not merely aesthetic; these areas provide numerous benefits that directly influence the well-being of city dwellers. Studies have shown that access to green spaces can enhance mental health by reducing stress and anxiety. For instance, individuals with regular access to parks report lower levels of depression and higher levels of general happiness than those who do not. Furthermore, green spaces are known to promote physical activity among residents, fostering a healthier lifestyle. In fact, neighborhoods with significant green areas often see lower obesity rates compared to those without.\n\nThe environmental advantages of urban green spaces are equally vital. They contribute to biodiversity by serving as habitats for various species, which is critical in urban settings where natural habitats are often compromised. Additionally, these areas play a crucial role in mitigating urban heat effects, improving air quality, and managing stormwater. Trees and vegetation can lower surface temperatures and absorb pollutants, significantly enhancing the urban microclimate.\n\nDespite these benefits, the distribution and accessibility of urban green spaces can vary substantially across different neighborhoods. In many cities, affluent areas are more likely to have well-maintained parks, while lower-income neighborhoods may lack these essential resources. This disparity raises concerns about social equity, as access to green spaces can influence not only individual health but also community cohesion and quality of life.\n\nAs cities continue to expand, the integration of green spaces into urban designs is imperative. Planners and policymakers are urged to prioritize equitable access to these vital resources. Through innovative approaches such as vertical gardens and green roofs, urban environments can become more sustainable and inclusive, ultimately leading to healthier and more resilient cities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are primarily valued for their aesthetic appeal.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces provide numerous benefits, indicating that their value goes beyond aesthetics."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one documented effect of access to green spaces on mental health?",
+          "options": [
+            "A) Increase in anxiety",
+            "B) Higher levels of depression",
+            "C) Reduced levels of stress",
+            "D) Decreased overall happiness"
+          ],
+          "answer": "C",
+          "explanation": "The passage mentions that access to parks can reduce stress and anxiety, leading to a positive effect on mental health."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Green spaces are essential for increasing __________ in urban environments.",
+          "answer": "biodiversity",
+          "explanation": "The passage notes that green spaces contribute to biodiversity by providing habitats for various species."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What are two benefits of urban green spaces mentioned in the passage?",
+          "answer": "mental health, physical activity",
+          "explanation": "The passage discusses both mental health benefits and promotion of physical activity as key advantages of urban green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Lower-income neighborhoods typically enjoy ample green spaces compared to affluent areas.",
+          "answer": "false",
+          "explanation": "The passage states that affluent neighborhoods are more likely to have well-maintained parks, suggesting the opposite."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as an environmental benefit of urban green spaces?",
+          "options": [
+            "A) Improving air quality",
+            "B) Enhancing urban biodiversity",
+            "C) Increasing property values",
+            "D) Mitigating urban heat effects"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not discuss the impact on property values, focusing instead on environmental benefits."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Cities are encouraged to use __________ approaches to incorporate more green spaces into urban designs.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "innovative approaches",
+          "explanation": "The passage calls for planners to use innovative approaches such as vertical gardens, indicating the need for creativity in urban planning."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is one challenge associated with the distribution of green spaces in urban areas?",
+          "answer": "social equity",
+          "explanation": "The passage highlights concerns about social equity in access to green spaces, particularly between affluent and lower-income neighborhoods."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

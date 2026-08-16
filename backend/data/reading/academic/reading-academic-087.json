@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-087",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on City Dwellers",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and gardens, play a vital role in enhancing the quality of life for city dwellers. These areas not only provide recreational opportunities but also contribute significantly to mental health and environmental sustainability. Research has demonstrated that access to green spaces is linked to reduced stress levels and improved mental well-being. Individuals living near parks report higher levels of physical activity and lower incidences of obesity compared to those in urban areas lacking such spaces.\n\nMoreover, green spaces help in mitigating urban heat effects, as vegetation absorbs sunlight and reduces ambient temperatures. This cooling effect can lead to decreased reliance on air conditioning, thus lowering energy costs for residents. The presence of trees and plants also improves air quality by filtering pollutants and providing oxygen.\n\nFurthermore, green spaces foster community interactions and social cohesion. They serve as gathering spots for families, friends, and neighbors, enhancing social ties and a sense of belonging. The cultural value of these spaces cannot be overlooked either; they often host community events, art installations, and educational programs, making them vital to urban culture.\n\nIn conclusion, the benefits of urban green spaces extend far beyond aesthetics. They are crucial in promoting physical health, enhancing environmental conditions, and strengthening community bonds. As cities continue to expand, the integration and preservation of these green areas should be prioritized in urban planning initiatives to ensure a healthier and more sustainable future for urban populations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are only beneficial for recreational activities.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces provide multiple benefits including mental health and environmental sustainability."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the main psychological benefits mentioned in the passage?",
+          "options": [
+            "A) Increased stress levels",
+            "B) Improved mental well-being",
+            "C) Higher obesity rates",
+            "D) Decreased physical activity"
+          ],
+          "answer": "B",
+          "explanation": "The passage directly mentions that access to green spaces is linked to improved mental well-being."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Individuals living near parks report higher levels of _____.",
+          "answer": "physical activity",
+          "explanation": "According to the passage, individuals near parks engage in more physical activity."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What effect do vegetation and trees have on urban temperatures?",
+          "answer": "cooling effect",
+          "explanation": "The passage describes how vegetation absorbs sunlight and reduces ambient temperatures, leading to a cooling effect."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Access to green spaces can lead to lower energy costs.",
+          "answer": "true",
+          "explanation": "The passage states that a cooling effect can lead to decreased reliance on air conditioning, thus lowering energy costs."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "How do green spaces contribute to community life?",
+          "options": [
+            "A) By increasing traffic",
+            "B) By providing gathering spots",
+            "C) By decreasing social ties",
+            "D) By isolating neighborhoods"
+          ],
+          "answer": "B",
+          "explanation": "The passage emphasizes that green spaces serve as gathering spots that enhance social ties."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Green spaces help filter _____ and provide oxygen.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "pollutants",
+          "explanation": "The passage mentions that trees and plants improve air quality by filtering pollutants."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What should be prioritized in urban planning to ensure a sustainable future for city residents?",
+          "answer": "integration and preservation of green areas",
+          "explanation": "The passage suggests that urban planning initiatives should prioritize integrating and preserving green spaces."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

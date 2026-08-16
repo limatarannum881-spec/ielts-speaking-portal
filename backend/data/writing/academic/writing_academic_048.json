@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Sales by Brand (2020-2022)",
+      "prompt": "The bar chart illustrates the global sales figures of five smartphone brands (Apple, Samsung, Huawei, Xiaomi, and Oppo) over a three-year period from 2020 to 2022. Overall, it is evident that Apple and Samsung dominated the market with significantly higher sales compared to the other brands. In 2020, Samsung led the market with approximately 300 million units sold, while Apple followed closely with around 220 million units. However, by 2022, Apple had surpassed Samsung, reaching sales of 320 million units, indicating a growth trend. On the other hand, Samsung's sales slightly declined to about 280 million units during the same period. Huawei experienced a downturn in sales from 180 million in 2020 to just 100 million in 2022, likely due to geopolitical issues affecting its business. Conversely, Xiaomi and Oppo saw remarkable growth, with Xiaomi increasing from 140 million to 180 million units, while Oppo rose from 80 million to 120 million units over the same period. This data suggests a shifting landscape in the smartphone market, with Apple and Samsung maintaining their lead but facing increasing competition from emerging brands.",
+      "chart": {
+        "kind": "bar",
+        "unit": "million units",
+        "data": [
+          {
+            "label": "Apple",
+            "value": 320
+          },
+          {
+            "label": "Samsung",
+            "value": 280
+          },
+          {
+            "label": "Huawei",
+            "value": 100
+          },
+          {
+            "label": "Xiaomi",
+            "value": 180
+          },
+          {
+            "label": "Oppo",
+            "value": 120
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Social Media on Society",
+      "prompt": "In recent years, social media has become an integral part of modern society, influencing various aspects of our daily lives. While some argue that social media platforms have a positive effect on communication and information sharing, others believe they have detrimental consequences. Discuss both views and give your own opinion. On the one hand, proponents of social media argue that these platforms facilitate connections among people from different backgrounds, allowing for the exchange of ideas and cultural experiences. They also provide a space for marginalized voices to be heard and can mobilize support for social causes. However, critics point out that social media can lead to misinformation, a decline in face-to-face interactions, and mental health issues stemming from online bullying and the pressure to conform to unrealistic standards. In my opinion, while social media has the potential to contribute positively to society, it also poses significant challenges that must be addressed. Therefore, it is crucial for users to be educated on responsible usage and for platforms to implement stricter regulations to mitigate harm."
+    }
+  ]
+}

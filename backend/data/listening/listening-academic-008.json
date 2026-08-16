@@ -1,0 +1,82 @@
+{
+  "id": "listening-academic-008",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey, Jake! Have you thought about what we should do this weekend?\nJake: I was thinking we could go hiking. The weather looks perfect for it!\nEmily: That sounds great! Do you have a particular trail in mind?\nJake: Yes, there's a new trail up by the lake. I've heard it has amazing views.\nEmily: Oh, I’ve been wanting to try that one! What time should we head out?\nJake: How about we leave early, around 8 AM? That way we can avoid the heat later in the day.\nEmily: Good idea! Should we pack lunch?\nJake: Absolutely! We could take sandwiches and some fruit. I can bring a cooler.\nEmily: Perfect! I’ll handle the snacks and drinks then. We should also remember to bring plenty of water.\nJake: Definitely. And maybe some sunscreen too! I don’t want to get sunburned on our first trip of the year.\nEmily: Good call! Let's plan to meet at my place at 7:30 then. \nJake: Sounds like a plan! I'm looking forward to it! ",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What activity do Emily and Jake plan for the weekend?",
+          "options": [
+            "A) Camping",
+            "B) Visiting a museum",
+            "C) Hiking",
+            "D) Going to the beach"
+          ],
+          "answer": "C",
+          "explanation": "The conversation reveals that they are planning to go hiking."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Trail Location",
+            "Departure Time"
+          ],
+          "answer": [
+            "by the lake",
+            "8 AM"
+          ],
+          "explanation": "Emily and Jake plan to hike at a trail by the lake and leave at 8 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What items does Jake suggest they pack for lunch?",
+          "answer": "sandwiches and fruit",
+          "explanation": "Jake suggests packing sandwiches and some fruit for lunch."
+        },
+        {
+          "id": "lq4",
+          "type": "short-answer",
+          "question": "What time do they plan to meet at Emily's house?",
+          "answer": "7:30",
+          "explanation": "They plan to meet at Emily's house at 7:30 AM."
+        },
+        {
+          "id": "lq5",
+          "type": "multiple-choice",
+          "question": "What does Emily offer to bring?",
+          "options": [
+            "A) Sunscreen",
+            "B) Snacks and drinks",
+            "C) A first-aid kit",
+            "D) A camera"
+          ],
+          "answer": "B",
+          "explanation": "Emily says she will handle the snacks and drinks."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does Jake want to avoid during the hike?",
+          "answer": "getting sunburned",
+          "explanation": "Jake mentions he doesn't want to get sunburned on their trip."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

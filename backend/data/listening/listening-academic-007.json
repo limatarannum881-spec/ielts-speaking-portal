@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-007",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Alice: Hey Mark, have you thought about what we should do this weekend? I was thinking we could go hiking. \nMark: That's a great idea! I've heard there’s a beautiful trail up in the Silver Mountains. \nAlice: Perfect! We could leave early Saturday morning and maybe have a picnic there. \nMark: Sounds like a plan! Do you think we need to bring anything special? \nAlice: Definitely some water and snacks. Also, I think we should take a first aid kit, just in case. \nMark: Good thinking! Should we invite Sarah too? \nAlice: Yeah, she would love it. I’ll text her. What time do you want to meet? \nMark: How about 7 AM? That way, we can avoid the heat and have plenty of time to enjoy the hike. \nAlice: 7 AM it is! I can pick you up. \nMark: Great! I’m looking forward to it! \nAlice: Me too! It's going to be fun!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What activity are Alice and Mark planning for the weekend?",
+          "options": [
+            "A) Camping",
+            "B) Hiking",
+            "C) Swimming",
+            "D) Biking"
+          ],
+          "answer": "B",
+          "explanation": "Alice suggests hiking as the activity for the weekend."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "Time"
+          ],
+          "answer": [
+            "Silver Mountains",
+            "7 AM"
+          ],
+          "explanation": "They plan to hike in the Silver Mountains and meet at 7 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What should they bring for the hike?",
+          "answer": "water and snacks",
+          "explanation": "Alice mentions needing to bring water and snacks for their hiking trip."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Who else do they consider inviting?",
+          "options": [
+            "A) John",
+            "B) Sarah",
+            "C) Emma",
+            "D) David"
+          ],
+          "answer": "B",
+          "explanation": "Mark suggests inviting Sarah, as Alice agrees she would love to join."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Essential Item"
+          ],
+          "answer": [
+            "first aid kit"
+          ],
+          "explanation": "Alice thinks they should take a first aid kit for safety."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What time does Mark suggest they meet?",
+          "answer": "7 AM",
+          "explanation": "Mark proposes to meet at 7 AM to start their hike."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

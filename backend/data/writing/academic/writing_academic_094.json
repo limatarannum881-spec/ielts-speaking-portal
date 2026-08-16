@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Employment Rates by Education Level in 2023",
+      "prompt": "The bar chart illustrates the employment rates of individuals categorized by their highest level of education attained in the year 2023. The data is segmented into four education levels: High School Diploma, Bachelor's Degree, Master's Degree, and Doctorate. Notably, high school graduates exhibit an employment rate of approximately 65%, while those with a Bachelor's Degree fare better with an employment rate of about 80%. The chart highlights a significant increase in employment for individuals holding a Master's Degree, reaching nearly 90%. Those with a Doctorate degree showcase the highest employment rate at around 95%. This information indicates a strong correlation between educational attainment and employment opportunities, suggesting that higher education levels lead to better job prospects. Overall, the chart emphasizes the importance of education in securing employment in today's job market.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "High School Diploma",
+            "value": 65
+          },
+          {
+            "label": "Bachelor's Degree",
+            "value": 80
+          },
+          {
+            "label": "Master's Degree",
+            "value": 90
+          },
+          {
+            "label": "Doctorate",
+            "value": 95
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has played an increasingly important role in education, transforming how students learn and teachers instruct. While some argue that technology enhances educational outcomes, others contend that it can hinder students' learning experiences. Discuss both viewpoints and give your own opinion. On one hand, proponents of technology in education assert that it provides students with access to a wealth of information and learning resources that were previously unavailable. Online courses, educational apps, and interactive learning platforms cater to diverse learning styles and paces. On the other hand, critics argue that the reliance on technology can lead to distractions and diminish students' critical thinking and problem-solving skills. They also point to the digital divide, where some students may not have equal access to technological tools. Ultimately, while technology offers numerous benefits, educators should strive to balance its use with traditional teaching methods to foster a comprehensive learning environment."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-018",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Community Recycling Programs",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling has become a crucial part of waste management in communities around the world. With increasing awareness of environmental issues, local governments are implementing recycling programs to promote sustainable practices among residents. These programs often provide designated bins for different types of recyclables, such as paper, plastics, and metals. It's important for residents to properly sort their waste to ensure that recyclable materials are not contaminated by non-recyclables. Many programs also offer educational resources to inform the public about what can and cannot be recycled. This encourages participation and helps to reduce the amount of waste that ends up in landfills.\n\nIn addition to curbside recycling, many areas host community drop-off centers where residents can bring their recyclables. These centers are particularly useful for larger items that cannot fit into the standard recycling bins. Local initiatives often include events like recycling drives and workshops that teach people how to upcycle items that are no longer needed. Furthermore, some communities provide incentives for residents who actively participate in recycling efforts, such as discounts on utility bills or entries into community raffles.\n\nHowever, challenges still persist in recycling efforts. Contamination remains a significant issue, as non-recyclable items mixed with recyclables can spoil entire batches of materials, rendering them unusable. Moreover, some residents are not fully aware of their community's specific recycling policies, leading to confusion and inconsistent participation rates. To overcome these hurdles, many local governments are investing in public awareness campaigns that utilize social media, flyers, and community meetings to better educate their citizens about the importance and procedures of recycling. \n\nEncouraging and facilitating recycling is essential for reducing waste, conserving natural resources, and combating climate change. By working together, communities can create a cleaner environment and set a positive example for future generations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Many communities offer only curbside recycling services.",
+          "answer": "false",
+          "explanation": "The passage mentions that many areas also host community drop-off centers."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is a common incentive for recycling participation mentioned in the passage?",
+          "options": [
+            "A. Free recycling bins",
+            "B. Discounts on utility bills",
+            "C. Free community events",
+            "D. More frequent garbage collection"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that some communities provide discounts on utility bills as incentives for recycling."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Many programs offer __________ to inform the public about recycling.",
+          "prompt": "resources",
+          "answer": "educational resources",
+          "explanation": "The passage mentions that programs offer educational resources to inform the public about recycling."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one major challenge in recycling efforts mentioned?",
+          "answer": "contamination",
+          "explanation": "The passage highlights contamination as a significant issue in recycling efforts."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "All recyclables can be processed without issues if sorted correctly.",
+          "answer": "not-given",
+          "explanation": "The passage states that contamination can spoil entire batches, suggesting that not all recyclables are processed correctly."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following helps improve public awareness about recycling?",
+          "options": [
+            "A. Utility bills",
+            "B. Social media campaigns",
+            "C. Local government meetings",
+            "D. Both B and C"
+          ],
+          "answer": "D",
+          "explanation": "The passage discusses the use of social media and community meetings as part of public awareness campaigns."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

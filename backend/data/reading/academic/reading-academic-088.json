@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-088",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces in Enhancing City Living",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, play a crucial role in improving the quality of life in cities. These areas not only provide aesthetic beauty but also contribute significantly to environmental health. One of the primary benefits of urban green spaces is their ability to improve air quality by absorbing pollutants and producing oxygen. Studies indicate that cities with abundant greenery experience lower levels of particulate matter in the air compared to those with limited vegetation.\n\nMoreover, green spaces serve as crucial habitats for wildlife, promoting biodiversity in otherwise urbanized areas. Birds, insects, and small mammals can thrive in these environments, often leading to increased ecological balance within the city. Additionally, urban parks provide recreational opportunities for residents, contributing to physical and mental well-being. Research has shown that individuals living near parks are more likely to engage in physical activities and report better mental health outcomes.\n\nAnother significant aspect of urban green spaces is their impact on temperature regulation. Vegetation can help mitigate the urban heat island effect, where urban areas become significantly warmer than their rural counterparts due to human activities. By providing shade and releasing moisture through a process known as transpiration, green spaces can help cool surrounding areas, reducing the need for air conditioning in nearby buildings.\n\nDespite these benefits, the allocation of urban land for green spaces often faces challenges. Rapid urbanization and population growth can lead to the encroachment of these areas, threatening their existence. Therefore, urban planners and policymakers must prioritize the integration of green spaces into city development strategies, ensuring that they are preserved and enhanced for future generations.\n\nIn conclusion, urban green spaces are vital for fostering healthier, more sustainable cities. Their numerous benefits underscore the importance of including nature in urban planning and development, and recognizing that even small patches of greenery can make a significant difference in urban living conditions.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces do not help improve air quality.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces improve air quality by absorbing pollutants."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one way that green spaces help regulate temperatures in urban areas?",
+          "options": [
+            "A. By promoting biodiversity",
+            "B. By providing shade",
+            "C. By releasing carbon dioxide",
+            "D. By increasing building density"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that vegetation provides shade, which helps cool surrounding areas."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban parks offer recreational opportunities that contribute to __________.",
+          "prompt": "the well-being of residents.",
+          "answer": "physical activities",
+          "explanation": "The passage indicates that individuals living near parks are more likely to engage in physical activities."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is the primary environmental benefit of urban green spaces mentioned in the passage?",
+          "answer": "improving air quality",
+          "explanation": "The passage highlights improving air quality as a primary benefit of urban green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urbanization does not impact the existence of green spaces.",
+          "answer": "false",
+          "explanation": "The passage discusses how rapid urbanization can threaten the existence of green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "According to the passage, which group benefits from the ecological balance provided by urban green spaces?",
+          "options": [
+            "A. Only humans",
+            "B. Only migratory birds",
+            "C. Various species of wildlife",
+            "D. None"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that urban green spaces support habitats for birds, insects, and small mammals."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban planners must prioritize the integration of green spaces into __________.",
+          "prompt": "development strategies.",
+          "answer": "city development",
+          "explanation": "The passage indicates that integrating green spaces into city development strategies is essential."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What issue does the passage suggest poses a threat to urban green spaces?",
+          "answer": "population growth",
+          "explanation": "The passage mentions rapid urbanization and population growth as threats to green spaces."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-089",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces in Environmental Sustainability",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, including parks, gardens, and green roofs, play a significant role in promoting environmental sustainability in rapidly urbanizing areas. These green areas serve multiple purposes, from enhancing biodiversity to improving air quality. Studies have shown that urban greenery can mitigate the urban heat island effect, where city temperatures are significantly higher than surrounding rural areas due to human activities. Additionally, vegetation in urban areas can absorb carbon dioxide and produce oxygen, thereby contributing positively to the atmosphere.\n\nThe presence of greenery also has social and health benefits. Parks provide recreational opportunities for city dwellers, promoting physical activity and mental well-being. Research has indicated that access to green spaces can reduce stress and anxiety, subsequently leading to a healthier urban populace. Furthermore, urban green spaces facilitate social interactions and community cohesion by providing a venue for gatherings and events.\n\nDespite their benefits, urban green spaces are often at risk due to urban development pressures. As cities expand, the land designated for parks and gardens may be repurposed for residential or commercial use. Conservation efforts are essential to preserve these vital areas, requiring collaboration between local governments, communities, and environmental organizations.\n\nInnovative approaches, such as vertical gardens and green roofing, are emerging as solutions to maximize the utility of limited urban spaces while maintaining biodiversity. These methods not only contribute to aesthetic values but also enhance the thermal insulation of buildings, leading to energy savings.\n\nIn summary, urban green spaces are fundamental to enhancing environmental sustainability, promoting health and well-being, and fostering community engagement. As urban areas continue to grow, the importance of integrating green spaces into city planning becomes increasingly apparent and necessary for a sustainable future.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Vegetation in urban areas can only improve air quality.",
+          "answer": "false",
+          "explanation": "The passage states that urban greenery serves multiple purposes, not only improving air quality."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of urban green spaces mentioned in the passage?",
+          "options": [
+            "A) They increase property values",
+            "B) They provide recreational opportunities",
+            "C) They reduce urban sprawl",
+            "D) They require high maintenance"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifically mentions that parks provide recreational opportunities for city dwellers."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Urban green spaces can mitigate the urban ________ effect.",
+          "answer": "heat island",
+          "explanation": "The passage mentions the urban heat island effect regarding temperature differences between cities and rural areas."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of innovative approaches are mentioned in the passage to optimize urban space?",
+          "answer": "vertical gardens",
+          "explanation": "The passage discusses vertical gardens and green roofing as innovative methods to maximize urban space."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are sufficient on their own to solve environmental issues.",
+          "answer": "false",
+          "explanation": "The passage implies that conservation efforts and collaboration are needed to preserve green spaces; they cannot solve issues alone."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Who needs to collaborate to preserve urban green spaces?",
+          "options": [
+            "A) Private developers",
+            "B) Local governments, communities, and environmental organizations",
+            "C) Only the community",
+            "D) International organizations"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that conservation efforts require collaboration among local governments, communities, and environmental organizations."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Access to green spaces can lead to reduced _______ and anxiety.",
+          "prompt": "",
+          "answer": "stress",
+          "explanation": "The passage indicates that access to green spaces can reduce stress and anxiety."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is a benefit of green roofs mentioned in the passage?",
+          "answer": "energy savings",
+          "explanation": "The passage states that green roofs enhance thermal insulation, leading to energy savings."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

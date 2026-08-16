@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-004",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban areas are increasingly becoming densely populated, leading to concerns surrounding the mental well-being of their inhabitants. Recent research has highlighted the significant impact that urban green spaces, such as parks and gardens, can have on mental health. These spaces offer not only recreational opportunities but also serve as vital communal hubs. Studies have shown that individuals who regularly engage with nature tend to experience lower levels of stress and anxiety. In particular, exposure to greenery has been linked with improved mood and enhanced cognitive performance, making a compelling case for the preservation and creation of more green spaces within urban environments.\n\nAmong the numerous benefits of green spaces, one of the most profound is the promotion of physical activity. Parks provide spaces for exercise, which is proven to release endorphins, further elevating mood and reducing feelings of depression. Moreover, greenery can act as a buffer against the negative effects of urbanization, such as noise and air pollution. Interaction with natural environments fosters a sense of connection to the community, alleviating feelings of isolation that can be prevalent in city living.\n\nThe concept of biophilia, which describes the inherent human affinity for nature, underpins much of the rationale for integrating green spaces into urban planning. Evidence suggests that even small amounts of greenery can elicit beneficial psychological responses. For instance, a mere glimpse of a tree or a flower can invoke feelings of tranquility.\n\nHowever, the distribution of urban green spaces is often inequitable, with marginalized communities frequently lacking access. This disparity can exacerbate existing mental health issues within these populations. Urban planners and policymakers are faced with the challenge of ensuring equitable access to nature for all residents, which necessitates strategic investment in greening projects.\n\nIn conclusion, the relevance of urban green spaces to mental health is irrefutable. As cities continue to evolve, it is imperative that we prioritize the preservation and expansion of these vital areas, not only for their aesthetic value but for the well-being of urban dwellers.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no effect on cognitive performance.",
+          "answer": "false",
+          "explanation": "The passage states that exposure to greenery has been linked with improved cognitive performance."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the benefits of parks according to the passage?",
+          "options": [
+            "A) They reduce air pollution",
+            "B) They promote physical activity",
+            "C) They increase noise levels",
+            "D) They limit community interaction"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifically mentions that parks provide spaces for exercise."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces help to alleviate feelings of __________.",
+          "prompt": "Urban green spaces help to alleviate feelings of __________.",
+          "answer": "isolation",
+          "explanation": "The passage discusses how interaction with natural environments alleviates feelings of isolation."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What term describes the human affinity for nature?",
+          "answer": "biophilia",
+          "explanation": "The passage introduces the concept of biophilia as the human affinity for nature."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Marginalized communities have adequate access to urban green spaces.",
+          "answer": "false",
+          "explanation": "The passage states that marginalized communities frequently lack access to green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What challenge do urban planners face according to the passage?",
+          "options": [
+            "A) Increasing population density",
+            "B) Ensuring equitable access to nature",
+            "C) Maintaining aesthetic value",
+            "D) Reducing recreational activities"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that urban planners and policymakers face the challenge of ensuring equitable access to nature."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Greenery can serve as a buffer against negative effects such as __________.",
+          "prompt": "Greenery can serve as a buffer against negative effects such as __________.",
+          "answer": "noise and air pollution",
+          "explanation": "The passage mentions that greenery can buffer against noise and air pollution."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What should cities prioritize for the well-being of their dwellers?",
+          "answer": "preservation and expansion of green spaces",
+          "explanation": "The passage concludes that cities need to prioritize the preservation and expansion of green spaces for residents' well-being."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Sales by Brand (2020-2022)",
+      "prompt": "The bar chart below illustrates the sales of different smartphone brands worldwide from the years 2020 to 2022. The brands included in the chart are Brand A, Brand B, Brand C, Brand D, and Brand E. Overall, it can be seen that Brand A consistently held the largest market share among the five brands over the three years, although there were fluctuations in the sales figures for other brands. In 2020, Brand A sold 150 million units, while Brand B sold 80 million units, Brand C sold 60 million units, Brand D sold 40 million units, and Brand E sold 30 million units. By 2022, sales of Brand A increased to 180 million units, whereas Brand B and Brand C saw a rise to 90 and 70 million units respectively. In contrast, Brand D and Brand E experienced a decline, with 30 million and 20 million units sold. This suggests a growing preference for Brands A, B, and C, while the others struggled to maintain their sales figures.",
+      "chart": {
+        "kind": "bar",
+        "unit": "million units",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 150
+          },
+          {
+            "label": "Brand B",
+            "value": 80
+          },
+          {
+            "label": "Brand C",
+            "value": 60
+          },
+          {
+            "label": "Brand D",
+            "value": 40
+          },
+          {
+            "label": "Brand E",
+            "value": 30
+          },
+          {
+            "label": "Brand A 2022",
+            "value": 180
+          },
+          {
+            "label": "Brand B 2022",
+            "value": 90
+          },
+          {
+            "label": "Brand C 2022",
+            "value": 70
+          },
+          {
+            "label": "Brand D 2022",
+            "value": 30
+          },
+          {
+            "label": "Brand E 2022",
+            "value": 20
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work on Employee Productivity",
+      "prompt": "In recent years, the trend of remote work has gained popularity, especially after the global pandemic. While some argue that remote work enhances employee productivity, others believe it leads to a decline in performance. Discuss both views and provide your opinion. Support your discussion with relevant examples and reasoning. The rise of technology has made it easier for employees to work from home, allowing for more flexibility in work hours. Proponents of remote work argue that this flexibility can lead to increased job satisfaction and, consequently, better productivity. However, critics contend that the lack of a structured office environment can lead to distractions and decreased motivation. Moreover, the isolation from colleagues may reduce collaboration and communication, which are essential for many job roles. In your opinion, to what extent do you agree with these points? Consider the various factors influencing productivity and the role of individual circumstances in shaping the effectiveness of remote work."
+    }
+  ]
+}

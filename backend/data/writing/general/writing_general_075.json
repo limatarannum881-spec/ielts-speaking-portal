@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling Plastic Bottles",
+      "prompt": "You recently learned about the process of recycling plastic bottles, and you decided to share this information with a friend. Write a letter explaining how plastic bottles are recycled. Include details about the steps involved in the recycling process, why recycling is important, and how individuals can contribute to this effort. Your letter should be at least 150 words.",
+      "chart": {
+        "kind": "line",
+        "unit": "step",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Sorting",
+            "value": 2
+          },
+          {
+            "label": "Cleaning",
+            "value": 3
+          },
+          {
+            "label": "Shredding",
+            "value": 4
+          },
+          {
+            "label": "Melting",
+            "value": 5
+          },
+          {
+            "label": "Molding",
+            "value": 6
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "problem-solution",
+      "title": "Addressing Urban Air Pollution",
+      "prompt": "Urban areas around the world are facing increasing levels of air pollution, which is harmful to the health of residents and the environment. Discuss the main causes of air pollution in cities and propose potential solutions that could be implemented to reduce it. Make sure to provide clear examples to support your arguments. Your essay should be at least 250 words."
+    }
+  ]
+}

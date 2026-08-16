@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-056",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Alice: Hey Tom, have you thought about what we should do this weekend? I really need a break! \nTom: I was actually thinking we could go hiking. There’s a great trail not too far from here. \nAlice: That sounds good! How long is the hike? \nTom: It’s about six miles round trip, so it should take us, what, three to four hours? \nAlice: Perfect! We should leave early to avoid the heat. Maybe around 7 AM? \nTom: Sounds like a plan. We could pack some sandwiches and water. \nAlice: Good idea! What about the drive? Do we need to check the directions? \nTom: I’ll download the map on my phone. By the way, should we invite Sarah as well? \nAlice: Yes, she loves hiking! I’ll text her and see if she can join us. \nTom: Great! I’ll handle the snacks, and you can take care of the music? \nAlice: Definitely! I’ll create a fun playlist for us. \nTom: Awesome, I can’t wait for the weekend! \nAlice: Same here! It’ll be a refreshing change of scenery.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What activity do Alice and Tom plan for the weekend?",
+          "options": [
+            "A) Visiting a museum",
+            "B) Going hiking",
+            "C) Attending a concert",
+            "D) Going to the beach"
+          ],
+          "answer": "B",
+          "explanation": "Alice and Tom plan to go hiking."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Departure Time",
+            "Snack Responsibility"
+          ],
+          "answer": [
+            "7 AM",
+            "Tom"
+          ],
+          "explanation": "They decide to leave at 7 AM, and Tom is responsible for the snacks."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who do they plan to invite to join them?",
+          "answer": "Sarah",
+          "explanation": "They plan to invite Sarah since she loves hiking."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "How long do they estimate the hike will take?",
+          "options": [
+            "A) 2 hours",
+            "B) 5 hours",
+            "C) 3 to 4 hours",
+            "D) 1 hour"
+          ],
+          "answer": "C",
+          "explanation": "They estimate the hike will take about 3 to 4 hours."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What does Alice plan to create for the trip?",
+          "answer": "a playlist",
+          "explanation": "Alice plans to create a fun playlist for their trip."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What does Tom plan to download on his phone?",
+          "options": [
+            "A) A game",
+            "B) Directions",
+            "C) Music",
+            "D) A movie"
+          ],
+          "answer": "B",
+          "explanation": "Tom will download the map or directions on his phone."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Spending on Renewable Energy Sources (2015-2020)",
+      "prompt": "The bar chart illustrates the annual spending on renewable energy sources by several countries from 2015 to 2020. Overall, it is evident that there was a significant increase in investment across all countries during this period, with some nations showing more substantial growth than others. In 2015, the United States led the chart with an investment of approximately $30 billion, while Germany and China followed with around $15 billion and $10 billion respectively. By 2020, the U.S. spending rose to nearly $50 billion, maintaining its position as the highest investor. China, however, saw the most dramatic increase, reaching close to $45 billion, reflecting its commitment to renewable energy development. Germany's investment also increased but at a slower pace, culminating at about $25 billion. Other countries, including India and Brazil, demonstrated smaller but notable growth in their renewable energy expenditures, rising from $5 billion to $12 billion and from $3 billion to $8 billion respectively during the same time frame. This data highlights the growing trend of investment in renewable energy sectors globally, driven by environmental concerns and policy shifts in energy production.",
+      "chart": {
+        "kind": "bar",
+        "unit": "billion USD",
+        "data": [
+          {
+            "label": "USA",
+            "value": 50
+          },
+          {
+            "label": "China",
+            "value": 45
+          },
+          {
+            "label": "Germany",
+            "value": 25
+          },
+          {
+            "label": "India",
+            "value": 12
+          },
+          {
+            "label": "Brazil",
+            "value": 8
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, technology has significantly transformed the education landscape, leading to a spectrum of opinions regarding its impact. On one hand, advocates argue that technology has made education more accessible and engaging for students. Online courses and educational apps allow learners from diverse backgrounds to access quality resources regardless of their geographical location. Furthermore, interactive tools can enhance the learning experience, catering to various learning styles and enabling personalized education pathways. On the other hand, critics raise concerns about the over-reliance on technology. They argue that it can detract from traditional learning methods and the essential face-to-face interactions between teachers and students, which are crucial for developing social skills and collaborative learning. Moreover, there are worries about the digital divide, where students from lower socio-economic backgrounds may lack access to necessary technology, thereby widening the educational gap rather than closing it. Discuss both sides and provide your opinion on how technology should be integrated into education."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Water Purification Process",
+      "prompt": "You recently attended a workshop on water purification systems. Write a letter to your friend describing the process and explaining why it's important. Include details about the different stages of purification, such as filtration, sedimentation, and disinfection. Also, discuss the significance of clean water for health and the environment. Your letter should be at least 150 words.",
+      "chart": {
+        "kind": "bar",
+        "unit": "stage",
+        "data": [
+          {
+            "label": "Filtration",
+            "value": 1
+          },
+          {
+            "label": "Sedimentation",
+            "value": 2
+          },
+          {
+            "label": "Disinfection",
+            "value": 3
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "Technology has significantly changed the way we communicate with one another. While some argue that it has improved our interactions, others claim that it has deteriorated the quality of our communication. Discuss both views and give your opinion. In your essay, you should explore the advantages of technology in communication, such as instant messaging and video calls, as well as the disadvantages, including reduced face-to-face interactions and the potential for misunderstandings. Your response should be at least 250 words."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-061",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, have you thought about our weekend trip? It's coming up soon!\nB: Yes, I have! I was thinking we could go to the mountains.\nA: That sounds great! What do you think about the hiking trails there?\nB: I’ve heard there are some really beautiful trails with varying difficulty levels.\nA: Perfect, that way everyone can choose something suitable.\nB: Exactly. I also want to make sure we find a nice spot to camp. Do you have any recommendations?\nA: I read online that Lakeview Campground is highly rated. It’s near a lake, so we could swim if it’s warm.\nB: That’s a fantastic idea! We should also check the weather forecast before we go.\nA: Agreed, I hope it’s sunny! What about food? Should we bring our own, or eat out?\nB: I think it would be fun to cook at the campsite. It always feels more adventurous.\nA: True! We can plan a menu. Let’s create a list of all the things we need to pack.\nB: Sounds like a plan! I'll make sure to bring my cooking gear then.\nA: Great! I’ll handle the snacks and drinks. This is going to be an amazing trip!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where do A and B plan to go for the weekend?",
+          "options": [
+            "Beach",
+            "Mountains",
+            "City",
+            "Desert"
+          ],
+          "answer": "B",
+          "explanation": "The conversation clearly mentions planning a trip to the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Camping Location",
+            "Activity"
+          ],
+          "answer": [
+            "Lakeview Campground",
+            "Hiking"
+          ],
+          "explanation": "Lakeview Campground is the suggested campsite and hiking is a key activity planned."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What should they check before going on the trip?",
+          "answer": "weather forecast",
+          "explanation": "B suggests checking the weather forecast to ensure it will be sunny during the trip."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What type of food do A and B prefer for the trip?",
+          "options": [
+            "Fast food",
+            "Frozen meals",
+            "Camping food",
+            "Restaurant meals"
+          ],
+          "answer": "C",
+          "explanation": "They express a desire to cook food at the campsite, which indicates their preference for camping food."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Main Equipment"
+          ],
+          "answer": [
+            "cooking gear"
+          ],
+          "explanation": "B mentions bringing cooking gear as their main equipment for the trip."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What will A handle for the trip?",
+          "answer": "snacks and drinks",
+          "explanation": "A states they will take care of packing snacks and drinks for the trip."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

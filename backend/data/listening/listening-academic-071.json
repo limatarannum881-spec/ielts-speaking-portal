@@ -1,0 +1,82 @@
+{
+  "id": "listening-academic-071",
+  "type": "listening",
+  "title": "Planning a Weekend Hiking Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey, Mark! Have you thought about our hiking trip this weekend? \nMark: Yeah, I was just looking at some trails online. I think we should try the Green Mountain Trail. \nEmily: That sounds great! I heard it's a bit challenging, though. Do you think we're ready for it? \nMark: I believe so. We’ve been hiking regularly, and it’s not too long, just about six miles. \nEmily: Perfect! What time do you want to start? \nMark: How about 7 AM? We can avoid the heat and have enough time to enjoy the view. \nEmily: Sounds good to me! Should we pack some snacks? \nMark: Definitely! I’ll bring some energy bars and water. Maybe you can bring some sandwiches? \nEmily: Sure! I’ll also pack some fruit. Do you think we need to bring a first aid kit? \nMark: That’s a smart idea. Better safe than sorry. \nEmily: Agreed! Let’s check the weather forecast too. It’s always good to be prepared. \nMark: Right! I’ll check it later and text you the details.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What trail do Emily and Mark plan to hike?",
+          "options": [
+            "A) Blue River",
+            "B) Red Canyon",
+            "C) Green Mountain",
+            "D) Yellow Hill"
+          ],
+          "answer": "C",
+          "explanation": "They mention the Green Mountain Trail specifically."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Start Time",
+            "Food Items"
+          ],
+          "answer": [
+            "7 AM",
+            "sandwiches"
+          ],
+          "explanation": "They decide to start at 7 AM and Emily will pack sandwiches."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What items will Mark bring for the hike?",
+          "answer": "energy bars and water",
+          "explanation": "Mark mentions he will bring energy bars and water."
+        },
+        {
+          "id": "lq4",
+          "type": "short-answer",
+          "question": "What does Emily suggest packing along with sandwiches?",
+          "answer": "fruit",
+          "explanation": "Emily states she will also pack some fruit."
+        },
+        {
+          "id": "lq5",
+          "type": "multiple-choice",
+          "question": "Why do they want to start early?",
+          "options": [
+            "A) To avoid crowds",
+            "B) To enjoy the view",
+            "C) To avoid the heat",
+            "D) To finish quickly"
+          ],
+          "answer": "C",
+          "explanation": "They mention that starting early helps avoid the heat."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What safety item does Mark suggest bringing?",
+          "answer": "first aid kit",
+          "explanation": "Mark suggests it’s a good idea to bring a first aid kit."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

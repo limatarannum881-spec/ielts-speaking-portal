@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for a Leave of Absence",
+      "prompt": "You are a student at a local university. Write a letter to your professor to request a leave of absence for medical reasons. In your letter, explain your situation, how long you expect to be away, and how you plan to keep up with your studies during your absence. Make sure to express your appreciation for their understanding and support.",
+      "chart": {}
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "problem-solution",
+      "title": "Addressing Urban Air Pollution",
+      "prompt": "Air pollution in urban areas has become a major problem affecting the health and quality of life of residents. Discuss the causes of urban air pollution and propose possible solutions to mitigate this issue. In your essay, you should detail the effects of air pollution on both people and the environment and suggest practical measures that governments and individuals can take to improve air quality."
+    }
+  ]
+}

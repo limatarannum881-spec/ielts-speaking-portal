@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Comparison of Renewable Energy Production Sources in 2022",
+      "prompt": "The bar chart illustrates the production of various renewable energy sources in terawatt-hours (TWh) in 2022. The sources represented are solar, wind, hydroelectric, geothermal, and biomass. Overall, wind energy emerged as the leading source of renewable energy production, followed closely by solar energy. Hydroelectric power was the third most significant contributor, while geothermal and biomass energy produced considerably lower amounts. Specifically, wind energy generated approximately 900 TWh, making up about 45% of the total renewable energy output, whereas solar energy accounted for around 600 TWh or 30% of the total. Hydroelectric power contributed around 300 TWh, which is about 15% of the overall production. Geothermal and biomass sources lagged behind with approximately 100 TWh and 50 TWh, respectively. The data highlights the growing importance of wind and solar energy in the renewable sector, reflecting a broader trend towards sustainable energy production.",
+      "chart": {
+        "kind": "bar",
+        "unit": "TWh",
+        "data": [
+          {
+            "label": "Wind",
+            "value": 900
+          },
+          {
+            "label": "Solar",
+            "value": 600
+          },
+          {
+            "label": "Hydroelectric",
+            "value": 300
+          },
+          {
+            "label": "Geothermal",
+            "value": 100
+          },
+          {
+            "label": "Biomass",
+            "value": 50
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Social Interactions",
+      "prompt": "In recent years, technology has dramatically transformed the way people interact with each other. While some argue that technology enhances communication and fosters relationships, others believe it leads to a decline in genuine social interactions. Discuss both views and give your opinion. Consider the implications of technology on interpersonal relationships, including both positive aspects, such as the ability to connect with others across distances, and negative aspects, such as the potential for isolation and reduced face-to-face communication. Conclude with your own perspective on whether the benefits of technology in social interactions outweigh the drawbacks."
+    }
+  ]
+}

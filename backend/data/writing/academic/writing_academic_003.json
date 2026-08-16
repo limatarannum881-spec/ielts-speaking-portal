@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2022",
+      "prompt": "The bar chart illustrates the market share of different smartphone manufacturers globally in the year 2022. Overall, it is evident that Brand A held the largest share, followed closely by Brand B, while Brands C and D showed significantly lower shares. Specifically, Brand A accounted for 40% of the total market, making it the clear leader. Brand B followed with a 25% share, indicating a strong presence in the market. Brands C and D, however, had shares of 15% and 10% respectively, highlighting a notable gap between the top two brands and the others. Smaller players in the market, including Brands E and F, each held just 5% and 3%. This data suggests a highly competitive market dominated by a few key players, with the top two brands significantly outperforming their competitors. A closer analysis may reveal factors contributing to Brand A's success, such as innovative technology or effective marketing strategies.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percent",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 40
+          },
+          {
+            "label": "Brand B",
+            "value": 25
+          },
+          {
+            "label": "Brand C",
+            "value": 15
+          },
+          {
+            "label": "Brand D",
+            "value": 10
+          },
+          {
+            "label": "Brand E",
+            "value": 5
+          },
+          {
+            "label": "Brand F",
+            "value": 3
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work on Employee Productivity",
+      "prompt": "With the rise of technology and the recent global shift towards remote working, there is an ongoing debate about the impact of this work model on employee productivity. Some argue that remote work enhances productivity due to the flexibility it offers, allowing employees to work in an environment that suits them best. They believe that without the distractions common in traditional office settings, such as long commutes and unnecessary meetings, workers can focus better and produce higher quality work. On the other hand, there are concerns that remote work can lead to feelings of isolation and disconnection from colleagues, which may negatively affect collaboration and team dynamics. Additionally, some employees may struggle with self-discipline and time management when working from home. In this essay, I will discuss both the advantages and disadvantages of remote work on productivity. Ultimately, I will argue that while remote work can boost productivity for some, it may not be the best option for everyone due to the varying impacts on different individuals and work environments."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-003",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Recycling in Our Community",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling is an essential practice that helps in conserving natural resources and reducing waste. In our community, recycling programs have been implemented to encourage residents to recycle various materials, including paper, glass, plastics, and metals. The local government provides recycling bins that are placed in convenient locations throughout the city, making it easy for residents to participate.\n\nResidents are encouraged to separate their waste into different bins: one for general waste and others for recyclables. It's important to rinse out containers before placing them in the recycling bin to ensure they are clean and free from food residue. This simple step can significantly improve the quality of the materials being recycled.\n\nAdditionally, the community hosts educational workshops twice a year to inform residents about the importance of recycling and how to do it properly. These workshops cover various aspects of waste management, including composting and reducing single-use plastics. The goal of these programs is not only to increase recycling rates but also to foster a culture of sustainability.\n\nThe recycling initiative has led to a noticeable decrease in waste sent to landfills. Since the program's inception, recycling rates have increased by 30%, demonstrating that when residents are informed and provided with resources, they are more likely to participate. However, challenges remain, including contamination of recyclable materials and a need for more awareness about the types of materials that can be recycled.\n\nTo address these issues, the local government is planning to launch a public awareness campaign that will utilize social media, local newspapers, and community events to reach a broader audience. The campaign aims to highlight the benefits of recycling and provide clear guidance on how to recycle effectively. With ongoing efforts, the community hopes to set a standard for recycling that others may follow, contributing to environmental preservation and a cleaner planet for future generations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "The community hosts workshops on recycling once a year.",
+          "answer": "false",
+          "explanation": "The passage states that workshops are held twice a year."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is a key goal of the community's recycling program?",
+          "options": [
+            "A. To increase the number of recycling bins",
+            "B. To reduce waste sent to landfills",
+            "C. To promote single-use plastics",
+            "D. To decrease public workshops frequency"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights the goal of the recycling program is to reduce waste sent to landfills."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. The local government plans to launch a public awareness campaign using social media, local newspapers, and __________.",
+          "prompt": "Complete the sentence.",
+          "answer": "community events",
+          "explanation": "The passage mentions that the campaign will utilize community events to reach a broader audience."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What percentage increase in recycling rates has the community achieved since the program began?",
+          "answer": "30%",
+          "explanation": "The passage states that recycling rates have increased by 30% since the program's inception."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Residents are required to clean containers before recycling.",
+          "answer": "true",
+          "explanation": "The passage explains that containers should be rinsed out before placing them in the recycling bin."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What specific issue does the community face regarding recycling?",
+          "options": [
+            "A. Lack of recycling bins",
+            "B. Contamination of recyclable materials",
+            "C. Too many workshops",
+            "D. High participation rates"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions challenges such as contamination of recyclable materials."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

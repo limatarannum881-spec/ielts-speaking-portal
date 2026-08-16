@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-010",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Public Parks",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Local public parks are essential spaces in urban environments, providing a sanctuary for relaxation, recreation, and community engagement. These green spaces offer residents a respite from the hustle and bustle of city life, often featuring walking paths, picnic areas, and playgrounds. The history of public parks can be traced back to the 19th century, when urban planners recognized the need for natural environments amidst growing industrial towns. Over the years, local governments have made efforts to maintain and enhance these parks, ensuring they remain accessible and welcoming to all. In addition to leisure activities, public parks also host community events, such as farmers' markets, outdoor concerts, and art fairs, fostering a stronger sense of connection among residents. Furthermore, studies have shown that access to green spaces can improve mental well-being and reduce stress levels, making parks vital to a community's overall health. Many parks also focus on environmental sustainability, introducing native plants and wildlife habitats to promote biodiversity. Initiatives like these not only beautify the area but also engage the public's interest in environmental stewardship. As cities continue to grow, the importance of preserving and improving public parks cannot be understated, as they play a crucial role in enhancing the quality of life for urban dwellers.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Public parks were first developed in the 20th century.",
+          "answer": "false",
+          "explanation": "The passage states that public parks have a history traced back to the 19th century."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of public parks mentioned in the passage?",
+          "options": [
+            "A) They generate revenue for the city",
+            "B) They improve mental well-being",
+            "C) They are primarily for sports",
+            "D) They are rarely used by residents"
+          ],
+          "answer": "B",
+          "explanation": "The passage explicitly mentions that access to green spaces can improve mental well-being."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Public parks often host community events such as __________.",
+          "prompt": "farmers' markets, outdoor concerts, and art fairs.",
+          "answer": "community events",
+          "explanation": "The passage refers to these types of events as fostering a connection among residents."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do local governments do to maintain public parks?",
+          "answer": "ensure accessibility and enhance",
+          "explanation": "The passage discusses efforts by local governments to maintain and enhance parks for public use."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Native plants are introduced to promote biodiversity in public parks.",
+          "answer": "true",
+          "explanation": "The passage mentions that parks focus on environmental sustainability by introducing native plants to promote biodiversity."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What was a key reason for the establishment of public parks?",
+          "options": [
+            "A) To provide sports facilities",
+            "B) To create jobs",
+            "C) To provide natural environments",
+            "D) To increase property values"
+          ],
+          "answer": "C",
+          "explanation": "The passage specifies that urban planners recognized the need for natural environments amidst growing industrial towns."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

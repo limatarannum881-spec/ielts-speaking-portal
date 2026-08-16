@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Population Growth in Different Continents (2010-2020)",
+      "prompt": "The bar chart illustrates the population growth across various continents from 2010 to 2020. Overall, it is evident that Asia experienced the highest increase in population during this period, while Australia exhibited the smallest growth. In particular, Asia's population rose from approximately 4.1 billion in 2010 to around 4.6 billion in 2020. In contrast, Africa's population growth was significant, moving from about 1.1 billion to 1.3 billion, marking it as the second-highest growth rate among the continents. North America and South America also recorded increases, with North America growing from 0.34 billion to 0.36 billion and South America from 0.39 billion to 0.43 billion. Europe, however, saw a slight decline, with its population decreasing from 0.74 billion in 2010 to 0.73 billion in 2020. Australia’s population hovered around 0.03 billion, showing minimal change. This data highlights significant trends in global population dynamics over the decade.",
+      "chart": {
+        "kind": "bar",
+        "unit": "billion",
+        "data": [
+          {
+            "label": "Asia",
+            "value": 4.6
+          },
+          {
+            "label": "Africa",
+            "value": 1.3
+          },
+          {
+            "label": "North America",
+            "value": 0.36
+          },
+          {
+            "label": "South America",
+            "value": 0.43
+          },
+          {
+            "label": "Europe",
+            "value": 0.73
+          },
+          {
+            "label": "Australia",
+            "value": 0.03
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work on Employee Productivity",
+      "prompt": "In recent years, remote work has become increasingly popular, especially following the global pandemic. Some argue that this shift has led to improvements in employee productivity, while others contend that it has had the opposite effect. Discuss both views and give your opinion on the impact of remote work on productivity. Remote work advocates suggest that the flexibility it offers allows employees to work in environments that suit them best, potentially leading to higher job satisfaction and efficiency. Furthermore, the elimination of commuting time can provide employees with more hours to concentrate on work tasks. Conversely, detractors argue that remote work can blur the lines between personal life and work, leading to increased stress and burnout. Additionally, the lack of face-to-face interaction may affect teamwork and communication, ultimately hindering productivity. In your opinion, what are the overall implications of remote work for employee productivity, and how can companies ensure that their remote workforce remains engaged and productive?"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for Information",
+      "prompt": "You recently moved to a new city and would like to know more about the local amenities. Write a letter to the local council requesting information about recreational facilities, health services, and educational institutions in the area. In your letter, explain why you are interested in this information, mention any specific facilities you are looking for, and politely ask for their assistance in providing this information.",
+      "chart": {}
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Impact of Technology on Communication",
+      "prompt": "In recent years, the way we communicate has changed significantly due to advancements in technology. Some people believe that this has had a positive impact on society, while others argue that it has led to negative consequences. Discuss both viewpoints and provide your own opinion on the matter. Include examples to support your arguments."
+    }
+  ]
+}

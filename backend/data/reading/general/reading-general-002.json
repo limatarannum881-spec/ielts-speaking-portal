@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-002",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Recycling Programs",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling is a vital practice to reduce waste and promote sustainability in our communities. Local governments implement recycling programs to encourage residents to separate recyclable materials from their regular trash. In many areas, recycling is made simple with the provision of color-coded bins. Typically, blue bins are designated for paper and cardboard, while yellow bins are reserved for plastic, glass, and metals. These color-coded systems not only aid in the effective sorting of waste but also raise awareness about the importance of recycling.\n\nResidents are encouraged to rinse any food containers before placing them in the recycling bin to ensure that they are clean and free from contamination. Contaminated items can spoil an entire batch of recyclables, causing them to be sent to landfills instead. Additionally, many cities provide guidelines on what can and cannot be recycled; for instance, certain types of plastics may not be accepted due to their inability to be processed with other materials.\n\nLocal governments often host community events to promote recycling. These initiatives may include workshops on how to recycle effectively, or neighborhood clean-up days focused on collecting litter and educating participants about the environmental impact of waste. Furthermore, some municipalities have implemented incentive programs, offering discounts on utility bills for households that actively partake in recycling and waste reduction efforts.\n\nIn recent years, the conversation around recycling has expanded to include discussions about composting and reducing single-use plastics. Many communities now provide compost bins, encouraging residents to recycle organic waste such as fruit and vegetable scraps, which can enhance soil quality and reduce landfill waste. As awareness of the environmental crisis grows, citizens are increasingly motivated to adopt sustainable practices, understanding that even small changes can lead to significant positive impacts on the planet.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "All types of plastics can be recycled in local programs.",
+          "answer": "false",
+          "explanation": "The passage states that certain types of plastics may not be accepted for recycling."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What color bin is typically used for paper and cardboard?",
+          "options": [
+            "A) Yellow",
+            "B) Green",
+            "C) Blue",
+            "D) Red"
+          ],
+          "answer": "C",
+          "explanation": "The passage indicates that blue bins are designated for paper and cardboard."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Contaminated items can cause recyclables to be sent to _____ instead of being processed.",
+          "answer": "landfills",
+          "explanation": "The passage specifically mentions that contaminated items can spoil a batch, causing them to end up in landfills."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of waste do community compost bins encourage recycling of?",
+          "answer": "organic waste",
+          "explanation": "The passage mentions that compost bins encourage the recycling of organic waste such as fruit and vegetable scraps."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Local governments provide workshops to educate residents about recycling.",
+          "answer": "true",
+          "explanation": "The passage mentions that community events include workshops on how to recycle effectively."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What incentive do some local governments offer to encourage recycling?",
+          "options": [
+            "A) Tax cuts",
+            "B) Utility bill discounts",
+            "C) Free public transport",
+            "D) Shopping vouchers"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that some municipalities offer discounts on utility bills for households that recycle."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

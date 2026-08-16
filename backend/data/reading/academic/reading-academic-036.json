@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-036",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Microplastics in Marine Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Microplastics, defined as plastic particles smaller than five millimeters, have become a pervasive pollutant in marine ecosystems. Research indicates that these tiny particles originate from various sources, including the breakdown of larger plastic debris, the shedding of synthetic fibers from clothing, and the use of microbeads in personal care products. Once released into the ocean, microplastics can be ingested by a range of marine organisms, from plankton to larger fish, leading to bioaccumulation throughout the food chain.\n\nRecent studies highlight the potential impacts of microplastics on marine biodiversity. Organisms that ingest microplastics may experience physical harm, such as blockages in the digestive tract, as well as chemical exposure to harmful additives that are often present in plastics. Furthermore, these particles can absorb toxic substances from the surrounding water, which may then be transferred to predators when consumed. This introduces significant risks not only to marine life but also to human health, as seafood consumption is a common pathway for the transfer of these toxins.\n\nEfforts to mitigate microplastic pollution are ongoing, with researchers advocating for improved waste management practices and the development of biodegradable alternatives to conventional plastics. Furthermore, public awareness campaigns are crucial in encouraging individuals to reduce their plastic footprint and support initiatives aimed at preserving marine environments. Without concerted action, the threat of microplastics to marine ecosystems is likely to exacerbate, necessitating urgent global attention and policy intervention.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Microplastics can only come from the breakdown of larger plastic items.",
+          "answer": "false",
+          "explanation": "The passage states that microplastics can also originate from shedding synthetic fibers and the use of microbeads."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is the primary concern about microplastics in marine ecosystems?",
+          "options": [
+            "A) They are visible to the naked eye",
+            "B) They can harm marine organisms",
+            "C) They are easy to remove from the ocean",
+            "D) They are biodegradable"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights the physical harm and chemical exposure that microplastics pose to marine organisms."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Microplastics are defined as particles smaller than ______ millimeters.",
+          "prompt": "Microplastics are defined as particles smaller than...",
+          "answer": "five millimeters",
+          "explanation": "The passage specifies that microplastics are defined as particles smaller than five millimeters."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What are two sources of microplastics mentioned in the passage?",
+          "answer": "synthetic fibers, microbeads",
+          "explanation": "The passage lists shedding of synthetic fibers and the use of microbeads as sources of microplastics."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Microplastics can absorb toxic substances from water.",
+          "answer": "true",
+          "explanation": "The passage states that microplastics can absorb toxic substances from the surrounding water."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is a proposed solution for microplastic pollution?",
+          "options": [
+            "A) Increasing plastic production",
+            "B) Developing biodegradable alternatives",
+            "C) Banning seafood consumption",
+            "D) Ignoring the problem"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions the development of biodegradable alternatives as a solution."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Public awareness campaigns are important for encouraging individuals to reduce their ______.",
+          "prompt": "Public awareness campaigns are important for encouraging individuals to reduce their...",
+          "answer": "plastic footprint",
+          "explanation": "The passage indicates that public awareness is crucial for reducing plastic footprints."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What action is necessary to address the threat of microplastics according to the passage?",
+          "answer": "global attention and policy intervention",
+          "explanation": "The passage states that urgent global attention and policy intervention are necessary to address the threat."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

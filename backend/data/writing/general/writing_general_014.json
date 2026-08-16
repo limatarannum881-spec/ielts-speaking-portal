@@ -1,0 +1,18 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for a Letter of Recommendation",
+      "prompt": "Write a letter to your former teacher requesting a letter of recommendation. In your letter, explain why you need the recommendation, mention the program or job you are applying for, and state why you think your teacher would be a good person to provide this letter. Be polite and express your gratitude. (Minimum 150 words)"
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "opinion",
+      "title": "The Role of Technology in Education",
+      "prompt": "Some people believe that technology has significantly improved education, while others argue that it has made learning more difficult. Discuss both views and give your own opinion. Support your arguments with examples. (Minimum 250 words)"
+    }
+  ]
+}

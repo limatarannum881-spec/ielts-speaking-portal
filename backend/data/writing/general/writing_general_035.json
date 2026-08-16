@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling Plastic",
+      "prompt": "You are in charge of a community project aimed at raising awareness about recycling plastic. Write a letter to the residents explaining the process of recycling plastic bottles. In your letter, describe how plastic is collected, processed, and transformed into new products. You might also want to highlight the benefits of recycling and encourage residents to participate. Remember to be clear and informative, as your goal is to help residents understand the importance of recycling in our community.",
+      "chart": {
+        "kind": "process",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Sorting",
+            "value": 2
+          },
+          {
+            "label": "Washing",
+            "value": 3
+          },
+          {
+            "label": "Shredding",
+            "value": 4
+          },
+          {
+            "label": "Extrusion",
+            "value": 5
+          },
+          {
+            "label": "Manufacturing",
+            "value": 6
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has played an increasingly important role in education. While some argue that the integration of technology in the classroom has significantly enhanced learning experiences, others believe it may have negative effects. Discuss both sides of this argument and give your own opinion on whether technology positively or negatively impacts education. Provide relevant examples to support your argument."
+    }
+  ]
+}

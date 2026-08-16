@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-081",
+  "type": "listening",
+  "title": "Planning a Community Event",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hi Jamie, have you thought about the community event we need to plan for next month?  \nB: Yes, I’ve been brainstorming a few ideas. I think a summer fair could be a lot of fun.  \nA: That sounds great! What activities do you have in mind?  \nB: I was thinking we could have games for kids, maybe a cake stall, and some live music.  \nA: Live music would definitely attract more people. Do you have any local bands in mind?  \nB: I know a couple of local bands that would be interested. Plus, I think we should have a food truck or two.  \nA: Good idea! And what about the venue?  \nB: We could use the community park. It’s spacious and has a playground for the kids.  \nA: Perfect! Let’s set a date and start promoting it next week.  \nB: Agreed! I’ll make a list of tasks we need to accomplish.  \nA: Great! It’s going to be an exciting event for everyone!  \nB: Absolutely, I can’t wait to see it all come together.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What type of event are they planning?",
+          "options": [
+            "A. A concert",
+            "B. A workshop",
+            "C. A summer fair",
+            "D. A charity run"
+          ],
+          "answer": "C",
+          "explanation": "They mention planning a summer fair."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Event Type",
+            "Venue"
+          ],
+          "answer": [
+            "summer fair",
+            "community park"
+          ],
+          "explanation": "The type of event and venue are explicitly mentioned."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What type of food vendors do they plan to include?",
+          "answer": "food trucks",
+          "explanation": "They discuss the idea of having a food truck at the event."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What activity is NOT mentioned for the event?",
+          "options": [
+            "A. Games for kids",
+            "B. A cake stall",
+            "C. A raffle",
+            "D. Live music"
+          ],
+          "answer": "C",
+          "explanation": "The script lists games, a cake stall, and live music but does not mention a raffle."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Organizer",
+            "Date"
+          ],
+          "answer": [
+            "Jamie and A",
+            "next month"
+          ],
+          "explanation": "They are the organizers, and the event is set for next month."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What will Jamie prepare to help with the event?",
+          "answer": "a list of tasks",
+          "explanation": "Jamie mentions making a list of tasks to accomplish."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

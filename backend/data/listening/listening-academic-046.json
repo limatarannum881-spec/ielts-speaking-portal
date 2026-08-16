@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-046",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emma: Hey, Jake! Have you thought about our weekend trip to the mountains?  \nJake: Yeah, I have! I was thinking we could leave early Saturday morning.  \nEmma: Sounds good! Should we take the camping gear, or do you think we should book a cabin?  \nJake: I prefer camping, but it might be more comfortable to stay in a cabin. What do you think?  \nEmma: I agree. A cabin would be nice, especially if it rains.  \nJake: Right! Let’s check the weather forecast before we decide.  \nEmma: Good idea. Also, don’t forget to take your hiking boots. We’ll need them for the trails.  \nJake: Of course! I’ll pack my boots. Are you bringing any food?  \nEmma: Yes, I’ll prepare some sandwiches and snacks. We can grab drinks on the way.  \nJake: Perfect! What time do you want to meet on Saturday?  \nEmma: How about 7 AM?  \nJake: Sounds like a plan! I’m really looking forward to it.  \nEmma: Me too! It will be fun to escape the city for a bit.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the main topic of the conversation?",
+          "options": [
+            "A) A city trip",
+            "B) A weekend trip",
+            "C) A school event",
+            "D) A family gathering"
+          ],
+          "answer": "B",
+          "explanation": "The conversation is about planning a weekend trip to the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Departure Time",
+            "Food Items"
+          ],
+          "answer": [
+            "7 AM",
+            "sandwiches"
+          ],
+          "explanation": "Emma suggests meeting at 7 AM and mentions bringing sandwiches."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What is Jake's preference regarding accommodation?",
+          "answer": "Camping",
+          "explanation": "Jake initially prefers camping but considers booking a cabin for comfort."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does Emma suggest bringing for the trip?",
+          "options": [
+            "A) Water",
+            "B) Hiking boots",
+            "C) Tents",
+            "D) Fishing gear"
+          ],
+          "answer": "B",
+          "explanation": "Emma reminds Jake to bring his hiking boots."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "How many meals does Emma plan to bring?",
+          "fields": [
+            "Label 1"
+          ],
+          "answer": [
+            "One"
+          ],
+          "explanation": "Emma mentions she will prepare some sandwiches."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does Jake want to check before deciding on the trip?",
+          "answer": "Weather forecast",
+          "explanation": "Jake wants to check the weather forecast before deciding on the accommodation."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

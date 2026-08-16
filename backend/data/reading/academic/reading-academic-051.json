@@ -1,0 +1,99 @@
+{
+  "id": "reading-academic-051",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and community gardens, play a critical role in the quality of life for city dwellers. These spaces not only offer recreational opportunities but also serve as vital areas for mental rejuvenation. Research indicates that regular exposure to green environments can significantly reduce stress levels and improve overall mental well-being. A study conducted by the University of California revealed that individuals who spent at least 30 minutes a week in nature reported a 20% decrease in feelings of anxiety. \n\nMoreover, urban green spaces facilitate social interactions, which can enhance community ties and promote social cohesion. For instance, community gardens have become popular in many cities, allowing residents to cultivate plants together while fostering friendships and support networks. This sense of belonging is crucial, as loneliness is a growing concern in urban settings, particularly among the elderly. \n\nDespite these benefits, the challenges in maintaining these green areas are significant. Limited funding and competing urban development projects often threaten the existence of parks. Urban planners are thus tasked with integrating green spaces into city infrastructures not only for ecological benefits but also for the mental health of residents.\n\nThe psychological benefits linked to green spaces have prompted various cities worldwide to consider nature-based solutions. For instance, Singapore has become a model for integrating biodiversity into urban planning through its extensive park connectors and rooftop gardens. This approach has shown promising results in alleviating urban stressors while promoting environmental sustainability. Ultimately, the role of urban green spaces in fostering mental health cannot be overstated, as they connect individuals to nature, promote social interaction, and encourage a sense of community.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Regular exposure to urban green spaces has no impact on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage states that regular exposure to green environments can significantly reduce stress levels and improve overall mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What percentage decrease in anxiety was reported by individuals spending time in nature?",
+          "options": [
+            "A) 10%",
+            "B) 20%",
+            "C) 30%",
+            "D) 40%"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions a 20% decrease in feelings of anxiety for individuals spending 30 minutes a week in nature."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Community gardens promote friendships and ________ among residents.",
+          "answer": "support networks",
+          "explanation": "The passage indicates that community gardens foster friendships and support networks."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is a major challenge faced in maintaining urban green spaces?",
+          "answer": "Limited funding",
+          "explanation": "The passage states that limited funding is a significant challenge in maintaining urban green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "matching",
+          "question": "Match the following cities with their green initiatives.",
+          "pairs": {
+            "A": "Community gardens",
+            "B": "Park connectors and rooftop gardens"
+          },
+          "options": {
+            "1": "Los Angeles",
+            "2": "Singapore"
+          },
+          "answer": "A-1, B-2",
+          "explanation": "Community gardens are mentioned in the context of enhancing social interactions, while Singapore is cited for its extensive park connectors and rooftop gardens."
+        },
+        {
+          "id": "q6",
+          "type": "true-false-not-given",
+          "question": "Urban planners face challenges in integrating green spaces into infrastructure.",
+          "answer": "true",
+          "explanation": "The passage discusses the challenges urban planners face in integrating green spaces due to funding issues and competing projects."
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "What is one of the benefits of urban green spaces mentioned in the passage?",
+          "options": [
+            "A) Increased traffic",
+            "B) Enhanced community ties",
+            "C) Higher pollution",
+            "D) Greater construction"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that urban green spaces facilitate social interactions and enhance community ties."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What aspect of mental health does urban green space primarily alleviate?",
+          "answer": "Stress levels",
+          "explanation": "The passage indicates that exposure to urban green spaces significantly reduces stress levels."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

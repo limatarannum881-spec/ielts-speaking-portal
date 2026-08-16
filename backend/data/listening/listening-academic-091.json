@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-091",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Ava: Hey Liam, have you thought about what we should do for our weekend getaway?  \nLiam: I was thinking we could drive to the lake cabin. The weather is supposed to be great!  \nAva: That sounds perfect! Do you think we should invite Sarah and Tom?  \nLiam: Absolutely! The more, the merrier. Plus, they’ve not been to the cabin before.  \nAva: Right! Should we plan some activities, or just chill and enjoy the scenery?  \nLiam: I think a mix of both would be nice. We could do some hiking in the morning and then relax by the fire in the evening.  \nAva: Good idea! I can prepare some food for the hike.  \nLiam: Great! I’ll take care of the marshmallows and snacks for the night.  \nAva: Perfect! Let’s arrange a group chat to finalize everything.  \nLiam: Yes, I’ll message them now. I’m really looking forward to this!  \nAva: Me too! It’s going to be a fun escape from the city.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the main destination for their weekend getaway?",
+          "options": [
+            "A) Beach",
+            "B) Mountain",
+            "C) Lake cabin",
+            "D) City hotel"
+          ],
+          "answer": "C",
+          "explanation": "Ava and Liam discuss going to the lake cabin for their getaway."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Activity 1",
+            "Snack"
+          ],
+          "answer": [
+            "hiking",
+            "marshmallows"
+          ],
+          "explanation": "They plan to go hiking and prepare snacks like marshmallows."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who do they plan to invite to join them?",
+          "answer": "Sarah and Tom",
+          "explanation": "Ava and Liam mention inviting their friends Sarah and Tom."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What type of activities do they plan to do?",
+          "options": [
+            "A) Only hiking",
+            "B) Relaxing only",
+            "C) A mix of hiking and relaxing",
+            "D) Sightseeing"
+          ],
+          "answer": "C",
+          "explanation": "They decide on a mix of hiking in the morning and relaxing by the fire in the evening."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Food for the hike",
+            "Food for the evening"
+          ],
+          "answer": [
+            "prepared food",
+            "snacks"
+          ],
+          "explanation": "Ava will prepare food for the hike and Liam will bring snacks for the evening."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What will Liam take care of for the evening?",
+          "answer": "Marshmallows",
+          "explanation": "Liam mentions that he will bring marshmallows for the evening."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

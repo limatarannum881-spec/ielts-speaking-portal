@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-094",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Evolution of Renewable Energy Technologies",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Renewable energy technologies have undergone significant development over the past few decades, driven by growing concerns over climate change and the depletion of fossil fuels. Initially, renewable energy sources, such as solar, wind, and hydroelectric power, were considered niche solutions that could not compete with traditional energy sources in terms of efficiency and cost-effectiveness. However, advancements in technology and increasing investments have transformed these sources into viable alternatives for energy production. \n\nOne of the most influential factors in the rise of renewable energy has been the reduction in the costs associated with solar panels. According to recent studies, the price of solar photovoltaic (PV) systems has dropped by over 80% since 2010. This dramatic decline has made solar energy accessible to a broader audience, both residential and commercial. Additionally, innovative technologies such as energy storage systems have enhanced the reliability of solar energy by addressing the issue of intermittency.\n\nWind energy has also seen remarkable growth, particularly in regions where wind resources are abundant. Countries like Denmark and Germany have invested heavily in wind farms, leading to a significant portion of their electricity generation coming from wind. The development of more efficient turbines has allowed for the harvesting of energy even at lower wind speeds, increasing the overall productivity of wind farms.\n\nHydroelectric power, while considered more established, has also benefited from advancements in turbine technology that improve energy conversion rates. Small-scale hydroelectric plants are gaining popularity as they provide a sustainable alternative for rural communities, minimizing environmental impact while meeting local energy demands.\n\nDespite the promising developments, challenges remain. Energy policy and regulatory frameworks often lag behind technological advancements, leading to uncertainty in the market. Moreover, the need for infrastructure upgrades, such as grid enhancements to accommodate distributed energy sources, presents further hurdles. Nonetheless, the future of renewable energy appears bright, with ongoing research and development likely to drive further innovations. As global awareness of environmental issues continues to rise, the push for a more sustainable energy landscape will only intensify.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "The cost of solar panels has increased since 2010.",
+          "answer": "false",
+          "explanation": "The passage states that the price of solar panels has dropped by over 80% since 2010."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which country is noted for its extensive investment in wind farms?",
+          "options": [
+            "A) France",
+            "B) Denmark",
+            "C) Spain",
+            "D) Italy"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifically mentions Denmark as a country that has invested heavily in wind farms."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "The price of solar photovoltaic systems has dropped by over ____ since 2010.",
+          "answer": "80 percent",
+          "explanation": "The passage states that the price has dropped by over 80%."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What technology has improved the reliability of solar energy?",
+          "answer": "energy storage systems",
+          "explanation": "The passage mentions energy storage systems as a technology that enhances the reliability of solar energy."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Small-scale hydroelectric plants are becoming less popular.",
+          "answer": "false",
+          "explanation": "The passage states that small-scale hydroelectric plants are gaining popularity."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is one of the main challenges for renewable energy technologies mentioned in the passage?",
+          "options": [
+            "A) High initial costs",
+            "B) Policy and regulatory frameworks",
+            "C) Lack of public interest",
+            "D) Inefficient technology"
+          ],
+          "answer": "B",
+          "explanation": "The passage discusses how energy policy and regulatory frameworks often lag behind technological advancements."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Wind energy has experienced remarkable growth in regions with ____ resources.",
+          "prompt": "Complete the sentence. Choose no more than three words.",
+          "answer": "abundant wind",
+          "explanation": "The passage mentions regions where wind resources are abundant, leading to growth in wind energy."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is required to accommodate distributed energy sources according to the passage?",
+          "answer": "grid enhancements",
+          "explanation": "The passage states that infrastructure upgrades, including grid enhancements, are necessary."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

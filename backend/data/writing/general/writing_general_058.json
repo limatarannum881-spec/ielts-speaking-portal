@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Requesting a Refund",
+      "prompt": "You recently purchased a pair of shoes online, but they were the wrong size. Write a letter to the customer service department of the company. In your letter, you should: 1. Describe the problem with the shoes. 2. Explain how this has affected you. 3. Request a refund or the correct size.",
+      "chart": null
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "In today's world, technology has transformed the way we communicate with each other. Some people believe that this change has improved the quality of communication, while others argue that it has led to a decline in face-to-face interactions. Discuss both views and give your own opinion on the matter. Provide examples to support your arguments."
+    }
+  ]
+}

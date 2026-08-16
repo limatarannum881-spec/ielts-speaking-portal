@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Making Handmade Soap",
+      "prompt": "The diagram illustrates the process of making handmade soap from natural ingredients. Initially, the process begins with gathering the raw materials, which include oils, lye, and fragrance. The next step involves measuring and mixing the oils and lye in a safe environment, ensuring that the lye is added to the oils gradually to prevent a violent reaction. Once the mixture reaches the correct temperature, the soap maker blends it until it achieves a thick consistency known as 'trace'. At this stage, any desired fragrances or colorants can be added. After this, the mixture is poured into molds, where it is left to harden for about 24 to 48 hours. Once solidified, the soap is removed from the molds and cut into bars. Finally, the bars are allowed to cure for four to six weeks, ensuring that they are fully saponified and safe for use. This process highlights the careful steps necessary to create natural soap at home.",
+      "chart": {
+        "kind": "process",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Gather Ingredients",
+            "value": 1
+          },
+          {
+            "label": "Mix Oils and Lye",
+            "value": 2
+          },
+          {
+            "label": "Blend to Trace",
+            "value": 3
+          },
+          {
+            "label": "Pour into Molds",
+            "value": 4
+          },
+          {
+            "label": "Cure for 4-6 Weeks",
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has become an integral part of education, reshaping the traditional classroom. Some people argue that the incorporation of technology in education enhances learning outcomes, while others believe it may hinder the development of critical thinking and social skills. Discuss both views and give your own opinion. In your response, consider the various ways technology can be beneficial, such as providing access to information, enabling personalized learning experiences, and fostering collaboration among students. Conversely, address concerns regarding over-reliance on technology, the potential for distraction, and the importance of face-to-face interactions in developing communication skills. Ultimately, conclude with your perspective on how technology should be integrated into educational systems to maximize its benefits while minimizing its drawbacks."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Monthly Expenditure of a Household on Different Categories.",
+      "prompt": "The bar chart illustrates the monthly expenditure of a household categorized into five different sectors: Food, Housing, Transportation, Health, and Education. Overall, it can be seen that the largest portion of the budget is allocated to Housing, followed closely by Food. The household spends the least on Health and Education, indicating a possible prioritization of basic living needs and commuting expenses. In detail, Housing costs account for 40% of the total monthly expenditure, while Food expenses make up 30%. Transportation takes up 15% of the budget, whereas Health and Education are significantly lower at 10% and 5%, respectively. This data suggests that while families may prioritize essential living conditions and nutrition, they might be willing to cut costs on education or health services. Such spending habits reflect the economic status and priorities of households, particularly in urban areas where housing can be a major financial burden.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Food",
+            "value": 30
+          },
+          {
+            "label": "Housing",
+            "value": 40
+          },
+          {
+            "label": "Transportation",
+            "value": 15
+          },
+          {
+            "label": "Health",
+            "value": 10
+          },
+          {
+            "label": "Education",
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education.",
+      "prompt": "In recent years, technology has played an increasingly important role in education. While some people believe that technology enhances learning and teaching experiences, others argue that it can detract from the educational process. Discuss both views and give your own opinion. In today's digital age, the integration of technology in classrooms has transformed traditional learning methods. Proponents of technology assert that digital resources, such as online tutorials and interactive learning platforms, provide students with diverse ways to engage with the material. Furthermore, technology can facilitate communication between teachers and students, promoting a more personalized learning environment. On the other hand, critics argue that excessive reliance on technology can lead to distractions and hinder the development of critical thinking skills. They contend that students may become overly dependent on digital tools, limiting their ability to think independently and solve problems without technological aid. In your opinion, does the benefit of technology in education outweigh its drawbacks, or do its negative effects outweigh the positive aspects?"
+    }
+  ]
+}

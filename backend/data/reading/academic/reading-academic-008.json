@@ -1,0 +1,114 @@
+{
+  "id": "reading-academic-008",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Biodiversity",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, play a crucial role in supporting biodiversity within city environments. These areas provide essential habitats for various species of flora and fauna, allowing ecosystems to thrive even amidst the hustle and bustle of urban life. Researchers have discovered that these green spaces serve as critical corridors for wildlife, facilitating movements and genetic exchange between isolated populations.\n\nMoreover, urban green spaces contribute significantly to the ecological health of cities. They act as natural air filters, improving air quality by absorbing pollutants and producing oxygen. Additionally, these areas help mitigate the urban heat island effect, where city temperatures are significantly higher than surrounding rural areas. By providing shade and cooling effects, green spaces can lower ambient temperatures and enhance comfort for residents.\n\nThe design and management of urban green spaces are evolving to maximize their benefits for biodiversity. Initiatives like community gardens and rewilding projects encourage residents to engage with these ecosystems, fostering a sense of stewardship and responsibility towards local natural environments. However, challenges remain, particularly in densely populated areas where land is scarce.\n\nA recent study by the Urban Ecological Research Group indicates that cities with more extensive and well-maintained green areas harbor a greater variety of species. This suggests that urban planning policies should prioritize the integration of green spaces into city designs. While there is a growing recognition of their importance, further research is needed to understand the long-term impacts of urban green spaces on species diversity and ecosystem services.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on air quality.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces improve air quality by absorbing pollutants."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of urban green spaces mentioned in the passage?",
+          "options": [
+            "A) Lower housing prices",
+            "B) Improved air quality",
+            "C) Increased traffic",
+            "D) Decreased wildlife population"
+          ],
+          "answer": "B",
+          "explanation": "The passage emphasizes that urban green spaces improve air quality."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Urban green spaces provide habitats for various species and serve as critical corridors for...",
+          "answer": "wildlife movement",
+          "explanation": "The passage mentions that they facilitate movements for wildlife."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do community gardens and rewilding projects encourage?",
+          "answer": "Resident engagement with ecosystems",
+          "explanation": "The passage states that these projects foster engagement with local natural environments."
+        },
+        {
+          "id": "q5",
+          "type": "matching",
+          "question": "Match the following benefits with their descriptions.",
+          "options": [
+            {
+              "option": "A",
+              "description": "Acts as a natural air filter"
+            },
+            {
+              "option": "B",
+              "description": "Lowers city temperatures"
+            },
+            {
+              "option": "C",
+              "description": "Encourages biodiversity"
+            }
+          ],
+          "matches": {
+            "A": "1",
+            "B": "2",
+            "C": "3"
+          },
+          "answer": {
+            "A": "1",
+            "B": "2",
+            "C": "3"
+          },
+          "explanation": "The passage outlines various benefits that urban green spaces provide."
+        },
+        {
+          "id": "q6",
+          "type": "true-false-not-given",
+          "question": "The Urban Ecological Research Group conducted a study about the relationship between green spaces and species diversity.",
+          "answer": "true",
+          "explanation": "The passage states that a study by this group indicates cities with green spaces have greater species variety."
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "What challenge do urban green spaces face?",
+          "options": [
+            "A) Lack of wildlife",
+            "B) Scarcity of land",
+            "C) Pollution",
+            "D) Community resistance"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions challenges, particularly in densely populated areas where land is scarce."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What effect do urban green spaces have on the urban heat island effect?",
+          "answer": "Mitigate",
+          "explanation": "The passage states that they help mitigate the urban heat island effect."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

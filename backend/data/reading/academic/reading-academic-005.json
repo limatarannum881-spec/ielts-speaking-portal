@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-005",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces in Enhancing City Life",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, play a vital role in enhancing the quality of life in densely populated cities. As urban areas continue to expand, the need for accessible natural environments becomes increasingly important. Green spaces serve multiple functions: they provide recreational opportunities, improve air quality, and support biodiversity. Studies have shown that individuals living near green spaces often report higher levels of physical and mental well-being.\n\nThe aesthetic appeal of parks can increase property values in adjacent areas, making them economically advantageous to cities. Furthermore, during extreme weather events, green spaces can mitigate the urban heat island effect, helping to lower temperatures and reduce the energy needed for cooling buildings.\n\nHowever, not all urban areas are created equal. Access to green spaces is often unevenly distributed, with low-income neighborhoods frequently lacking sufficient greenery. City planners and policymakers face the challenge of integrating green spaces into urban development plans while considering the socio-economic disparities that exist.\n\nInnovative solutions are emerging, such as vertical gardens and green walls, which maximize limited space in urban environments. These developments not only beautify the cityscape but also contribute to environmental sustainability by improving air quality and reducing stormwater runoff. Overall, the effective management of urban green spaces is essential for fostering resilient and livable cities in the face of ongoing urbanization.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces can help lower temperatures in cities.",
+          "answer": "true",
+          "explanation": "The passage states that green spaces can mitigate the urban heat island effect, which helps lower temperatures."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which benefit of urban green spaces is mentioned in the passage?",
+          "options": [
+            "A) Increasing traffic congestion",
+            "B) Enhancing property values",
+            "C) Reducing noise pollution",
+            "D) Improving drainage systems"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that the aesthetic appeal of parks can increase property values in adjacent areas."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Green spaces provide recreational opportunities and support ______.",
+          "answer": "biodiversity",
+          "explanation": "The passage explicitly states that green spaces support biodiversity."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one innovative solution for incorporating green spaces in urban areas?",
+          "answer": "vertical gardens",
+          "explanation": "The passage mentions vertical gardens as innovative solutions that maximize limited space."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Low-income neighborhoods have better access to green spaces than affluent areas.",
+          "answer": "false",
+          "explanation": "The passage states that low-income neighborhoods frequently lack sufficient greenery, indicating worse access."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "According to the passage, which of the following is NOT a function of urban green spaces?",
+          "options": [
+            "A) Improving air quality",
+            "B) Providing recreational opportunities",
+            "C) Increasing traffic flow",
+            "D) Supporting biodiversity"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not mention increasing traffic flow as a function of urban green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "During extreme weather events, green spaces help to reduce ______ needed for cooling buildings.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "energy consumption",
+          "explanation": "The passage states that green spaces help to reduce the energy needed for cooling buildings."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What challenge do city planners face regarding urban green spaces?",
+          "answer": "socio-economic disparities",
+          "explanation": "The passage mentions that planners need to consider socio-economic disparities when integrating green spaces."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Population Distribution by Age Group in City X (2020)",
+      "prompt": "The bar chart illustrates the population distribution of five different age groups in City X in the year 2020. The age groups are categorized as follows: 0-14 years, 15-24 years, 25-54 years, 55-64 years, and 65 years and older. The x-axis represents the age groups, while the y-axis shows the population in thousands. Overall, it is evident that the largest proportion of the population lies within the 25-54 years age group, followed by the 0-14 years age group. The 15-24 years age group holds a moderate share, while the 55-64 years and 65 years and older groups represent the smallest segments of the population. Notably, there is a gradual decline in the population figures as the age increases beyond 54 years. This trend highlights the demographic structure of City X and indicates potential implications for workforce planning and social services in the future.",
+      "chart": {
+        "kind": "bar",
+        "unit": "thousands",
+        "data": [
+          {
+            "label": "0-14 years",
+            "value": 120
+          },
+          {
+            "label": "15-24 years",
+            "value": 80
+          },
+          {
+            "label": "25-54 years",
+            "value": 150
+          },
+          {
+            "label": "55-64 years",
+            "value": 60
+          },
+          {
+            "label": "65 years and older",
+            "value": 40
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "Technology has rapidly transformed various aspects of our everyday life, and education is no exception. While some believe that the integration of technology in education enhances learning outcomes, others argue that it leads to problems such as decreased attention spans and reliance on digital resources. Discuss both views and give your own opinion on the effectiveness of technology in education. In your response, consider the benefits, such as access to a wealth of information and personalized learning experiences, against the potential drawbacks, including the impact on student engagement and the importance of traditional teaching methods. Support your argument with relevant examples and evidence."
+    }
+  ]
+}

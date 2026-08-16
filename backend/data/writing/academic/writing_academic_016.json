@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Sales of Electronic Devices",
+      "prompt": "The bar chart illustrates the annual sales (in millions of units) of four types of electronic devices — smartphones, tablets, laptops, and desktops — over a five-year period from 2018 to 2022. Overall, it is evident that smartphones consistently dominated the market, while desktops showed a steady decline in sales. In 2018, smartphone sales were approximately 300 million units, while tablet sales stood at around 150 million units. Laptops sold about 200 million units, and desktops had the lowest sales at only 100 million units. By 2022, smartphone sales surged to 500 million units. Interestingly, tablet sales increased modestly to 180 million units, while laptops maintained around 220 million units. In contrast, desktop sales fell to just 70 million units, indicating a significant drop in consumer demand for traditional computers. This analysis highlights the shifting trends in consumer preferences towards portable devices, particularly smartphones.",
+      "chart": {
+        "kind": "bar",
+        "unit": "millions of units",
+        "data": [
+          {
+            "label": "Smartphones",
+            "value": 500
+          },
+          {
+            "label": "Tablets",
+            "value": 180
+          },
+          {
+            "label": "Laptops",
+            "value": 220
+          },
+          {
+            "label": "Desktops",
+            "value": 70
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Online Learning",
+      "prompt": "In recent years, online learning has gained significant popularity, especially due to the global pandemic. While some argue that this mode of education presents numerous advantages, others express concerns about its effectiveness. Discuss both views and provide your opinion. On the one hand, proponents of online learning assert that it offers flexibility and accessibility. Students can access resources at any time and from any location, which can accommodate diverse learning styles and schedules. This is particularly beneficial for those balancing work and study or for individuals in remote areas. On the other hand, critics argue that online learning lacks the personal interaction found in traditional classrooms, which may hinder communication skills and social development. They also raise concerns about self-discipline, stating that students may struggle to stay motivated without the structured environment of a classroom. In my opinion, while online learning has its drawbacks, the benefits of flexibility and accessibility make it a valuable educational tool when combined with traditional methods."
+    }
+  ]
+}

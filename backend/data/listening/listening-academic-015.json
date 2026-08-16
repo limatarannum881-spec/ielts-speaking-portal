@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-015",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Sarah: Hey, Tom! Have you thought about where we should go for our weekend trip? I really think we should head to the mountains this time.  \nTom: I was actually thinking about the beach, but the mountains sound good too. What do you have in mind?  \nSarah: I found this great cabin that we can rent near Lakeview. It’s surrounded by nature, which will be perfect for hiking and relaxing.  \nTom: That does sound nice! What activities can we do there?  \nSarah: Besides hiking, we can go fishing, have a bonfire at night, and even try some kayaking on the lake.  \nTom: Sounds perfect! How much is the cabin?  \nSarah: It’s about $150 per night, and it can accommodate up to six people. So if we invite Mia and Jake, it’ll be more affordable.  \nTom: Great idea! Let’s contact them and see if they’re interested.  \nSarah: I’ll send them a message later. Should we plan to leave early on Saturday?  \nTom: Yeah, if we leave by 7 AM, we’ll have plenty of time to enjoy the day.  \nSarah: Perfect! I’ll pack some snacks for the road.  \nTom: Awesome! Can’t wait for this trip!  \nSarah: Me too! It’s going to be so much fun.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where does Sarah suggest going for the weekend trip?",
+          "options": [
+            "A) The city",
+            "B) The mountains",
+            "C) The beach",
+            "D) The countryside"
+          ],
+          "answer": "B",
+          "explanation": "Sarah proposes going to the mountains for their weekend trip."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "Price per night"
+          ],
+          "answer": [
+            "Lakeview",
+            "$150"
+          ],
+          "explanation": "The cabin is located near Lakeview and costs $150 per night."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What activities can they do at the cabin?",
+          "answer": "Hiking, fishing, bonfire, kayaking",
+          "explanation": "Sarah lists various activities such as hiking, fishing, having a bonfire, and kayaking."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Who does Sarah suggest inviting?",
+          "options": [
+            "A) Alex",
+            "B) Mia and Jake",
+            "C) Ben",
+            "D) No one"
+          ],
+          "answer": "B",
+          "explanation": "Sarah suggests inviting Mia and Jake to join them on the trip."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Departure time"
+          ],
+          "answer": [
+            "7 AM"
+          ],
+          "explanation": "Tom and Sarah plan to leave at 7 AM on Saturday."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does Sarah plan to pack for the trip?",
+          "answer": "Snacks",
+          "explanation": "Sarah mentions that she will pack snacks for the road."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

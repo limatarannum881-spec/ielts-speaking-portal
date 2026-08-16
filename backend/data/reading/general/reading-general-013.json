@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-013",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Recycling Programs",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling programs are an essential part of community efforts to reduce waste and promote environmental sustainability. Many towns and cities have implemented local recycling initiatives that encourage residents to sort their waste into different categories: paper, plastics, metals, and glass. The main goal of these programs is to divert materials from landfills and use them to create new products. \n\nIn many areas, recycling is mandatory, meaning residents are required to participate in the program or face penalties. This requirement often includes specific guidelines on what materials can be recycled, as improperly sorted items can contaminate otherwise recyclable materials. For example, clean plastic containers like bottles and jars are widely accepted, while greasy pizza boxes and certain types of plastic film may not be recyclable. \n\nMany local governments also provide resources to educate the public about recycling. They may distribute informational pamphlets, conduct community workshops, and offer online resources on their websites. Some municipalities have even partnered with schools to teach children the importance of recycling early in life. \n\nIn addition to household recycling, many cities have adopted drop-off locations for larger items that cannot fit in curbside bins, such as electronics and furniture. These collection points often hold special events where residents can bring items that require special handling, ensuring that hazardous materials are disposed of safely. \n\nCommunity involvement is crucial to the success of recycling programs. Many neighborhoods have formed volunteer groups that promote a culture of recycling, organize clean-up days, and monitor recycling bins to ensure they are used correctly. Active participation not only helps the environment but also fosters a stronger sense of community. \n\nIn conclusion, understanding the local recycling program and adhering to its guidelines can significantly contribute to reducing waste and protecting the environment. Residents are encouraged to stay informed about the regulations in their area and participate actively in these essential initiatives.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Recycling programs are optional in many towns.",
+          "answer": "false",
+          "explanation": "The passage states that in many areas, recycling is mandatory."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is the primary goal of local recycling programs?",
+          "options": [
+            "A) To increase landfill sites",
+            "B) To promote environmental sustainability",
+            "C) To reduce community involvement",
+            "D) To provide entertainment"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that the main goal of recycling programs is to promote environmental sustainability."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Many local governments provide resources to educate the public about _______.",
+          "prompt": "Many local governments provide resources to educate the public about _______.",
+          "answer": "recycling programs",
+          "explanation": "The passage mentions that local governments provide resources to educate about recycling."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of items can residents bring to special collection events?",
+          "answer": "hazardous materials",
+          "explanation": "The passage states that these events ensure hazardous materials are disposed of safely."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Children are not included in recycling education efforts.",
+          "answer": "false",
+          "explanation": "The passage mentions that some municipalities have partnered with schools to teach children about recycling."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What can happen if residents improperly sort recyclable materials?",
+          "options": [
+            "A) They may get a reward",
+            "B) They may face penalties",
+            "C) They can recycle more items",
+            "D) It has no effect"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that residents may face penalties for not following the recycling guidelines."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

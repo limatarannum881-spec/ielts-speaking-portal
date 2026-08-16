@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for Information",
+      "prompt": "You recently moved to a new city and want to find a local sports club to join. Write a letter to the manager of a sports club in your area. In your letter, introduce yourself and explain why you are interested in joining their club. Ask for information about the different sports offered, membership fees, and any upcoming events. Also, mention your experience in sports and how you believe joining the club could benefit you.",
+      "chart": {}
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Impact of Technology on Communication",
+      "prompt": "In today's digital age, the way we communicate has significantly changed. Some people argue that technology has improved communication, while others believe it has led to more misunderstandings. Discuss both views and give your opinion on this matter. Provide reasons and examples to support your argument."
+    }
+  ]
+}

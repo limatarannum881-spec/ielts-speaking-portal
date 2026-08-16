@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Water Filtration Process",
+      "prompt": "You recently visited a local water purification plant and learned about the water filtration process there. Write a letter to a friend explaining how the water filtration process works. In your letter, describe the main steps involved in purifying the water, the importance of each step, and any interesting facts you discovered during your visit. Your friend might be curious about how clean water is produced and why filtration is essential for health and safety.",
+      "chart": {
+        "kind": "line",
+        "unit": "step",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Filtration",
+            "value": 2
+          },
+          {
+            "label": "Disinfection",
+            "value": 3
+          },
+          {
+            "label": "Distribution",
+            "value": 4
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, technology has significantly transformed the education sector. Discuss both the positive and negative impacts of technology on education. Consider aspects such as accessibility to learning resources, student engagement, and the effectiveness of traditional teaching methods versus online learning. Provide specific examples to support your points and explain your opinion on whether the benefits of technology in education outweigh the drawbacks."
+    }
+  ]
+}

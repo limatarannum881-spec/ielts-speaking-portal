@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Expenditure on Renewable Energy Sources",
+      "prompt": "The bar chart illustrates the annual expenditure (in billions of US dollars) on various renewable energy sources from 2015 to 2020. The categories of renewable energy included in the chart are solar energy, wind energy, hydroelectric energy, and geothermal energy. Overall, the chart highlights significant trends in investment over the given years. Solar energy saw the most substantial increase in investment over the period, starting at $10 billion in 2015 and reaching $35 billion by 2020. Wind energy also experienced growth, climbing from $15 billion to $25 billion. In contrast, hydroelectric energy investments remained relatively stable, fluctuating between $8 billion and $10 billion each year. Geothermal energy remained the least funded source, with an expenditure that never exceeded $5 billion annually. This data indicates a growing trend towards solar and wind energy investments, reflecting a shift in priorities towards more sustainable energy sources.",
+      "chart": {
+        "kind": "bar",
+        "unit": "billion USD",
+        "data": [
+          {
+            "label": "Solar Energy",
+            "value": 35
+          },
+          {
+            "label": "Wind Energy",
+            "value": 25
+          },
+          {
+            "label": "Hydroelectric Energy",
+            "value": 10
+          },
+          {
+            "label": "Geothermal Energy",
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has become an integral part of educational systems worldwide. While some argue that this development has significantly enhanced the learning experience, others are concerned about its potential drawbacks. Discuss both sides and give your opinion. On one hand, proponents of technology in education highlight the numerous benefits, such as access to a wealth of information, interactive learning tools, and flexibility in learning environments. Online resources and educational software can cater to different learning styles and paces, thus allowing for personalized education. On the other hand, critics point to issues such as the digital divide, where not all students have equal access to technology, leading to disparities in learning opportunities. Additionally, excessive reliance on technology may diminish traditional learning methods and critical thinking skills. In my opinion, while technology can greatly enhance education, it is crucial to balance its use with traditional teaching methods to ensure that all students benefit equally and develop essential skills."
+    }
+  ]
+}

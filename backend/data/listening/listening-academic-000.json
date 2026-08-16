@@ -1,79 +1,81 @@
 {
   "id": "listening-academic-000",
   "type": "listening",
-  "title": "Planning a Weekend Getaway",
+  "title": "Planning a Weekend Trip",
   "duration": 1800,
   "parts": [
     {
       "part": 1,
       "audioUrl": "",
-      "script": "A: Hey, Sarah! Have you thought about what we should do this weekend? \nB: Hi, Mark! Yeah, I was thinking about a weekend getaway. Maybe to the mountains? \nA: That sounds great! I’d love to go hiking. Do you have a specific place in mind? \nB: I heard about a beautiful national park about two hours away. We could do some hiking trails there. \nA: Perfect! Do we need to reserve a place to stay? \nB: Yes, I think we should book a cabin. I saw some nice ones online. \nA: How many people are coming with us? \nB: Just us and a few friends, so around five in total. \nA: Awesome! I can take care of the food if you handle the bookings. \nB: Sounds like a plan! Let’s finalize it by tonight so we can enjoy the trip! \nA: Absolutely! I can’t wait! \nB: Me too! It’s going to be so much fun! ",
+      "script": "Sam: Hey, Alex! Have you thought about where we should go for our weekend trip? I was thinking something fun and exciting!  \nAlex: Absolutely! I was considering either the beach or the mountains. What do you think?  \nSam: Both sound great, but I think the beach might be more relaxing. We could sunbathe and maybe try some water sports.  \nAlex: True, but the mountains are beautiful this time of year. We could go hiking and enjoy some fresh air.  \nSam: That’s a good point. How about we check the weather forecast? If it’s sunny, we can go to the beach, but if there’s a chance of rain, the mountains would be better.  \nAlex: Agreed! And we should look into booking a place to stay. Do you prefer a hotel or a cabin?  \nSam: I’d love a cabin! It would feel more adventurous. Plus, we can cook our meals there and have a cozy atmosphere.  \nAlex: Perfect! Let’s make some calls and finalize our plans later today.  \nSam: Sounds like a plan!",
       "questions": [
         {
           "id": "lq1",
           "type": "multiple-choice",
-          "question": "What destination do Sarah and Mark consider for the weekend?",
+          "question": "What are Sam and Alex planning for the weekend?",
           "options": [
-            "A. The beach",
-            "B. The city",
-            "C. The mountains",
-            "D. The countryside"
+            "A) A movie night",
+            "B) A weekend trip",
+            "C) A concert",
+            "D) A dinner party"
           ],
-          "answer": "C",
-          "explanation": "Sarah suggests a weekend getaway to the mountains."
+          "answer": "B",
+          "explanation": "They are discussing where to go for their weekend trip."
         },
         {
           "id": "lq2",
           "type": "form-completion",
           "question": "Complete the form. Write no more than TWO WORDS.",
           "fields": [
-            "Destination",
-            "Accommodation"
+            "Destination 1",
+            "Destination 2"
           ],
           "answer": [
-            "mountains",
-            "cabin"
+            "beach",
+            "mountains"
           ],
-          "explanation": "The destination mentioned is the mountains, and they plan to book a cabin."
+          "explanation": "They consider both the beach and mountains as potential destinations."
         },
         {
           "id": "lq3",
           "type": "short-answer",
-          "question": "How many friends are joining Sarah and Mark?",
-          "answer": "Five",
-          "explanation": "Mark mentions that around five people in total will be joining them."
+          "question": "What kind of accommodation does Sam prefer?",
+          "answer": "cabin",
+          "explanation": "Sam expresses a desire to stay in a cabin for the trip."
         },
         {
           "id": "lq4",
           "type": "multiple-choice",
-          "question": "Who is responsible for handling food for the trip?",
+          "question": "What activities do they consider doing at the beach?",
           "options": [
-            "A. Sarah",
-            "B. Mark",
-            "C. Both",
-            "D. A friend"
+            "A) Hiking",
+            "B) Water sports",
+            "C) Camping",
+            "D) Fishing"
           ],
           "answer": "B",
-          "explanation": "Mark says he can take care of the food."
+          "explanation": "Sam mentions trying some water sports at the beach."
         },
         {
           "id": "lq5",
           "type": "form-completion",
-          "question": "Write down the planned activity for the trip: _____ trails.",
+          "question": "Complete the form. Write no more than TWO WORDS.",
           "fields": [
-            "Activity"
+            "Weather",
+            "Booking"
           ],
           "answer": [
-            "hiking"
+            "sunny",
+            "calls"
           ],
-          "explanation": "They plan to go hiking in the national park."
+          "explanation": "The weather forecast will determine their destination, and they plan to make calls to book accommodation."
         },
         {
           "id": "lq6",
           "type": "short-answer",
-          "question": "What does Mark want to finalize by tonight?",
-          "answer": "The bookings",
-          "explanation": "Mark wants to finalize the bookings for their trip."
+          "question": "Which activity does Alex suggest for the mountains?",
+          "answer": "hiking",
+          "explanation": "Alex suggests going hiking in the mountains."
         }
       ]
     }

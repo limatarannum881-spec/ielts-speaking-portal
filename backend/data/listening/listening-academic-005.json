@@ -1,0 +1,55 @@
+{
+  "id": "listening-academic-005",
+  "type": "listening",
+  "title": "A Trip to the Bookstore",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Alice: Hi Tom, have you checked out the new bookstore downtown? I hear they have a great selection of novels.  \nTom: No, I hadn’t heard about it. What makes it special?  \nAlice: Well, they have a cozy reading area and a coffee shop inside. Plus, they host author signings every weekend.  \nTom: That sounds nice! I love going to events like that. Are there any specific authors coming this month?  \nAlice: Yes, the famous mystery writer, Sarah Blake, will be there next Saturday.  \nTom: Oh wow, I’m a big fan of her work! Do you think we should go together?  \nAlice: Absolutely! We could grab some coffee first and then find a good spot to listen to her talk.  \nTom: Sounds like a plan! By the way, do you think they have a membership program? I usually like to get discounts.  \nAlice: I believe they do! You can sign up for a yearly fee and get 10% off all purchases.  \nTom: That’s pretty good. I might consider it if I enjoy the place.  \nAlice: Let’s go check it out then. I’m sure we’ll have a great time!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What type of events does the bookstore host?",
+          "options": [
+            "A) Art exhibits",
+            "B) Music concerts",
+            "C) Author signings",
+            "D) Book clubs"
+          ],
+          "answer": "C",
+          "explanation": "The bookstore hosts author signings every weekend, as mentioned by Alice."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Author Name",
+            "Discount"
+          ],
+          "answer": [
+            "Sarah Blake",
+            "10%"
+          ],
+          "explanation": "The author mentioned is Sarah Blake, and the discount for membership is 10%."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What will Alice and Tom do before the author signing?",
+          "answer": "Grab some coffee",
+          "explanation": "Alice suggests that they grab some coffee before listening to the author talk."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

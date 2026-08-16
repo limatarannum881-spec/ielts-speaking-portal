@@ -1,0 +1,23 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "How Coffee is Made",
+      "prompt": "Write a letter to a friend describing the process of how coffee is made. Include details about the different stages of coffee production, from the harvesting of coffee beans to the brewing of the final product. Explain the significance of each step in this process and how they contribute to the flavor and quality of the coffee.",
+      "chart": {
+        "kind": "none",
+        "unit": "none",
+        "data": []
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "advantages-disadvantages",
+      "title": "The Impact of Technology on Education",
+      "prompt": "Technology has become an integral part of education in recent years. While it has introduced various advantages such as improved access to resources and interactive learning experiences, it also poses certain disadvantages, including potential distractions and the decreasing importance of traditional teaching methods. Discuss both the advantages and disadvantages of technology in education, and provide your opinion on whether its benefits outweigh the drawbacks."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-076",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Gardening on City Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban gardening has gained popularity in recent years as a practical method of enhancing urban environments. This practice involves the cultivation of plants in city settings, including rooftops, balconies, and vacant lots. The proliferation of urban gardens is attributed to several factors, including the growing concern for food security, environmental awareness, and the desire for aesthetic improvements in often bland cityscapes. \n\nNot only do these gardens provide fresh produce, but they also play a significant role in improving urban biodiversity. Urban areas typically lack natural habitats, which negatively impacts local wildlife. Gardens can serve as crucial refuges for various species of birds, insects, and small mammals. Additionally, the vegetation in urban gardens helps to mitigate the urban heat island effect, which occurs when cities become significantly warmer than their rural surroundings due to human activities. Vegetation provides shade, reduces energy consumption for cooling, and helps filter pollutants from the air. \n\nMoreover, urban gardening fosters community engagement and social interaction. Neighborhood gardens often bring residents together, allowing them to share resources, ideas, and culinary experiences. This social aspect of gardening can lead to strengthened community ties and increased mental well-being. However, challenges exist, such as limited space, soil contamination, and the need for consistent maintenance. \n\nIn conclusion, urban gardening is not just a trend but a sustainable solution that addresses ecological, social, and health-related issues. As cities continue to expand, the need for such green spaces will become ever more critical in fostering resilient urban ecosystems.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban gardening is primarily focused on aesthetic improvements.",
+          "answer": "false",
+          "explanation": "The passage states that urban gardening also addresses food security and environmental awareness, thus it is not solely focused on aesthetics."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of urban gardens mentioned in the passage?",
+          "options": [
+            "A. Increased traffic congestion",
+            "B. Support of local wildlife",
+            "C. Higher energy consumption",
+            "D. More empty lots"
+          ],
+          "answer": "B",
+          "explanation": "The passage notes that urban gardens serve as refuges for local wildlife."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Urban gardens can help to mitigate the urban...",
+          "answer": "heat island",
+          "explanation": "The passage explicitly mentions the urban heat island effect and how vegetation helps to mitigate it."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one challenge faced by urban gardening?",
+          "answer": "limited space",
+          "explanation": "The passage lists limited space, soil contamination, and the need for maintenance as challenges in urban gardening."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban gardening has no impact on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage states that the social aspect of gardening can lead to increased mental well-being."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is a reason for the rise of urban gardening?",
+          "options": [
+            "A. Decrease in city population",
+            "B. Concerns about food security",
+            "C. Government regulations",
+            "D. Increased industrialization"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions growing concern for food security as a reason for the rise of urban gardening."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Urban gardens provide fresh produce and improve urban...",
+          "prompt": "Choose no more than two words.",
+          "answer": "biodiversity",
+          "explanation": "The passage states that urban gardens play a significant role in improving urban biodiversity."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What can community engagement through urban gardening lead to?",
+          "answer": "strengthened community ties",
+          "explanation": "The passage indicates that urban gardening fosters community engagement which can lead to strengthened community ties."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

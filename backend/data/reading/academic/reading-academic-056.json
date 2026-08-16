@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-056",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and gardens, play a significant role in enhancing the mental well-being of city dwellers. Numerous studies have indicated that access to green spaces can reduce stress, anxiety, and depression while promoting a sense of community and belonging. As urban areas expand, the availability of these natural environments is often compromised, leading to concerns regarding the mental health of the population. Research conducted by the University of Health Sciences demonstrated that individuals living within walking distance of a green space reported higher levels of happiness than those who did not. This highlights the importance of ensuring that urban planning incorporates green areas to support mental health.\n\nIn addition to the psychological benefits, green spaces offer numerous physical health advantages. They provide opportunities for exercise, such as walking, jogging, or cycling, which are essential for maintaining overall health. Urban parks serve as venues for community events, fostering social interactions and strengthening community ties. The presence of greenery can also improve air quality, contributing further to both mental and physical health.\n\nHowever, the challenge remains in balancing urban development with the preservation of natural spaces. Rapid urbanization often leads to the destruction of parks and green areas, prompting calls from public health advocates for more sustainable city planning. Sustainable designs emphasize the integration of nature into urban environments, aiming for a symbiotic relationship between development and nature. This approach has been adopted in several cities across the globe, showcasing the potential for revitalizing urban landscapes while enhancing the quality of life for residents.\n\nIn conclusion, urban green spaces are vital for mental and physical health. As cities continue to grow, the challenge of maintaining these areas becomes increasingly important. Future urban planning must prioritize green spaces to ensure that they remain accessible and beneficial to all citizens, ultimately fostering healthier, happier communities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on physical health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces offer numerous physical health advantages."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What did the University of Health Sciences research find?",
+          "options": [
+            "A) People prefer living in urban areas.",
+            "B) Proximity to green spaces increases happiness.",
+            "C) Parks have no effect on community ties.",
+            "D) Urbanization has no impact on mental health."
+          ],
+          "answer": "B",
+          "explanation": "The research indicated that individuals living near green spaces reported higher levels of happiness."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "The incorporation of green areas in urban planning is essential for promoting...",
+          "answer": "mental health",
+          "explanation": "The passage highlights the importance of green areas in supporting mental health."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What must future urban planning prioritize, according to the passage?",
+          "answer": "green spaces",
+          "explanation": "The conclusion emphasizes the need for urban planning to prioritize green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Sustainable urban designs have been implemented in several cities worldwide.",
+          "answer": "true",
+          "explanation": "The passage mentions that sustainable designs have been adopted in several cities around the globe."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "One benefit of urban parks is that they:",
+          "options": [
+            "A) Decrease air quality.",
+            "B) Provide venues for community events.",
+            "C) Reduce the need for healthcare.",
+            "D) Are often poorly maintained."
+          ],
+          "answer": "B",
+          "explanation": "The passage states urban parks serve as venues for community events."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Access to green spaces can reduce feelings of...",
+          "prompt": "stress and...",
+          "answer": "anxiety",
+          "explanation": "The passage explains that access to green spaces reduces stress and anxiety."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is one of the social benefits of green spaces mentioned in the passage?",
+          "answer": "sense of community",
+          "explanation": "The passage states that access to green spaces promotes a sense of community."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-024",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Your Community Library",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Community libraries are more than just places to borrow books; they serve as vital hubs for learning and engagement. Most community libraries offer a variety of programs tailored to all ages, from storytime sessions for toddlers to technology classes for seniors. Patrons can access a wide range of resources, including digital books, audiobooks, and research databases, often free of charge. Libraries also frequently host events such as author readings, workshops, and cultural celebrations, fostering a sense of community. Moreover, many libraries provide quiet spaces for study and work, as well as meeting rooms available for group use. To ensure accessibility, many libraries have resources for individuals with disabilities, including audio books and adaptive technologies. Libraries often operate on limited budgets yet strive to offer free access to information and resources for everyone, making them an essential part of the local community fabric.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Community libraries mostly focus on borrowing books.",
+          "answer": "false",
+          "explanation": "The passage states that community libraries offer a variety of programs and resources, indicating that they do more than just loan books."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What type of events do libraries frequently host?",
+          "options": [
+            "A. Technology fairs",
+            "B. Author readings",
+            "C. Sports activities",
+            "D. Music concerts"
+          ],
+          "answer": "B",
+          "explanation": "The passage specifically mentions that libraries frequently host author readings."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Community libraries provide resources for individuals with __________.",
+          "prompt": "Choose no more than two words.",
+          "answer": "disabilities",
+          "explanation": "The passage mentions that libraries have resources for individuals with disabilities."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "Name one type of resource that libraries offer for free.",
+          "answer": "digital books",
+          "explanation": "The passage states that patrons can access digital books free of charge."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Libraries are fully funded by government budgets.",
+          "answer": "false",
+          "explanation": "The passage indicates that libraries often operate on limited budgets."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is one benefit of the quiet spaces offered by libraries?",
+          "options": [
+            "A. They are only for children.",
+            "B. They are suitable for study and work.",
+            "C. They host community meetings exclusively.",
+            "D. They have free Wi-Fi."
+          ],
+          "answer": "B",
+          "explanation": "The passage states that libraries provide quiet spaces for study and work."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

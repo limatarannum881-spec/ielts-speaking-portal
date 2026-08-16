@@ -1,0 +1,18 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for a Meeting",
+      "prompt": "You are a member of a community group that aims to improve public safety. Write a letter to your local council expressing your concerns about rising crime rates in your area. In your letter, explain what specific issues are causing concern, suggest some measures that could be taken to enhance safety, and request a meeting to discuss the matter further. Make sure to include your contact information so they can reach you easily."
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Employment",
+      "prompt": "Some people argue that advancements in technology have led to job losses in various sectors, while others believe that technology creates new job opportunities. Discuss both views and provide your opinion on the impact of technological advancements on employment in today's society. Support your answer with relevant examples and reasoning."
+    }
+  ]
+}

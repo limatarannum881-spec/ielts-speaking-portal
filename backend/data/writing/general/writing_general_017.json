@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "How to Make a Cup of Tea",
+      "prompt": "Write a letter to a friend explaining the process of making a cup of tea. Include the steps involved, the ingredients required, and any tips for making the best tea. You should write at least 150 words.",
+      "chart": {
+        "kind": "process",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Boil Water",
+            "value": 1
+          },
+          {
+            "label": "Add Tea Leaves or Bag",
+            "value": 1
+          },
+          {
+            "label": "Steep",
+            "value": 1
+          },
+          {
+            "label": "Add Milk/Sugar (optional)",
+            "value": 1
+          },
+          {
+            "label": "Serve",
+            "value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "opinion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "In today's world, technology plays a crucial role in our communication. Some people believe that technology has improved the quality of communication, while others think it has had a negative impact. Discuss both views and give your opinion on whether technology positively or negatively affects communication. You should write at least 250 words."
+    }
+  ]
+}

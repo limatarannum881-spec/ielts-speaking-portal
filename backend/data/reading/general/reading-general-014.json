@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-014",
+  "type": "reading",
+  "version": "general",
+  "title": "Managing Your Local Park",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Local parks are essential green spaces in urban environments, providing residents with opportunities for recreational activities and relaxation. They serve as communal areas where people of all ages can engage in sports, picnics, or simply enjoy nature. In recent years, many parks have undergone significant improvements thanks to community initiatives and funding from local governments. These enhancements often include new playgrounds, walking trails, and gardens that feature native plants. \n\nThe importance of maintaining these parks cannot be overstated. Regular maintenance ensures that facilities are safe and welcoming, promoting increased usage by the community. A dedicated team of park rangers and volunteers works tirelessly to clean up litter, maintain landscaping, and organize events that bring the community together. Such activities not only beautify the space but also foster a sense of belonging among residents. \n\nMoreover, educational programs about local flora and fauna are frequently held in parks, encouraging visitors to observe and appreciate nature. Activities such as guided nature walks or bird watching sessions are designed to raise awareness about environmental conservation. Local schools often collaborate with park management to develop curriculum-based activities that tie outdoor experiences to classroom learning. \n\nThe local government periodically conducts surveys to gauge community satisfaction with park facilities and gather suggestions for future improvements. These surveys are instrumental in ensuring that parks adapt to the changing needs of the community. Recent feedback has led to the addition of fitness classes and community gardens, catering to the interests of diverse park users. \n\nIn conclusion, local parks are invaluable assets that require ongoing care and community involvement. By participating in park events, utilizing facilities, and providing feedback, residents can help shape the future of these cherished public spaces.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "All parks have the same facilities and features.",
+          "answer": "false",
+          "explanation": "The passage mentions that parks can have different features based on community needs and improvements made."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the recent improvements made in local parks?",
+          "options": [
+            "A. Increased parking space",
+            "B. New playgrounds",
+            "C. Larger picnic areas",
+            "D. More wildlife shelters"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that one of the improvements includes new playgrounds."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Community involvement is important in shaping the future of __________.",
+          "prompt": "the local parks.",
+          "answer": "public spaces",
+          "explanation": "The passage emphasizes the role of community feedback and participation in shaping parks."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of educational programs are often held in parks?",
+          "answer": "nature walks",
+          "explanation": "The passage mentions educational programs such as guided nature walks."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "The local government never changes the facilities based on community feedback.",
+          "answer": "false",
+          "explanation": "The passage indicates that community feedback has led to changes in park facilities."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Why is regular maintenance of parks important?",
+          "options": [
+            "A. It can reduce the number of volunteers needed",
+            "B. It ensures safety and promotes usage",
+            "C. It guarantees that parks remain open all year",
+            "D. It requires less funding from the government"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that regular maintenance ensures safety and promotes increased usage."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

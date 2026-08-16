@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2021",
+      "prompt": "The bar chart illustrates the market share of different smartphone brands worldwide in 2021. It is evident that Brand A led the market with a significant share, accounting for 30% of total sales. Following closely were Brand B and Brand C, which held 25% and 20% of the market share, respectively. Meanwhile, Brand D captured 15% of the market, while the remaining brands collectively accounted for the remaining 10%. Notably, Brand A's position as the market leader reflects its strong brand loyalty and extensive product offerings. In comparison, Brand B's steady increase in sales indicated its growing popularity, particularly among younger consumers. Brand C, on the other hand, experienced fluctuations in its market share due to intense competition and evolving consumer preferences. Overall, the data suggests a competitive landscape where established brands dominate, but there is room for emerging companies to capture a portion of the market.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 30
+          },
+          {
+            "label": "Brand B",
+            "value": 25
+          },
+          {
+            "label": "Brand C",
+            "value": 20
+          },
+          {
+            "label": "Brand D",
+            "value": 15
+          },
+          {
+            "label": "Others",
+            "value": 10
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "The integration of technology in education has sparked a considerable debate regarding its benefits and drawbacks. While some argue that technology enhances learning experiences and knowledge acquisition, others believe that it poses significant challenges for traditional educational systems. Discuss both views and give your own opinion. On one hand, proponents of technology in education highlight its ability to provide interactive learning environments, personalized education, and access to vast resources online. They believe that these advantages cater to diverse learning styles and enhance student engagement. On the other hand, critics point out that excessive reliance on technology may lead to decreased face-to-face interactions and can detract from fundamental skills such as critical thinking and problem-solving. Furthermore, concerns regarding screen time and digital distractions have become more prominent in recent discussions. In this essay, both perspectives will be explored, ultimately concluding that while technology can significantly enrich education, a balanced approach is necessary to mitigate its potential downsides."
+    }
+  ]
+}

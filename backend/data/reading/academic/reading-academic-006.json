@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-006",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces in City Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, which include parks, gardens, and other green areas, are vital components of city ecosystems. These spaces provide numerous ecological benefits, such as improving air quality, reducing urban heat islands, and supporting biodiversity. According to recent studies, urban areas with more green spaces tend to have lower levels of air pollution compared to those with limited vegetation. Green spaces also play a role in mitigating the effects of climate change by absorbing carbon dioxide, a leading greenhouse gas. Furthermore, they offer aesthetic and recreational value to city residents, promoting mental well-being and community cohesion.\n\nThe presence of green spaces enhances urban biodiversity by providing habitats for various species of flora and fauna. Research shows that even small patches of greenery can serve as important refuges for wildlife, aiding in their conservation in rapidly urbanizing areas. In addition, urban parks often serve as corridors for migrating species, allowing them to traverse otherwise inhospitable urban landscapes.\n\nHowever, the distribution of green spaces is often uneven, with low-income neighborhoods frequently having less access to these vital areas. This disparity can lead to significant inequalities in health outcomes among different socioeconomic groups, as those with limited access to green spaces may experience higher levels of stress and associated health issues. It is crucial for urban planners and policymakers to prioritize the development and maintenance of equitable green spaces as part of sustainable urban development strategies.\n\nIn conclusion, urban green spaces are essential not only for environmental health but also for enhancing the quality of life in urban settings. To maximize their benefits, cities must consider innovative approaches to integrate more green areas into their landscapes, ensuring that all residents can enjoy the advantages these spaces offer.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are only beneficial for environmental purposes.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces provide aesthetic and recreational value, in addition to ecological benefits."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A) Improved air quality",
+            "B) Enhanced biodiversity",
+            "C) Increased property values",
+            "D) Climate change mitigation"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not mention increased property values as a benefit of urban green spaces."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban parks often serve as __________ for migrating species.",
+          "prompt": "Urban parks often serve as __________.",
+          "answer": "corridors",
+          "explanation": "The passage states that urban parks serve as corridors for migrating species."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do low-income neighborhoods often lack in relation to green spaces?",
+          "answer": "access",
+          "explanation": "The passage states that low-income neighborhoods frequently have less access to green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are found uniformly distributed across all neighborhoods.",
+          "answer": "false",
+          "explanation": "The passage indicates that the distribution of green spaces is often uneven."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What should urban planners prioritize according to the passage?",
+          "options": [
+            "A) Increased housing",
+            "B) Development of equitable green spaces",
+            "C) Enhanced public transport",
+            "D) Commercial development"
+          ],
+          "answer": "B",
+          "explanation": "The passage emphasizes the importance of prioritizing equitable green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces help to reduce __________.",
+          "prompt": "Urban green spaces help to reduce __________.",
+          "answer": "urban heat",
+          "explanation": "The passage mentions that urban green spaces reduce urban heat islands."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is one psychological benefit of urban green spaces mentioned in the passage?",
+          "answer": "mental well-being",
+          "explanation": "The passage states that green spaces promote mental well-being among city residents."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

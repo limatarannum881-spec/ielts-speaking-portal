@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-065",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Angela: Hey, Tom! Have you thought about what we should do this weekend?\nTom: Not really. I was thinking we could go hiking if the weather is good.\nAngela: That sounds great! I know a place near Lakeview that has some beautiful trails.\nTom: Oh, I’ve heard about Lakeview. How long does it take to get there?\nAngela: It’s about an hour’s drive from here. We could leave early in the morning to avoid traffic.\nTom: Sounds perfect. What time do you want to meet?\nAngela: How about we meet at my place at 7 AM? That way, we can have breakfast before we leave.\nTom: Good idea! Should we pack some lunch as well?\nAngela: Yes, definitely. I can make some sandwiches.\nTom: Great! I’ll bring some snacks and drinks. By the way, don’t forget to bring your camera for the views!\nAngela: Of course! I can’t wait to take some photos. It’ll be a fun day out!\nTom: Absolutely! Let’s check the weather forecast before we finalize everything.\nAngela: Right! I’ll look it up now and text you later with the details.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What does Angela suggest doing this weekend?",
+          "options": [
+            "A) Going to the beach",
+            "B) Visiting a museum",
+            "C) Going hiking",
+            "D) Attending a concert"
+          ],
+          "answer": "C",
+          "explanation": "Angela suggests that they go hiking if the weather is good."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Departure Time"
+          ],
+          "answer": [
+            "Lakeview",
+            "7 AM"
+          ],
+          "explanation": "Angela and Tom plan to go to Lakeview and meet at 7 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What will Angela make for lunch?",
+          "answer": "sandwiches",
+          "explanation": "Angela mentions that she will make sandwiches for their outing."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "How long is the drive to Lakeview?",
+          "options": [
+            "A) 30 minutes",
+            "B) 1 hour",
+            "C) 1.5 hours",
+            "D) 2 hours"
+          ],
+          "answer": "B",
+          "explanation": "Tom learns that it is about an hour's drive to Lakeview."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What does Tom plan to bring?",
+          "answer": "snacks and drinks",
+          "explanation": "Tom mentions he will bring some snacks and drinks for the trip."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What does Angela suggest checking before finalizing their plans?",
+          "options": [
+            "A) Gas station opening hours",
+            "B) Weather forecast",
+            "C) Hiking permits",
+            "D) Trail maps"
+          ],
+          "answer": "B",
+          "explanation": "Angela suggests checking the weather forecast before finalizing their plans."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

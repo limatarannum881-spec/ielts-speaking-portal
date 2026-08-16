@@ -1,0 +1,19 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for Assistance with a Community Event",
+      "prompt": "You are organizing a community event to raise funds for a local charity. Write a letter to a local business owner requesting their support. In your letter: introduce yourself and the charity, explain the purpose of the event, and outline how the business can help. Make sure to include specific suggestions for assistance, such as donating goods or services, and express your appreciation for their consideration.",
+      "chart": {}
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "Some people believe that technology has improved communication among people, while others think it has destroyed the quality of communication. Discuss both views and give your opinion. In your essay, explore the ways technology has transformed communication, consider the potential drawbacks it may have introduced, and support your arguments with relevant examples."
+    }
+  ]
+}

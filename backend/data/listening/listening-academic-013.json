@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-013",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey, Jake! Have you thought about our weekend trip yet?  \nJake: Yeah, I was looking at a few options. What do you think about going to the mountains?  \nEmily: That sounds great! I love hiking. Do you know any good trails there?  \nJake: There’s a popular one called Clearview Trail. It’s about five miles long and the view at the top is supposed to be amazing.  \nEmily: Perfect! But do we need to make reservations for camping?  \nJake: I think we should. I read that the campgrounds fill up quickly, especially on weekends.  \nEmily: Good call. Should we try to leave early to beat the traffic?  \nJake: Definitely. If we leave by 7 AM, we should avoid the rush.  \nEmily: Sounds like a plan! Oh, what should we pack?  \nJake: I think we should bring food, water, and our camping gear. Also, don’t forget a first-aid kit!  \nEmily: Right! And maybe some board games for the evenings?  \nJake: Great idea! Let’s make a list tonight.  \nEmily: Awesome! I can’t wait for this trip!  \nJake: Me too!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What trail does Jake suggest for hiking?",
+          "options": [
+            "A) Mountain Vista Trail",
+            "B) Rainbow Trail",
+            "C) Clearview Trail",
+            "D) Summit Trail"
+          ],
+          "answer": "C",
+          "explanation": "Jake suggested Clearview Trail, which is known for its beautiful views."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Camping Gear",
+            "First Aid"
+          ],
+          "answer": [
+            "camping gear",
+            "first-aid kit"
+          ],
+          "explanation": "Emily and Jake discussed packing both camping gear and a first-aid kit."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What time do they plan to leave?",
+          "answer": "7 AM",
+          "explanation": "They agreed to leave by 7 AM to avoid traffic."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does Emily suggest bringing for the evenings?",
+          "options": [
+            "A) Cards",
+            "B) Books",
+            "C) Board games",
+            "D) Music"
+          ],
+          "answer": "C",
+          "explanation": "Emily suggested bringing board games to enjoy in the evenings."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What is the length of the Clearview Trail?",
+          "answer": "five miles",
+          "explanation": "Jake mentioned that the Clearview Trail is about five miles long."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "Why do they need reservations for camping?",
+          "options": [
+            "A) It’s expensive",
+            "B) They don’t have enough equipment",
+            "C) Campgrounds fill up quickly",
+            "D) They are not sure of the location"
+          ],
+          "answer": "C",
+          "explanation": "Jake read that the campgrounds fill up quickly on weekends, which is why they need to make reservations."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

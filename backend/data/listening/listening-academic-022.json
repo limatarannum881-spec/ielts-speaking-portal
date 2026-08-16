@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-022",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Mark, have you thought about what we should do this weekend?  \nB: I was thinking we could go hiking in the mountains. The weather is supposed to be nice.  \nA: That sounds great! Do you have a specific trail in mind?  \nB: Yes, I read about the Green River Trail. It’s about five miles long and offers stunning views.  \nA: Perfect! Should we pack some lunch?  \nB: Absolutely! I suggest sandwiches and some fruits.  \nA: What time should we leave? I want to make sure we have enough daylight.  \nB: If we leave by 8 AM, we should be there around 9 AM.  \nA: Good idea. Should we invite Sarah and Tom too? They might enjoy it.  \nB: Definitely! I’ll text them right now and see if they’re interested.  \nA: Awesome! Let's make it a fun trip!  \nB: For sure! And we can bring some games for the evening too.  \nA: Yes! A little competition is always fun!  \nB: Great! Looking forward to it!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where are Mark and A planning to go?",
+          "options": [
+            "A) Beach",
+            "B) Camping",
+            "C) Hiking",
+            "D) Fishing"
+          ],
+          "answer": "C",
+          "explanation": "They are discussing hiking in the mountains."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Trail Name",
+            "Departure Time"
+          ],
+          "answer": [
+            "Green River",
+            "8 AM"
+          ],
+          "explanation": "The trail name mentioned is Green River and they plan to leave at 8 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What food do they plan to pack for lunch?",
+          "answer": "sandwiches",
+          "explanation": "They suggest packing sandwiches and fruits for lunch."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "How long is the Green River Trail?",
+          "options": [
+            "A) 2 miles",
+            "B) 3 miles",
+            "C) 5 miles",
+            "D) 7 miles"
+          ],
+          "answer": "C",
+          "explanation": "The trail is mentioned to be about five miles long."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "Who do they consider inviting to join them?",
+          "answer": "Sarah and Tom",
+          "explanation": "They discuss inviting Sarah and Tom for the hike."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What games will they bring?",
+          "options": [
+            "A) Card games",
+            "B) Board games",
+            "C) Sports equipment",
+            "D) No games"
+          ],
+          "answer": "B",
+          "explanation": "They mention bringing some games for the evening."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-035",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Algae in Marine Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Algae, simple photosynthetic organisms found in a variety of aquatic environments, play a crucial role in marine ecosystems. They are primarily responsible for primary production, providing the foundational energy source for a vast array of marine life. By converting sunlight into chemical energy through photosynthesis, algae form the basis of the food web. Major groups of algae include green algae, brown algae, and red algae, each contributing differently to their environments. \n\nGreen algae, commonly found in freshwater habitats, can also thrive in saltwater. They are known for their high nutritional value and are often utilized in aquaculture as feed for fish. Brown algae, typically found in colder waters, support marine life with their structure, creating habitats for numerous species. Red algae, often found at greater depths, contribute to calcium carbonate production, playing a vital role in building coral reefs. \n\nMoreover, algae significantly affect the global carbon cycle. By absorbing large amounts of carbon dioxide during photosynthesis, they help mitigate the impacts of climate change. This carbon sequestration is particularly important in coastal regions, where algal blooms can flourish in nutrient-rich waters. However, excessive nutrient input can lead to harmful algal blooms, which have detrimental effects on marine ecosystems and human health. \n\nIn conclusion, understanding the diverse roles of algae in marine environments is essential for conservation efforts and sustainable management of marine resources. Preserving algae is not merely about protecting a species but ensuring the health of the entire ecosystem they support.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Algae are mostly found in terrestrial environments.",
+          "answer": "false",
+          "explanation": "The passage states that algae are found in aquatic environments."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which type of algae is primarily associated with coral reef formation?",
+          "options": [
+            "A. Green Algae",
+            "B. Brown Algae",
+            "C. Red Algae",
+            "D. None of the above"
+          ],
+          "answer": "C",
+          "explanation": "The passage indicates that red algae contribute to calcium carbonate production, which is essential for coral reefs."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Green algae are known for their high __________ value.",
+          "answer": "nutritional",
+          "explanation": "The passage mentions that green algae are known for their high nutritional value."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one negative consequence of excessive nutrient input into aquatic environments?",
+          "answer": "harmful algal blooms",
+          "explanation": "The passage states that excessive nutrient input can lead to harmful algal blooms."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Algae contribute to the global carbon cycle.",
+          "answer": "true",
+          "explanation": "The passage explains that algae absorb carbon dioxide during photosynthesis, impacting the carbon cycle."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What do brown algae primarily provide for marine life?",
+          "options": [
+            "A. Energy source",
+            "B. Nutritional feed",
+            "C. Habitat structure",
+            "D. Carbon sequestration"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that brown algae create habitats for numerous species."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Algae are important for providing the foundational __________ for marine life.",
+          "prompt": "energy source",
+          "answer": "energy source",
+          "explanation": "The passage mentions that algae provide the foundational energy source for marine life."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is the primary function of algae in marine ecosystems?",
+          "answer": "primary production",
+          "explanation": "The passage indicates that algae are primarily responsible for primary production."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

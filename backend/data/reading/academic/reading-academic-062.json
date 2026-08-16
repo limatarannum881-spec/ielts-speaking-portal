@@ -1,0 +1,112 @@
+{
+  "id": "reading-academic-062",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Well-being",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urbanization has transformed cities into sprawling metropolises, often at the expense of natural landscapes. However, recent studies underscore the importance of urban green spaces, such as parks and gardens, in promoting mental well-being among city dwellers. These green spaces offer a respite from the concrete jungle, providing areas where individuals can unwind, exercise, and engage with nature.\n\nResearch indicates that individuals living near green spaces experience lower levels of stress and anxiety. For example, a study conducted by the University of California found that participants who had access to parks reported a significant reduction in cortisol levels, a hormone associated with stress. Moreover, green spaces have been linked to increased physical activity, which is known to enhance mental health by releasing endorphins, commonly referred to as 'feel-good' hormones.\n\nFurthermore, the presence of vegetation in urban areas has been shown to foster social interaction. Parks create communal spaces where people can gather, facilitating connections between individuals from diverse backgrounds. This social interaction is crucial, as loneliness and isolation are major contributors to mental health issues.\n\nDespite the evident benefits, urban green spaces face threats from urban development and neglect. Many cities are prioritizing infrastructure upgrades over the maintenance of parks, which can lead to the deterioration of these essential resources. Advocacy for green spaces has become increasingly prominent, with various community initiatives aimed at preserving and enhancing urban greenery.\n\nIn conclusion, urban green spaces play a vital role in enhancing the mental well-being of urban populations. As cities continue to grow, prioritizing the integration and maintenance of these areas is essential for promoting healthier and happier communities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage describes the positive impact of urban green spaces on mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What hormone is associated with stress?",
+          "options": [
+            "A) Adrenaline",
+            "B) Cortisol",
+            "C) Testosterone",
+            "D) Insulin"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions cortisol as the hormone associated with stress."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. 'Access to parks is linked to a reduction in _____ levels.'",
+          "prompt": "Complete the sentence.",
+          "answer": "cortisol",
+          "explanation": "The passage states that access to parks leads to a reduction in cortisol levels."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "According to the passage, what do parks facilitate among individuals?",
+          "answer": "social interaction",
+          "explanation": "The passage highlights that parks create communal spaces for social interaction."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urbanization has no negative effects on green spaces.",
+          "answer": "false",
+          "explanation": "The passage discusses threats to green spaces due to urban development."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is a major contributor to mental health issues according to the reading?",
+          "options": [
+            "A) Stress",
+            "B) Pollution",
+            "C) Loneliness",
+            "D) Traffic"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that loneliness and isolation are major contributors to mental health issues."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Urban green spaces help people engage with _____",
+          "prompt": "Complete the sentence.",
+          "answer": "nature",
+          "explanation": "The passage mentions that green spaces allow individuals to engage with nature."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What type of initiatives are mentioned as efforts to support urban green spaces?",
+          "answer": "community initiatives",
+          "explanation": "The passage refers to various community initiatives aimed at enhancing urban greenery."
+        },
+        {
+          "id": "q9",
+          "type": "true-false-not-given",
+          "question": "The passage suggests that cities are currently focused on maintaining parks.",
+          "answer": "false",
+          "explanation": "The passage indicates that many cities are prioritizing infrastructure over the maintenance of parks."
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A) Lower stress levels",
+            "B) Increased physical activity",
+            "C) Enhanced air quality",
+            "D) Fostering connections"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not mention enhanced air quality as a benefit of urban green spaces."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

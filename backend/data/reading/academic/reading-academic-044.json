@@ -1,0 +1,108 @@
+{
+  "id": "reading-academic-044",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces in City Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, play a crucial role in enhancing the quality of life in cities. They provide numerous ecological, social, and psychological benefits. Ecologically, these spaces contribute to biodiversity by serving as habitats for various species, offering refuge for birds, insects, and small mammals. In densely populated urban areas, green spaces also offer essential services, such as air purification, temperature regulation, and stormwater management. \n\nSocially, urban green spaces are vital for community interaction and engagement. They serve as gathering spots for residents, fostering a sense of belonging and community spirit. Additionally, they are essential for recreational activities, promoting physical health and well-being. Studies have shown that access to green spaces can reduce stress and improve mental health outcomes for urban residents. \n\nFrom a psychological perspective, the presence of greenery can significantly impact mood and cognitive function. Research indicates that individuals living near parks and gardens report higher levels of happiness and satisfaction with life. Furthermore, exposure to nature has been linked to improved attention spans and creativity.\n\nDespite their importance, urban green spaces often face threats from urbanization and development pressures. Many cities are experiencing a decline in accessible green areas due to land being repurposed for housing and commercial developments. This trend raises concerns about maintaining biodiversity and public health in urban settings. Therefore, urban planners and policymakers must prioritize the preservation and creation of green spaces to ensure sustainable city living. \n\nIn conclusion, urban green spaces are indispensable elements of city ecosystems that support ecological balance, foster social connections, and enhance individual well-being. With increasing urbanization, the challenge lies in maintaining and expanding these vital areas to benefit current and future generations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are only beneficial for ecological purposes.",
+          "answer": "false",
+          "explanation": "The passage outlines benefits that include social and psychological aspects, not just ecological."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the psychological benefits mentioned in the passage?",
+          "options": [
+            "A) Increased stress levels",
+            "B) Improved attention spans",
+            "C) Reduced physical health",
+            "D) Lack of community spirit"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that exposure to nature is linked to improved attention spans."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Urban green spaces provide essential services, such as ______ and temperature regulation.",
+          "answer": "air purification",
+          "explanation": "The passage mentions air purification as one of the essential services provided by green spaces."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do urban planners need to prioritize according to the passage?",
+          "answer": "preservation and creation of green spaces",
+          "explanation": "The passage emphasizes that urban planners and policymakers should prioritize the preservation and creation of green spaces."
+        },
+        {
+          "id": "q5",
+          "type": "matching",
+          "question": "Match the following benefits of urban green spaces with their descriptions.",
+          "options": {
+            "A": "Promotes physical health",
+            "B": "Supports biodiversity",
+            "C": "Improves mental health",
+            "D": "Fosters community spirit"
+          },
+          "descriptions": {
+            "1": "Helps in reducing stress and enhancing life satisfaction.",
+            "2": "Provides necessary habitats for various species.",
+            "3": "Encourages social interactions among residents.",
+            "4": "Facilitates recreational activities for better health."
+          },
+          "answer": {
+            "A": "4",
+            "B": "2",
+            "C": "1",
+            "D": "3"
+          },
+          "explanation": "The descriptions align with the benefits mentioned in the passage."
+        },
+        {
+          "id": "q6",
+          "type": "true-false-not-given",
+          "question": "Urbanization is benefiting the development of green spaces.",
+          "answer": "false",
+          "explanation": "The passage discusses how urbanization poses a threat to the availability of green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A) Community interaction",
+            "B) Biodiversity",
+            "C) Increased urbanization",
+            "D) Air purification"
+          ],
+          "answer": "C",
+          "explanation": "Increased urbanization is mentioned as a threat, not a benefit."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What raises concerns about public health in urban areas?",
+          "answer": "Decline in accessible green areas",
+          "explanation": "The passage states that the decline in accessible green areas raises public health concerns."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

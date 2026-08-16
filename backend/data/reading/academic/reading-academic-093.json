@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-093",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, play an increasingly vital role in modern cities as they provide not only aesthetic pleasure but also numerous psychological benefits. Research indicates that individuals who have access to green spaces experience lower levels of stress and depression compared to those who do not. The healing power of nature is well-documented, and the presence of trees and green areas in urban environments has been linked to improved mental well-being. \n\nOne significant study conducted in various metropolitan areas found that residents living within walking distance of parks reported higher life satisfaction and lower anxiety levels. This could be attributed to the physical activity that parks encourage, as exercise is known to enhance mood and relieve stress. Furthermore, communal green spaces serve as social hubs where individuals can interact, fostering a sense of community that contributes positively to mental health. \n\nNot only do urban green spaces facilitate relaxation, but they also encourage a more active lifestyle. For instance, cities with extensive bike paths and walking trails see higher participation in recreational activities, which are crucial for maintaining mental balance. Moreover, the exposure to greenery has been shown to improve cognitive function, providing mental clarity and enhancing focus among urban dwellers. \n\nDespite the acknowledged benefits of green spaces, urban planning often neglects these areas due to budget constraints and the prioritization of commercial developments. This oversight can lead to an increase in urban heat, pollution, and ultimately negative impacts on residents' mental health. To counteract these negative trends, many experts advocate for the integration of more green areas in cities, promoting policies that prioritize sustainable urban ecology. Enhancing urban green spaces not only contributes to environmental sustainability but plays a crucial role in boosting the mental health of urban populations, making cities not just centers of commerce but also sanctuaries of well-being.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no psychological benefits.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces provide psychological benefits."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one reason given for the lower anxiety levels among residents near parks?",
+          "options": [
+            "A) Increased social interaction",
+            "B) Access to recreational facilities",
+            "C) Physical activity",
+            "D) Lower pollution levels"
+          ],
+          "answer": "C",
+          "explanation": "The passage mentions that parks encourage physical activity, which is known to enhance mood and relieve stress."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. The presence of trees and green areas is linked to improved _____.",
+          "prompt": "The presence of trees and green areas is linked to improved _____",
+          "answer": "mental well-being",
+          "explanation": "The passage specifically refers to the link between green areas and improved mental health."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do experts advocate for to improve the urban environment?",
+          "answer": "the integration of more green areas",
+          "explanation": "The passage states that experts advocate for integrating more green areas in cities."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban planning often prioritizes green spaces over commercial developments.",
+          "answer": "false",
+          "explanation": "The passage indicates that urban planning often neglects green spaces in favor of commercial developments."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What cognitive benefit is associated with exposure to greenery?",
+          "options": [
+            "A) Better physical health",
+            "B) Improved cognitive function",
+            "C) Enhanced sleep quality",
+            "D) Reduced social interaction"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that exposure to greenery improves cognitive function."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "To counteract the negative trends in urban health, experts suggest promoting policies for _____.",
+          "prompt": "To counteract the negative trends in urban health, experts suggest promoting policies for _____",
+          "answer": "sustainable urban ecology",
+          "explanation": "The passage discusses promoting policies that prioritize sustainable urban ecology."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is one role of communal green spaces mentioned in the passage?",
+          "answer": "serve as social hubs",
+          "explanation": "The passage states that communal green spaces serve as social hubs where individuals can interact."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

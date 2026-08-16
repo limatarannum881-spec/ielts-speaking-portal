@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-079",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Mycorrhizal Fungi in Plant Nutrition",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Mycorrhizal fungi are a crucial component of many ecosystems, acting as a symbiotic partner to the roots of most terrestrial plants. This relationship enhances nutrient uptake, particularly phosphorus, which is often limited in the soil. The fungi extend their hyphae into the soil, increasing the surface area for absorption. In exchange for this service, plants provide the fungi with carbohydrates produced through photosynthesis. This mutualistic relationship is not only beneficial for the plants and fungi involved, but it also plays a significant role in soil health and fertility.\n\nResearch shows that up to 90% of plant species form mycorrhizal associations. The effectiveness of these fungi can vary depending on environmental conditions, such as soil type and moisture levels. For instance, in arid environments, mycorrhizal fungi can be more beneficial as they help plants access deep water sources. Conversely, in nutrient-rich soils, the reliance on mycorrhizal associations may diminish.\n\nFurthermore, mycorrhizal fungi contribute to the formation of soil aggregates. These aggregates improve soil structure, increase porosity, and enhance aeration, which are critical factors for healthy plant root development. Not only do they improve nutrient and water retention, but they also help mitigate soil erosion. \n\nThe importance of mycorrhizal fungi extends beyond individual plants; it impacts entire ecosystems. For example, in forests, these fungi facilitate nutrient exchange between tree species, promoting biodiversity. Research indicates that mycorrhizal networks can connect different plant species, allowing them to share nutrients and possibly even signaling distress. This network behavior demonstrates the intricate connections within ecosystems, emphasizing that plants are far from solitary organisms.\n\nIn conclusion, the relationship between plants and mycorrhizal fungi is a prime example of mutualism in nature, highlighting the complexity of ecological interactions that sustain plant life and contribute to ecosystem resilience.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Mycorrhizal fungi help plants in nutrient uptake.",
+          "answer": "true",
+          "explanation": "The passage states that mycorrhizal fungi enhance nutrient uptake in plants."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is mainly exchanged between plants and mycorrhizal fungi?",
+          "options": [
+            "Nutrients",
+            "Water",
+            "Carbohydrates",
+            "Oxygen"
+          ],
+          "answer": "C",
+          "explanation": "The passage mentions that plants provide carbohydrates to the fungi."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Mycorrhizal fungi can help plants access __________ in arid environments.",
+          "prompt": "Mycorrhizal fungi can help plants access __________ in arid environments.",
+          "answer": "deep water",
+          "explanation": "The text indicates that mycorrhizal fungi help plants access deep water sources in arid environments."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What process do mycorrhizal fungi enhance that contributes to soil health?",
+          "answer": "Nutrient exchange",
+          "explanation": "The passage discusses the role of mycorrhizal fungi in enhancing nutrient exchange between plants."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Mycorrhizal fungi are not important in nutrient-rich soils.",
+          "answer": "false",
+          "explanation": "The passage states that reliance on mycorrhizal associations may diminish in nutrient-rich soils, but it does not claim they are not important."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "How do mycorrhizal fungi impact soil structure?",
+          "options": [
+            "They reduce porosity",
+            "They improve aeration",
+            "They eliminate soil erosion",
+            "They deplete soil nutrients"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that mycorrhizal fungi improve soil structure and aeration."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Mycorrhizal networks can connect different plant species, allowing them to share __________.",
+          "prompt": "Mycorrhizal networks can connect different plant species, allowing them to share __________.",
+          "answer": "nutrients",
+          "explanation": "The passage mentions that mycorrhizal networks facilitate nutrient sharing among plant species."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What type of relationship do plants and mycorrhizal fungi have?",
+          "answer": "Mutualistic relationship",
+          "explanation": "The passage describes the relationship between plants and mycorrhizal fungi as mutualistic."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-012",
+  "type": "reading",
+  "version": "general",
+  "title": "Getting the Most Out of Your Local Library",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Local libraries are invaluable resources for communities, offering much more than just books. They provide access to a wealth of knowledge, including online databases, community events, and educational programs. Many libraries have adapted to the digital age, providing e-books and audiobooks that can be borrowed online. Furthermore, libraries often host workshops and classes on various topics, from coding to creative writing, aimed at all age groups. \n\nIn addition to traditional library services, many local libraries have created cozy spaces for reading and study, equipped with comfortable seating and free Wi-Fi. This encourages community members to spend time in a welcoming atmosphere where they can engage with both literature and fellow patrons.\n\nLocal libraries also serve as gathering places for community events. They frequently host book clubs, author readings, and children's story hours that foster a love of reading and learning. Moreover, they may collaborate with local schools and organizations to promote literacy and provide resources for educational support.\n\nFor those interested in technology, many libraries offer access to computers and software that can help individuals improve their digital skills. Some have makerspaces, where patrons can create, invent, and learn about new technologies using tools and equipment provided by the library.\n\nIn conclusion, your local library is not just a repository of books; it is a dynamic hub of learning, creativity, and community engagement. Whether you are looking to read, learn, or connect, your library is a great place to start.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Local libraries only offer physical books.",
+          "answer": "false",
+          "explanation": "The passage states that local libraries provide much more than just books, including online databases and e-books."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of the cozy spaces created in local libraries?",
+          "options": [
+            "A) They are only for reading.",
+            "B) They allow community engagement.",
+            "C) They are restricted to certain age groups.",
+            "D) They discourage study sessions."
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that cozy spaces encourage community members to engage with literature and fellow patrons."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Many libraries offer access to computers and software to improve ___ skills.",
+          "answer": "digital",
+          "explanation": "The passage states that libraries provide access to computers to help improve digital skills."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of events do local libraries frequently host?",
+          "answer": "book clubs",
+          "explanation": "The passage states that local libraries host events such as book clubs and author readings."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Libraries often collaborate with local schools for educational support.",
+          "answer": "true",
+          "explanation": "The passage indicates that libraries collaborate with local schools to promote literacy and provide resources."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is a makerspace?",
+          "options": [
+            "A) A place for reading only.",
+            "B) A workshop for technology and creativity.",
+            "C) A section for storing old books.",
+            "D) A digital library."
+          ],
+          "answer": "B",
+          "explanation": "The passage describes makerspaces as areas where patrons can create and learn about new technologies."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

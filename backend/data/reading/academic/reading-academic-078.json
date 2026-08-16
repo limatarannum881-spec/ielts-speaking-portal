@@ -1,0 +1,106 @@
+{
+  "id": "reading-academic-078",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Urban Green Spaces",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, play a critical role in enhancing the quality of life in densely populated cities. These areas provide not only aesthetic benefits but also vital ecological functions. Studies have shown that urban greenery can significantly reduce air pollution, mitigate noise, and manage stormwater runoff. Furthermore, they serve as essential habitats for various species, thus supporting biodiversity in urban settings.\n\nThe psychological advantages of green spaces are equally noteworthy. Access to parks and gardens has been linked to reduced stress levels and improved mental health among city dwellers. Activities such as walking, jogging, or simply sitting in a park can foster a sense of community and encourage social interaction. Importantly, urban green spaces also promote physical health by offering locations for exercise and leisure.\n\nHowever, the distribution of these green spaces is often uneven, leading to disparities in access among different socio-economic groups. Research indicates that affluent neighborhoods tend to have more extensive and well-maintained parks compared to economically disadvantaged areas. This inequity raises concerns about social justice and the equitable distribution of environmental benefits.\n\nEfforts to enhance urban green spaces are gaining momentum worldwide, with initiatives aimed at increasing vegetation cover, restoring degraded areas, and integrating nature into urban planning. Innovative concepts, such as vertical gardens and urban forests, are being explored to maximize the use of limited space in cities. As urbanization continues to rise, the importance of maintaining and expanding green spaces becomes increasingly critical for sustainable development.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are exclusively aesthetic in nature.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces provide both aesthetic benefits and vital ecological functions."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one psychological benefit of urban green spaces mentioned in the passage?",
+          "options": [
+            "A) Increased air quality",
+            "B) Reduced stress levels",
+            "C) Improved biodiversity",
+            "D) Enhanced property values"
+          ],
+          "answer": "B",
+          "explanation": "The passage links access to parks and gardens to reduced stress levels and improved mental health."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces are important for _______ and _______.",
+          "prompt": "Urban green spaces are important for ____ and _____.",
+          "answer": "biodiversity, mental health",
+          "explanation": "The passage discusses their role in supporting biodiversity and improving mental health."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What two innovative concepts are being explored to enhance urban green spaces?",
+          "answer": "vertical gardens, urban forests",
+          "explanation": "The passage mentions vertical gardens and urban forests as innovative concepts to maximize space."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Research indicates that poor neighborhoods have better access to green spaces than affluent ones.",
+          "answer": "false",
+          "explanation": "The passage states that affluent neighborhoods tend to have more extensive and well-maintained parks compared to economically disadvantaged areas."
+        },
+        {
+          "id": "q6",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces can help manage _______.",
+          "prompt": "Urban green spaces can help manage _______.",
+          "answer": "stormwater runoff",
+          "explanation": "The passage mentions that one of the ecological functions of urban greenery is to manage stormwater runoff."
+        },
+        {
+          "id": "q7",
+          "type": "matching",
+          "question": "Match the following benefits of urban green spaces with their descriptions.",
+          "pairs": [
+            {
+              "benefit": "Aesthetic appeal",
+              "description": "1. Enhances community feeling and social interaction"
+            },
+            {
+              "benefit": "Physical health",
+              "description": "2. Provides locations for exercise and leisure"
+            },
+            {
+              "benefit": "Biodiversity",
+              "description": "3. Supports various species in urban areas"
+            }
+          ],
+          "answer": [
+            {
+              "benefit": "Aesthetic appeal",
+              "description": "1"
+            },
+            {
+              "benefit": "Physical health",
+              "description": "2"
+            },
+            {
+              "benefit": "Biodiversity",
+              "description": "3"
+            }
+          ],
+          "explanation": "The descriptions match the benefits as discussed in the passage."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

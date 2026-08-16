@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2022",
+      "prompt": "The bar chart illustrates the market share of various smartphone manufacturers worldwide in 2022. The data highlights the distribution of market share among the top five brands: Apple, Samsung, Huawei, Xiaomi, and Oppo. Apple leads the market with a share of 30%, followed closely by Samsung at 28%. Huawei occupies the third position with 15%, whereas Xiaomi and Oppo have shares of 12% and 10% respectively. The chart indicates a competitive landscape, with Apple and Samsung dominating the market, together accounting for over half of the total share. Huawei's position seems to be under threat due to increasing competition from Xiaomi and Oppo, who both have shown significant growth over recent years. Overall, the smartphone market remains dynamic, with shifts in consumer preferences impacting the shares of these leading brands.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Apple",
+            "value": 30
+          },
+          {
+            "label": "Samsung",
+            "value": 28
+          },
+          {
+            "label": "Huawei",
+            "value": 15
+          },
+          {
+            "label": "Xiaomi",
+            "value": 12
+          },
+          {
+            "label": "Oppo",
+            "value": 10
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work",
+      "prompt": "In recent years, the shift towards remote work has gained significant momentum, particularly due to the impact of the COVID-19 pandemic. While some people argue that remote work presents numerous benefits, others point out the challenges it poses. Discuss both the advantages and disadvantages of this trend. On one hand, proponents of remote work highlight the increased flexibility it offers, allowing employees to balance personal and professional commitments more effectively. Additionally, companies can save on overhead costs such as office space. On the other hand, critics argue that remote work can lead to feelings of isolation and reduce collaboration and communication among team members. Furthermore, not all employees have access to a suitable working environment at home, which can affect productivity. Considering these points, it is essential to evaluate whether the benefits outweigh the drawbacks in the long term."
+    }
+  ]
+}

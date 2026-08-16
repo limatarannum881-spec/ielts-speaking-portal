@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-080",
+  "type": "reading",
+  "version": "academic",
+  "title": "Understanding Urban Green Spaces",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, including parks, gardens, and green rooftops, play a crucial role in enhancing the quality of life in densely populated cities. These areas contribute not only to the aesthetic appeal of urban environments but also provide essential ecological benefits. Research indicates that urban greenery can reduce air pollution levels, mitigate the urban heat island effect, and support biodiversity by providing habitats for various species. Moreover, green spaces facilitate physical activity and social interaction, which are fundamental for mental well-being. \n\nThe presence of parks and gardens encourages residents to engage in outdoor activities such as walking, jogging, and community events, fostering a sense of community and belonging. Furthermore, studies have shown that exposure to natural environments can lower stress levels and improve mood, highlighting the importance of integrating nature into city planning. \n\nDespite the acknowledged benefits, many cities face challenges in maintaining and expanding their green spaces due to urban development pressures. As populations grow, land is often repurposed for housing and commercial use, leaving little room for parks. However, innovative solutions such as vertical gardens and the conversion of under-utilized lots into community gardens are gaining traction. These initiatives demonstrate that even in constrained urban environments, it is possible to create and sustain green spaces that serve not just the environment but the community as a whole. \n\nIn conclusion, urban green spaces are vital for environmental sustainability and public health. Policymakers must prioritize these areas in urban development plans to ensure that cities remain livable and vibrant for future generations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are solely for aesthetic purposes.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces contribute to ecological benefits and public health, not just aesthetics."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A) Reducing noise pollution",
+            "B) Supporting biodiversity",
+            "C) Mitigating heat island effect",
+            "D) Enhancing physical activity"
+          ],
+          "answer": "A",
+          "explanation": "The passage does not mention noise pollution as a benefit of urban green spaces."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces can help mitigate the __________ effect.",
+          "prompt": "Urban green spaces can help mitigate the __________ effect.",
+          "answer": "urban heat",
+          "explanation": "The passage specifically mentions the urban heat island effect as one of the benefits of green spaces."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one innovative solution for creating green spaces mentioned in the passage?",
+          "answer": "vertical gardens",
+          "explanation": "Vertical gardens are mentioned as an innovative solution for maintaining green spaces in urban environments."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Maintaining green spaces is viewed as less important than urban development.",
+          "answer": "not-given",
+          "explanation": "The passage does not specifically state this viewpoint; it indicates that there are challenges but does not rank their importance."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "The passage suggests that green spaces can improve mood and reduce stress. What is the implication of this?",
+          "options": [
+            "A) Green spaces are only beneficial for physical health.",
+            "B) Nature integration is vital for mental well-being.",
+            "C) Urban development should eliminate green spaces.",
+            "D) Social interaction is unrelated to green spaces."
+          ],
+          "answer": "B",
+          "explanation": "The passage emphasizes the importance of integrating nature for improving mental well-being."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces enhance community __________.",
+          "prompt": "Urban green spaces enhance community __________.",
+          "answer": "belonging and interaction",
+          "explanation": "The passage discusses how parks and gardens foster a sense of community and interaction among residents."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "Name one type of urban green space mentioned in the passage.",
+          "answer": "parks",
+          "explanation": "The passage lists parks as one type of urban green space contributing to community well-being."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

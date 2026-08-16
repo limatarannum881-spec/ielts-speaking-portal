@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-077",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Sarah, have you thought about what we should do this weekend?  B: I was thinking we could go hiking. The weather looks perfect!  A: That sounds great! Do you have a particular trail in mind?  B: Yes, I found one near the lake. It's about five miles long and has some stunning views.  A: Awesome! We should pack some lunch too.  B: Good idea! Maybe sandwiches and some fruit?  A: And don’t forget water! It’s essential to stay hydrated.  B: Right! What time do you want to leave?  A: How about we meet at my place at 8 AM?  B: Perfect! That gives us plenty of time to hike and enjoy the day.  A: Oh, and I can bring my camera to take some pictures!  B: Yes, I’d love that! I want to capture the scenery.  A: Great! I’m looking forward to it.  B: Me too! It’ll be a fun adventure.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What activity do Sarah and A plan for the weekend?",
+          "options": [
+            "A. Camping",
+            "B. Visiting a museum",
+            "C. Hiking",
+            "D. Attending a concert"
+          ],
+          "answer": "C",
+          "explanation": "They explicitly mention they want to go hiking."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Trail Length",
+            "Meeting Time"
+          ],
+          "answer": [
+            "five miles",
+            "8 AM"
+          ],
+          "explanation": "The trail is mentioned as being five miles long, and they decide to meet at 8 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What should they pack for lunch?",
+          "answer": "sandwiches and fruit",
+          "explanation": "They discuss packing sandwiches and fruit for lunch."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does B want to capture during the hike?",
+          "options": [
+            "A. Animals",
+            "B. Friends",
+            "C. Scenery",
+            "D. Food"
+          ],
+          "answer": "C",
+          "explanation": "B expresses a desire to take pictures of the scenery."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Hydration Essential"
+          ],
+          "answer": [
+            "water"
+          ],
+          "explanation": "A points out that water is essential for hydration during the hike."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "Where is the hiking trail located?",
+          "answer": "near the lake",
+          "explanation": "B mentions the trail is near the lake."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

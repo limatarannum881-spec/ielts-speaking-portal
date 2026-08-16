@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-086",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Evolution of Urban Farming",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban farming has emerged as a significant response to the challenges posed by rapid urbanization and the growing need for sustainable food sources. Defined as the practice of cultivating, processing, and distributing food in or around urban areas, urban farming incorporates a variety of techniques, from rooftop gardens to community plots and vertical farming systems. These practices not only contribute to the local food supply but also enhance community engagement and social cohesion.\n\nHistorically, urban farming can be traced back to ancient civilizations, where city dwellers cultivated crops in available spaces. However, the modern movement gained momentum in the late 20th century, particularly during economic downturns when access to fresh produce became scarce. Cities such as Detroit and New York have witnessed a resurgence of urban agriculture initiatives, driven by both grassroots organizations and city policies that support food sovereignty.\n\nThe environmental benefits of urban farming are significant. By localizing food production, urban farms reduce the carbon footprint associated with transporting food over long distances. They also promote biodiversity by creating habitats for various species within urban environments. Furthermore, urban farms can help manage stormwater runoff, improve air quality, and mitigate the urban heat island effect.\n\nChallenges remain, however. Urban farms often face issues such as limited space, zoning laws, and financial sustainability. Additionally, the perception that urban farming is primarily for the economically disadvantaged can deter broader community support. Advocates argue that fostering awareness and educating city residents about the benefits of urban agriculture is crucial for its growth.\n\nAs cities continue to expand and the effects of climate change become more pronounced, urban farming is likely to play an increasingly vital role in the future of food systems. By integrating agriculture into the urban landscape, cities can work towards a more resilient and self-sufficient food future. This evolution requires collaboration among local governments, community organizations, and citizens to ensure that urban farming thrives as a sustainable practice.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban farming has always been popular in cities.",
+          "answer": "false",
+          "explanation": "The passage states that urban farming gained momentum in the late 20th century, indicating it was not always popular."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one key benefit of urban farming mentioned in the passage?",
+          "options": [
+            "A) It decreases biodiversity",
+            "B) It reduces food transport emissions",
+            "C) It restricts community engagement",
+            "D) It leads to zoning law issues"
+          ],
+          "answer": "B",
+          "explanation": "The passage explicitly mentions that urban farms reduce the carbon footprint associated with transporting food."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban farming incorporates a variety of techniques, including __________.",
+          "prompt": "rural farming, community plots, and vertical farming systems.",
+          "answer": "rooftop gardens",
+          "explanation": "The passage mentions 'rooftop gardens' as one of the techniques in urban farming."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What city is mentioned as having a resurgence of urban agriculture initiatives?",
+          "answer": "Detroit",
+          "explanation": "The passage states that Detroit has witnessed a resurgence of urban agriculture initiatives."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban farming can help improve air quality.",
+          "answer": "true",
+          "explanation": "The passage states that urban farms can improve air quality."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following challenges is NOT mentioned as facing urban farms?",
+          "options": [
+            "A) Limited space",
+            "B) Financial sustainability",
+            "C) Excessive funding",
+            "D) Zoning laws"
+          ],
+          "answer": "C",
+          "explanation": "The passage lists limited space, financial sustainability, and zoning laws as challenges, but does not mention excessive funding."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Advocates believe that raising __________ about urban agriculture is crucial for its growth.",
+          "prompt": "",
+          "answer": "awareness",
+          "explanation": "The passage explicitly mentions that advocates argue for fostering awareness about urban agriculture."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is the main aim of integrating agriculture into urban landscapes, according to the passage?",
+          "answer": "sustainable food systems",
+          "explanation": "The passage emphasizes the goal of urban farming as contributing to a sustainable food future."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

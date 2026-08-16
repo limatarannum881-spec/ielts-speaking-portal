@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-059",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Evolution of Urban Green Spaces",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces have undergone significant transformation over the last few decades. Once merely seen as patches of grass and trees, these areas have evolved into essential components of urban environments. Research indicates that green spaces contribute not only to the aesthetic appeal of cities but also to public health and ecological benefits. Parks, gardens, and green roofs play crucial roles in urban ecology, serving as habitats for various species and helping mitigate urban heat. Furthermore, studies have shown that access to green spaces positively influences mental health, reducing stress and anxiety levels among city dwellers. The concept of 'biophilia,' which suggests that humans have an innate affinity for nature, supports the integration of greenery into urban planning. However, challenges remain in equitable access to these spaces, particularly in low-income neighborhoods where green areas are often scarce. Recent initiatives aim to address these disparities by advocating for the transformation of neglected spaces into community gardens and parks. By fostering biodiversity and enhancing residents' quality of life, urban green spaces are vital to the sustainability of modern cities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces are primarily used for aesthetic purposes.",
+          "answer": "false",
+          "explanation": "The passage states that green spaces contribute to health and ecological benefits beyond aesthetics."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What does the concept of 'biophilia' imply?",
+          "options": [
+            "A. A trend in urban architecture",
+            "B. An innate affinity for nature",
+            "C. A method of urban planning",
+            "D. A type of garden design"
+          ],
+          "answer": "B",
+          "explanation": "The passage defines 'biophilia' as the innate affinity humans have for nature."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Urban green spaces help mitigate urban...",
+          "answer": "heat",
+          "explanation": "The passage mentions that green spaces help mitigate urban heat."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What primary issue do low-income neighborhoods face regarding green spaces?",
+          "answer": "scarcity",
+          "explanation": "The passage indicates that low-income neighborhoods often have scarce green areas."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Access to green spaces can enhance the quality of life for residents.",
+          "answer": "true",
+          "explanation": "The passage states that urban green spaces enhance residents' quality of life."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A. Reducing stress",
+            "B. Providing habitats",
+            "C. Increasing property values",
+            "D. Improving air quality"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not mention increasing property values as a benefit."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Urban green spaces play a crucial role in urban...",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "ecology",
+          "explanation": "The passage references the role of green spaces in urban ecology."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What recent initiatives aim to improve access to green spaces?",
+          "answer": "community gardens",
+          "explanation": "The passage discusses initiatives that advocate for transforming neglected spaces into community gardens."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

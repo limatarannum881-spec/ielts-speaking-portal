@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-050",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Well-being",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "In recent years, urban green spaces have gained increasing recognition for their beneficial impact on mental well-being. Numerous studies have highlighted that parks, gardens, and other forms of greenery within cities can significantly reduce stress levels in urban dwellers. One pivotal study conducted by researchers at the University of Southampton revealed that individuals who spent at least two hours a week in natural environments reported higher levels of well-being compared to those with minimal exposure to greenery. This finding aligns with psychological theories suggesting that nature can restore attention and reduce mental fatigue. \n\nMoreover, urban green spaces provide opportunities for social interaction and physical activity, both of which are crucial for psychological health. Activities such as walking, jogging, or simply relaxing in a park foster a sense of community and belonging, which can alleviate feelings of loneliness and depression. The positive effects of these spaces extend beyond individual wellness; they also contribute to the overall public health of the community. \n\nHowever, despite these benefits, urban green spaces are often undervalued in city planning. Many municipalities prioritize development and infrastructure over the creation and maintenance of parks and recreational areas. This can lead to a disparity in access to greenery, particularly in economically disadvantaged neighborhoods. Studies show that areas with fewer green spaces tend to have higher levels of stress and mental health issues among residents. \n\nIn conclusion, the importance of urban green spaces in enhancing mental well-being cannot be overstated. As cities continue to expand, it is imperative that urban planners recognize and integrate green spaces into city designs to support the mental health of their populations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces do not have any effect on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces have beneficial impacts on mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What was the main finding of the University of Southampton study?",
+          "options": [
+            "A. Spending time in green spaces is harmful.",
+            "B. At least two hours in nature improves well-being.",
+            "C. Green spaces increase stress levels.",
+            "D. City planning does not consider green spaces."
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that individuals who spent at least two hours a week in natural environments reported higher levels of well-being."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces promote social interaction and __________.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "physical activity",
+          "explanation": "The passage emphasizes the role of green spaces in fostering both social interaction and physical activity."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "Name one factor that is often prioritized over urban green spaces in city planning.",
+          "answer": "development",
+          "explanation": "The passage states that many municipalities prioritize development over the creation and maintenance of parks."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Economic disadvantage correlates with fewer access to green spaces.",
+          "answer": "true",
+          "explanation": "The passage indicates that economically disadvantaged neighborhoods often have less access to green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is mentioned as an activity people engage in within green spaces?",
+          "options": [
+            "A. Gardening",
+            "B. Watching TV",
+            "C. Jogging",
+            "D. Shopping"
+          ],
+          "answer": "C",
+          "explanation": "The passage includes jogging among the activities people can engage in within urban green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "People living in areas with fewer green spaces tend to have higher levels of __________.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "stress, mental health issues",
+          "explanation": "The passage states that residents in areas with fewer green spaces often experience higher stress and mental health issues."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is a crucial aspect of urban green spaces that benefits community health?",
+          "answer": "sense of community",
+          "explanation": "The passage highlights that green spaces foster a sense of community, which is important for psychological health."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

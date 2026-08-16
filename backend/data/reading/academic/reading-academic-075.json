@@ -1,0 +1,106 @@
+{
+  "id": "reading-academic-075",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Well-being",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "In recent years, there has been growing recognition of the importance of urban green spaces—parks, gardens, and green rooftops—in enhancing the quality of life in cities. Numerous studies suggest that access to these areas can significantly impact mental well-being. Research indicates that individuals who spend time in green spaces report lower levels of stress and anxiety compared to those who do not have regular access to nature. Additionally, the presence of greenery in urban environments has been linked to improvements in mood and cognitive function.\n\nOne significant study conducted in a large metropolitan area found that residents living within walking distance of parks had a greater sense of community and higher levels of life satisfaction. The study employed surveys and psychological assessments to measure participants' mental health outcomes, revealing that those who engaged with green spaces on a regular basis felt more connected to their neighborhoods.\n\nFurthermore, urban green spaces serve as vital areas for physical activity, which is intrinsically tied to mental health. Activities such as jogging, walking, or simply enjoying nature contribute not only to physical fitness but also alleviate feelings of depression and promote emotional resilience.\n\nDespite these benefits, many urban areas continue to face challenges related to green space accessibility. Gentrification and urban development often lead to the reduction of existing parks and gardens, disproportionately affecting lower-income communities. As cities expand, it is crucial for urban planners to prioritize the integration of green spaces to promote mental health equity among all residents.\n\nIn conclusion, urban green spaces play a pivotal role in fostering mental well-being. Their multifaceted benefits—ranging from stress reduction to community building—underscore the need for sustainable urban planning that includes accessible green areas for all city dwellers.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on mental well-being.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces significantly impact mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is linked to lower levels of stress according to the passage?",
+          "options": [
+            "A) Urban development",
+            "B) Access to parks",
+            "C) Increased urbanization",
+            "D) Higher levels of income"
+          ],
+          "answer": "B",
+          "explanation": "The passage clearly states that access to green spaces leads to lower levels of stress."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Green spaces are linked to ______ and ______.",
+          "prompt": "Green spaces are linked to",
+          "answer": "mood improvement, cognitive function",
+          "explanation": "The passage mentions improvements in mood and cognitive function as benefits of green spaces."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What do physical activities in green spaces contribute to?",
+          "answer": "mental health",
+          "explanation": "The passage states that physical activity in green spaces is tied to mental health."
+        },
+        {
+          "id": "q5",
+          "type": "matching",
+          "question": "Match the following benefits with their corresponding descriptions.",
+          "pairs": [
+            {
+              "A": "Stress reduction",
+              "B": "Community connection"
+            },
+            {
+              "C": "Physical fitness",
+              "D": "Emotional resilience"
+            }
+          ],
+          "answer": {
+            "A": "Lower stress levels associated with greenery.",
+            "B": "Increased sense of belonging reported by park visitors.",
+            "C": "Activities that boost fitness and wellness.",
+            "D": "Enhanced ability to cope with depression."
+          },
+          "explanation": "The passage describes these benefits in relation to green spaces."
+        },
+        {
+          "id": "q6",
+          "type": "true-false-not-given",
+          "question": "Gentrification has improved access to green spaces in communities.",
+          "answer": "false",
+          "explanation": "The passage indicates that gentrification has led to reduced green spaces, negatively affecting communities."
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "What should urban planners prioritize according to the passage?",
+          "options": [
+            "A) Commercial development",
+            "B) Affordable housing",
+            "C) Green space integration",
+            "D) Public transportation"
+          ],
+          "answer": "C",
+          "explanation": "The passage emphasizes the need for integrating green spaces in urban planning."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What did the significant study measure in participants?",
+          "answer": "mental health outcomes",
+          "explanation": "The study measured mental health outcomes through surveys and psychological assessments."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

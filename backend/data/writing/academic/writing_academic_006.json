@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Expenditure on Renewable Energy Sources",
+      "prompt": "The bar chart below illustrates the annual expenditure on four different renewable energy sources (solar, wind, hydro, and geothermal) from 2015 to 2020 in millions of dollars. Overall, it is evident that spending on solar energy saw the most significant increase during this period, while geothermal energy remained the least funded. In 2015, the expenditure on solar energy was approximately $30 million, and by 2020, it surged to around $150 million. Wind energy funding also rose notably from $40 million in 2015 to $100 million in 2020. Hydro energy, on the other hand, experienced a moderate increase from $60 million to $80 million. In contrast, investment in geothermal energy rose slightly from $20 million to just $30 million over the same period, indicating a stagnant interest compared to other energy sources. Overall, the chart highlights a growing trend in renewable energy investments, particularly in solar and wind technologies.",
+      "chart": {
+        "kind": "bar",
+        "unit": "millions of dollars",
+        "data": [
+          {
+            "label": "Solar",
+            "value": 150
+          },
+          {
+            "label": "Wind",
+            "value": 100
+          },
+          {
+            "label": "Hydro",
+            "value": 80
+          },
+          {
+            "label": "Geothermal",
+            "value": 30
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has become an integral part of education, transforming the way students learn and teachers instruct. This trend has sparked a debate concerning the advantages and disadvantages of integrating technology into educational systems. On one hand, the use of technology can enhance learning experiences, making education more interactive and accessible. For instance, online resources, educational platforms, and digital tools can provide students with a wealth of information and learning opportunities beyond the traditional classroom. Moreover, technology can cater to different learning styles, allowing for personalized education paths. On the other hand, reliance on technology can pose certain challenges. For instance, the digital divide means that not all students have equal access to technological resources, potentially exacerbating educational inequalities. Furthermore, excessive screen time and distractions associated with technology can hinder students' focus and retention of information. In conclusion, while technology offers significant benefits to education, it also presents challenges that must be addressed to ensure equitable and effective learning outcomes for all students."
+    }
+  ]
+}

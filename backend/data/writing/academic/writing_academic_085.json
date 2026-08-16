@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Technology Adoption Rates",
+      "prompt": "The bar chart illustrates the percentage of households in a certain region that adopted various technologies from 2010 to 2020. The technologies include smartphones, tablets, laptops, and smart home devices. Overall, it is evident that the adoption rates for smartphones and laptops have consistently remained high, while tablets and smart home devices have seen a gradual increase over the years. In 2010, 70% of households owned smartphones, which rose to 90% by 2020. Similarly, laptop ownership increased from 60% to 85% in the same period. Tablets, on the other hand, started at 30% in 2010 and reached 50% by 2020, indicating a steady growth but lower overall penetration compared to smartphones and laptops. Smart home devices had the lowest adoption rate, starting at just 10% in 2010 and reaching only 30% by 2020. This data highlights a significant trend toward mobile and portable technology in households over the last decade.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Smartphones",
+            "value": 90
+          },
+          {
+            "label": "Tablets",
+            "value": 50
+          },
+          {
+            "label": "Laptops",
+            "value": 85
+          },
+          {
+            "label": "Smart Home Devices",
+            "value": 30
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Online Learning",
+      "prompt": "In recent years, online learning has gained significant popularity as a mode of education. While some people argue that online learning offers flexibility and accessibility, others contend that it lacks the personal interaction and effectiveness of traditional classroom learning. Discuss both views and give your opinion. On one hand, proponents of online education highlight its convenience, allowing students to learn at their own pace and access a wide range of resources from anywhere in the world. This accessibility can be particularly beneficial for those with work or family commitments, enabling them to pursue their studies without the constraints of a rigid schedule. On the other hand, critics argue that online learning can lead to isolation and a lack of motivation. The absence of face-to-face interaction with teachers and peers may hinder the development of crucial social skills and collaborative learning experiences. Furthermore, the effectiveness of online assessments is often questioned, as the absence of supervision may lead to academic dishonesty. In my opinion, while online learning offers valuable benefits, it is essential to strike a balance between traditional and digital methods to ensure a comprehensive educational experience."
+    }
+  ]
+}

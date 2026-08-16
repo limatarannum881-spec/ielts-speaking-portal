@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-007",
+  "type": "reading",
+  "version": "general",
+  "title": "The Benefits of Urban Gardening",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban gardening has gained popularity in recent years as city dwellers look for ways to connect with nature and improve their living environments. With limited space and resources, residents are finding innovative ways to cultivate plants and grow their own food in urban settings. Community gardens, rooftop gardens, and balcony planting are just a few of the methods being utilized to make the most of available urban space.\n\nOne significant benefit of urban gardening is the enhancement of local biodiversity. By growing a variety of plants, urban gardeners can attract different species of birds and insects that support a balanced ecosystem. Additionally, urban gardening contributes to improved air quality. Plants naturally filter pollutants and can help reduce the urban heat island effect, where cities become significantly warmer than their rural surroundings.\n\nAnother advantage is the mental health benefits associated with gardening. Studies have shown that spending time in green spaces can lower stress levels and improve overall well-being. Engaging in gardening activities also provides a sense of accomplishment and a tangible connection to the food that we eat. For many, this can create a deeper appreciation for nature and sustainability.\n\nMoreover, urban gardening can play a role in addressing food insecurity by providing fresh produce directly to residents who may lack easy access to grocery stores. This is particularly important in densely populated areas where food deserts exist. By participating in community gardens, individuals not only gain access to fresh fruits and vegetables but also have the opportunity to learn about healthy eating and sustainable practices.\n\nIn summary, urban gardening offers numerous benefits that extend beyond mere aesthetics. From enhancing biodiversity and air quality to improving mental health and community access to fresh food, it is a practice that can enrich urban lives. As cities continue to grow, embracing urban gardening may be key to creating healthier and more sustainable urban environments.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban gardening is only beneficial for biodiversity.",
+          "answer": "false",
+          "explanation": "The passage states that urban gardening benefits biodiversity but also mentions other advantages such as air quality and mental health."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one way urban gardening improves air quality?",
+          "options": [
+            "A: It increases traffic congestion.",
+            "B: It provides shade from the sun.",
+            "C: It filters pollutants.",
+            "D: It reduces city noise."
+          ],
+          "answer": "C",
+          "explanation": "The passage specifically states that plants filter pollutants, which contributes to better air quality."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. \nUrban gardening helps improve __________ by attracting different species of birds and insects.",
+          "prompt": "...",
+          "answer": "local biodiversity",
+          "explanation": "The passage mentions that urban gardening enhances local biodiversity by growing a variety of plants."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "Name one mental health benefit associated with gardening.",
+          "answer": "lower stress levels",
+          "explanation": "The passage states that spending time in green spaces can lower stress levels, which is a mental health benefit of gardening."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Community gardens contribute to addressing food insecurity.",
+          "answer": "true",
+          "explanation": "The passage mentions that urban gardening can help provide fresh produce to residents, thus addressing food insecurity."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What can urban gardening teach individuals about?",
+          "options": [
+            "A: Budgeting.",
+            "B: Healthy eating.",
+            "C: Business skills.",
+            "D: Gardening tools."
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights that participating in community gardens provides individuals with opportunities to learn about healthy eating."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-020",
+  "type": "listening",
+  "title": "Discussion About Weekend Plans",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Sarah, do you have any plans for the weekend?\nB: Not yet, actually. I was thinking about going hiking. How about you?\nA: I'm planning to visit my grandparents. They live a bit outside the city.\nB: Oh, that sounds nice! How often do you see them?\nA: I try to visit at least once a month. They always have great stories to tell.\nB: That’s wonderful! Do you usually stay there overnight?\nA: Yes, I do. It’s nice to spend some quality time with them without rushing back home.\nB: Yeah, I get that. I might go hiking on Saturday morning then. I could use some fresh air.\nA: Sounds like a great idea! Which trail are you considering?\nB: I’m thinking about the trail near Lakeview Park. It’s quite popular but still beautiful.\nA: I've heard that one is really scenic. Are you going alone?\nB: I might invite a couple of friends if they are free. What do you think? Should I ask them?\nA: Definitely! It’s always more fun with friends. Let me know how it goes!\nB: I will! Enjoy your visit with your grandparents. Let's catch up on Monday!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What activity is Sarah considering for the weekend?",
+          "options": [
+            "A) Visiting family",
+            "B) Going to the movies",
+            "C) Hiking",
+            "D) Shopping"
+          ],
+          "answer": "C",
+          "explanation": "Sarah is thinking about going hiking."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Activity 1",
+            "Location 1"
+          ],
+          "answer": [
+            "hiking",
+            "Lakeview Park"
+          ],
+          "explanation": "Sarah plans to go hiking in Lakeview Park."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "How often does A visit their grandparents?",
+          "answer": "at least once a month",
+          "explanation": "A tries to visit their grandparents at least once a month."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does A think about spending time with their grandparents?",
+          "options": [
+            "A) It's boring",
+            "B) It's enjoyable",
+            "C) It's a waste of time",
+            "D) They never talk"
+          ],
+          "answer": "B",
+          "explanation": "A enjoys spending quality time with their grandparents."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Label 1",
+            "Label 2"
+          ],
+          "answer": [
+            "Saturday",
+            "friends"
+          ],
+          "explanation": "B plans to go hiking on Saturday and might invite friends."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does B plan to do on Saturday morning?",
+          "answer": "go hiking",
+          "explanation": "B plans to go hiking on Saturday morning."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

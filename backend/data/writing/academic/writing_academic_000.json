@@ -3,35 +3,51 @@
     {
       "id": "w-academic-task1-003",
       "type": "bar-chart",
-      "title": "Global Internet Usage by Region in 2023",
-      "prompt": "The bar chart illustrates the percentage of internet users across different regions of the world in the year 2023. Each region is represented by a separate bar, showing the proportion of its population that has access to the internet. The regions included are North America, South America, Europe, Asia, Africa, and Oceania. From the chart, it is evident that North America has the highest percentage of internet users, with approximately 95% of its population online. Europe follows closely with around 90%. In contrast, Africa has the lowest percentage at just 30%, highlighting significant disparities in internet accessibility. Asia showcases a varied landscape, with countries like China and India contributing to its overall statistic of about 60%. South America and Oceania have moderate figures, showcasing the ongoing global digital divide. Overall, the chart underscores the regional differences in internet adoption and accessibility worldwide.",
+      "title": "Global Smartphone Sales by Brand (2020-2021)",
+      "prompt": "The bar chart illustrates the global sales of smartphones by different brands in the years 2020 and 2021. Overall, it is evident that Brand A held the largest market share in both years, although there were noticeable changes in the sales figures of other brands. In 2020, Brand A sold approximately 800 million units, which increased to around 900 million units in 2021. Conversely, Brand B demonstrated a decline in sales, dropping from 600 million units in 2020 to 500 million units in 2021. Brand C’s sales remained relatively stable, with just over 300 million units sold in both years. On the other hand, Brand D showed a significant increase, rising from 200 million units in 2020 to 350 million units in 2021. This indicates a growing preference for Brand D among consumers. Finally, Brands E and F experienced minimal sales, with Brand E selling about 100 million units and Brand F slightly above 50 million units in 2021. Overall, Brand A continues to dominate the smartphone market, while Brand D shows promising growth.",
       "chart": {
         "kind": "bar",
-        "unit": "percentage",
+        "unit": "millions of units",
         "data": [
           {
-            "label": "North America",
-            "value": 95
+            "label": "Brand A (2020)",
+            "value": 800
           },
           {
-            "label": "Europe",
-            "value": 90
+            "label": "Brand A (2021)",
+            "value": 900
           },
           {
-            "label": "Asia",
-            "value": 60
+            "label": "Brand B (2020)",
+            "value": 600
           },
           {
-            "label": "South America",
-            "value": 65
+            "label": "Brand B (2021)",
+            "value": 500
           },
           {
-            "label": "Africa",
-            "value": 30
+            "label": "Brand C (2020)",
+            "value": 300
           },
           {
-            "label": "Oceania",
-            "value": 85
+            "label": "Brand C (2021)",
+            "value": 300
+          },
+          {
+            "label": "Brand D (2020)",
+            "value": 200
+          },
+          {
+            "label": "Brand D (2021)",
+            "value": 350
+          },
+          {
+            "label": "Brand E (2021)",
+            "value": 100
+          },
+          {
+            "label": "Brand F (2021)",
+            "value": 50
           }
         ]
       }
@@ -41,8 +57,8 @@
     {
       "id": "w-task2-003",
       "type": "discussion",
-      "title": "The Impact of Technology on Education",
-      "prompt": "In recent years, technology has drastically changed the landscape of education, sparking a debate about its advantages and disadvantages. On one hand, proponents argue that technology enhances the learning experience by providing access to vast resources and enabling innovative teaching methods. Online courses and educational apps have made learning more flexible and accessible, allowing students from different backgrounds to acquire knowledge at their own pace. Conversely, critics contend that the reliance on technology can lead to distractions, reduce face-to-face interactions, and may widen the gap between those who can afford advanced technology and those who cannot. This essay will discuss both perspectives, highlighting the extent to which technology has transformed education while also addressing the possible negative implications. Ultimately, it is crucial to find a balance that maximizes the benefits of technology in education without compromising the quality of learning."
+      "title": "The Impact of Technology on Communication",
+      "prompt": "In recent years, the advent of technology has transformed the way people communicate with one another. While some argue that this shift is beneficial, others believe it has led to negative consequences. Discuss both views and provide your opinion on the matter. On one hand, proponents of technology argue that it has made communication more convenient and accessible. With the rise of smartphones and social media platforms, individuals can easily connect with friends and family, irrespective of geographical barriers. This instantaneous communication fosters stronger relationships and keeps individuals informed about each other's lives. On the other hand, critics highlight that technology has diminished the quality of communication. They argue that face-to-face interactions are being replaced by digital exchanges, which lack emotional depth. Moreover, the prevalence of multitasking during virtual conversations can lead to misunderstandings and a sense of detachment. In my opinion, while technology has its drawbacks, it ultimately enhances communication by providing various platforms for connection. However, it is crucial to strike a balance and preserve the value of direct human interaction."
     }
   ]
 }

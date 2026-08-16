@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2023",
+      "prompt": "The bar chart illustrates the market share of various smartphone brands worldwide in the year 2023. Overall, it is evident that Brand A leads the market significantly, while Brand B and Brand C follow but with a considerable margin. The market share of Brand A is about 40%, showcasing its dominance in the sector. In contrast, Brand B holds approximately 25% of the market, indicating strong competition but still far behind Brand A. Brand C captures around 15% of the market, showing a steady but slower growth. Other brands, collectively, account for the remaining 20%, which reflects a fragmented market with multiple players trying to gain a foothold. This data highlights the competitive landscape of the global smartphone market, with Brand A clearly leading, while Brands B and C remain relevant contenders. The chart indicates potential trends in consumer preferences and market dynamics in the technology sector.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 40
+          },
+          {
+            "label": "Brand B",
+            "value": 25
+          },
+          {
+            "label": "Brand C",
+            "value": 15
+          },
+          {
+            "label": "Others",
+            "value": 20
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Remote Work on Employee Productivity",
+      "prompt": "In recent years, remote work has become increasingly popular, driven by technological advancements and changing workplace dynamics. This essay will discuss both the positive and negative impacts of remote work on employee productivity. On one hand, remote work offers employees greater flexibility, allowing them to create a work environment that suits their individual needs. This can lead to increased job satisfaction and, consequently, higher productivity levels. Furthermore, the elimination of daily commutes can save time and reduce stress, enabling employees to focus more on their tasks. On the other hand, remote work can also pose challenges that may hinder productivity. The lack of direct supervision and structured work hours can lead to distractions and a decrease in motivation for some individuals. Additionally, isolation from colleagues can negatively affect collaboration and innovation, which are often crucial for team projects. In conclusion, while remote work presents significant advantages that can enhance productivity, it also introduces challenges that must be addressed to maximize its effectiveness."
+    }
+  ]
+}

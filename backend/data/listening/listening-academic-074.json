@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-074",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Emily: Hey, Mark! Have you thought about our weekend trip? I heard that the weather is going to be perfect for hiking. \nMark: Yes, I was actually thinking of going to Oak Mountain. It has some great trails. \nEmily: That sounds wonderful! How about we leave early Saturday morning? \nMark: Good idea. We could pack some sandwiches and snacks for the hike. \nEmily: Right! What do you think we should take? \nMark: Let’s bring water bottles, some fruit, and maybe a couple of energy bars as well. \nEmily: Sounds like a plan! Should we invite Sarah and Jake too? \nMark: Definitely! The more, the merrier. I’ll message them and see if they can join. \nEmily: Great! I can’t wait. Do you think we should check the trail conditions before we go? \nMark: Absolutely, I’ll do that when I get home. We want to make sure it’s safe. \nEmily: Perfect. Let’s also pack a first-aid kit, just in case. \nMark: Good thinking! Let’s meet at my place Friday night to finalize everything. \nEmily: Sounds good. I’ll bring the snacks!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is the main purpose of Emily and Mark's conversation?",
+          "options": [
+            "A) Plan a movie night",
+            "B) Organize a weekend trip",
+            "C) Discuss their work schedules",
+            "D) Invite friends over for dinner"
+          ],
+          "answer": "B",
+          "explanation": "They are discussing their plans for a weekend hiking trip."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Departure Time"
+          ],
+          "answer": [
+            "Oak Mountain",
+            "Saturday morning"
+          ],
+          "explanation": "They decide to go to Oak Mountain and leave early Saturday."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What food items do they plan to bring?",
+          "answer": "sandwiches and snacks",
+          "explanation": "They mention packing sandwiches and snacks for their hike."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What does Mark suggest they also pack?",
+          "options": [
+            "A) A map",
+            "B) A first-aid kit",
+            "C) A camera",
+            "D) Extra clothes"
+          ],
+          "answer": "B",
+          "explanation": "Mark suggests packing a first-aid kit for safety."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Contact",
+            "Additional Friends"
+          ],
+          "answer": [
+            "Sarah",
+            "Jake"
+          ],
+          "explanation": "They decide to invite Sarah and Jake to join them."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does Emily plan to bring Friday night?",
+          "answer": "snacks",
+          "explanation": "Emily offers to bring the snacks when they meet to finalize plans."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-032",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Microplastics in Marine Ecosystems",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Microplastics, defined as plastic particles smaller than five millimeters, have become a significant environmental concern in recent decades. Their widespread presence in marine environments poses threats not only to aquatic life but also to human health. These particles originate from various sources, including the breakdown of larger plastic items, synthetic fibers from clothing, and microbeads used in personal care products. Once in the ocean, microplastics can absorb harmful pollutants, which are then ingested by marine organisms. Research has demonstrated that fish and shellfish consume these particles, leading to bioaccumulation of toxins along the food chain.\n\nThe implications of microplastics extend beyond the marine environment. As humans consume seafood, there is a growing concern regarding the potential ingestion of microplastics and their associated toxins. Recent studies have indicated that microplastics can transfer into the body, raising questions about their long-term health effects. Moreover, the presence of microplastics in the oceans disrupts the natural habitats of numerous marine species, ultimately influencing biodiversity.\n\nEfforts to mitigate the impact of microplastics include legislative actions aimed at reducing plastic waste and increasing public awareness. Educational campaigns are being launched to inform individuals about the sources of microplastics and the importance of reducing plastic consumption. Additionally, innovations in biodegradable materials are being explored as potential alternatives to traditional plastics. While the issue of microplastics may seem daunting, collective action has the potential to drive meaningful change.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Microplastics are larger than five millimeters.",
+          "answer": "false",
+          "explanation": "The passage defines microplastics as particles smaller than five millimeters."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the main sources of microplastics?",
+          "options": [
+            "A) Larger plastic items",
+            "B) Natural fibers",
+            "C) Plant-based materials",
+            "D) All of the above"
+          ],
+          "answer": "A",
+          "explanation": "The passage specifies that microplastics originate from the breakdown of larger plastic items among other sources."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Microplastics can absorb harmful __________.",
+          "answer": "pollutants",
+          "explanation": "The passage mentions that microplastics can absorb harmful pollutants."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What type of products often contain microbeads?",
+          "answer": "personal care products",
+          "explanation": "The passage states that microbeads used in personal care products are a source of microplastics."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Microplastics can cause health issues for humans.",
+          "answer": "true",
+          "explanation": "The passage discusses concerns regarding the potential health effects of microplastics on humans."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What do recent studies suggest about microplastics?",
+          "options": [
+            "A) They are harmless to marine life",
+            "B) They can transfer into the human body",
+            "C) They are biodegradable",
+            "D) They help marine biodiversity"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that microplastics can transfer into the human body, raising health concerns."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The disruption of natural habitats by microplastics affects __________.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "marine species",
+          "explanation": "The passage mentions that microplastics disrupt the natural habitats of numerous marine species."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What kind of campaigns are being launched to address microplastics?",
+          "answer": "educational campaigns",
+          "explanation": "The passage states that educational campaigns are launched to inform individuals about microplastics."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

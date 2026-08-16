@@ -1,0 +1,18 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for a Reference Letter",
+      "prompt": "You are applying for a job and need a reference letter from your previous employer. Write a letter to your former manager requesting the reference. In your letter, explain the job you are applying for, why you are asking them for a reference, and what specific qualities or experiences you would like them to highlight in the letter. Make sure to thank them for their support and mention your availability for any further questions they may have."
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "Some people believe that technology has had a positive impact on education, while others argue that it has created more problems than solutions. Discuss both sides of this view and give your own opinion. In your essay, consider the advantages of technology in the classroom, such as access to information and online learning, as well as the disadvantages, including distractions and the potential decline in face-to-face interactions. Provide relevant examples to support your arguments."
+    }
+  ]
+}

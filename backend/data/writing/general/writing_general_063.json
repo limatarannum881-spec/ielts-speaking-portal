@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Coffee Brewing Process",
+      "prompt": "Write a letter to a friend explaining how to brew coffee, focusing on the different steps involved in the process. You should include details on the ingredients needed, the equipment required, and a step-by-step guide on how to make the perfect cup of coffee. Make sure to mention any tips you think would make brewing easier or enhance the flavor. Your letter should be at least 150 words long.",
+      "chart": {
+        "kind": "bar",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Measure Coffee",
+            "value": 1
+          },
+          {
+            "label": "Boil Water",
+            "value": 1
+          },
+          {
+            "label": "Combine Coffee and Water",
+            "value": 1
+          },
+          {
+            "label": "Let Brew",
+            "value": 1
+          },
+          {
+            "label": "Filter and Serve",
+            "value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "Some people believe that technology has completely transformed education for the better, while others argue that it has created more challenges than benefits. Discuss both sides of this argument and give your own opinion. Provide reasons and examples to support your views. Your essay should be at least 250 words long."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-073",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Tom: Hey Sarah, have you thought about our weekend trip to the mountains? \nSarah: Yes! I was thinking we could leave early Saturday morning. \nTom: That sounds great. What time do you want to leave? \nSarah: How about 7 AM? It should give us plenty of time to hike before it gets dark. \nTom: That works. Should we take my car or do you want to use yours? \nSarah: Let’s take yours; it has more space for our gear. \nTom: Good idea! Do we need to pack anything special? \nSarah: Yes, we should bring extra water and snacks. Also, don’t forget the first aid kit. \nTom: Right. I’ll pack that tonight. What about the weather? \nSarah: I checked, and it looks sunny all weekend. Just a bit chilly at night. \nTom: Perfect! I'll also bring a warm jacket for the evenings. \nSarah: Sounds like a plan! I can't wait to get out in nature.  \nTom: Me too! It will be a nice break from the city.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What time do Sarah and Tom plan to leave for the trip?",
+          "options": [
+            "A) 6 AM",
+            "B) 7 AM",
+            "C) 8 AM",
+            "D) 9 AM"
+          ],
+          "answer": "B",
+          "explanation": "Sarah suggests leaving at 7 AM."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Departure Time",
+            "Car Choice"
+          ],
+          "answer": [
+            "7 AM",
+            "Tom's car"
+          ],
+          "explanation": "They decide to leave at 7 AM and take Tom's car."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What should they bring extra for the trip?",
+          "answer": "water and snacks",
+          "explanation": "Sarah mentions they need to bring extra water and snacks."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What did Sarah check regarding the weather?",
+          "options": [
+            "A) Rainy",
+            "B) Sunny",
+            "C) Snowy",
+            "D) Cloudy"
+          ],
+          "answer": "B",
+          "explanation": "Sarah confirms that the weather looks sunny all weekend."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Item to Pack"
+          ],
+          "answer": [
+            "first aid kit"
+          ],
+          "explanation": "They need to pack a first aid kit as mentioned by Sarah."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What does Tom plan to bring for the evenings?",
+          "answer": "a warm jacket",
+          "explanation": "Tom plans to bring a warm jacket for the chilly evenings."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

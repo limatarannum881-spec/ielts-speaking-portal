@@ -1,0 +1,56 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Renewable Energy Production by Source (2015-2020)",
+      "prompt": "The bar chart illustrates the annual production of renewable energy from various sources, namely solar, wind, hydroelectric, and biomass, from 2015 to 2020. Overall, it is evident that there has been a significant increase in the production of energy from solar and wind sources over the five-year period, while hydroelectric energy production shows a steady trend, and biomass production remains relatively stable. In 2015, solar energy produced just 20 terawatt-hours (TWh), but by 2020, this figure had surged to approximately 70 TWh. Similarly, wind energy production rose from 30 TWh to around 60 TWh during the same period. In contrast, hydroelectric energy production fluctuated slightly from 85 TWh in 2015 to a peak of 90 TWh in 2017 and then settled at 88 TWh by 2020. Biomass energy remained fairly constant, producing around 40 TWh each year. This data highlights a growing trend towards harnessing solar and wind energy, reflecting a shift in the energy production landscape.",
+      "chart": {
+        "kind": "bar",
+        "unit": "TWh",
+        "data": [
+          {
+            "label": "Solar (2015)",
+            "value": 20
+          },
+          {
+            "label": "Solar (2020)",
+            "value": 70
+          },
+          {
+            "label": "Wind (2015)",
+            "value": 30
+          },
+          {
+            "label": "Wind (2020)",
+            "value": 60
+          },
+          {
+            "label": "Hydroelectric (2015)",
+            "value": 85
+          },
+          {
+            "label": "Hydroelectric (2020)",
+            "value": 88
+          },
+          {
+            "label": "Biomass (2015)",
+            "value": 40
+          },
+          {
+            "label": "Biomass (2020)",
+            "value": 40
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, the integration of technology into education has sparked considerable debate. On the one hand, advocates argue that technology enhances learning experiences and provides students with access to a wealth of information and resources. For instance, online platforms and educational software have made it possible for students to learn at their own pace and access diverse materials that cater to different learning styles. Moreover, technology can facilitate collaboration among students, allowing for interactive learning experiences. On the other hand, critics raise concerns about the potential drawbacks of such dependence on technology. They argue that over-reliance on digital tools can hinder critical thinking and problem-solving skills, as students may become accustomed to finding answers online instead of engaging deeply with the content. Additionally, there is the issue of the digital divide, as not all students have equal access to technology, potentially exacerbating existing inequalities in education. In conclusion, while technology undoubtedly presents opportunities for enhancing education, it is crucial to strike a balance and mitigate its negative impacts to ensure a holistic learning experience."
+    }
+  ]
+}

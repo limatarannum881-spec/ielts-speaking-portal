@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-024",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impacts of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and gardens, play a critical role in enhancing the quality of life in cities. Recent studies have shown that these green spaces are not only vital for biodiversity but also contribute significantly to the mental well-being of urban residents. The immediate benefits of access to green spaces include reduced stress levels, improved mood, and enhanced overall psychological health. Researchers suggest that spending time in nature, even in small doses, can lead to significant positive changes in mental health outcomes.\n\nOne study conducted by environmental psychologists found that individuals who live near parks report a greater sense of satisfaction and happiness compared to those in urban areas devoid of greenery. The findings indicated that the mere sight of green landscapes can evoke feelings of tranquility and reduce anxiety. Furthermore, engaging in physical activities such as jogging or walking in these environments was linked to lower levels of depression and increased feelings of vitality.\n\nMoreover, urban green spaces foster social interactions among community members, providing venues for gatherings and recreational activities. Studies have demonstrated that increased social cohesion within neighborhoods correlates with higher levels of mental well-being. In contrast, urban areas lacking green spaces often report higher incidences of mental health issues, contextualizing the importance of green areas in urban design.\n\nIn addition to individual benefits, urban green spaces contribute to public health by mitigating urban heat effects and improving air quality. These environmental advancements directly benefit mental health by reducing stressors associated with urban living. Consequently, city planners and policymakers are encouraged to prioritize the integration of green spaces in urban development strategies. The challenge remains to balance population growth and housing demands with the preservation and creation of green areas to support the mental health of urban populations.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces have no impact on psychological health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces significantly contribute to mental well-being."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is a benefit of living near parks according to the studies?",
+          "options": [
+            "A. Increased physical health",
+            "B. Greater happiness",
+            "C. Higher levels of pollution",
+            "D. Increased loneliness"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that individuals living near parks report greater happiness."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban green spaces promote _____ among community members.",
+          "prompt": "Urban green spaces promote _____ among community members.",
+          "answer": "social interactions",
+          "explanation": "The passage mentions that urban green spaces foster social interactions among community members."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What specific mental health issue is linked to lacking green spaces?",
+          "answer": "higher incidences of mental health issues",
+          "explanation": "The passage notes that urban areas devoid of green spaces report higher incidences of mental health issues."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces can help improve air quality.",
+          "answer": "true",
+          "explanation": "The passage states that urban green spaces contribute to improving air quality."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What do city planners need to balance according to the passage?",
+          "options": [
+            "A. Population growth and green spaces",
+            "B. Urban noise and pollution",
+            "C. Residential areas and parks",
+            "D. Commercial spaces and homes"
+          ],
+          "answer": "A",
+          "explanation": "The passage discusses the need to balance population growth and housing demands with the preservation of green areas."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "According to researchers, spending time in nature can lead to _____ in mental health outcomes.",
+          "prompt": "According to researchers, spending time in nature can lead to _____ in mental health outcomes.",
+          "answer": "positive changes",
+          "explanation": "The passage indicates that spending time in nature can lead to significant positive changes in mental health outcomes."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What activity is associated with lower levels of depression in green spaces?",
+          "answer": "jogging or walking",
+          "explanation": "The passage mentions that engaging in physical activities like jogging or walking in green spaces is linked to lower levels of depression."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

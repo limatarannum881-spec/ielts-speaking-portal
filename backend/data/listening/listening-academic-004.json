@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-004",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, Sarah! Have you thought about what we should do this weekend? \nB: Actually, I was thinking we could go to the beach. It's supposed to be sunny all weekend! \nA: That sounds great! Do you want to invite anyone else? \nB: I was thinking we could ask Mark and Lisa; they love the beach too. \nA: Good idea! Should we bring food, or just grab something there? \nB: I think we should pack a picnic. Sandwiches and snacks would be nice. \nA: Perfect! What time do you want to leave? \nB: How about we leave around 10 AM? That way, we can avoid the traffic. \nA: Agreed! I’ll pick up some drinks on my way. \nB: Sounds like a plan! I can bring the music and some beach games. \nA: Awesome! Let's text Mark and Lisa to see if they're in. \nB: Right! I'll do that now. \nA: Fantastic! I can’t wait for the weekend!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where do Sarah and A plan to go this weekend?",
+          "options": [
+            "A. The mountains",
+            "B. The park",
+            "C. The beach",
+            "D. A concert"
+          ],
+          "answer": "C",
+          "explanation": "They specifically mention going to the beach."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Activity",
+            "Departure Time"
+          ],
+          "answer": [
+            "Beach trip",
+            "10 AM"
+          ],
+          "explanation": "They plan to go to the beach and leave at 10 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What food do they plan to bring?",
+          "answer": "Sandwiches",
+          "explanation": "They mentioned packing a picnic with sandwiches."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "Who else do they plan to invite?",
+          "options": [
+            "A. John and Mike",
+            "B. Mark and Lisa",
+            "C. Amy and Sue",
+            "D. David and Tom"
+          ],
+          "answer": "B",
+          "explanation": "They specifically mention inviting Mark and Lisa."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Beverages",
+            "Games"
+          ],
+          "answer": [
+            "Drinks",
+            "Beach games"
+          ],
+          "explanation": "A plans to bring drinks, and B will bring beach games."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What do they want to avoid by leaving at 10 AM?",
+          "answer": "Traffic",
+          "explanation": "They want to avoid traffic."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

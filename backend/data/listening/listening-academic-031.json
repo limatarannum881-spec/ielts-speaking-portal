@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-031",
+  "type": "listening",
+  "title": "Weekend Plans",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Mark, do you have any plans for the weekend?  B: I was thinking about going hiking if the weather is nice. How about you?  A: I'm not sure yet. I might just relax at home or catch up on some reading.  B: That sounds nice too. Have you started that new book you mentioned?  A: Yes, actually! I started it last week. It’s really engaging.  B: Great! What’s it about?  A: It’s a mystery novel set in a small coastal town. The author does a fantastic job of building suspense.  B: I love those kinds of books. Do you think I should read it after you?  A: Absolutely! I think you’d enjoy it.  B: By the way, do you want to join me for the hike if the weather is good?  A: Sure! I’d love to. Just let me know when you decide.  B: Will do! I’ll keep an eye on the forecast.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is Mark considering doing this weekend?",
+          "options": [
+            "A) Going to the beach",
+            "B) Visiting friends",
+            "C) Hiking",
+            "D) Reading a book"
+          ],
+          "answer": "C",
+          "explanation": "Mark is considering going hiking if the weather is nice."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Book Title",
+            "Genre"
+          ],
+          "answer": [
+            "Mystery Novel",
+            "Suspense"
+          ],
+          "explanation": "The book mentioned by A is a mystery novel that builds suspense."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What did A do last week?",
+          "answer": "Started a book",
+          "explanation": "A mentioned that they started the new book last week."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "How does A feel about the book?",
+          "options": [
+            "A) It's boring",
+            "B) It's engaging",
+            "C) It's too long",
+            "D) It's confusing"
+          ],
+          "answer": "B",
+          "explanation": "A described the book as really engaging."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What does B ask A about the hike?",
+          "answer": "To join him",
+          "explanation": "B invites A to join him for the hike if the weather is good."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What does A say they might do instead of hiking?",
+          "options": [
+            "A) Work",
+            "B) Relax at home",
+            "C) Go shopping",
+            "D) Visit family"
+          ],
+          "answer": "B",
+          "explanation": "A mentions that they might just relax at home."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "letter",
+      "title": "Request for a Refund",
+      "prompt": "You recently purchased a new electronic gadget from an online store, but it arrived damaged. Write a letter to the customer service department of the store. In your letter, explain the problem with the gadget, state what you would like them to do about it, and include any relevant order details.",
+      "chart": {
+        "kind": "bar",
+        "unit": "number",
+        "data": []
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "opinion",
+      "title": "The Role of Technology in Education",
+      "prompt": "Some people believe that technology has had a positive impact on education, while others think it has negative effects. Discuss both views and give your opinion. In your response, consider the influence of online learning, access to information, and the potential distractions that technology may bring to students."
+    }
+  ]
+}

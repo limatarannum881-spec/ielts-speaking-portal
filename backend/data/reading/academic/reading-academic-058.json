@@ -1,0 +1,57 @@
+{
+  "id": "reading-academic-058",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green rooftops, have increasingly been recognized as vital components of city landscapes. Recent studies suggest that access to green areas can significantly influence the mental well-being of urban residents. One pivotal study conducted in several metropolitan areas revealed that individuals who have regular access to parks report lower levels of stress and anxiety compared to those without such access. The calming effects of nature, attributed to both the aesthetic beauty of green spaces and the opportunity for physical activity, are believed to foster improved emotional states.\n\nAdditionally, researchers have highlighted the community aspect of green spaces. Parks often serve as social hubs where people gather, interact, and form social connections. This is particularly beneficial in urban environments where social isolation can be prevalent. A report by the Urban Institute found that communities with accessible green spaces not only enhance social ties among residents but also contribute to a stronger sense of belonging and community identity.\n\nDespite the benefits, the distribution of urban green spaces is often unequal, with affluent neighborhoods typically enjoying more access than lower-income areas. This disparity can exacerbate mental health issues in disadvantaged communities. Local governments are urged to adopt policies that promote equitable access to green spaces, ensuring that all residents can benefit from their calming and restorative effects.\n\nIn conclusion, urban green spaces play a crucial role in enhancing mental health by providing a sanctuary for relaxation, promoting social interaction, and mitigating the effects of urban stressors. As cities continue to grow, the importance of these natural elements becomes increasingly evident, urging urban planners to prioritize green designs in metropolitan development.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Access to urban green spaces has no effect on stress levels.",
+          "answer": "false",
+          "explanation": "The passage states that individuals with access to parks report lower levels of stress."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What mainly contributes to the calming effects of green spaces?",
+          "options": [
+            "A) The size of the park",
+            "B) The aesthetic beauty and physical activity",
+            "C) The presence of wildlife",
+            "D) The variety of plants"
+          ],
+          "answer": "B",
+          "explanation": "According to the passage, calming effects are attributed to aesthetic beauty and physical activity."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Green spaces contribute to a stronger sense of __________ among residents.",
+          "prompt": "Green spaces contribute to a stronger sense of __________ among residents.",
+          "answer": "community identity",
+          "explanation": "The passage mentions that accessible green spaces contribute to a stronger sense of community identity."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is one negative consequence of the unequal distribution of green spaces?",
+          "answer": "exacerbation of mental health issues",
+          "explanation": "The passage states that unequal access can worsen mental health issues in disadvantaged communities."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

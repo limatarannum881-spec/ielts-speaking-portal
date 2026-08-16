@@ -1,0 +1,52 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling Paper",
+      "prompt": "The diagram below illustrates the process of recycling paper. Overall, the recycling process consists of several key stages, from the initial collection of paper to the final product of recycled paper. Initially, used paper is collected from various sources such as homes, offices, and recycling centers. Following collection, the paper is transported to a recycling facility where it is sorted into different categories based on quality and type. Clean paper is separated from contaminated materials such as food wrappers or plastic. The sorted paper is then shredded into small pieces, which facilitates the pulping process. During pulping, the shredded paper is mixed with water and chemicals to break it down into fibers. After that, the mixture is filtered to remove any remaining impurities and then dried to form sheets of recycled paper. Finally, these sheets can be used for various purposes, including printing and packaging. This efficient process not only conserves resources but also reduces waste in landfills.",
+      "chart": {
+        "kind": "process",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Sorting",
+            "value": 2
+          },
+          {
+            "label": "Shredding",
+            "value": 3
+          },
+          {
+            "label": "Pulping",
+            "value": 4
+          },
+          {
+            "label": "Filtering",
+            "value": 5
+          },
+          {
+            "label": "Drying",
+            "value": 6
+          },
+          {
+            "label": "Final Product",
+            "value": 7
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "advantages-disadvantages",
+      "title": "The Impact of Technology on Education",
+      "prompt": "In recent years, technology has transformed the way we learn and teach. While there are significant advantages to using technology in education, there are also notable disadvantages. Discuss both the advantages and disadvantages of technology in education, providing relevant examples. In your opinion, do the benefits of technology in learning environments outweigh the drawbacks? Support your answer with evidence and reasoning."
+    }
+  ]
+}

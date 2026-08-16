@@ -1,0 +1,36 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling Plastic Bottles",
+      "prompt": "You should write a letter to your local council describing the process of recycling plastic bottles. In your letter, explain how plastic bottles are collected, processed, and transformed into new products. Include information on the importance of recycling for the environment and suggest ways to encourage more residents to participate in recycling initiatives. Aim for a clear structure, including an introduction, body paragraphs, and a conclusion, while ensuring your letter is at least 150 words long.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percent",
+        "data": [
+          {
+            "label": "Collection Rate",
+            "value": 70
+          },
+          {
+            "label": "Processing Efficiency",
+            "value": 85
+          },
+          {
+            "label": "Recycled Material Use",
+            "value": 90
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "advantages-disadvantages",
+      "title": "The Impact of Remote Work on Employees",
+      "prompt": "With the rise of technology, many companies have started to allow employees to work from home. Discuss the advantages and disadvantages of this trend. What impact does remote work have on employees' productivity, work-life balance, and overall job satisfaction? Provide examples to support your arguments, and conclude with your own opinion on whether the benefits outweigh the drawbacks. Your response should be at least 250 words long."
+    }
+  ]
+}

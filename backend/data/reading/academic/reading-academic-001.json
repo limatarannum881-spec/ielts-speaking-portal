@@ -2,83 +2,84 @@
   "id": "reading-academic-001",
   "type": "reading",
   "version": "academic",
-  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "title": "The Behavioral Economics of Decision-Making",
   "duration": 3600,
   "sections": [
     {
       "id": "section-1",
       "heading": "Reading Passage 1",
-      "passage": "Urban green spaces, which include parks, gardens, and recreational areas, have been shown to have a notable effect on the mental health of city dwellers. Numerous studies indicate that access to these areas can lead to reduced levels of stress and anxiety, promoting overall well-being. One significant study conducted in multiple metropolitan areas found that individuals who live within a 10-minute walk of a green space reported better mental health outcomes compared to those who did not have such access. \n\nMoreover, the presence of greenery in urban environments can also lead to increased physical activity, which has a well-documented positive effect on mental health. Activities like walking, jogging, or cycling in a natural setting provide both physical benefits and necessary breaks from the daily hustle of urban life. Furthermore, the aesthetic value of parks and gardens contributes to mood enhancement and serves as a mental refuge for inhabitants of densely populated areas. \n\nThe psychological benefits associated with green spaces are not limited to young adults; studies show that children and the elderly also experience significant improvements in mood and cognitive function when they have regular access to nature. Interestingly, interactions with green environments can foster social connections and community engagement, which are crucial elements for emotional well-being. \n\nDespite the clear advantages of urban green spaces, urban planning often underestimates their value. Policymakers may prioritize commercial development over the establishment of these vital areas, leading to a loss of accessible natural environments. Consequently, there is a growing advocacy for integrating more green spaces into urban designs, emphasizing their importance in promoting public health and enhancing the quality of life for urban residents. Recent initiatives in various cities have aimed to restore degraded parks and create new green zones in neglected urban areas, illustrating a shift towards greater recognition of the necessity for nature in cities.",
+      "passage": "Behavioral economics is an interdisciplinary field that combines insights from psychology and economics to understand how people make decisions. Traditionally, economics assumed that individuals are rational agents who make consistent choices based on their preferences. However, behavioral economists argue that human behavior is often irrational and influenced by cognitive biases, emotions, and social factors.\n\nOne key concept in behavioral economics is 'bounded rationality', which suggests that while people aim to make rational choices, their decision-making is constrained by the available information, cognitive limits, and time constraints. This can lead to systematic errors, such as overconfidence, anchoring, and loss aversion. For instance, individuals may overestimate their ability to predict future outcomes, leading to overly optimistic forecasts.\n\nAnother critical phenomenon in this field is 'prospect theory', developed by Daniel Kahneman and Amos Tversky. This theory posits that individuals value gains and losses differently, often placing more weight on potential losses than equivalent gains. As a result, people may avoid risks when considering potential gains but pursue them when faced with potential losses. Such behavior can significantly impact financial decision-making, affecting investments, savings, and consumption patterns.\n\nSocial influences also play a significant role in decision-making. Factors such as peer pressure, social norms, and cultural contexts can lead individuals to make choices that diverge from their personal preferences. For example, in a social setting, a person may choose to order a meal they do not particularly want because others in the group have selected similar items. This illustrates how decisions are not made in a vacuum but are often shaped by the presence and expectations of others.\n\nUnderstanding these psychological factors is critical for policymakers and businesses alike. By creating environments that consider these behavioral insights, they can design better interventions and products that align with how people actually think and behave, leading to improved outcomes for individuals and society as a whole.",
       "questions": [
         {
           "id": "q1",
           "type": "true-false-not-given",
-          "question": "Access to urban green spaces has no impact on mental health.",
+          "question": "According to behavioral economics, individuals always make rational choices.",
           "answer": "false",
-          "explanation": "The passage states that access to green spaces can lead to reduced levels of stress and anxiety."
+          "explanation": "The passage states that behavioral economists argue that human behavior is often irrational."
         },
         {
           "id": "q2",
           "type": "multiple-choice",
-          "question": "What is one benefit of physical activity in green spaces mentioned in the passage?",
+          "question": "What does 'bounded rationality' refer to?",
           "options": [
-            "A. It enhances social connections",
-            "B. It promotes hormone release",
-            "C. It reduces the need for medication",
-            "D. It improves mental health"
+            "A) The assumption of complete rationality",
+            "B) Decision-making constrained by various factors",
+            "C) A theory of utility maximization",
+            "D) A social influence on choices"
           ],
-          "answer": "D",
-          "explanation": "The passage mentions that physical activity in a natural setting has a positive effect on mental health."
+          "answer": "B",
+          "explanation": "'Bounded rationality' suggests that decision-making is constrained by information, cognitive limits, and time constraints."
         },
         {
           "id": "q3",
           "type": "sentence-completion",
-          "question": "Complete the sentence. Choose no more than two words. The presence of greenery can lead to increased levels of __________.",
-          "prompt": "The presence of greenery can lead to increased levels of __________.",
-          "answer": "physical activity",
-          "explanation": "The passage states that the presence of greenery can increase physical activity."
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Individuals often value gains and losses __________.",
+          "answer": "differently than",
+          "explanation": "The passage describes how individuals value gains and losses differently, as noted in prospect theory."
         },
         {
           "id": "q4",
           "type": "short-answer",
-          "question": "What demographic groups experience benefits from access to green spaces?",
-          "answer": "children and the elderly",
-          "explanation": "The passage indicates that both children and the elderly benefit from regular access to green spaces."
+          "question": "Who developed prospect theory?",
+          "answer": "Daniel Kahneman and Amos Tversky",
+          "explanation": "The passage attributes the development of prospect theory to these two psychologists."
         },
         {
           "id": "q5",
           "type": "true-false-not-given",
-          "question": "Urban planners often prioritize green spaces in their development plans.",
-          "answer": "false",
-          "explanation": "The passage notes that urban planning often underestimates the value of green spaces."
+          "question": "Peer pressure can influence individual decision-making.",
+          "answer": "true",
+          "explanation": "The passage states that social influences, including peer pressure, can lead individuals to make choices diverging from their preferences."
         },
         {
           "id": "q6",
           "type": "multiple-choice",
-          "question": "What recent initiative is mentioned regarding urban green spaces?",
+          "question": "Which of the following biases is mentioned in the passage?",
           "options": [
-            "A. Expansion of commercial zones",
-            "B. Restoration of degraded parks",
-            "C. Increased parking areas",
-            "D. Development of high-rise buildings"
+            "A) Status quo bias",
+            "B) Overconfidence",
+            "C) Confirmation bias",
+            "D) Anchoring",
+            "E) Both B and D"
           ],
-          "answer": "B",
-          "explanation": "The passage discusses recent initiatives aimed at restoring degraded parks and creating new green zones."
+          "answer": "E",
+          "explanation": "The passage specifically mentions both overconfidence and anchoring as systematic errors in decision-making."
         },
         {
           "id": "q7",
           "type": "sentence-completion",
-          "question": "The psychological benefits of green spaces are essential for __________ in urban areas.",
-          "prompt": "The psychological benefits of green spaces are essential for __________ in urban areas.",
-          "answer": "emotional well-being",
-          "explanation": "The passage states that fostering social connections and community engagement are crucial for emotional well-being."
+          "question": "According to the passage, creating environments informed by behavioral insights can lead to __________ outcomes.",
+          "prompt": "better",
+          "answer": "improved",
+          "explanation": "The passage states that better interventions can lead to improved outcomes for individuals and society."
         },
         {
           "id": "q8",
           "type": "short-answer",
-          "question": "What do advocates emphasize about green spaces in urban designs?",
-          "answer": "their importance for public health",
-          "explanation": "The passage highlights advocacy for more green spaces, emphasizing their importance in promoting public health."
+          "question": "What do behavioral economists argue about human behavior?",
+          "answer": "That it is often irrational",
+          "explanation": "The passage discusses how behavioral economists believe human behavior can be irrational and influenced by various factors."
         }
       ]
     }

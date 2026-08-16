@@ -1,0 +1,87 @@
+{
+  "id": "listening-academic-024",
+  "type": "listening",
+  "title": "Exploring Local Art Festivals",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, Emma! Have you decided which art festival to attend this year?  \nB: I’m thinking about the one at Riverside Park. I heard there will be live music and several workshops.  \nA: That sounds awesome! Have you checked the schedule?  \nB: Yes, it runs from Friday to Sunday, with exhibitions all day. I’m particularly excited about the pottery workshop.  \nA: Oh, I love pottery! Is there a fee to join?  \nB: There’s a small fee of twenty dollars, but it covers all materials.  \nA: Perfect! Are you bringing anyone with you?  \nB: I’m inviting Mark; he loves art too. What about you?  \nA: I might join you guys! It would be great to spend the weekend surrounded by creativity.  \nB: Definitely! Plus, there will be food stalls with local cuisine.  \nA: Sounds like a plan. I will confirm with Mark and let you know!  \nB: Great! Let’s make a day of it!  \nA: Sure! I can’t wait to see all the local talent.  \nB: Same here! It’s always inspiring to see what everyone creates.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What festival are they discussing?",
+          "options": [
+            "A) A music festival",
+            "B) A food festival",
+            "C) An art festival",
+            "D) A photography festival"
+          ],
+          "answer": "C",
+          "explanation": "The conversation is focused on attending an art festival."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Festival Location",
+            "Workshop Fee"
+          ],
+          "answer": [
+            "Riverside Park",
+            "twenty dollars"
+          ],
+          "explanation": "The festival is at Riverside Park and the pottery workshop fee is mentioned as twenty dollars."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who is Emma inviting to the festival?",
+          "answer": "Mark",
+          "explanation": "Emma mentions that she is inviting Mark to the art festival."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What type of workshop is Emma excited about?",
+          "options": [
+            "A) Painting",
+            "B) Pottery",
+            "C) Sculpture",
+            "D) Photography"
+          ],
+          "answer": "B",
+          "explanation": "Emma expresses her excitement for the pottery workshop."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What will be available at the food stalls?",
+          "answer": "Local cuisine",
+          "explanation": "They mention food stalls featuring local cuisine."
+        },
+        {
+          "id": "lq6",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Duration of Festival"
+          ],
+          "answer": [
+            "Friday to Sunday"
+          ],
+          "explanation": "The festival is scheduled to run from Friday to Sunday."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

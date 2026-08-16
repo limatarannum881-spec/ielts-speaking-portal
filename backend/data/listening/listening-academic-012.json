@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-012",
+  "type": "listening",
+  "title": "Planning a Weekend Getaway",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Alice: Hey, Mark! Have you thought about our weekend plans? I was thinking we should go somewhere fun.  \nMark: Great idea! I could use a break. Do you have a place in mind?  \nAlice: How about the beach? It's been ages since we last went.  \nMark: The beach sounds perfect! We could try that new seafood restaurant I heard about.  \nAlice: Yes! And we could also rent some bicycles to explore the area.  \nMark: I love that idea. Should we invite Jenny and Tom as well?  \nAlice: Definitely! The more, the merrier. I'll text them and see if they're free.  \nMark: What time are you thinking of leaving?  \nAlice: I was thinking early Saturday morning. We can beat the traffic.  \nMark: Good plan! Do you want to pack some snacks for the road?  \nAlice: Sure, I can handle that. How about you bring some drinks?  \nMark: Sounds good! I can't wait for this getaway!  \nAlice: Me too! Let’s finalize all the details tonight.  \nMark: Great! I’ll start looking up bike rental places online.  \nAlice: Perfect, and I'll check the restaurant’s menu to make a reservation.  \nMark: Awesome. This will be a fun weekend!  \nAlice: Absolutely!",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What is Alice's main suggestion for the weekend?",
+          "options": [
+            "A) Go hiking",
+            "B) Visit the beach",
+            "C) Stay at home",
+            "D) Go to a movie"
+          ],
+          "answer": "B",
+          "explanation": "Alice suggests going to the beach as a fun getaway."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Destination",
+            "Activity"
+          ],
+          "answer": [
+            "beach",
+            "bicycles"
+          ],
+          "explanation": "The destination Alice suggests is the beach, and they plan to rent bicycles."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who will handle the snacks for the trip?",
+          "answer": "Alice",
+          "explanation": "Alice agrees to pack snacks for the road trip."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What type of restaurant does Mark mention?",
+          "options": [
+            "A) Steakhouse",
+            "B) Seafood",
+            "C) Italian",
+            "D) Fast food"
+          ],
+          "answer": "B",
+          "explanation": "Mark mentions a new seafood restaurant."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What method does Alice use to invite Jenny and Tom?",
+          "answer": "text",
+          "explanation": "Alice plans to text Jenny and Tom to check their availability."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What are they planning to do early Saturday morning?",
+          "options": [
+            "A) Sleep in",
+            "B) Leave for the trip",
+            "C) Go shopping",
+            "D) Visit friends"
+          ],
+          "answer": "B",
+          "explanation": "They plan to leave for the beach early Saturday morning."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

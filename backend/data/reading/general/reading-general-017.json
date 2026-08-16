@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-017",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Public Parks",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Public parks play an essential role in urban environments, providing a variety of benefits to the community and the ecosystem. These green spaces serve as a refuge for both people and wildlife, offering a place for relaxation, exercise, and social interaction. In densely populated areas, parks are crucial for improving air quality, reducing urban heat, and managing stormwater runoff. They also contribute to the mental well-being of residents by providing a peaceful environment away from the hustle and bustle of city life.\n\nThe design of a public park can vary greatly depending on its intended use. Some parks focus on recreational activities, featuring sports facilities, playgrounds, and picnic areas, while others emphasize natural landscapes and wildlife preservation. Many parks also incorporate walking and biking paths, allowing visitors to explore the area actively. Environmental education is another key aspect, with many parks hosting programs that teach visitors about local flora and fauna.\n\nPublic parks are not only maintained by local governments but also benefit from the efforts of volunteers and community organizations. Fundraising events, cleanup days, and educational programs often involve local residents, fostering a sense of ownership and pride in these communal spaces. However, funding for parks can be a challenge, and many local governments struggle to maintain them at the desired level due to budget constraints.\n\nIn recent years, the importance of public parks has gained attention, particularly in the wake of the COVID-19 pandemic. As more people sought outdoor spaces to safely gather and exercise, the value of parks as a public health resource became increasingly clear. Advocates continue to push for increased investment in parks to ensure that all community members can enjoy these vital green spaces for years to come.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Public parks are only maintained by local governments.",
+          "answer": "false",
+          "explanation": "The passage states that public parks are also maintained by volunteers and community organizations."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one of the primary benefits of public parks mentioned in the passage?",
+          "options": [
+            "A. Increased traffic",
+            "B. Improved air quality",
+            "C. More commercial spaces",
+            "D. Higher crime rates"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that public parks improve air quality as one of their benefits."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Public parks serve as a refuge for both _____ and _____ .",
+          "prompt": "Complete the sentence.",
+          "answer": "people, wildlife",
+          "explanation": "The passage states that parks serve as a refuge for both people and wildlife."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What has increased the importance of public parks in recent years?",
+          "answer": "COVID-19 pandemic",
+          "explanation": "The passage discusses how the COVID-19 pandemic highlighted the value of parks as a public health resource."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Parks often incorporate walking and biking paths.",
+          "answer": "true",
+          "explanation": "The passage mentions that many parks include walking and biking paths for visitors."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is a challenge mentioned in maintaining public parks?",
+          "options": [
+            "A. Overcrowding",
+            "B. Budget constraints",
+            "C. Environmental destruction",
+            "D. Lack of interest"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that many local governments struggle to maintain parks due to budget constraints."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

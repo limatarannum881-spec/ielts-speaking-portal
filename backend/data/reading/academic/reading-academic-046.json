@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-046",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks and gardens, play a significant role in enhancing the mental well-being of city dwellers. Research shows that access to these green areas contributes to reductions in stress, anxiety, and depression. The presence of nature in urban settings not only provides opportunities for physical activity but also encourages social interactions, which are crucial for mental health. Studies have found that individuals who live closer to parks often report higher levels of happiness compared to those who do not. Furthermore, spending time in green spaces has been linked to improved cognitive function and creativity. The underlying mechanisms for these benefits may include exposure to natural light, a more relaxed atmosphere, and the calming effects of nature. Urban planners are increasingly recognizing the importance of integrating green spaces into city designs, leading to initiatives that prioritize the development of parks, botanical gardens, and green rooftops. For example, the city of Melbourne has implemented a 'green shield' strategy that aims to increase the number of trees within urban environments. However, despite the benefits, some urban areas still lack sufficient green space, which raises concerns about equity in access and the potential for mental health disparities among different socio-economic groups. Future research is needed to explore how urban green spaces can be optimized to serve diverse populations and to understand their long-term impact on mental health across varying demographics.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Urban green spaces exclusively benefit children’s mental health.",
+          "answer": "false",
+          "explanation": "The passage states that urban green spaces enhance the mental well-being of city dwellers in general, not limited to any specific age group."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "According to the passage, what is one benefit of living close to parks?",
+          "options": [
+            "A) Increased exposure to pollution",
+            "B) Higher levels of happiness",
+            "C) More social isolation",
+            "D) Increased commuting time"
+          ],
+          "answer": "B",
+          "explanation": "The passage indicates that individuals living closer to parks report higher levels of happiness."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. The 'green shield' strategy in Melbourne aims to increase the number of __________ within urban environments.",
+          "prompt": "The 'green shield' strategy in Melbourne aims to increase the number of __________ within urban environments.",
+          "answer": "trees",
+          "explanation": "The passage specifically mentions that the 'green shield' strategy is aimed at increasing the number of trees."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What should future research explore according to the passage?",
+          "answer": "optimizing urban green spaces",
+          "explanation": "The passage states that future research is needed to explore how urban green spaces can be optimized to serve diverse populations."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "The passage suggests that spending time in green spaces can improve cognitive function.",
+          "answer": "true",
+          "explanation": "The passage explicitly states that spending time in green spaces has been linked to improved cognitive function."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What aspect of mental health does the passage NOT mention as being affected by green spaces?",
+          "options": [
+            "A) Stress",
+            "B) Anxiety",
+            "C) Nutrition",
+            "D) Depression"
+          ],
+          "answer": "C",
+          "explanation": "The passage discusses stress, anxiety, and depression but does not mention nutrition."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Urban planners are integrating green spaces into city designs to promote __________ among residents.",
+          "prompt": "Urban planners are integrating green spaces into city designs to promote __________ among residents.",
+          "answer": "mental health",
+          "explanation": "The passage suggests that the integration of green spaces aims to enhance the mental health of residents."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What is a concern raised in the passage regarding urban green spaces?",
+          "answer": "equity in access",
+          "explanation": "The passage raises concerns about equity in access to green spaces and potential mental health disparities."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

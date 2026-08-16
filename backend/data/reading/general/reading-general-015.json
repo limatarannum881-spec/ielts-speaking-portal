@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-015",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Recycling Guidelines",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling is a vital process that helps to reduce waste and conserve our planet's resources. However, the rules regarding what can and cannot be recycled vary widely from one locality to another. It is essential for residents to understand their local recycling guidelines to ensure that they are participating effectively in their community's sustainability efforts. In many areas, paper and cardboard can easily be recycled. This includes materials like newspapers, office paper, and cardboard boxes. However, it is crucial to keep these materials clean and dry. Contaminated items such as greasy pizza boxes are often not accepted. Additionally, certain plastics — typically marked with recycling codes 1 and 2 — are commonly accepted for recycling. These include items like water bottles and milk jugs, which can be reprocessed into new products. On the other hand, plastics marked with codes 3 through 7 may not be recyclable in every area, so checking local guidelines is imperative. Another important aspect of recycling is electronics. Many communities have special collection days or designated drop-off centers for old electronics, including computers and televisions, as they contain materials that require special handling to recycle properly. Furthermore, some municipalities offer composting services, allowing residents to dispose of organic waste, such as food scraps and yard waste, in an environmentally friendly manner. Residents are encouraged to educate themselves about these services to reduce the overall waste sent to landfills. To assist residents, many local governments provide informative brochures and online resources outlining recycling rules and best practices. It is also beneficial to participate in local workshops or community events focused on environmental stewardship. By taking small steps toward understanding and following local recycling guidelines, individuals contribute significantly to the health of the planet and the sustainability of their communities.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Recycling rules are the same in every locality.",
+          "answer": "false",
+          "explanation": "The passage states that recycling rules vary widely from one locality to another."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which type of paper is specifically mentioned as recyclable?",
+          "options": [
+            "A. Tissue paper",
+            "B. Pizza boxes",
+            "C. Newspapers",
+            "D. Plastic wrap"
+          ],
+          "answer": "C",
+          "explanation": "The passage mentions newspapers as a type of recyclable paper."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words. Contaminated items such as ________ are often not accepted.",
+          "prompt": "...",
+          "answer": "pizza boxes",
+          "explanation": "The passage specifically states that greasy pizza boxes are often not accepted."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What is the recycling code for commonly accepted plastics?",
+          "answer": "1 and 2",
+          "explanation": "The passage mentions that plastics marked with recycling codes 1 and 2 are commonly accepted for recycling."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Electronics can be recycled on designated collection days.",
+          "answer": "true",
+          "explanation": "The passage states that many communities have special collection days for old electronics."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What additional service is mentioned that some municipalities offer?",
+          "options": [
+            "A. Hazardous waste disposal",
+            "B. Composting services",
+            "C. Bulky item pickup",
+            "D. Hazardous materials recycling"
+          ],
+          "answer": "B",
+          "explanation": "The passage mentions that some municipalities offer composting services for organic waste."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

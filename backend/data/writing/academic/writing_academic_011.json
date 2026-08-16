@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Expenditure by Households on Leisure Activities",
+      "prompt": "The bar chart illustrates the annual expenditure of households on various leisure activities in a given country for the year 2022. Overall, it can be seen that spending on outdoor activities was the highest, while expenditures on cultural events were the lowest. The data indicates that households spent approximately $1,200 on outdoor activities, which includes activities such as hiking, cycling, and camping. In comparison, expenditures on sports events, including attending live games and physical fitness classes, averaged around $800. Conversely, cultural activities such as museum visits, theater shows, and art exhibitions saw much lower spending, with averages of just $400 per household. Additionally, the chart reveals that families allocated about $700 to entertainment sources, such as movies and concerts. This data reflects a significant preference for outdoor leisure activities over cultural events, suggesting a trend towards physical engagement rather than passive entertainment.",
+      "chart": {
+        "kind": "bar",
+        "unit": "USD",
+        "data": [
+          {
+            "label": "Outdoor Activities",
+            "value": 1200
+          },
+          {
+            "label": "Sports Events",
+            "value": 800
+          },
+          {
+            "label": "Entertainment",
+            "value": 700
+          },
+          {
+            "label": "Cultural Activities",
+            "value": 400
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has profoundly impacted the field of education, leading to significant changes in the way students learn and teachers instruct. Some people argue that the integration of technology in classrooms enhances the learning experience, while others believe it can lead to distractions and a decrease in genuine learning. Discuss both views and give your opinion. On one hand, technology serves as a powerful tool that can facilitate personalized learning, provide access to a vast array of resources, and enable collaborative projects that were previously unimaginable. Furthermore, online learning platforms allow students to learn at their own pace, which can cater to individual learning styles. On the other hand, the overuse of technology may promote a reliance on devices rather than critical thinking and problem-solving skills. Students might become easily distracted by social media and online games, detracting from their focus on academic tasks. In conclusion, while technology offers substantial benefits to education, it is essential to find a balance to ensure that it enriches learning rather than detracting from it."
+    }
+  ]
+}

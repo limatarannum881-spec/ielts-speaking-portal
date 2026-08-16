@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-037",
+  "type": "listening",
+  "title": "Exploring Local Art Galleries",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, have you heard about the local art galleries downtown? \nB: Yes, I have! I visited one last weekend. It was fascinating. \nA: Oh really? Which one did you go to? \nB: The Modern Art Gallery. They had an exhibit by a famous local artist. \nA: That sounds interesting! What was the theme of the exhibit? \nB: It was all about urban life, showcasing how city living shapes us. \nA: Wow, I love themes like that. Did they have any workshops too? \nB: Yes! They offered a weekend workshop on contemporary art techniques. I tried my hand at abstract painting. \nA: That sounds like a lot of fun! I might check it out. \nB: You definitely should! The second gallery I visited had more classic styles, including some beautiful portraits. \nA: I enjoy classic art as well. Do you remember the name of that gallery? \nB: Yes, it was called The Heritage Art Gallery. They had a lovely café too, perfect for a break after viewing the art. \nA: I’ll have to make a trip there soon. Thanks for the recommendation! \nB: No problem! Let me know what you think after your visit.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Which gallery did B first visit?",
+          "options": [
+            "A. Heritage Art Gallery",
+            "B. Urban Art Gallery",
+            "C. Modern Art Gallery",
+            "D. Classic Art Gallery"
+          ],
+          "answer": "C",
+          "explanation": "B mentioned visiting the Modern Art Gallery first."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Gallery 1",
+            "Gallery 2"
+          ],
+          "answer": [
+            "Modern Art",
+            "Heritage Art"
+          ],
+          "explanation": "The first gallery mentioned is the Modern Art Gallery, and the second is the Heritage Art Gallery."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What was the theme of the exhibit at the Modern Art Gallery?",
+          "answer": "urban life",
+          "explanation": "B stated that the exhibit was about urban life."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What type of workshop did they offer?",
+          "options": [
+            "A. Abstract painting",
+            "B. Portrait drawing",
+            "C. Sculpture making",
+            "D. Photography"
+          ],
+          "answer": "A",
+          "explanation": "B mentioned participating in a workshop on abstract painting."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "What is the name of the café associated with the second gallery?",
+          "answer": "not mentioned",
+          "explanation": "The café was mentioned, but the name was not provided."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "What style of art was featured in the Heritage Art Gallery?",
+          "options": [
+            "A. Modern Art",
+            "B. Abstract Art",
+            "C. Classic Styles",
+            "D. Street Art"
+          ],
+          "answer": "C",
+          "explanation": "B said the Heritage Art Gallery had more classic styles."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

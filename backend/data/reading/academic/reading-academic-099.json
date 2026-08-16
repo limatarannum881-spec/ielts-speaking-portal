@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-099",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Impact of Urban Green Spaces on Mental Well-Being",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Urban green spaces, such as parks, gardens, and green roofs, have been increasingly recognized for their significant role in enhancing mental health and well-being in densely populated cities. Studies have shown that access to nature can significantly reduce stress levels, improve mood, and increase feelings of connectedness and happiness. For instance, a survey conducted in several metropolitan areas revealed that individuals who have regular access to parks or gardens report lower levels of anxiety and depression compared to those without such access.\n\nMoreover, the presence of greenery in urban areas can serve as a catalyst for social interactions. Community gardens, for example, not only provide fresh produce but also encourage sociability among neighbors, fostering a sense of belonging and community. Research has indicated that these interactions contribute positively to the overall well-being of individuals, creating supportive networks that enhance resilience against mental health challenges.\n\nAdditionally, urban green spaces are beneficial for physical health, which is intrinsically linked to mental well-being. Engaging in physical activities like walking, jogging, or playing sports in green environments has been shown to improve cardiovascular health and reduce the risk of chronic diseases. The WHO recognizes physical activity as a crucial component of mental health, thus linking green spaces to a holistic approach to well-being.\n\nThe design and maintenance of these spaces is also paramount. Well-maintained parks with diverse plant species, walking paths, and recreational facilities attract more visitors and support a variety of activities that further benefit mental health. Conversely, neglected green spaces can become sources of stress and anxiety for nearby residents, highlighting the need for sustainable management practices.\n\nIn conclusion, urban green spaces play a vital role in promoting mental well-being, not only through direct access to nature but also by fostering social interactions and encouraging physical activity. As urbanization continues to rise, integrating green spaces into city planning should be a priority to enhance the quality of life for urban dwellers.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Access to urban green spaces contributes to higher stress levels.",
+          "answer": "false",
+          "explanation": "The passage states that access to nature can significantly reduce stress levels."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is one benefit of community gardens mentioned in the passage?",
+          "options": [
+            "A) They reduce air pollution",
+            "B) They foster sociability",
+            "C) They improve property values",
+            "D) They create wildlife habitats"
+          ],
+          "answer": "B",
+          "explanation": "The passage explicitly mentions that community gardens encourage sociability among neighbors."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "According to the WHO, __________ is a crucial component of mental health.",
+          "answer": "physical activity",
+          "explanation": "The passage mentions that the WHO recognizes physical activity as crucial for mental health."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What effect do well-maintained parks have on visitors?",
+          "answer": "attract more visitors",
+          "explanation": "The passage states that well-maintained parks attract more visitors and support a variety of activities."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Neglected green spaces can cause stress for residents.",
+          "answer": "true",
+          "explanation": "The passage highlights that neglected green spaces can become sources of stress and anxiety."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which of the following is NOT mentioned as a benefit of urban green spaces?",
+          "options": [
+            "A) Improving cardiovascular health",
+            "B) Reducing chronic diseases",
+            "C) Enhancing property values",
+            "D) Reducing anxiety"
+          ],
+          "answer": "C",
+          "explanation": "The passage does not mention enhancing property values as a benefit of urban green spaces."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The passage states that urban green spaces can improve mood and increase feelings of __________.",
+          "prompt": "...",
+          "answer": "connectedness",
+          "explanation": "The passage indicates that access to nature improves mood and feelings of connectedness."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What should be a priority in city planning according to the passage?",
+          "answer": "integrating green spaces",
+          "explanation": "The passage concludes that integrating green spaces into city planning should be a priority."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

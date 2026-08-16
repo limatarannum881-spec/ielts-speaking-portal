@@ -1,0 +1,77 @@
+{
+  "id": "reading-general-006",
+  "type": "reading",
+  "version": "general",
+  "title": "Understanding Local Recycling Programs",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Recycling is an integral part of waste management in our communities, and understanding local recycling programs can significantly reduce environmental impact. Many municipalities have established specific guidelines regarding what materials can be recycled, how to prepare these materials, and where to take them. Generally, recyclable items include paper, cardboard, glass, plastics, and metal. However, not all plastics are accepted; for example, items like plastic bags or food containers may not be suitable for curbside collection. \n\nResidents are encouraged to rinse out food containers and flatten cardboard boxes before placing them in recycling bins to ensure effective processing. Additionally, some areas offer drop-off points for items that cannot be collected curbside, such as batteries and electronics. It is advisable for residents to check with their local waste management authorities for specific requirements and upcoming events, such as community clean-up days or hazardous waste collection days. \n\nEducational programs are often implemented to raise awareness about the importance of recycling and to inform residents about best practices. Schools and community organizations frequently partner with local governments to host workshops and distribute informational materials. The goal of these programs is to increase participation rates and enhance the overall effectiveness of recycling initiatives. Since its implementation, many local programs have reported significant increases in recycling rates, which demonstrates the positive impact of community engagement. \n\nIn conclusion, participating in local recycling programs not only conserves natural resources but also reduces landfill waste. By understanding and adhering to local guidelines, residents can contribute significantly to environmental sustainability.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "All types of plastics can be recycled curbside.",
+          "answer": "false",
+          "explanation": "The passage states that not all plastics are accepted for curbside collection."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What is a suggested action before placing items in recycling bins?",
+          "options": [
+            "A) Throw them in whole",
+            "B) Rinse and flatten them",
+            "C) Leave them dirty",
+            "D) Remove labels"
+          ],
+          "answer": "B",
+          "explanation": "Residents are encouraged to rinse containers and flatten boxes before recycling."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Many areas have drop-off points for ________ and ________.",
+          "answer": "batteries, electronics",
+          "explanation": "The passage mentions drop-off points for batteries and electronics."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What are two examples of items that may not be suitable for curbside recycling?",
+          "answer": "plastic bags, food containers",
+          "explanation": "The passage states these items may not be suitable for curbside collection."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Local educational programs aim to increase recycling awareness.",
+          "answer": "true",
+          "explanation": "The passage discusses educational programs that raise awareness about recycling."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What positive result has been reported by local recycling programs?",
+          "options": [
+            "A) Decreased landfill waste",
+            "B) Increased recycling rates",
+            "C) More waste collection days",
+            "D) Reduced community engagement"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that many programs reported significant increases in recycling rates."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

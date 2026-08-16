@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-032",
+  "type": "listening",
+  "title": "A Visit to the Local Farmers' Market",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Sam, have you been to the local farmers' market recently? It's really lively on weekends! \nB: No, I haven’t. What’s it like? \nA: It’s great! There are so many stalls selling fresh produce, homemade jams, and baked goods. \nB: Sounds interesting! Do they have any local vendors? \nA: Yes, most of them are from nearby farms. I bought some organic strawberries and fresh bread last time. \nB: That sounds delicious! Is it very crowded? \nA: It can get busy, especially in the morning. You might want to go early to avoid the rush. \nB: Good idea! Do you know when it starts? \nA: It usually opens around 8 AM and goes until 1 PM. \nB: Perfect! I’ll plan to go this Saturday then. Thanks for the tip! \nA: No problem! You should also check out the live music they often have. It adds to the atmosphere! \nB: I can’t wait to experience it! I'll take my reusable bags with me too. \nA: Smart choice! Support local as much as you can.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What does person A recommend going early to the market?",
+          "options": [
+            "A. To avoid the rain",
+            "B. To get better deals",
+            "C. To skip the crowds",
+            "D. To see the vendors"
+          ],
+          "answer": "C",
+          "explanation": "Person A mentions that the market can get busy and suggests going early to avoid the rush."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Opening Time",
+            "Closing Time"
+          ],
+          "answer": [
+            "8 AM",
+            "1 PM"
+          ],
+          "explanation": "The script provides the opening and closing times of the farmers' market."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What types of products does the market sell?",
+          "answer": "Fresh produce and homemade goods",
+          "explanation": "Person A describes the market as having fresh produce, homemade jams, and baked goods."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What did person A buy during their last visit?",
+          "options": [
+            "A. Organic strawberries and bread",
+            "B. Fresh vegetables and cheese",
+            "C. Jams and pastries",
+            "D. Flowers and fruits"
+          ],
+          "answer": "A",
+          "explanation": "Person A specifically mentions buying organic strawberries and fresh bread."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Market Day",
+            "Additional Feature"
+          ],
+          "answer": [
+            "Saturday",
+            "Live music"
+          ],
+          "explanation": "Saturday is mentioned as the day to visit, with live music being an additional feature."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What should person B take to the market?",
+          "answer": "Reusable bags",
+          "explanation": "Person B mentions planning to take reusable bags to the market."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

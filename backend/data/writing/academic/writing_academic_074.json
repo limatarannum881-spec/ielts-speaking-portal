@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Expenditure on Education by Country (2010-2020)",
+      "prompt": "The bar chart illustrates the annual expenditure on education by four different countries over a ten-year period from 2010 to 2020. The countries represented are the United States, Germany, Japan, and Australia. Each bar indicates the amount spent on education in billions of dollars, showcasing trends and variations in educational funding across these nations. Notably, the United States consistently allocated the highest budget to education, reaching $800 billion in 2020, while Germany showed a steady increase from $200 billion in 2010 to $300 billion in 2020. Japan's expenditure remained relatively stable, hovering around $150 billion, whereas Australia demonstrated a significant growth from $100 billion in 2010 to approximately $180 billion in 2020. This data suggests differing priorities and economic strategies related to education in these countries.",
+      "chart": {
+        "kind": "bar",
+        "unit": "billion dollars",
+        "data": [
+          {
+            "label": "United States",
+            "value": 800
+          },
+          {
+            "label": "Germany",
+            "value": 300
+          },
+          {
+            "label": "Japan",
+            "value": 150
+          },
+          {
+            "label": "Australia",
+            "value": 180
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In the contemporary world, technology plays an increasingly significant role in education, impacting both teaching methods and student learning experiences. While some argue that technology enhances education, others believe it can be detrimental. This essay will discuss both perspectives before concluding with a personal viewpoint. On one hand, advocates for technology in education tout its ability to make learning more interactive and accessible. Digital tools such as online courses, educational apps, and virtual classrooms provide opportunities for students to engage with material in diverse ways. Furthermore, technology can bridge geographical divides, allowing students from remote areas to access quality educational resources. On the other hand, detractors argue that reliance on technology can negatively affect traditional learning. They claim that excessive screen time may lead to reduced attention spans, and the overabundance of online resources can overwhelm students rather than assisting them. Additionally, there is a concern that technology may diminish interpersonal skills, as students might prefer digital interaction over face-to-face communication. In conclusion, while technology has the potential to greatly enhance educational experiences, it is crucial to recognize and address its challenges to fully optimize its benefits."
+    }
+  ]
+}

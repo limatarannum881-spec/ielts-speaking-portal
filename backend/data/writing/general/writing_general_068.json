@@ -1,0 +1,48 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "process",
+      "title": "The Process of Recycling Paper",
+      "prompt": "You recently visited a paper recycling center and learned about the process of recycling paper. Write a letter to a friend describing how paper is recycled. Explain the steps involved in the process, the importance of recycling, and how it benefits the environment. Your letter should include details about what happens to paper once it is collected and how it is transformed into new paper products.",
+      "chart": {
+        "kind": "line",
+        "unit": "steps",
+        "data": [
+          {
+            "label": "Collection",
+            "value": 1
+          },
+          {
+            "label": "Sorting",
+            "value": 2
+          },
+          {
+            "label": "Shredding",
+            "value": 3
+          },
+          {
+            "label": "Pulping",
+            "value": 4
+          },
+          {
+            "label": "Drying",
+            "value": 5
+          },
+          {
+            "label": "Recycling",
+            "value": 6
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Education",
+      "prompt": "Some people believe that technology has a positive impact on education, while others think it has a negative effect. Discuss both views and give your opinion. In your essay, consider how technology can enhance learning experiences, as well as the potential drawbacks such as distractions and reliance on devices. Provide examples to support your arguments."
+    }
+  ]
+}

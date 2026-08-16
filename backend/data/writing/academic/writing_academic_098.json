@@ -1,0 +1,88 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Annual Fruit Consumption in Four Countries (2010-2020)",
+      "prompt": "The bar chart illustrates the annual consumption of four types of fruits—apples, bananas, oranges, and grapes—in four different countries (A, B, C, and D) over a decade from 2010 to 2020. Overall, it is evident that banana consumption was the highest among all countries throughout the period, while grapes had the lowest consumption levels. In Country A, apple consumption increased significantly from 50 to 80 units, making it the most popular fruit by 2020. Meanwhile, bananas steadily rose from 90 to 110 units in Country B, with oranges also experiencing a slight increase. Country C showed a consistent preference for grapes, which remained stable at around 40 units, while bananas peaked at 100 units. Conversely, in Country D, apple consumption fluctuated between 20 and 30 units, illustrating lesser popularity compared to the other fruits. It can be concluded that while banana consumption generally led across the board, apple consumption varied widely, showcasing distinct dietary preferences among the countries noted.",
+      "chart": {
+        "kind": "bar",
+        "unit": "units",
+        "data": [
+          {
+            "label": "Country A - Apples",
+            "value": 80
+          },
+          {
+            "label": "Country A - Bananas",
+            "value": 60
+          },
+          {
+            "label": "Country A - Oranges",
+            "value": 50
+          },
+          {
+            "label": "Country A - Grapes",
+            "value": 40
+          },
+          {
+            "label": "Country B - Apples",
+            "value": 30
+          },
+          {
+            "label": "Country B - Bananas",
+            "value": 110
+          },
+          {
+            "label": "Country B - Oranges",
+            "value": 50
+          },
+          {
+            "label": "Country B - Grapes",
+            "value": 30
+          },
+          {
+            "label": "Country C - Apples",
+            "value": 20
+          },
+          {
+            "label": "Country C - Bananas",
+            "value": 100
+          },
+          {
+            "label": "Country C - Oranges",
+            "value": 60
+          },
+          {
+            "label": "Country C - Grapes",
+            "value": 40
+          },
+          {
+            "label": "Country D - Apples",
+            "value": 25
+          },
+          {
+            "label": "Country D - Bananas",
+            "value": 80
+          },
+          {
+            "label": "Country D - Oranges",
+            "value": 70
+          },
+          {
+            "label": "Country D - Grapes",
+            "value": 30
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "Impact of Technology on Education",
+      "prompt": "In recent years, technology has profoundly transformed the field of education. Some argue that this transformation has led to significant improvements in the learning experience, while others claim that it has adverse effects on students' learning outcomes. Discuss both views and give your opinion. In your essay, consider the advantages of integrating technology in educational settings, such as enhanced access to information, personalized learning experiences, and the development of digital skills essential for the modern workforce. Conversely, examine the disadvantages, including potential distractions, the risk of information overload, and the diminishing role of traditional teaching methods. Ultimately, reflect on how these conflicting perspectives shape our understanding of the role technology plays in education today and propose a balanced approach that could mitigate the challenges while maximizing the benefits."
+    }
+  ]
+}

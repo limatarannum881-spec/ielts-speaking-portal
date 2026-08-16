@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2023",
+      "prompt": "The bar chart illustrates the market share of various smartphone brands in 2023. Overall, it is evident that Brand A dominates the market significantly, followed by Brand B and Brand C, while other brands hold a smaller share. Brand A accounts for 45% of the market, showcasing its leading position. Brand B follows, capturing 25% of the market share, indicating a strong consumer preference. Brand C has a market share of 15%, which is notable but considerably less than its competitors. The remaining 15% is distributed among smaller brands, including Brand D, Brand E, and others, each holding between 2% to 5%. These figures suggest a clear hierarchy in the smartphone market, where a few major players have established substantial control, while smaller brands struggle to gain significant traction. A comparison of these market shares highlights the competitive landscape of the technology sector in 2023.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Brand A",
+            "value": 45
+          },
+          {
+            "label": "Brand B",
+            "value": 25
+          },
+          {
+            "label": "Brand C",
+            "value": 15
+          },
+          {
+            "label": "Others",
+            "value": 15
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "The advent of technology has significantly transformed education over the past few decades. While some argue that this shift has enhanced the learning experience, others contend that it may lead to negative consequences. Discuss both views and give your opinion. On one hand, proponents of technology in education argue that it provides students with access to a vast array of resources and learning tools. Online platforms and educational software facilitate personalized learning experiences, allowing students to learn at their own pace. Additionally, technology can enhance engagement through interactive learning methods, making education more appealing. On the other hand, critics worry that reliance on technology can diminish traditional learning methods and critical thinking skills. They argue that excessive screen time may lead to distraction and hinder face-to-face interactions among students. In my opinion, while technology can greatly improve educational outcomes, it is crucial to strike a balance between technological tools and traditional teaching methods to ensure holistic development. Ultimately, a blended approach could harness the benefits of both, creating a more effective learning environment."
+    }
+  ]
+}

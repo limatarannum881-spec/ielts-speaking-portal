@@ -1,0 +1,40 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Renewable Energy Consumption (2010-2020)",
+      "prompt": "The bar chart illustrates the consumption of various renewable energy sources worldwide from 2010 to 2020. The sources included are solar, wind, hydroelectric, and geothermal energy, measured in terawatt-hours (TWh). Overall, it is evident that solar energy has seen a dramatic increase in consumption over the years, while geothermal energy remains relatively stable. Specifically, in 2010, solar energy consumption was approximately 20 TWh, rising to around 120 TWh by 2020. In contrast, wind energy, which started at about 70 TWh, peaked at roughly 140 TWh in 2018 before declining slightly to 130 TWh in 2020. Hydroelectric energy remained the most consumed source, starting at about 300 TWh in 2010 and fluctuating to around 320 TWh in 2020. Geothermal energy's consumption hovered between 30 and 35 TWh throughout the period. This data highlights the shifting preferences towards solar and wind energy as primary sources of renewable energy in the last decade.",
+      "chart": {
+        "kind": "bar",
+        "unit": "TWh",
+        "data": [
+          {
+            "label": "Solar Energy",
+            "value": 120
+          },
+          {
+            "label": "Wind Energy",
+            "value": 130
+          },
+          {
+            "label": "Hydroelectric Energy",
+            "value": 320
+          },
+          {
+            "label": "Geothermal Energy",
+            "value": 35
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Impact of Technology on Communication",
+      "prompt": "In recent years, technology has significantly transformed the way people communicate. While some argue that this shift has mostly positive effects, others believe it has detrimental impacts on interpersonal relationships. Discuss both views and give your own opinion. Support your arguments with relevant examples. As technology advances, the ease and speed of communication have improved dramatically, allowing individuals to connect instantaneously, regardless of geographical barriers. Proponents of this transformation argue that the ability to foster global relationships and access diverse perspectives is invaluable in today's interconnected society. Conversely, critics contend that this reliance on digital communication has led to a decline in face-to-face interactions, weakening personal bonds and fostering feelings of isolation. In your essay, analyze these perspectives and present your own viewpoint on whether the benefits outweigh the drawbacks."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-045",
+  "type": "listening",
+  "title": "Planning a Weekend Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey Sarah, have you thought about our weekend trip to the mountains?  \nB: Yes, I was looking at some hiking trails. I found a couple that seem really promising.  \nA: That’s great! Do you think we should pack lunch for the hike?  \nB: I think so. It’ll be nice to have a picnic while enjoying the view. Maybe sandwiches and some fruits?  \nA: Sounds perfect! What about the weather? Do you think we should check the forecast?  \nB: Definitely! I heard it might rain in the afternoon, so we should start early.  \nA: Right. I’ll check the weather in a bit. How do we get there?  \nB: I was thinking about driving. It’s about two hours away, but we can take the scenic route.  \nA: Good idea! I love taking the scenic route. What time do you want to leave?  \nB: How about 7 AM? That way we can have the whole day for hiking.  \nA: Perfect! I can't wait to get out in nature and relax.  \nB: Me too! Let’s plan to pack by Friday night so we’re ready to go early.  \nA: Agreed! It’s going to be an amazing trip.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What activity are Sarah and the speaker planning for the weekend?",
+          "options": [
+            "A) Camping",
+            "B) Fishing",
+            "C) Hiking",
+            "D) Swimming"
+          ],
+          "answer": "C",
+          "explanation": "They talk about hiking trails and packing lunch for a hike."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Departure Time",
+            "Packing Day"
+          ],
+          "answer": [
+            "7 AM",
+            "Friday night"
+          ],
+          "explanation": "The speaker suggests leaving at 7 AM and packing on Friday night."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What type of food do they plan to pack for the hike?",
+          "answer": "Sandwiches and fruits",
+          "explanation": "They discuss packing sandwiches and some fruits for their picnic."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What aspect of the trip do they discuss checking before leaving?",
+          "options": [
+            "A) Gas for the car",
+            "B) Weather forecast",
+            "C) Trail maps",
+            "D) Food supplies"
+          ],
+          "answer": "B",
+          "explanation": "They mention checking the weather forecast to prepare for rain."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Travel Time",
+            "Route Type"
+          ],
+          "answer": [
+            "two hours",
+            "scenic route"
+          ],
+          "explanation": "They plan on driving for two hours and taking the scenic route."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What is Sarah's suggestion for packing?",
+          "answer": "By Friday night",
+          "explanation": "Sarah suggests they plan to pack their bags by Friday night."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

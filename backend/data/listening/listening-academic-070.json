@@ -1,0 +1,89 @@
+{
+  "id": "listening-academic-070",
+  "type": "listening",
+  "title": "Planning a Weekend Camping Trip",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "Alice: Hey, Ben! I was thinking we could go camping this weekend. What do you think?  \nBen: That sounds great! Do you have a specific place in mind?  \nAlice: Yes, I was looking at Pine Lake. It’s about an hour’s drive from here.  \nBen: Perfect! I’ve heard it’s beautiful there. What should we bring?  \nAlice: We’ll need a tent, sleeping bags, and food, of course.  \nBen: What about cooking gear?  \nAlice: Good point! We should take a portable stove and some utensils.  \nBen: Should we invite anyone else?  \nAlice: I thought about inviting Sarah and Mark. They love camping too.  \nBen: Great idea! I’ll text them. What time do you want to leave on Saturday?  \nAlice: How about 9 AM? We can set up before it gets too hot.  \nBen: Sounds good. I’ll pick up the food on Friday.  \nAlice: Awesome! I’ll bring the tent and sleeping bags.  \nBen: This is going to be so much fun!  \nAlice: I can’t wait! Let’s make the most of it.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "Where are Alice and Ben planning to go camping?",
+          "options": [
+            "A. Pine Lake",
+            "B. Oak Forest",
+            "C. River Side",
+            "D. Mountain View"
+          ],
+          "answer": "A",
+          "explanation": "Alice specifically mentions Pine Lake as their destination."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Location",
+            "Departure Time"
+          ],
+          "answer": [
+            "Pine Lake",
+            "9 AM"
+          ],
+          "explanation": "The location is mentioned as Pine Lake and they agree to leave at 9 AM."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "Who do Alice and Ben consider inviting?",
+          "answer": "Sarah and Mark",
+          "explanation": "Alice suggests inviting Sarah and Mark because they enjoy camping."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What cooking gear do they decide to bring?",
+          "options": [
+            "A. Portable stove",
+            "B. Microwave",
+            "C. Oven",
+            "D. Electric grill"
+          ],
+          "answer": "A",
+          "explanation": "Alice mentions they should take a portable stove for cooking."
+        },
+        {
+          "id": "lq5",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Main Activity",
+            "Packing Items"
+          ],
+          "answer": [
+            "Camping",
+            "Food and tent"
+          ],
+          "explanation": "The main activity is camping, with food and a tent being essential packing items."
+        },
+        {
+          "id": "lq6",
+          "type": "short-answer",
+          "question": "What day do they plan to leave for camping?",
+          "answer": "Saturday",
+          "explanation": "Alice and Ben plan to leave for camping on Saturday."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

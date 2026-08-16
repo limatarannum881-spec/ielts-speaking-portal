@@ -1,0 +1,88 @@
+{
+  "id": "listening-academic-055",
+  "type": "listening",
+  "title": "Exploring a New Café",
+  "duration": 1800,
+  "parts": [
+    {
+      "part": 1,
+      "audioUrl": "",
+      "script": "A: Hey, did you try that new café that just opened on Elm Street?  B: No, not yet! I heard they have amazing pastries.  A: Yes, they do! I had a chocolate croissant there yesterday, and it was one of the best I've ever had.  B: That sounds delicious! What else did you try?  A: I also had their espresso, which was really strong but very smooth.  B: Nice! I usually prefer tea; do they have a good selection of that?  A: They do! They have a variety of herbal and black teas. I think you’d like their chamomile.  B: Great! Is the place crowded?  A: It was a bit busy when I went, but I found a nice corner table. They also have outdoor seating, which is lovely if the weather is nice.  B: I’ll definitely check it out this weekend. Thanks for the recommendation!  A: No problem! Let me know what you think once you try it.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "multiple-choice",
+          "question": "What pastry did A try at the café?",
+          "options": [
+            "A) Apple pie",
+            "B) Muffin",
+            "C) Chocolate croissant",
+            "D) Donut"
+          ],
+          "answer": "C",
+          "explanation": "A mentions that they had a chocolate croissant, which was one of the best they've ever had."
+        },
+        {
+          "id": "lq2",
+          "type": "form-completion",
+          "question": "Complete the form. Write no more than TWO WORDS.",
+          "fields": [
+            "Pastry tried",
+            "Beverage tried"
+          ],
+          "answer": [
+            "chocolate croissant",
+            "espresso"
+          ],
+          "explanation": "A tried a chocolate croissant and an espresso at the café."
+        },
+        {
+          "id": "lq3",
+          "type": "short-answer",
+          "question": "What type of tea does A recommend?",
+          "answer": "chamomile",
+          "explanation": "A suggests trying the chamomile tea available at the cafe."
+        },
+        {
+          "id": "lq4",
+          "type": "multiple-choice",
+          "question": "What type of seating is available at the café?",
+          "options": [
+            "A) Only indoor",
+            "B) Only outdoor",
+            "C) Indoor and outdoor",
+            "D) Takeaway only"
+          ],
+          "answer": "C",
+          "explanation": "A mentions that there is both indoor seating and outdoor seating available."
+        },
+        {
+          "id": "lq5",
+          "type": "short-answer",
+          "question": "Which street is the café located on?",
+          "answer": "Elm Street",
+          "explanation": "B asks if A tried the new café that opened on Elm Street."
+        },
+        {
+          "id": "lq6",
+          "type": "multiple-choice",
+          "question": "How does A describe the espresso?",
+          "options": [
+            "A) Weak and watery",
+            "B) Strong but smooth",
+            "C) Bitter and harsh",
+            "D) Sweet and creamy"
+          ],
+          "answer": "B",
+          "explanation": "A describes the espresso as really strong but very smooth."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}

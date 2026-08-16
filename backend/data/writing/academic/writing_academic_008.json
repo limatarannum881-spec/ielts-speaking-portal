@@ -1,0 +1,44 @@
+{
+  "task1": [
+    {
+      "id": "w-academic-task1-003",
+      "type": "bar-chart",
+      "title": "Global Smartphone Market Share in 2023",
+      "prompt": "The bar chart illustrates the market share of different smartphone manufacturers in the global market for the year 2023. Overall, it is evident that Company A dominates the market with a significant share, while other companies have a noticeably smaller presence. Specifically, Company A holds 40% of the market share, followed by Company B at 25%. Company C and Company D have shares of 15% and 10%, respectively. Other manufacturers combined account for the remaining 10%. The chart indicates a competitive landscape, but Company A's substantial lead suggests a strong brand loyalty among consumers. Furthermore, the market appears to be relatively concentrated, with the top two companies controlling over half of the total market. This data highlights the ongoing trends in consumer preferences and the competitive strategies of these manufacturers.",
+      "chart": {
+        "kind": "bar",
+        "unit": "percentage",
+        "data": [
+          {
+            "label": "Company A",
+            "value": 40
+          },
+          {
+            "label": "Company B",
+            "value": 25
+          },
+          {
+            "label": "Company C",
+            "value": 15
+          },
+          {
+            "label": "Company D",
+            "value": 10
+          },
+          {
+            "label": "Others",
+            "value": 10
+          }
+        ]
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "w-task2-003",
+      "type": "discussion",
+      "title": "The Role of Technology in Education",
+      "prompt": "In recent years, technology has become an integral part of education, fundamentally changing the way students learn and teachers instruct. While some argue that the integration of technology in classrooms enhances the learning experience, others believe it may lead to negative consequences. This essay will discuss both sides of this debate. On one hand, proponents of technology in education point out that digital tools facilitate personalized learning, allowing students to progress at their own pace and access a wealth of information online. This can lead to increased engagement and motivation among learners. On the other hand, critics argue that excessive reliance on technology may detract from traditional learning methods and interpersonal skills. Furthermore, it may exacerbate inequalities in education, as not all students have equal access to technological resources. In conclusion, while technology can offer significant advantages in education, it is crucial to strike a balance to mitigate its potential drawbacks."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "reading-academic-020",
+  "type": "reading",
+  "version": "academic",
+  "title": "The Role of Mycorrhizal Fungi in Ecosystem Health",
+  "duration": 3600,
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Reading Passage 1",
+      "passage": "Mycorrhizal fungi form mutually beneficial relationships with the roots of most plants, playing a pivotal role in the health of terrestrial ecosystems. These fungi extend the surface area of plant roots, enhancing their ability to absorb water and essential nutrients such as phosphorus and nitrogen. In exchange, plants supply the fungi with carbohydrates produced through photosynthesis. This symbiotic relationship not only promotes plant growth but also improves soil structure and stability, leading to increased biodiversity in the surrounding area.\n\nResearch indicates that mycorrhizal networks can facilitate communication between plants, allowing for the transfer of nutrients and signaling compounds. This interconnection can help plants in distress by diverting resources from healthier plants, promoting resilience in ecosystems. Moreover, these fungal networks have been shown to enhance plant resistance to diseases and environmental stresses, including drought conditions.\n\nThe decline of mycorrhizal fungi due to agricultural practices such as monocropping and the overuse of chemical fertilizers poses a significant threat to ecosystem health. When fungi populations decrease, plants suffer from nutrient deficiencies, which can diminish yield and increase susceptibility to pests and diseases. Restoration of mycorrhizal populations through practices such as crop rotation, reduced chemical usage, and organic farming can help restore ecosystem functions and enhance agricultural sustainability.\n\nIn summary, the role of mycorrhizal fungi extends beyond plant interactions to influence entire ecosystems. Their relationship with plant roots is crucial for nutrient cycling, soil structure, and plant health. Understanding and preserving these fungi is essential for maintaining biodiversity and ecosystem resilience, especially in the face of environmental change.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "true-false-not-given",
+          "question": "Mycorrhizal fungi have a detrimental effect on soil structure.",
+          "answer": "false",
+          "explanation": "The passage states that mycorrhizal fungi improve soil structure and stability."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "What do mycorrhizal fungi primarily receive from plants?",
+          "options": [
+            "Water",
+            "Nutrients",
+            "Carbohydrates",
+            "Vitamins"
+          ],
+          "answer": "C",
+          "explanation": "The passage indicates that plants supply carbohydrates to the fungi."
+        },
+        {
+          "id": "q3",
+          "type": "sentence-completion",
+          "question": "Complete the sentence. Choose no more than two words.",
+          "prompt": "Mycorrhizal networks can facilitate communication between plants, allowing for the transfer of _____ and _____ compounds.",
+          "answer": "nutrients signaling",
+          "explanation": "The passage mentions the transfer of nutrients and signaling compounds between plants."
+        },
+        {
+          "id": "q4",
+          "type": "short-answer",
+          "question": "What agricultural practices threaten mycorrhizal fungi populations?",
+          "answer": "monocropping and chemical fertilizers",
+          "explanation": "The passage describes monocropping and overuse of chemical fertilizers as threats to fungi populations."
+        },
+        {
+          "id": "q5",
+          "type": "true-false-not-given",
+          "question": "Mycorrhizal fungi can improve plant resistance to diseases.",
+          "answer": "true",
+          "explanation": "The passage states that these fungi enhance plant resistance to diseases and environmental stresses."
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "What is one benefit of maintaining mycorrhizal fungi in agricultural systems?",
+          "options": [
+            "Increased chemical usage",
+            "Ecosystem resilience",
+            "Reduced biodiversity",
+            "Decreased soil stability"
+          ],
+          "answer": "B",
+          "explanation": "The passage highlights that preserving these fungi is crucial for maintaining ecosystem resilience."
+        },
+        {
+          "id": "q7",
+          "type": "sentence-completion",
+          "question": "The decline of mycorrhizal fungi can lead to nutrient deficiencies and increased _____ in plants.",
+          "prompt": "Complete the sentence. Choose no more than two words.",
+          "answer": "susceptibility pests",
+          "explanation": "The passage indicates that nutrient deficiencies can increase plant susceptibility to pests and diseases."
+        },
+        {
+          "id": "q8",
+          "type": "short-answer",
+          "question": "What practices can help restore mycorrhizal populations?",
+          "answer": "crop rotation and organic farming",
+          "explanation": "The passage suggests crop rotation and reduced chemical usage as practices to restore mycorrhizal populations."
+        }
+      ]
+    }
+  ],
+  "source": {
+    "name": "AI-generated original content",
+    "url": "",
+    "license": "original",
+    "attributionRequired": false
+  }
+}
